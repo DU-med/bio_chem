@@ -17,3 +17,16 @@ bioという名前の仮想環境を作成し、pythonのバージョンを3.10�
 ```
 mamba create -n bio python=3.10
 ```
+仮想環境の起動
+```
+mamba activate bio
+```
+
+### 基本的なライブラリのインストール
+```
+mamba install -c anaconda jupyter -y
+mamba install -c anaconda pandas -y
+mamba install -c anaconda seaborn -y
+mamba install -c conda-forge biopython -y
+mamba install -c plotly plotly -y
+```

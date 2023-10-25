@@ -30,3 +30,8 @@ mamba install -c anaconda seaborn -y
 mamba install -c conda-forge biopython -y
 mamba install -c plotly plotly -y
 ```
+
+### jupyter notebookの起動
+```
+jupyter notebook
+```

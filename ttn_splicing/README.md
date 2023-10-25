@@ -13,11 +13,11 @@ NCBIののマウスTtn遺伝子のgenbankファイルよりデータを読み込
 ```
 gbk = Seq_count()
 ```
-# gbkファイルの読み込み
+#### gbkファイルの読み込み
 ```
 gbk.read_gbk('data/gbk/mouse_ttn.gb')
 ```
-# tutorialの表示
+#### tutorialの表示
 ```
 gbk.tutorial()
 ```

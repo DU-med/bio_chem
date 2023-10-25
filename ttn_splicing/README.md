@@ -21,3 +21,23 @@ gbk.read_gbk('data/gbk/mouse_ttn.gb')
 ```
 gbk.tutorial()
 ```
+#### バリアントの表示
+```
+gbk.get_mrna_ids()
+```
+#### トランスクリプトバリアントの設定
+```
+gbk.set_mrna_id('NM_001385708.1')
+```
+#### 着目する配列の設定
+```
+gbk.set_interest_seq('TCTT')
+```
+#### TCTT配列の分布の可視化
+```
+gbk.heatmap_hist()
+```
+#### figureの保存
+```
+gbk.save_fig()
+```

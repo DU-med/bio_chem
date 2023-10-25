@@ -1,5 +1,5 @@
 # マウスTtn遺伝子上のTCTT配列の分布を可視化
-### visualization.ipynbで、可視化された情報を確認
+## visualization.ipynbで、可視化された情報を確認
 NCBIののマウスTtn遺伝子のgenbankファイルよりデータを読み込み可視化を行う
 
 ## visualization.ipynbの内容

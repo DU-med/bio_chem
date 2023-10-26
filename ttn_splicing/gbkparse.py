@@ -363,4 +363,28 @@ class Seq_count:
         self.fig.update_yaxes(title_text="Count")
         self.fig.show()
 
+    def create_motif_dic(self, n=4):
+        # n個の塩基配列の組み合わせを作成
+        bases = ["A", "C", "T", "G"]
+        combinations = list(itertools.product(bases, repeat=n))
+        sequences = [''.join(comb) for comb in combinations]
+        # keyを組み合わせとした辞書をさくせい
+        dic = {}
+        for i in sequences:
+            dic[i] = 0
+        return dic
+    
+    def intron_motif_stats(self, intron=1, n=4):
+        # 配列の先頭から順番にn個の塩基配列をカウント
+        dic = self.create_motif_dic(n=n)
+        seq = str(self.intron_seq(intron))
+        for i in range(len(seq)-n+1):
+            
+            dic[seq[i:i+n]] += 1
+
+        df = pd.DataFrame({'Number':dic.values()})
+        df.index = dic.keys()
+        return df
+
+
     

@@ -90,4 +90,4 @@ for i in ['obscn','neb','ryr1','ryr2','ryr3','dst','syne1','syne2','col7a1']:
 ```
 
 ## 種間の保存性の可視化
-[**UCSC genome browser**](https://genome.ucsc.edu/cgi-bin/hgTracks?db=hg38&lastVirtModeType=default&lastVirtModeExtraState=&virtModeType=default&virtMode=0&nonVirtPosition=&position=chr2%3A178525989%2D178807423&hgsid=1735195872_llHo1dKi3SVLwkPP3OCN3pMDqYzb)
+[**UCSC genome browser**](https://g enome.ucsc.edu/cgi-bin/hgTracks?db=hg38&lastVirtModeType=default&lastVirtModeExtraState=&virtModeType=default&virtMode=0&nonVirtPosition=&position=chr2%3A178525989%2D178807423&hgsid=1735195872_llHo1dKi3SVLwkPP3OCN3pMDqYzb)

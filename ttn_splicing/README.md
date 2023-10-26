@@ -48,9 +48,10 @@ gbk.exon_bar_base() # 各エクソン内の100塩基あたりのTCTT配列の棒
 
 ## 2. 異なる長さのイントロンの分布の可視化に関するコマンド
 #### NCBI情報
+RNA-seq intron features, aggregate (filterd)のファイルを取得<br>
 [**mouse Ttn**](https://www.ncbi.nlm.nih.gov/nuccore/NC_000068.8?report=graph&from=76492536&to=76854687&strand=true&app_context=Gene&assm_context=GCF_000001635.27)<br>
 [**rat Ttn**](https://www.ncbi.nlm.nih.gov/nuccore/NC_051338.1?report=graph&from=61611559&to=61965783&strand=true&app_context=Gene&assm_context=GCF_015227675.2)<br>
-[**rabbit Ttn**](https://www.ncbi.nlm.nih.gov/nuccore/NC_067380.1?report=graph&from=55045025&to=55398485&app_context=Gene&assm_context=GCF_009806435.1)
+[**rabbit Ttn**](https://www.ncbi.nlm.nih.gov/nuccore/NC_067380.1?report=graph&from=55045025&to=55398485&app_context=Gene&assm_context=GCF_009806435.1)<br>
 [**human TTN**](https://www.ncbi.nlm.nih.gov/nuccore/NC_000002.12?report=graph&from=178483773&to=178849637&strand=true&app_context=Gene&assm_context=GCF_000001405.40)<br>
 [**chimp TTN**](https://www.ncbi.nlm.nih.gov/nuccore/NC_072400.1?report=graph&from=80513939&to=80881842&strand=true&app_context=Gene&assm_context=GCF_028858775.1)<br>
 [**gorilla TTN**](https://www.ncbi.nlm.nih.gov/nuccore/NC_073226.1?report=graph&from=69432214&to=69798206&strand=true&app_context=Gene&assm_context=GCF_029281585.1)
@@ -64,3 +65,9 @@ pile.set_csv(f"data/intron/mouse_ttn_intron.tsv") # NCBIから取得したイン
 pile.set_title(f"Mouse Ttn intron gap distribution")　# タイトルの設定
 pile.show(height=300) # グラフの表示
 ```
+
+
+
+
+## 種間の保存性の可視化
+[**UCSC genome browser**](https://genome.ucsc.edu/cgi-bin/hgTracks?db=hg38&lastVirtModeType=default&lastVirtModeExtraState=&virtModeType=default&virtMode=0&nonVirtPosition=&position=chr2%3A178525989%2D178807423&hgsid=1735195872_llHo1dKi3SVLwkPP3OCN3pMDqYzb)

@@ -10,6 +10,7 @@ from plotly.subplots import make_subplots
 from Bio import SeqIO
 
 import os
+import itertools
 
 class Seq_count:     
     def tutorial(self):

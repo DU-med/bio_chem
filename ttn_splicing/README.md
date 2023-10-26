@@ -48,7 +48,7 @@ gbk.exon_bar_base() # 各エクソン内の100塩基あたりのTCTT配列の棒
 
 ## 2. 異なる長さのイントロンの分布の可視化に関するコマンド
 #### NCBI情報
-**mouse Ttn:**[https://www.ncbi.nlm.nih.gov/nuccore/NC_000068.8?report=graph&from=76492536&to=76854687&strand=true&app_context=Gene&assm_context=GCF_000001635.27]<br>
+[**mouse Ttn:**](https://www.ncbi.nlm.nih.gov/nuccore/NC_000068.8?report=graph&from=76492536&to=76854687&strand=true&app_context=Gene&assm_context=GCF_000001635.27)<br>
 **rat Ttn:**[https://www.ncbi.nlm.nih.gov/nuccore/NC_051338.1?report=graph&from=61611559&to=61965783&strand=true&app_context=Gene&assm_context=GCF_015227675.2]<br>
 **rabbit Ttn:**[https://www.ncbi.nlm.nih.gov/nuccore/NC_067380.1?report=graph&from=55045025&to=55398485&app_context=Gene&assm_context=GCF_009806435.1]
 #### 準備

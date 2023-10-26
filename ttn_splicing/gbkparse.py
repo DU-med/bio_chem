@@ -97,7 +97,16 @@ class Seq_count:
             return "エラー：そのエクソンは存在しません"
         else:
             return self.exon_list()[exon_num-1][1] - self.exon_list()[exon_num-1][0]
-    
+
+    def intron_len(self, intron_num):
+        """
+        セットしたmRNAの指定されたエクソンの塩基数を返す
+        """
+        if intron_num > self.intron_num():
+            return "エラー：そのエクソンは存在しません"
+        else:
+            return self.intron_list()[intron_num-1][1] - self.intron_list()[intron_num-1][0]
+        
     def exon_seq(self, exon_num):
         """
         セットしたmRNAの指定されたエクソンの配列を返す

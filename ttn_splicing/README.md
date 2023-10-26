@@ -67,6 +67,7 @@ RNA-seq intron features, aggregate (filterd)のファイルを取得<br>
 [**human TTN**](https://www.ncbi.nlm.nih.gov/nuccore/NC_000002.12?report=graph&from=178483773&to=178849637&strand=true&app_context=Gene&assm_context=GCF_000001405.40)<br>
 [**chimp TTN**](https://www.ncbi.nlm.nih.gov/nuccore/NC_072400.1?report=graph&from=80513939&to=80881842&strand=true&app_context=Gene&assm_context=GCF_028858775.1)<br>
 [**gorilla TTN**](https://www.ncbi.nlm.nih.gov/nuccore/NC_073226.1?report=graph&from=69432214&to=69798206&strand=true&app_context=Gene&assm_context=GCF_029281585.1)
+
 #### 準備
 ```
 pile = PileUp() # クラスのインスタンス化

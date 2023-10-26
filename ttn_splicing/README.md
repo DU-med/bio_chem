@@ -65,9 +65,14 @@ pile.set_csv(f"data/intron/mouse_ttn_intron.tsv") # NCBIから取得したイン
 pile.set_title(f"Mouse Ttn intron gap distribution")　# タイトルの設定
 pile.show(height=300) # グラフの表示
 ```
-
-
-
+#### エクソン数の多い遺伝子のイントロンのスプライスパターンを可視化
+```
+for i in ['obscn','neb','ryr1','ryr2','ryr3','dst','syne1','syne2','col7a1']:
+    pile = PileUp()
+    pile.set_csv(f"data/intron/mouse_other_genes/mouse_{i}_intron.tsv")
+    pile.set_title(f"Mouse {i} intron gap distribution")
+    pile.show(height=300)
+```
 
 ## 種間の保存性の可視化
 [**UCSC genome browser**](https://genome.ucsc.edu/cgi-bin/hgTracks?db=hg38&lastVirtModeType=default&lastVirtModeExtraState=&virtModeType=default&virtMode=0&nonVirtPosition=&position=chr2%3A178525989%2D178807423&hgsid=1735195872_llHo1dKi3SVLwkPP3OCN3pMDqYzb)

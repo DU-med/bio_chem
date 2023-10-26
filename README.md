@@ -31,6 +31,11 @@ mamba install -c conda-forge biopython -y
 mamba install -c plotly plotly -y
 ```
 
+### リポジトリのクローン
+```
+git clone https://github.com/utsumidaisuke/bio_chem.git
+```
+
 ### jupyter notebookの起動
 ```
 jupyter notebook

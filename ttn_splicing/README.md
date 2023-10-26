@@ -73,11 +73,13 @@ RNA-seq intron features, aggregate (filterd)のファイルを取得<br>
 pile = PileUp() # クラスのインスタンス化
 pile.set_csv(f"data/intron/mouse_ttn_intron.tsv") # NCBIから取得したイントロンに関するデータを読み込み
 ```
+
 #### 異なる長さのイントロンの分布を表示
 ```
 pile.set_title(f"Mouse Ttn intron gap distribution")　# タイトルの設定
 pile.show(height=300) # グラフの表示
 ```
+
 #### エクソン数の多い遺伝子のイントロンのスプライスパターンを可視化
 ```
 for i in ['obscn','neb','ryr1','ryr2','ryr3','dst','syne1','syne2','col7a1']:

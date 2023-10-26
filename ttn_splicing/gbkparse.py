@@ -83,6 +83,12 @@ class Seq_count:
         """
         return len(self.exon_list())
     
+    def intron_num(self):
+        """
+        セットしたmRNAのイントロンの個数を返す
+        """
+        return len(self.intron_list())
+    
     def exon_len(self, exon_num):
         """
         セットしたmRNAの指定されたエクソンの塩基数を返す
@@ -100,7 +106,16 @@ class Seq_count:
             return "エラー：そのエクソンは存在しません"
         else:
             return self.gDNA_seq()[self.exon_list()[exon_num-1][0]:self.exon_list()[exon_num-1][1]]
-    
+        
+    def intron_seq(self, intron_num):
+        """
+        セットしたmRNAの指定されたイントロンの配列を返す
+        """
+        if intron_num > self.intron_num():
+            return "エラー：そのエクソンは存在しません"
+        else:
+            return self.gDNA_seq()[self.itron_list()[intron_num-1][0]:self.intron_list()[intron_num-1][1]]
+
     def set_interest_seq(self, interest_seq):
         """
         興味のあるある配列のセット

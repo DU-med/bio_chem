@@ -46,6 +46,11 @@ gbk.exon_bar() # 各エクソン内のTCTT配列の棒グラフ
 gbk.exon_bar_base() # 各エクソン内の100塩基あたりのTCTT配列の棒グラフ
 ```
 
+#### 塩基配列情報の取得
+```
+gbk.exon_seq(100) # 100番目のエクソンの配列を取得
+gbk.intron_seq(100) # 100番目のイントロン配列を取得
+```
 ## 2. 異なる長さのイントロンの分布の可視化に関するコマンド
 #### NCBI情報
 RNA-seq intron features, aggregate (filterd)のファイルを取得<br>

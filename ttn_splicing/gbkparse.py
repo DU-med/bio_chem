@@ -176,7 +176,7 @@ class Seq_count:
         """
         1次元配列を2次元配列に変換
         """
-        arr_concat = np.concatenate((arr, np.full(n-len(arr)%100, np.nan)))
+        arr_concat = np.concatenate((arr, np.full(n-len(arr)%500, np.nan)))
         arr_2d = arr_concat.reshape(len(arr_concat)//n,n)
         return arr_2d
     

@@ -48,9 +48,15 @@ gbk.exon_bar_base() # 各エクソン内の100塩基あたりのTCTT配列の棒
 
 #### 塩基配列情報の取得
 ```
+gbk.exon_num() # 当該バリアントのエクソン数を取得
+gbk.intron_num() # 当該バリアントのイントロン数を取得
 gbk.exon_seq(100) # 100番目のエクソンの配列を取得
+gbk.exon_len(100) # 100番目のエクソンの塩基数を取得
 gbk.intron_seq(100) # 100番目のイントロン配列を取得
+gbk.intron_len(100) # 100番目のイントロンの塩基数を取得
+gbk.interest_seq_num() # 遺伝子上の着目する配列の数を取得
 ```
+
 ## 2. 異なる長さのイントロンの分布の可視化に関するコマンド
 #### NCBI情報
 RNA-seq intron features, aggregate (filterd)のファイルを取得<br>

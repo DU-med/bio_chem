@@ -123,7 +123,7 @@ class Seq_count:
         if intron_num > self.intron_num():
             return "エラー：そのエクソンは存在しません"
         else:
-            return self.gDNA_seq()[self.itron_list()[intron_num-1][0]:self.intron_list()[intron_num-1][1]]
+            return self.gDNA_seq()[self.intron_list()[intron_num-1][0]:self.intron_list()[intron_num-1][1]]
 
     def set_interest_seq(self, interest_seq):
         """

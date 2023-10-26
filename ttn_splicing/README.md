@@ -9,35 +9,22 @@ NCBIののマウスTtn遺伝子のgenbankファイルよりデータを読み込
 4. エクソン数の大きい遺伝子の各バリアントのイントロン領域のパターンを可視化
 
 ## 基本的なコマンドの説明
-#### クラスのインスタンス化
+#### 準備
 ```
-gbk = Seq_count()
+gbk = Seq_count() # クラスのインスタンス化
+gbk.read_gbk('data/gbk/mouse_ttn.gb')　# gbkファイルの読み込み
+gbk.tutorial() # tutorialの表示
 ```
-#### gbkファイルの読み込み
+
+#### スプライスバリアント関連
 ```
-gbk.read_gbk('data/gbk/mouse_ttn.gb')
+gbk.get_mrna_ids() # バリアントの表示
+gbk.set_mrna_id('NM_001385708.1') # トランスクリプトバリアントの設定
 ```
-#### tutorialの表示
+
+#### 検出する配列の設定および分布の可視化
 ```
-gbk.tutorial()
-```
-#### バリアントの表示
-```
-gbk.get_mrna_ids()
-```
-#### トランスクリプトバリアントの設定
-```
-gbk.set_mrna_id('NM_001385708.1')
-```
-#### 着目する配列の設定
-```
-gbk.set_interest_seq('TCTT')
-```
-#### TCTT配列の分布の可視化
-```
-gbk.heatmap_hist()
-```
-#### figureの保存
-```
-gbk.save_fig()
+gbk.set_interest_seq('TCTT') # 着目する配列の設定
+gbk.heatmap_hist() # 着目する配列の分布の可視化
+gbk.save_fig()　# figureの保存
 ```

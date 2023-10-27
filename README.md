@@ -27,6 +27,7 @@ mamba activate bio
 mamba install -c anaconda jupyter -y
 mamba install -c anaconda pandas -y
 mamba install -c anaconda seaborn -y
+mamba install -c anaconda scipy -y
 mamba install -c conda-forge biopython -y
 mamba install -c conda-forge fastcluster -y
 mamba install -c plotly plotly -y

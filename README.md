@@ -15,7 +15,7 @@ bash https://github.com/conda-forge/miniforge/releases/latest/download/Miniforge
 ### 仮想環境の構築
 bioという名前の仮想環境を作成し、pythonのバージョンを3.10にする
 ```
-mamba create -n bio python=3.10
+mamba create -n bio python=3.10 -y
 ```
 仮想環境の起動
 ```

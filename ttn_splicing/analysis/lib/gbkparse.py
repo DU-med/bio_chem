@@ -40,6 +40,7 @@ class Seq_count:
         gbkファイルを読み込む   
         """
         self.record = SeqIO.read(gbk, "genbank")
+        self.gbk = gbk
 
     def gDNA_seq(self):
         """
@@ -387,15 +388,46 @@ class Seq_count:
         df.index = dic.keys()
         return df
     
-    def transcript_variants(self):
+    # def transcript_variants(self, title="Transcript variants"):
+    #     """
+    #     # gbkに保存されているバリアントのエクソン領域の可視化
+    #     """
+    #     # バリアントIDを全エクソン数順に降順に並べ替える
+    #     var_exon = {}
+    #     for i in self.get_mrna_ids():
+    #         self.set_mrna_id(i)
+    #         var_exon[i] = self.exon_num()
+    #     var_exon_sort = sorted(var_exon, key=var_exon.get, reverse=True)
+
+    #     # 各バリアントの情報取得
+    #     e_region = [] # エクソン領域情報
+    #     e_numb = []#  エクソン番号
+    #     y_ind = []# Y軸のインデックス
+    #     var_id = [] # トランスクリプトバリアントID
+    #     all_exon = [] # 全エクソン数
+    #     for n,i in enumerate(var_exon_sort):
+    #             self.set_mrna_id(i)
+    #             for j in self.exon_list():
+    #                 e_region += j +[None]
+    #             for k in range(self.exon_num()):
+    #                 e_numb += [f"Exon{k+1}"]*3
+    #             y_ind += [n for l in range(len(self.exon_list())*3)]
+    #             var_id += [i for m in range(len(self.exon_list())*3) ]
+    #             all_exon += [f"Total exon: {self.exon_num()}" for o in range(len(self.exon_list())*3)]
+    #     fig = px.line(x=e_region, y=y_ind, title=title, hover_name=[i+"<br><br>"+j+"<br><br>"+k for i,j,k in zip(var_id, e_numb, all_exon)])
+    #     fig.update_traces(line=dict(color="RoyalBlue", width=10))
+    #     fig.show()
+
+    def transcript_variants(self, title="Transcript variants"):
         """
         # gbkに保存されているバリアントのエクソン領域の可視化
         """
         # バリアントIDを全エクソン数順に降順に並べ替える
+        tv = Seq_count()
         var_exon = {}
-        for i in self.get_mrna_ids():
-            self.set_mrna_id(i)
-            var_exon[i] = self.exon_num()
+        for i in tv.get_mrna_ids():
+            tv.set_mrna_id(i)
+            var_exon[i] = tv.exon_num()
         var_exon_sort = sorted(var_exon, key=var_exon.get, reverse=True)
 
         # 各バリアントの情報取得
@@ -405,17 +437,16 @@ class Seq_count:
         var_id = [] # トランスクリプトバリアントID
         all_exon = [] # 全エクソン数
         for n,i in enumerate(var_exon_sort):
-                self.set_mrna_id(i)
-                for j in self.exon_list():
+                tv.set_mrna_id(i)
+                for j in tv.exon_list():
                     e_region += j +[None]
-                for k in range(self.exon_num()):
+                for k in range(tv.exon_num()):
                     e_numb += [f"Exon{k+1}"]*3
-                y_ind += [n for l in range(len(self.exon_list())*3)]
-                var_id += [i for m in range(len(self.exon_list())*3) ]
-                all_exon += [f"Total exon: {self.exon_num()}" for o in range(len(self.exon_list())*3)]
-        fig = px.line(x=e_region, y=y_ind,  hover_name=[i+"<br><br>"+j+"<br><br>"+k for i,j,k in zip(var_id, e_numb, all_exon)])
+                y_ind += [n for l in range(len(tv.exon_list())*3)]
+                var_id += [i for m in range(len(tv.exon_list())*3) ]
+                all_exon += [f"Total exon: {tv.exon_num()}" for o in range(len(tv.exon_list())*3)]
+        fig = px.line(x=e_region, y=y_ind, title=title, hover_name=[i+"<br><br>"+j+"<br><br>"+k for i,j,k in zip(var_id, e_numb, all_exon)])
         fig.update_traces(line=dict(color="RoyalBlue", width=10))
         fig.show()
-
 
     

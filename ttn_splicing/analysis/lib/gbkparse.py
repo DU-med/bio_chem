@@ -83,7 +83,6 @@ class Seq_count:
                     var_exon_dic[id] = len([[int(part.start), int(part.end)] for part in feature.location.parts])
         return var_exon_dic
 
-
     def exon_list(self):
         """
         セットしたmRNAのIDのexon領域のリストを返す

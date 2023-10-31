@@ -72,6 +72,18 @@ class Seq_count:
         """
         return [feature.qualifiers['transcript_id'][0] for feature in self.record.features if feature.type == "mRNA"]
     
+    def transcript_length(self):
+        """
+        各バリアントのトランスクリプト長を返す
+        """
+        # バリアントidをkeyに、トランスクリプト長をvalueにした辞書を作成
+        var_length_dic = {}
+        for id in [feature.qualifiers['transcript_id'][0] for feature in self.record.features if feature.type == "mRNA"]:
+            for feature in self.record.features:
+                if feature.type == 'mRNA' and feature.qualifiers['transcript_id'][0] == id:
+                    var_length_dic[id] = len(self.gDNA_seq()[feature.location.start:feature.location.end])
+        return var_length_dic
+
     def exon_list(self):
         """
         セットしたmRNAのIDのexon領域のリストを返す

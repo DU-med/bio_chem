@@ -52,7 +52,7 @@ class Seq_count:
         self.longest = sorted(var_exon_dic, key=var_exon_dic.get)[-1]
         # デフォルトのmrna_idを最長のバリアントidに設定
         self.mrna_id = self.longest
-        print(f"デフォルト値として{self.longest}を設定")
+        print(f"デフォルト値として、最もエクソンの多い{self.longest}を設定")
 
     def gDNA_seq(self):
         """

@@ -49,9 +49,10 @@ class Seq_count:
                 if feature.type == 'mRNA' and feature.qualifiers['transcript_id'][0] == id:
                     var_exon_dic[id] = len([[int(part.start), int(part.end)] for part in feature.location.parts])
         # 最長のバリアントidを取得
-        longest = sorted(var_exon_dic, key=var_exon_dic.get)[-1]
+        self.longest = sorted(var_exon_dic, key=var_exon_dic.get)[-1]
         # デフォルトのmrna_idを最長のバリアントidに設定
-        self.mrna_id = longest
+        self.mrna_id = self.longest
+        print(self.longest)
 
     def gDNA_seq(self):
         """

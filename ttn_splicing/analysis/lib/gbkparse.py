@@ -48,6 +48,12 @@ class Seq_count:
         gbkファイルのgDNAの塩基配列を返す
         """
         return self.record.seq
+
+    def set_mrna_id(self, mrna_id):
+        """
+        mRNAのIDを設定する
+        """
+        self.mrna_id = mrna_id
     
     def get_mrna_ids(self):
         """

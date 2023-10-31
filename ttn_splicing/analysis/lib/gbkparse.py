@@ -42,6 +42,16 @@ class Seq_count:
         """
         self.record = SeqIO.read(gbk, "genbank")
         self.gbk = gbk
+        # バリアントidをkeyに、エクソン数をvalueにした辞書を作成
+        var_exon_dic = {}
+        for id in [feature.qualifiers['transcript_id'][0] for feature in self.record.features if feature.type == "mRNA"]:
+            for feature in self.record.features:
+                if feature.type == 'mRNA' and feature.qualifiers['transcript_id'][0] == id:
+                    var_exon_dic[id] = len([[int(part.start), int(part.end)] for part in feature.location.parts])
+        # 最長のバリアントidを取得
+        longest = sorted(var_exon_dic, key=var_exon_dic.get)[-1]
+        # デフォルトのmrna_idを最長のバリアントidに設定
+        self.mrna_id = longest
 
     def gDNA_seq(self):
         """

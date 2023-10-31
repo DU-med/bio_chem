@@ -424,6 +424,7 @@ class Seq_count:
         """
         # バリアントIDを全エクソン数順に降順に並べ替える
         tv = Seq_count()
+        tv.read_gbk(self.gbk)
         var_exon = {}
         for i in tv.get_mrna_ids():
             tv.set_mrna_id(i)

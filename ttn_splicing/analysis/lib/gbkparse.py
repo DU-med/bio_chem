@@ -150,6 +150,10 @@ class Seq_count:
         else:
             return self.gDNA_seq()[self.intron_list()[intron_num-1][0]:self.intron_list()[intron_num-1][1]]
 
+    def all_intron_seq(self):
+        
+
+
     def set_interest_seq(self, interest_seq):
         """
         興味のあるある配列のセット
@@ -251,6 +255,46 @@ class Seq_count:
         if not os.path.exists("fig"):
             os.makedirs("fig")
         self.hh_fig.write_html(f"fig/heatmap_{self.mrna_id}.html")
+
+    def heatmap(self, cols=500):
+        """
+        plotlyでヒートマップを作成
+        --オプション--
+        cols='列数'
+        """
+        # アレイの作成
+        self.set_array()
+
+        ## メタデータの作成
+        # 塩基配列アレイ作成
+        self.base_arr = np.array(list(self.gDNA_seq()))
+        # 塩基配列の位置アレイ作成
+        self.base_loc_arr = np.arange(len(self.gDNA_seq()))
+        # エクソン、イントロン番号アレイ作成
+        self.exon_intron_no_arr = np.full(len(self.gDNA_seq()), "Not difined")
+        for i in range(self.exon_num()):
+            if i != self.exon_num()-1:
+                self.exon_intron_no_arr[self.exon_list()[i][0]:self.exon_list()[i][1]] = f"Ex_{i+1}"
+                self.exon_intron_no_arr[self.exon_list()[i][1]:self.exon_list()[i+1][0]] = f"In_{i+1}"
+            else:
+                self.exon_intron_no_arr[self.exon_list()[i][0]:self.exon_list()[i][1]] = f"Ex_{i+1}"
+        # 塩基配列、位置、エクソン、イントロン番号アレイを結合
+        self.meta_arr = np.array([self.base_arr, self.base_loc_arr, self.exon_intron_no_arr]).T
+        # colsで割り切れるようにnp.nanのリストで穴埋めをする
+        self.meta_arr_round = np.concatenate([self.meta_arr, np.array([[np.nan]*3 for i in range(cols - len(self.meta_arr)%cols)])])
+        self.meta_arr_2d = self.meta_arr_round.reshape(len(self.meta_arr_round)//cols, cols, 3)
+
+        # 興味ある配列の位置を取得
+        self.interest_seq_index_arr = self.interest_seq_index()
+
+        # ２つの図の描画
+        self.seq_arr_2d = self.trans_2d(self.seq_arr,cols)
+        self.h_fig = make_subplots(rows=1, cols=1)
+        self.h_fig.add_trace(go.Heatmap(z=self.seq_arr_2d, colorscale="Viridis", showscale=False, text=self.meta_arr_2d, hovertemplate="Base: %{text[0]}<br>Base location: %{text[1]}<br>Region number: %{text[2]}"))
+        self.h_fig.update_layout(height=1000, width=1000, title_text=f"{self.interest_seq} sequence map and distribution of mouse Ttn gene", title_x=0.5 )
+        self.h_fig.update_yaxes(autorange="reversed")
+        self.h_fig.show()
+
 
     def intron_bar(self):
         """

@@ -484,3 +484,30 @@ class Seq_count:
         fig = px.line(x=e_region, y=y_ind, title=title, hover_name=[i+"<br><br>"+j+"<br><br>"+k for i,j,k in zip(var_id, e_numb, all_exon)])
         fig.update_traces(line=dict(color="RoyalBlue", width=10))
         fig.show()
+
+    def motif_std_bin(self, motif, bins=20):
+        all_intron = ""
+        for i in range(self.intron_num()):
+            all_intron += self.intron_seq(i+1)
+
+        motif_list = [0]*(len(all_intron)-len(motif))
+        for i in range(len(all_intron)-len(motif)):
+            if all_intron[i:i+len(motif)] == motif:
+                motif_list[i] = 1
+
+        # motifをn個のサブリストに分割
+        bins = 20
+        length = len(motif_list)
+        base = length // bins
+        remainder = length % bins
+
+        # base個の要素を持つn個のリストと、余りを配分
+        split_lists = [motif_list[i * base + min(i, remainder):(i + 1) * base + min(i + 1, remainder)] for i in range(bins)]
+
+        one_counts = []
+        for i in split_lists:
+            one_counts.append(i.count(1))
+
+        # 合計を100として標準偏差を求める
+        arr = np.array(one_counts)*(100/np.array(one_counts).sum())
+        return arr.std()       

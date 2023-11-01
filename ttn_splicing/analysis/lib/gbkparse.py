@@ -150,10 +150,9 @@ class Seq_count:
         else:
             return self.gDNA_seq()[self.intron_list()[intron_num-1][0]:self.intron_list()[intron_num-1][1]]
 
-    def all_intron_seq(self):
-        
+    # def all_intron_seq(self):
 
-
+    
     def set_interest_seq(self, interest_seq):
         """
         興味のあるある配列のセット
@@ -294,7 +293,6 @@ class Seq_count:
         self.h_fig.update_layout(height=1000, width=1000, title_text=f"{self.interest_seq} sequence map and distribution of mouse Ttn gene", title_x=0.5 )
         self.h_fig.update_yaxes(autorange="reversed")
         self.h_fig.show()
-
 
     def intron_bar(self):
         """
@@ -486,5 +484,3 @@ class Seq_count:
         fig = px.line(x=e_region, y=y_ind, title=title, hover_name=[i+"<br><br>"+j+"<br><br>"+k for i,j,k in zip(var_id, e_numb, all_exon)])
         fig.update_traces(line=dict(color="RoyalBlue", width=10))
         fig.show()
-
-    

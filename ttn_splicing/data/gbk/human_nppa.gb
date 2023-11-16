@@ -1,0 +1,402 @@
+LOCUS       NC_000001               2075 bp    DNA     linear   CON 07-OCT-2023
+DEFINITION  Homo sapiens chromosome 1, GRCh38.p14 Primary Assembly.
+ACCESSION   NC_000001 REGION: complement(11845709..11847783)
+VERSION     NC_000001.11
+DBLINK      BioProject: PRJNA168
+            Assembly: GCF_000001405.40
+KEYWORDS    RefSeq.
+SOURCE      Homo sapiens (human)
+  ORGANISM  Homo sapiens
+            Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi;
+            Mammalia; Eutheria; Euarchontoglires; Primates; Haplorrhini;
+            Catarrhini; Hominidae; Homo.
+REFERENCE   1  (bases 1 to 2075)
+  AUTHORS   Gregory,S.G., Barlow,K.F., McLay,K.E., Kaul,R., Swarbreck,D.,
+            Dunham,A., Scott,C.E., Howe,K.L., Woodfine,K., Spencer,C.C.,
+            Jones,M.C., Gillson,C., Searle,S., Zhou,Y., Kokocinski,F.,
+            McDonald,L., Evans,R., Phillips,K., Atkinson,A., Cooper,R.,
+            Jones,C., Hall,R.E., Andrews,T.D., Lloyd,C., Ainscough,R.,
+            Almeida,J.P., Ambrose,K.D., Anderson,F., Andrew,R.W., Ashwell,R.I.,
+            Aubin,K., Babbage,A.K., Bagguley,C.L., Bailey,J., Beasley,H.,
+            Bethel,G., Bird,C.P., Bray-Allen,S., Brown,J.Y., Brown,A.J.,
+            Buckley,D., Burton,J., Bye,J., Carder,C., Chapman,J.C., Clark,S.Y.,
+            Clarke,G., Clee,C., Cobley,V., Collier,R.E., Corby,N.,
+            Coville,G.J., Davies,J., Deadman,R., Dunn,M., Earthrowl,M.,
+            Ellington,A.G., Errington,H., Frankish,A., Frankland,J., French,L.,
+            Garner,P., Garnett,J., Gay,L., Ghori,M.R., Gibson,R., Gilby,L.M.,
+            Gillett,W., Glithero,R.J., Grafham,D.V., Griffiths,C.,
+            Griffiths-Jones,S., Grocock,R., Hammond,S., Harrison,E.S., Hart,E.,
+            Haugen,E., Heath,P.D., Holmes,S., Holt,K., Howden,P.J., Hunt,A.R.,
+            Hunt,S.E., Hunter,G., Isherwood,J., James,R., Johnson,C.,
+            Johnson,D., Joy,A., Kay,M., Kershaw,J.K., Kibukawa,M.,
+            Kimberley,A.M., King,A., Knights,A.J., Lad,H., Laird,G., Lawlor,S.,
+            Leongamornlert,D.A., Lloyd,D.M., Loveland,J., Lovell,J., Lush,M.J.,
+            Lyne,R., Martin,S., Mashreghi-Mohammadi,M., Matthews,L.,
+            Matthews,N.S., McLaren,S., Milne,S., Mistry,S., Moore,M.J.,
+            Nickerson,T., O'Dell,C.N., Oliver,K., Palmeiri,A., Palmer,S.A.,
+            Parker,A., Patel,D., Pearce,A.V., Peck,A.I., Pelan,S., Phelps,K.,
+            Phillimore,B.J., Plumb,R., Rajan,J., Raymond,C., Rouse,G.,
+            Saenphimmachak,C., Sehra,H.K., Sheridan,E., Shownkeen,R., Sims,S.,
+            Skuce,C.D., Smith,M., Steward,C., Subramanian,S., Sycamore,N.,
+            Tracey,A., Tromans,A., Van Helmond,Z., Wall,M., Wallis,J.M.,
+            White,S., Whitehead,S.L., Wilkinson,J.E., Willey,D.L., Williams,H.,
+            Wilming,L., Wray,P.W., Wu,Z., Coulson,A., Vaudin,M., Sulston,J.E.,
+            Durbin,R., Hubbard,T., Wooster,R., Dunham,I., Carter,N.P.,
+            McVean,G., Ross,M.T., Harrow,J., Olson,M.V., Beck,S., Rogers,J.,
+            Bentley,D.R., Banerjee,R., Bryant,S.P., Burford,D.C., Burrill,W.D.,
+            Clegg,S.M., Dhami,P., Dovey,O., Faulkner,L.M., Gribble,S.M.,
+            Langford,C.F., Pandian,R.D., Porter,K.M. and Prigmore,E.
+  TITLE     The DNA sequence and biological annotation of human chromosome 1
+  JOURNAL   Nature 441 (7091), 315-321 (2006)
+   PUBMED   16710414
+  REMARK    Erratum:[Nature. 2006 Oct 26;443(7114):1013. Banerjee, R [added];
+            Bryant, SP [added]; Burford, DC [added]; Burrill, WDH [added];
+            Clegg, SM [added]; Dhami, P [added]; Dovey, O [added]; Faulkner, LM
+            [added]; Gribble, SM [added]; Langford, CF [added]; Pandian, RD
+            [added]; Porter, KM [added]; Prigmore, E [added]]
+REFERENCE   2  (bases 1 to 2075)
+  CONSRTM   International Human Genome Sequencing Consortium
+  TITLE     Finishing the euchromatic sequence of the human genome
+  JOURNAL   Nature 431 (7011), 931-945 (2004)
+   PUBMED   15496913
+REFERENCE   3  (bases 1 to 2075)
+  AUTHORS   Lander,E.S., Linton,L.M., Birren,B., Nusbaum,C., Zody,M.C.,
+            Baldwin,J., Devon,K., Dewar,K., Doyle,M., FitzHugh,W., Funke,R.,
+            Gage,D., Harris,K., Heaford,A., Howland,J., Kann,L., Lehoczky,J.,
+            LeVine,R., McEwan,P., McKernan,K., Meldrim,J., Mesirov,J.P.,
+            Miranda,C., Morris,W., Naylor,J., Raymond,C., Rosetti,M.,
+            Santos,R., Sheridan,A., Sougnez,C., Stange-Thomann,N.,
+            Stojanovic,N., Subramanian,A., Wyman,D., Rogers,J., Sulston,J.,
+            Ainscough,R., Beck,S., Bentley,D., Burton,J., Clee,C., Carter,N.,
+            Coulson,A., Deadman,R., Deloukas,P., Dunham,A., Dunham,I.,
+            Durbin,R., French,L., Grafham,D., Gregory,S., Hubbard,T.,
+            Humphray,S., Hunt,A., Jones,M., Lloyd,C., McMurray,A., Matthews,L.,
+            Mercer,S., Milne,S., Mullikin,J.C., Mungall,A., Plumb,R., Ross,M.,
+            Shownkeen,R., Sims,S., Waterston,R.H., Wilson,R.K., Hillier,L.W.,
+            McPherson,J.D., Marra,M.A., Mardis,E.R., Fulton,L.A.,
+            Chinwalla,A.T., Pepin,K.H., Gish,W.R., Chissoe,S.L., Wendl,M.C.,
+            Delehaunty,K.D., Miner,T.L., Delehaunty,A., Kramer,J.B., Cook,L.L.,
+            Fulton,R.S., Johnson,D.L., Minx,P.J., Clifton,S.W., Hawkins,T.,
+            Branscomb,E., Predki,P., Richardson,P., Wenning,S., Slezak,T.,
+            Doggett,N., Cheng,J.F., Olsen,A., Lucas,S., Elkin,C.,
+            Uberbacher,E., Frazier,M., Gibbs,R.A., Muzny,D.M., Scherer,S.E.,
+            Bouck,J.B., Sodergren,E.J., Worley,K.C., Rives,C.M., Gorrell,J.H.,
+            Metzker,M.L., Naylor,S.L., Kucherlapati,R.S., Nelson,D.L.,
+            Weinstock,G.M., Sakaki,Y., Fujiyama,A., Hattori,M., Yada,T.,
+            Toyoda,A., Itoh,T., Kawagoe,C., Watanabe,H., Totoki,Y., Taylor,T.,
+            Weissenbach,J., Heilig,R., Saurin,W., Artiguenave,F., Brottier,P.,
+            Bruls,T., Pelletier,E., Robert,C., Wincker,P., Smith,D.R.,
+            Doucette-Stamm,L., Rubenfield,M., Weinstock,K., Lee,H.M.,
+            Dubois,J., Rosenthal,A., Platzer,M., Nyakatura,G., Taudien,S.,
+            Rump,A., Yang,H., Yu,J., Wang,J., Huang,G., Gu,J., Hood,L.,
+            Rowen,L., Madan,A., Qin,S., Davis,R.W., Federspiel,N.A.,
+            Abola,A.P., Proctor,M.J., Myers,R.M., Schmutz,J., Dickson,M.,
+            Grimwood,J., Cox,D.R., Olson,M.V., Kaul,R., Raymond,C., Shimizu,N.,
+            Kawasaki,K., Minoshima,S., Evans,G.A., Athanasiou,M., Schultz,R.,
+            Roe,B.A., Chen,F., Pan,H., Ramser,J., Lehrach,H., Reinhardt,R.,
+            McCombie,W.R., de la Bastide,M., Dedhia,N., Blocker,H.,
+            Hornischer,K., Nordsiek,G., Agarwala,R., Aravind,L., Bailey,J.A.,
+            Bateman,A., Batzoglou,S., Birney,E., Bork,P., Brown,D.G.,
+            Burge,C.B., Cerutti,L., Chen,H.C., Church,D., Clamp,M.,
+            Copley,R.R., Doerks,T., Eddy,S.R., Eichler,E.E., Furey,T.S.,
+            Galagan,J., Gilbert,J.G., Harmon,C., Hayashizaki,Y., Haussler,D.,
+            Hermjakob,H., Hokamp,K., Jang,W., Johnson,L.S., Jones,T.A.,
+            Kasif,S., Kaspryzk,A., Kennedy,S., Kent,W.J., Kitts,P.,
+            Koonin,E.V., Korf,I., Kulp,D., Lancet,D., Lowe,T.M., McLysaght,A.,
+            Mikkelsen,T., Moran,J.V., Mulder,N., Pollara,V.J., Ponting,C.P.,
+            Schuler,G., Schultz,J., Slater,G., Smit,A.F., Stupka,E.,
+            Szustakowski,J., Thierry-Mieg,D., Thierry-Mieg,J., Wagner,L.,
+            Wallis,J., Wheeler,R., Williams,A., Wolf,Y.I., Wolfe,K.H.,
+            Yang,S.P., Yeh,R.F., Collins,F., Guyer,M.S., Peterson,J.,
+            Felsenfeld,A., Wetterstrand,K.A., Patrinos,A., Morgan,M.J., de
+            Jong,P., Catanese,J.J., Osoegawa,K., Shizuya,H., Choi,S. and
+            Chen,Y.J.
+  CONSRTM   International Human Genome Sequencing Consortium
+  TITLE     Initial sequencing and analysis of the human genome
+  JOURNAL   Nature 409 (6822), 860-921 (2001)
+   PUBMED   11237011
+  REMARK    Erratum:[Nature 2001 Aug 2;412(6846):565]
+COMMENT     REFSEQ INFORMATION: The reference sequence is identical to
+            CM000663.2.
+            
+            On Feb 3, 2014 this sequence version replaced NC_000001.10.
+            Assembly Name: GRCh38.p14 Primary Assembly
+            The DNA sequence is composed of genomic sequence, primarily
+            finished clones that were sequenced as part of the Human Genome
+            Project. PCR products and WGS shotgun sequence have been added
+            where necessary to fill gaps or correct errors. All such additions
+            are manually curated by GRC staff. For more information see:
+            https://genomereference.org.
+            
+            ##Genome-Annotation-Data-START##
+            Annotation Provider         :: NCBI RefSeq
+            Annotation Status           :: Updated annotation
+            Annotation Name             :: GCF_000001405.40-RS_2023_10
+            Annotation Pipeline         :: NCBI eukaryotic genome annotation
+                                           pipeline
+            Annotation Software Version :: 10.2
+            Annotation Method           :: Best-placed RefSeq; Gnomon;
+                                           RefSeqFE; cmsearch; tRNAscan-SE
+            Features Annotated          :: Gene; mRNA; CDS; ncRNA
+            Annotation Date             :: 10/02/2023
+            ##Genome-Annotation-Data-END##
+FEATURES             Location/Qualifiers
+     source          1..2075
+                     /organism="Homo sapiens"
+                     /mol_type="genomic DNA"
+                     /db_xref="taxon:9606"
+                     /chromosome="1"
+     misc_feature    complement(<1..965)
+                     /standard_name="VISTA enhancer hs2123"
+                     /note="Region: biological region; Derived by automated
+                     computational analysis using gene prediction method:
+                     RefSeqFE."
+                     /db_xref="GeneID:114827827"
+     regulatory      <1..965
+                     /regulatory_class="enhancer"
+                     /experiment="EXISTENCE:transgenic organism evidence
+                     [ECO:0001131][PMID:17130149]"
+                     /note="VISTA enhancer hs2123"
+                     /function="enhancer in: heart[3/4]"
+                     /db_xref="GeneID:114827827"
+                     /db_xref="VISTA:hs2123"
+     gene            1..2075
+                     /gene="NPPA"
+                     /gene_synonym="ANF; ANP; ATFB6; ATRST2; CDD; CDD-ANF; CDP;
+                     PND"
+                     /note="natriuretic peptide A; Derived by automated
+                     computational analysis using gene prediction method:
+                     BestRefSeq."
+                     /db_xref="GeneID:4878"
+                     /db_xref="HGNC:HGNC:7939"
+                     /db_xref="MIM:108780"
+     mRNA            join(1..222,345..671,1770..2075)
+                     /gene="NPPA"
+                     /gene_synonym="ANF; ANP; ATFB6; ATRST2; CDD; CDD-ANF; CDP;
+                     PND"
+                     /product="natriuretic peptide A"
+                     /note="Derived by automated computational analysis using
+                     gene prediction method: BestRefSeq."
+                     /transcript_id="NM_006172.4"
+                     /db_xref="Ensembl:ENST00000376480.7"
+                     /db_xref="GeneID:4878"
+                     /db_xref="HGNC:HGNC:7939"
+                     /db_xref="MIM:108780"
+     CDS             join(100..222,345..671,1770..1775)
+                     /gene="NPPA"
+                     /gene_synonym="ANF; ANP; ATFB6; ATRST2; CDD; CDD-ANF; CDP;
+                     PND"
+                     /note="Derived by automated computational analysis using
+                     gene prediction method: BestRefSeq."
+                     /codon_start=1
+                     /product="natriuretic peptides A preproprotein"
+                     /protein_id="NP_006163.1"
+                     /db_xref="CCDS:CCDS139.1"
+                     /db_xref="Ensembl:ENSP00000365663.3"
+                     /db_xref="GeneID:4878"
+                     /db_xref="HGNC:HGNC:7939"
+                     /db_xref="MIM:108780"
+                     /translation="MSSFSTTTVSFLLLLAFQLLGQTRANPMYNAVSNADLMDFKNLL
+                     DHLEEKMPLEDEVVPPQVLSEPNEEAGAALSPLPEVPPWTGEVSPAQRDGGALGRGPW
+                     DSSDRSALLKSKLRALLTAPRSLRRSSCFGGRMDRIGAQSGLGCNSFRY"
+     sig_peptide     100..174
+                     /gene="NPPA"
+                     /gene_synonym="ANF; ANP; ATFB6; ATRST2; CDD; CDD-ANF; CDP;
+                     PND"
+                     /inference="COORDINATES: ab initio prediction:SignalP:4.0"
+     mat_peptide     join(175..222,345..671,1770..1772)
+                     /gene="NPPA"
+                     /gene_synonym="ANF; ANP; ATFB6; ATRST2; CDD; CDD-ANF; CDP;
+                     PND"
+                     /product="Natriuretic peptides A.
+                     /evidence=ECO:0000269|PubMed:3838202. /id=PRO_0000449721"
+                     /note="propagated from UniProtKB/Swiss-Prot (P01160.2)"
+     mat_peptide     join(175..222,345..386)
+                     /gene="NPPA"
+                     /gene_synonym="ANF; ANP; ATFB6; ATRST2; CDD; CDD-ANF; CDP;
+                     PND"
+                     /product="Long-acting natriuretic peptide.
+                     /evidence=ECO:0000305|PubMed:7955907,
+                     ECO:0000305|PubMed:7984506, ECO:0000305|PubMed:8087923.
+                     /id=PRO_0000449722"
+                     /note="propagated from UniProtKB/Swiss-Prot (P01160.2)"
+     mat_peptide     387..497
+                     /gene="NPPA"
+                     /gene_synonym="ANF; ANP; ATFB6; ATRST2; CDD; CDD-ANF; CDP;
+                     PND"
+                     /product="Vessel dilator.
+                     /evidence=ECO:0000305|PubMed:7955907,
+                     ECO:0000305|PubMed:7984506, ECO:0000305|PubMed:8087923.
+                     /id=PRO_0000449723"
+                     /note="propagated from UniProtKB/Swiss-Prot (P01160.2)"
+     misc_feature    405..536
+                     /gene="NPPA"
+                     /gene_synonym="ANF; ANP; ATFB6; ATRST2; CDD; CDD-ANF; CDP;
+                     PND"
+                     /note="propagated from UniProtKB/Swiss-Prot (P01160.2);
+                     Region: Disordered. /evidence=ECO:0000256|SAM:MobiDB-lite"
+     mat_peptide     531..590
+                     /gene="NPPA"
+                     /gene_synonym="ANF; ANP; ATFB6; ATRST2; CDD; CDD-ANF; CDP;
+                     PND"
+                     /product="Kaliuretic peptide.
+                     /evidence=ECO:0000305|PubMed:7720651,
+                     ECO:0000305|PubMed:7984506, ECO:0000305|PubMed:8087923.
+                     /id=PRO_0000449725"
+                     /note="propagated from UniProtKB/Swiss-Prot (P01160.2)"
+     mat_peptide     join(576..671,1770..1772)
+                     /gene="NPPA"
+                     /gene_synonym="ANF; ANP; ATFB6; ATRST2; CDD; CDD-ANF; CDP;
+                     PND"
+                     /product="Auriculin-C.
+                     /evidence=ECO:0000250|UniProtKB:P01161.
+                     /id=PRO_0000449726"
+                     /note="propagated from UniProtKB/Swiss-Prot (P01160.2)"
+     mat_peptide     join(579..671,1770..1772)
+                     /gene="NPPA"
+                     /gene_synonym="ANF; ANP; ATFB6; ATRST2; CDD; CDD-ANF; CDP;
+                     PND"
+                     /product="Urodilatin.
+                     /evidence=ECO:0000269|PubMed:2972874. /id=PRO_0000449727"
+                     /note="propagated from UniProtKB/Swiss-Prot (P01160.2)"
+     mat_peptide     582..656
+                     /gene="NPPA"
+                     /gene_synonym="ANF; ANP; ATFB6; ATRST2; CDD; CDD-ANF; CDP;
+                     PND"
+                     /product="Auriculin-D.
+                     /evidence=ECO:0000250|UniProtKB:P01161.
+                     /id=PRO_0000449728"
+                     /note="propagated from UniProtKB/Swiss-Prot (P01160.2)"
+     misc_feature    588..593
+                     /gene="NPPA"
+                     /gene_synonym="ANF; ANP; ATFB6; ATRST2; CDD; CDD-ANF; CDP;
+                     PND"
+                     /note="Cleavage, by CORIN.
+                     /evidence=ECO:0000269|PubMed:10880574; propagated from
+                     UniProtKB/Swiss-Prot (P01160.2); cleavage site"
+     mat_peptide     join(591..671,1770..1772)
+                     /gene="NPPA"
+                     /gene_synonym="ANF; ANP; ATFB6; ATRST2; CDD; CDD-ANF; CDP;
+                     PND"
+                     /product="Atrial natriuretic peptide.
+                     /evidence=ECO:0000269|PubMed:10880574,
+                     ECO:0000269|PubMed:1826098, ECO:0000269|PubMed:3838202,
+                     ECO:0000269|PubMed:6230082. /id=PRO_0000449729"
+                     /note="propagated from UniProtKB/Swiss-Prot (P01160.2)"
+     mat_peptide     join(600..671,1770..1772)
+                     /gene="NPPA"
+                     /gene_synonym="ANF; ANP; ATFB6; ATRST2; CDD; CDD-ANF; CDP;
+                     PND"
+                     /product="Auriculin-B.
+                     /evidence=ECO:0000250|UniProtKB:P01161.
+                     /id=PRO_0000449730"
+                     /note="propagated from UniProtKB/Swiss-Prot (P01160.2)"
+     mat_peptide     600..671
+                     /gene="NPPA"
+                     /gene_synonym="ANF; ANP; ATFB6; ATRST2; CDD; CDD-ANF; CDP;
+                     PND"
+                     /product="Auriculin-A.
+                     /evidence=ECO:0000250|UniProtKB:P01161.
+                     /id=PRO_0000449731"
+                     /note="propagated from UniProtKB/Swiss-Prot (P01160.2)"
+     mat_peptide     join(603..671,1770..1772)
+                     /gene="NPPA"
+                     /gene_synonym="ANF; ANP; ATFB6; ATRST2; CDD; CDD-ANF; CDP;
+                     PND"
+                     /product="Atriopeptin-3.
+                     /evidence=ECO:0000250|UniProtKB:P01161.
+                     /id=PRO_0000449732"
+                     /note="propagated from UniProtKB/Swiss-Prot (P01160.2)"
+     mat_peptide     603..671
+                     /gene="NPPA"
+                     /gene_synonym="ANF; ANP; ATFB6; ATRST2; CDD; CDD-ANF; CDP;
+                     PND"
+                     /product="Atriopeptin-2.
+                     /evidence=ECO:0000250|UniProtKB:P01161.
+                     /id=PRO_0000449733"
+                     /note="propagated from UniProtKB/Swiss-Prot (P01160.2)"
+     mat_peptide     603..665
+                     /gene="NPPA"
+                     /gene_synonym="ANF; ANP; ATFB6; ATRST2; CDD; CDD-ANF; CDP;
+                     PND"
+                     /product="Atriopeptin-1.
+                     /evidence=ECO:0000250|UniProtKB:P01161.
+                     /id=PRO_0000449734"
+                     /note="propagated from UniProtKB/Swiss-Prot (P01160.2)"
+     misc_feature    606..608
+                     /gene="NPPA"
+                     /gene_synonym="ANF; ANP; ATFB6; ATRST2; CDD; CDD-ANF; CDP;
+                     PND"
+                     /note="Phosphoserine.
+                     /evidence=ECO:0000269|PubMed:2528951; propagated from
+                     UniProtKB/Swiss-Prot (P01160.2); phosphorylation site"
+     misc_feature    609..614
+                     /gene="NPPA"
+                     /gene_synonym="ANF; ANP; ATFB6; ATRST2; CDD; CDD-ANF; CDP;
+                     PND"
+                     /note="Cleavage, by MME.
+                     /evidence=ECO:0000269|PubMed:2972276; propagated from
+                     UniProtKB/Swiss-Prot (P01160.2); cleavage site"
+     misc_feature    join(660..671,1770..1772)
+                     /gene="NPPA"
+                     /gene_synonym="ANF; ANP; ATFB6; ATRST2; CDD; CDD-ANF; CDP;
+                     PND"
+                     /note="propagated from UniProtKB/Swiss-Prot (P01160.2);
+                     Region: Important for degradation of atrial natriuretic
+                     peptide by IDE. /evidence=ECO:0000269|PubMed:21098034"
+     gene            complement(168..>2075)
+                     /gene="NPPA-AS1"
+                     /gene_synonym="NPPA-AS; NPPAAS"
+                     /note="NPPA antisense RNA 1; Derived by automated
+                     computational analysis using gene prediction method:
+                     BestRefSeq."
+                     /db_xref="GeneID:100379251"
+                     /db_xref="HGNC:HGNC:37635"
+     ncRNA           complement(join(168..350,2018..>2075))
+                     /ncRNA_class="antisense_RNA"
+                     /gene="NPPA-AS1"
+                     /gene_synonym="NPPA-AS; NPPAAS"
+                     /product="NPPA antisense RNA 1"
+                     /note="Derived by automated computational analysis using
+                     gene prediction method: BestRefSeq."
+                     /transcript_id="NR_037806.1"
+                     /db_xref="GeneID:100379251"
+                     /db_xref="HGNC:HGNC:37635"
+ORIGIN      
+        1 gagacaggga cagacgtagg ccaagagagg ggaaccagag aggaaccaga ggggagagac
+       61 agagcagcaa gcagtggatt gctccttgac gacgccagca tgagctcctt ctccaccacc
+      121 accgtgagct tcctcctttt actggcattc cagctcctag gtcagaccag agctaatccc
+      181 atgtacaatg ccgtgtccaa cgcagacctg atggatttca aggtagggcc aggaaagcgg
+      241 gtgcagtctg gggccagggg gctttctgat gctgtgctca ctcctcttga tttcctccaa
+      301 gtcagtgagg tttatccctt tccctgtatt ttccttttct aaagaatttg ctggaccatt
+      361 tggaagaaaa gatgccttta gaagatgagg tcgtgccccc acaagtgctc agtgagccga
+      421 atgaagaagc gggggctgct ctcagccccc tccctgaggt gcctccctgg accggggaag
+      481 tcagcccagc ccagagagat ggaggtgccc tcgggcgggg cccctgggac tcctctgatc
+      541 gatctgccct cctaaaaagc aagctgaggg cgctgctcac tgcccctcgg agcctgcgga
+      601 gatccagctg cttcgggggc aggatggaca ggattggagc ccagagcgga ctgggctgta
+      661 acagcttccg ggtaagagga actggggatg gaaatgggat gggatggaca ctactgggag
+      721 acaccttcag caggaaaggg accaatgcag aagctcattc cctctcaagt ttctgcccca
+      781 acacccagag tgccccatgg gtgtcaggac atgccatcta ttgtccttag ctagtctgct
+      841 gagaaaatgc ttaaaaaaaa aagggggggg ggctgggcac agtggctcac gcctgtaatc
+      901 ccagcacttt gggaggccga ggcaggcgga tcatgaggtc aagagatcaa gactatcctg
+      961 gccaacatgg tgaaacccca gctctactaa aaatacaaaa attagctggg tgtggtggcg
+     1021 ggcacctgta ctctcagcta cttgggaggc tgaggcagga gaatcacttg aacccaggag
+     1081 gcagaggttg cagtgagcag agatcacgcc actgcagtcc agcctaggtg atagagcgag
+     1141 actgtctcaa aaaaaaaaaa aaaaggccag gcacggtggc tcacgcctgt aatcccagcg
+     1201 ctttgggagg ccaaggcggg tggatcacga ggtcaggaga tggagaccat cctggctaac
+     1261 acggtgaaac cccgtctcta ctaaaaatac aaaaaattag ccaggcgtgg tggcaggcgc
+     1321 ctgtaagtcc tagctactcc ggaggctgag gcaggagaat ggcgtgaacc cgggaggcgg
+     1381 agcttgcagt gagcagagat ggcaccactg cactccagcc tgggcgacag agcaagactc
+     1441 cgtctcaaaa aaaaaaaaaa aaaaagcaac tgccactagc actgggaaat taaaatattc
+     1501 atagagccaa gttatctttg catggctgat tagcagttca tattcctccc cagaattgca
+     1561 agatcctgaa gggcttaagt gaaatttact ctgatgagta acttgcttat caattcatga
+     1621 agctcagagg gtcatcaggc tggggtgggg gccggtggga agcaggtggt cagtaatcaa
+     1681 gttcagagga tgggcacact catacatgaa gctgactttt ccaggacagc caggtcacca
+     1741 agccagatat gtctgtgttc tctttgcagt actgaagata acagccaggg aggacaagca
+     1801 gggctgggcc tagggacaga ctgcaagagg ctcctgtccc ctggggtctc tgctgcattt
+     1861 gtgtcatctt gttgccatgg agttgtgatc atcccatcta agctgcagct tcctgtcaac
+     1921 acttctcaca tcttatgcta actgtagata aagtggtttg atggtgactt cctcgcctct
+     1981 cccaccccat gcattaaatt ttaaggtaga acctcacctg ttactgaaag tggtttgaaa
+     2041 gtgaataaac ttcagcacca tggacagaag acaaa
+//
+

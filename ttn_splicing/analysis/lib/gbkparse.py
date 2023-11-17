@@ -7,10 +7,12 @@ import plotly.express as px
 import plotly.graph_objects as go
 
 from plotly.subplots import make_subplots
-from Bio import SeqIO
+from Bio import SeqIO, Entrez
 
 import os
 import itertools
+
+Entrez.email='dutsumi@med.u-ryukyu.ac.jp'
 
 class Seq_count:     
     def tutorial(self):

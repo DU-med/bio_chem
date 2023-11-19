@@ -57,64 +57,6 @@ class Seq_count:
         self.mrna_id = self.longest
         print(f"デフォルト値として、最もエクソンの多い{self.longest}を設定")
 
-    # def get_gbk(self, gene_id):
-    #     """
-    #     gene_idからgbkファイルを取得
-    #     """
-    #     # efetchで当該遺伝子の概要情報の取得
-    #     handle = Entrez.efetch(db="gene", id=gene_id, rettype="gb", retmode="text")
-    #     for i in handle:
-    #         if "NC_" in i:
-    #             info = i
-    #     # 染色体番号の取得
-    #     ls = info.split()
-    #     chrom = int(ls[ls.index('Chromosome')+1])
-    #     # プラス鎖、マイナス鎖に分けて、遺伝子の開始および終止位置の取得
-    #     if "complement" in info:
-    #         strand = 2
-    #         for j in info.split():
-    #             if "NC_" in j:
-    #                 gene_acc = j
-    #             elif ".." in j:
-    #                 start, end = map(int, j[1:-1].split(".."))
-    #     else:
-    #         strand = 1
-    #         for i in info.split(" "):
-    #             if "NC_" in i:
-    #                 gene_acc =  i
-    #             elif ".." in i:
-    #                 tmp = i.rstrip()
-    #                 tmp = i[1:-2]
-    #                 start, end = map(int, tmp.split(".."))
-    #     # 遺伝子長の取得
-    #     length = end - start + 1 
-    #     # 各種変数の取得
-    #     self.length = length
-    #     self.start = start
-    #     self.end = end
-    #     self.strand = strand
-    #     self.chrom = chrom
-    #     # gbkデータの取得
-    #     handle = Entrez.efetch(db="nucleotide", id=gene_acc, rettype="gb", retmode="text", seq_start=start, seq_stop=end, strand=strand)
-    #     data = handle.read()
-    #     handle.close()
-    #     # dataをファイルに書き込み
-    #     file = f"../data/gbk/{gene_id}.gb"
-    #     with open(file, "w") as f:
-    #         f.write(data)
-    #     self.record = SeqIO.read(file, "genbank")
-    #     # バリアントidをkeyに、エクソン数をvalueにした辞書を作成
-    #     var_exon_dic = {}
-    #     for id in [feature.qualifiers['transcript_id'][0] for feature in self.record.features if feature.type == "mRNA"]:
-    #         for feature in self.record.features:
-    #             if feature.type == 'mRNA' and feature.qualifiers['transcript_id'][0] == id:
-    #                 var_exon_dic[id] = len([[int(part.start), int(part.end)] for part in feature.location.parts])
-    #     # 最長のバリアントidを取得
-    #     self.longest = sorted(var_exon_dic, key=var_exon_dic.get)[-1]
-    #     # デフォルトのmrna_idを最長のバリアントidに設定
-    #     self.mrna_id = self.longest
-    #     print(f"デフォルト値として、最もエクソンの多い{self.longest}を設定")
-
     def get_gbk(self, gene_id):
         self.gene_id = gene_id
         """

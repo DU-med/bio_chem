@@ -1,0 +1,2013 @@
+LOCUS       NC_000003              31257 bp    DNA     linear   CON 07-OCT-2023
+DEFINITION  Homo sapiens chromosome 3, GRCh38.p14 Primary Assembly.
+ACCESSION   NC_000003 REGION: complement(48564073..48595329)
+VERSION     NC_000003.12
+DBLINK      BioProject: PRJNA168
+            Assembly: GCF_000001405.40
+KEYWORDS    RefSeq.
+SOURCE      Homo sapiens (human)
+  ORGANISM  Homo sapiens
+            Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi;
+            Mammalia; Eutheria; Euarchontoglires; Primates; Haplorrhini;
+            Catarrhini; Hominidae; Homo.
+REFERENCE   1  (bases 1 to 31257)
+  AUTHORS   Muzny,D.M., Scherer,S.E., Kaul,R., Wang,J., Yu,J., Sudbrak,R.,
+            Buhay,C.J., Chen,R., Cree,A., Ding,Y., Dugan-Rocha,S., Gill,R.,
+            Gunaratne,P., Harris,R.A., Hawes,A.C., Hernandez,J., Hodgson,A.V.,
+            Hume,J., Jackson,A., Khan,Z.M., Kovar-Smith,C., Lewis,L.R.,
+            Lozado,R.J., Metzker,M.L., Milosavljevic,A., Miner,G.R.,
+            Morgan,M.B., Nazareth,L.V., Scott,G., Sodergren,E., Song,X.Z.,
+            Steffen,D., Wei,S., Wheeler,D.A., Wright,M.W., Worley,K.C.,
+            Yuan,Y., Zhang,Z., Adams,C.Q., Ansari-Lari,M.A., Ayele,M.,
+            Brown,M.J., Chen,G., Chen,Z., Clendenning,J.,
+            Clerc-Blankenburg,K.P., Chen,R., Chen,Z., Davis,C., Delgado,O.,
+            Dinh,H.H., Dong,W., Draper,H., Ernst,S., Fu,G.,
+            Gonzalez-Garay,M.L., Garcia,D.K., Gillett,W., Gu,J., Hao,B.,
+            Haugen,E., Havlak,P., He,X., Hennig,S., Hu,S., Huang,W.,
+            Jackson,L.R., Jacob,L.S., Kelly,S.H., Kube,M., Levy,R., Li,Z.,
+            Liu,B., Liu,J., Liu,W., Lu,J., Maheshwari,M., Nguyen,B.V.,
+            Okwuonu,G.O., Palmeiri,A., Pasternak,S., Perez,L.M., Phelps,K.A.,
+            Plopper,F.J., Qiang,B., Raymond,C., Rodriguez,R.,
+            Saenphimmachak,C., Santibanez,J., Shen,H., Shen,Y., Subramanian,S.,
+            Tabor,P.E., Verduzco,D., Waldron,L., Wang,J., Wang,J., Wang,Q.,
+            Williams,G.A., Wong,G.K., Yao,Z., Zhang,J., Zhang,X., Zhao,G.,
+            Zhou,J., Zhou,Y., Nelson,D., Lehrach,H., Reinhardt,R., Naylor,S.L.,
+            Yang,H., Olson,M., Weinstock,G. and Gibbs,R.A.
+  TITLE     The DNA sequence, annotation and analysis of human chromosome 3
+  JOURNAL   Nature 440 (7088), 1194-1198 (2006)
+   PUBMED   16641997
+REFERENCE   2  (bases 1 to 31257)
+  CONSRTM   International Human Genome Sequencing Consortium
+  TITLE     Finishing the euchromatic sequence of the human genome
+  JOURNAL   Nature 431 (7011), 931-945 (2004)
+   PUBMED   15496913
+REFERENCE   3  (bases 1 to 31257)
+  AUTHORS   Lander,E.S., Linton,L.M., Birren,B., Nusbaum,C., Zody,M.C.,
+            Baldwin,J., Devon,K., Dewar,K., Doyle,M., FitzHugh,W., Funke,R.,
+            Gage,D., Harris,K., Heaford,A., Howland,J., Kann,L., Lehoczky,J.,
+            LeVine,R., McEwan,P., McKernan,K., Meldrim,J., Mesirov,J.P.,
+            Miranda,C., Morris,W., Naylor,J., Raymond,C., Rosetti,M.,
+            Santos,R., Sheridan,A., Sougnez,C., Stange-Thomann,N.,
+            Stojanovic,N., Subramanian,A., Wyman,D., Rogers,J., Sulston,J.,
+            Ainscough,R., Beck,S., Bentley,D., Burton,J., Clee,C., Carter,N.,
+            Coulson,A., Deadman,R., Deloukas,P., Dunham,A., Dunham,I.,
+            Durbin,R., French,L., Grafham,D., Gregory,S., Hubbard,T.,
+            Humphray,S., Hunt,A., Jones,M., Lloyd,C., McMurray,A., Matthews,L.,
+            Mercer,S., Milne,S., Mullikin,J.C., Mungall,A., Plumb,R., Ross,M.,
+            Shownkeen,R., Sims,S., Waterston,R.H., Wilson,R.K., Hillier,L.W.,
+            McPherson,J.D., Marra,M.A., Mardis,E.R., Fulton,L.A.,
+            Chinwalla,A.T., Pepin,K.H., Gish,W.R., Chissoe,S.L., Wendl,M.C.,
+            Delehaunty,K.D., Miner,T.L., Delehaunty,A., Kramer,J.B., Cook,L.L.,
+            Fulton,R.S., Johnson,D.L., Minx,P.J., Clifton,S.W., Hawkins,T.,
+            Branscomb,E., Predki,P., Richardson,P., Wenning,S., Slezak,T.,
+            Doggett,N., Cheng,J.F., Olsen,A., Lucas,S., Elkin,C.,
+            Uberbacher,E., Frazier,M., Gibbs,R.A., Muzny,D.M., Scherer,S.E.,
+            Bouck,J.B., Sodergren,E.J., Worley,K.C., Rives,C.M., Gorrell,J.H.,
+            Metzker,M.L., Naylor,S.L., Kucherlapati,R.S., Nelson,D.L.,
+            Weinstock,G.M., Sakaki,Y., Fujiyama,A., Hattori,M., Yada,T.,
+            Toyoda,A., Itoh,T., Kawagoe,C., Watanabe,H., Totoki,Y., Taylor,T.,
+            Weissenbach,J., Heilig,R., Saurin,W., Artiguenave,F., Brottier,P.,
+            Bruls,T., Pelletier,E., Robert,C., Wincker,P., Smith,D.R.,
+            Doucette-Stamm,L., Rubenfield,M., Weinstock,K., Lee,H.M.,
+            Dubois,J., Rosenthal,A., Platzer,M., Nyakatura,G., Taudien,S.,
+            Rump,A., Yang,H., Yu,J., Wang,J., Huang,G., Gu,J., Hood,L.,
+            Rowen,L., Madan,A., Qin,S., Davis,R.W., Federspiel,N.A.,
+            Abola,A.P., Proctor,M.J., Myers,R.M., Schmutz,J., Dickson,M.,
+            Grimwood,J., Cox,D.R., Olson,M.V., Kaul,R., Raymond,C., Shimizu,N.,
+            Kawasaki,K., Minoshima,S., Evans,G.A., Athanasiou,M., Schultz,R.,
+            Roe,B.A., Chen,F., Pan,H., Ramser,J., Lehrach,H., Reinhardt,R.,
+            McCombie,W.R., de la Bastide,M., Dedhia,N., Blocker,H.,
+            Hornischer,K., Nordsiek,G., Agarwala,R., Aravind,L., Bailey,J.A.,
+            Bateman,A., Batzoglou,S., Birney,E., Bork,P., Brown,D.G.,
+            Burge,C.B., Cerutti,L., Chen,H.C., Church,D., Clamp,M.,
+            Copley,R.R., Doerks,T., Eddy,S.R., Eichler,E.E., Furey,T.S.,
+            Galagan,J., Gilbert,J.G., Harmon,C., Hayashizaki,Y., Haussler,D.,
+            Hermjakob,H., Hokamp,K., Jang,W., Johnson,L.S., Jones,T.A.,
+            Kasif,S., Kaspryzk,A., Kennedy,S., Kent,W.J., Kitts,P.,
+            Koonin,E.V., Korf,I., Kulp,D., Lancet,D., Lowe,T.M., McLysaght,A.,
+            Mikkelsen,T., Moran,J.V., Mulder,N., Pollara,V.J., Ponting,C.P.,
+            Schuler,G., Schultz,J., Slater,G., Smit,A.F., Stupka,E.,
+            Szustakowski,J., Thierry-Mieg,D., Thierry-Mieg,J., Wagner,L.,
+            Wallis,J., Wheeler,R., Williams,A., Wolf,Y.I., Wolfe,K.H.,
+            Yang,S.P., Yeh,R.F., Collins,F., Guyer,M.S., Peterson,J.,
+            Felsenfeld,A., Wetterstrand,K.A., Patrinos,A., Morgan,M.J., de
+            Jong,P., Catanese,J.J., Osoegawa,K., Shizuya,H., Choi,S. and
+            Chen,Y.J.
+  CONSRTM   International Human Genome Sequencing Consortium
+  TITLE     Initial sequencing and analysis of the human genome
+  JOURNAL   Nature 409 (6822), 860-921 (2001)
+   PUBMED   11237011
+  REMARK    Erratum:[Nature 2001 Aug 2;412(6846):565]
+COMMENT     REFSEQ INFORMATION: The reference sequence is identical to
+            CM000665.2.
+            
+            On Feb 3, 2014 this sequence version replaced NC_000003.11.
+            Assembly Name: GRCh38.p14 Primary Assembly
+            The DNA sequence is composed of genomic sequence, primarily
+            finished clones that were sequenced as part of the Human Genome
+            Project. PCR products and WGS shotgun sequence have been added
+            where necessary to fill gaps or correct errors. All such additions
+            are manually curated by GRC staff. For more information see:
+            https://genomereference.org.
+            
+            ##Genome-Annotation-Data-START##
+            Annotation Provider         :: NCBI RefSeq
+            Annotation Status           :: Updated annotation
+            Annotation Name             :: GCF_000001405.40-RS_2023_10
+            Annotation Pipeline         :: NCBI eukaryotic genome annotation
+                                           pipeline
+            Annotation Software Version :: 10.2
+            Annotation Method           :: Best-placed RefSeq; Gnomon;
+                                           RefSeqFE; cmsearch; tRNAscan-SE
+            Features Annotated          :: Gene; mRNA; CDS; ncRNA
+            Annotation Date             :: 10/02/2023
+            ##Genome-Annotation-Data-END##
+FEATURES             Location/Qualifiers
+     source          1..31257
+                     /organism="Homo sapiens"
+                     /mol_type="genomic DNA"
+                     /db_xref="taxon:9606"
+                     /chromosome="3"
+     gene            1..31257
+                     /gene="COL7A1"
+                     /gene_synonym="EBD1; EBDCT; EBR1; NDNC8"
+                     /note="collagen type VII alpha 1 chain; Derived by
+                     automated computational analysis using gene prediction
+                     method: BestRefSeq,Gnomon."
+                     /db_xref="GeneID:1294"
+                     /db_xref="HGNC:HGNC:2214"
+                     /db_xref="MIM:120120"
+     mRNA            join(1..62,170..255,782..962,1634..1793,1881..1974,
+                     2067..2228,2392..2555,2631..2760,2863..2979,3082..3228,
+                     3316..3432,3508..3657,3738..3866,4514..4657,4746..4871,
+                     4974..5117,5612..5731,5860..6003,6335..6460,6542..6688,
+                     6926..7048,7391..7537,7776..7910,7994..8140,8222..8358,
+                     8641..8767,8852..8998,9084..9256,9355..9390,9474..9500,
+                     9596..9640,9711..9773,10214..10294,10385..10420,
+                     10561..10596,10774..10845,10955..11032,11269..11295,
+                     11377..11430,11550..11612,11715..11774,11902..11937,
+                     12159..12203,12282..12317,12677..12721,12817..12852,
+                     12972..13007,13387..13419,13571..13624,13698..13757,
+                     13847..13882,13990..14070,14173..14208,14404..14448,
+                     14678..14749,14986..15030,15273..15299,15516..15545,
+                     15662..15742,15815..15850,15926..15961,16053..16133,
+                     16376..16411,16815..16877,16965..17009,18303..18338,
+                     18411..18446,18559..18654,18773..18808,18895..18930,
+                     19034..19081,19428..19463,19582..19704,19791..19991,
+                     20088..20123,20204..20266,20465..20533,20609..20653,
+                     20780..20842,21024..21068,21440..21475,21605..21640,
+                     21773..21817,21982..22014,22094..22156,22274..22309,
+                     22388..22468,22591..22659,22792..22827,22909..22950,
+                     23159..23203,23285..23329,24052..24087,24170..24229,
+                     24362..24469,24620..24691,24830..24865,25152..25196,
+                     25415..25450,25570..25605,25682..25738,25884..25955,
+                     26475..26546,26796..26831,27160..27240,27439..27492,
+                     27567..27620,27694..27756,28140..28202,28307..28423,
+                     28593..28670,28767..28820,29015..29063,29662..29694,
+                     29834..29920,30129..30221,30350..30547,30908..31257)
+                     /gene="COL7A1"
+                     /gene_synonym="EBD1; EBDCT; EBR1; NDNC8"
+                     /product="collagen type VII alpha 1 chain, transcript
+                     variant X1"
+                     /note="Derived by automated computational analysis using
+                     gene prediction method: Gnomon. Supporting evidence
+                     includes similarity to: 6 mRNAs, 31 ESTs, 256 long SRA
+                     reads, 3 Proteins, and 99% coverage of the annotated
+                     genomic feature by RNAseq alignments, including 4 samples
+                     with support for all annotated introns"
+                     /transcript_id="XM_017005688.2"
+                     /db_xref="GeneID:1294"
+                     /db_xref="HGNC:HGNC:2214"
+                     /db_xref="MIM:120120"
+     mRNA            join(1..62,170..255,782..962,1634..1793,1881..1974,
+                     2067..2228,2392..2555,2631..2760,2863..2979,3082..3228,
+                     3316..3432,3508..3657,3738..3866,4514..4657,4746..4871,
+                     4974..5117,5612..5731,5860..6003,6335..6460,6542..6688,
+                     6926..7048,7391..7537,7776..7910,7994..8140,8222..8358,
+                     8641..8767,8852..8998,9084..9256,9355..9390,9474..9500,
+                     9596..9640,9711..9773,10214..10294,10385..10420,
+                     10561..10596,10774..10845,10955..11032,11269..11295,
+                     11377..11430,11550..11612,11715..11774,11902..11937,
+                     12159..12203,12282..12317,12677..12721,12817..12852,
+                     12972..13007,13387..13419,13571..13624,13698..13757,
+                     13847..13882,13990..14070,14173..14208,14404..14448,
+                     14678..14749,14986..15030,15273..15299,15516..15545,
+                     15662..15742,15815..15850,15926..15961,16053..16133,
+                     16376..16411,16815..16877,16965..17009,18303..18338,
+                     18411..18446,18559..18654,18773..18808,18895..18930,
+                     19034..19081,19428..19463,19582..19704,19791..19991,
+                     20088..20123,20204..20266,20465..20533,20609..20653,
+                     20780..20842,21024..21068,21440..21475,21605..21640,
+                     21773..21817,21982..22014,22094..22156,22274..22309,
+                     22388..22468,22591..22659,22792..22827,22909..22950,
+                     23159..23203,23285..23329,24052..24087,24170..24229,
+                     24362..24469,24620..24691,24830..24865,24996..25055,
+                     25152..25196,25415..25450,25570..25605,25682..25738,
+                     25884..25955,26475..26546,26796..26831,27160..27240,
+                     27439..27492,27567..27620,27694..27756,28140..28202,
+                     28307..28423,28593..28670,28767..28820,29015..29063,
+                     29662..29694,29834..29920,30129..30221,30350..30547,
+                     30908..31257)
+                     /gene="COL7A1"
+                     /gene_synonym="EBD1; EBDCT; EBR1; NDNC8"
+                     /product="collagen type VII alpha 1 chain"
+                     /note="Derived by automated computational analysis using
+                     gene prediction method: BestRefSeq."
+                     /transcript_id="NM_000094.4"
+                     /db_xref="Ensembl:ENST00000681320.1"
+                     /db_xref="GeneID:1294"
+                     /db_xref="HGNC:HGNC:2214"
+                     /db_xref="MIM:120120"
+     misc_RNA        join(1..62,170..255,782..962,1634..1793,1881..1974,
+                     2067..2228,2392..2555,2631..2760,2863..2979,3082..3228,
+                     3316..3432,3508..3657,3738..3866,4514..4657,4746..4871,
+                     4974..5117,5612..5731,5860..6003,6335..6460,6542..6688,
+                     6926..7048,7391..7537,7776..7910,7994..8140,8222..8358,
+                     8641..8767,8852..8998,9084..9256,9355..9390,9474..9500,
+                     9596..9640,9711..9773,10214..10294,10385..10420,
+                     10561..10596,10774..10845,10955..11032,11269..11295,
+                     11377..11430,11550..11612,11715..11774,11902..11937,
+                     12159..12203,12282..12317,12677..12721,12817..12852,
+                     12972..13007,13387..13419,13571..13624,13698..13757,
+                     13847..13882,13990..14070,14173..14208,14404..14448,
+                     14678..14749,14986..15030,15273..15299,15516..15545,
+                     15662..15742,15815..15850,15926..15961,16053..16133,
+                     16376..16411,16815..16877,16965..17009,18303..18338,
+                     18411..18446,18559..18654,18773..18808,18895..18930,
+                     19034..19081,19428..19463,19582..19704,19791..19991,
+                     20088..20123,20204..20266,20465..20533,20609..20653,
+                     20780..20842,21024..21068,21440..21475,21605..21640,
+                     21773..21817,21982..22014,22094..22156,22274..22309,
+                     22388..22468,22591..22659,22792..22827,22909..22950,
+                     23159..23203,23285..23329,24052..24087,24170..24229,
+                     24362..24469,24620..24691,24830..24865,24996..25055,
+                     25152..25196,25415..25450,25570..25605,25682..25738,
+                     25884..25955,26475..26546,26796..26831,27160..27240,
+                     27439..27492,27567..27620,27694..27756,28140..28202,
+                     28307..28423,28593..28670,28767..28820,29015..29063,
+                     29662..29694,29834..29920,30095..30221,30350..30442)
+                     /gene="COL7A1"
+                     /gene_synonym="EBD1; EBDCT; EBR1; NDNC8"
+                     /product="collagen type VII alpha 1 chain, transcript
+                     variant X4"
+                     /note="Derived by automated computational analysis using
+                     gene prediction method: Gnomon. Supporting evidence
+                     includes similarity to: 6 mRNAs, 11 ESTs, 74 long SRA
+                     reads, 3 Proteins, and 99% coverage of the annotated
+                     genomic feature by RNAseq alignments, including 3 samples
+                     with support for all annotated introns"
+                     /transcript_id="XR_001740005.2"
+                     /db_xref="GeneID:1294"
+                     /db_xref="HGNC:HGNC:2214"
+                     /db_xref="MIM:120120"
+     misc_RNA        join(1..62,170..255,782..962,1634..1793,1881..1974,
+                     2067..2228,2392..2555,2631..2760,2863..2979,3082..3228,
+                     3316..3432,3508..3657,3738..3866,4514..4657,4746..4871,
+                     4974..5117,5612..5731,5860..6003,6335..6460,6542..6688,
+                     6926..7048,7391..7537,7776..7910,7994..8140,8222..8358,
+                     8641..8767,8852..8998,9084..9256,9355..9390,9474..9500,
+                     9596..9640,9711..9773,10214..10294,10385..10420,
+                     10561..10596,10774..10845,10955..11032,11269..11295,
+                     11377..11430,11550..11612,11715..11774,11902..11937,
+                     12159..12203,12282..12317,12677..12721,12817..12852,
+                     12972..13007,13387..13419,13571..13624,13698..13757,
+                     13847..13882,13990..14070,14173..14208,14404..14448,
+                     14678..14749,14986..15030,15273..15299,15516..15545,
+                     15662..15742,15815..15850,15926..15961,16053..16133,
+                     16376..16411,16815..16877,16965..17009,18303..18338,
+                     18411..18446,18559..18654,18773..18808,18895..18930,
+                     19034..19081,19428..19463,19582..19704,19791..19991,
+                     20088..20123,20204..20266,20465..20533,20609..20653,
+                     20780..20842,21024..21068,21440..21475,21605..21640,
+                     21773..21817,21982..22014,22094..22156,22274..22309,
+                     22388..22468,22591..22659,22792..22827,22909..22950,
+                     23159..23203,23285..23329,24052..24087,24170..24229,
+                     24362..24469,24620..24691,24830..24865,24996..25055,
+                     25152..25196,25415..25450,25570..25605,25682..25738,
+                     25884..25955,26475..26546,26796..26831,27160..27240,
+                     27439..27492,27567..27620,27694..27756,28140..28202,
+                     28307..28423,28593..28670,28767..28820,29015..29063,
+                     29662..29694,29834..29920,30092..30221,30350..30442)
+                     /gene="COL7A1"
+                     /gene_synonym="EBD1; EBDCT; EBR1; NDNC8"
+                     /product="collagen type VII alpha 1 chain, transcript
+                     variant X3"
+                     /note="Derived by automated computational analysis using
+                     gene prediction method: Gnomon. Supporting evidence
+                     includes similarity to: 6 mRNAs, 11 ESTs, 74 long SRA
+                     reads, 3 Proteins, and 99% coverage of the annotated
+                     genomic feature by RNAseq alignments, including 4 samples
+                     with support for all annotated introns"
+                     /transcript_id="XR_001740004.2"
+                     /db_xref="GeneID:1294"
+                     /db_xref="HGNC:HGNC:2214"
+                     /db_xref="MIM:120120"
+     misc_RNA        join(1..62,170..255,782..962,1634..1793,1881..1974,
+                     2067..2228,2392..2555,2631..2760,2863..2979,3082..3228,
+                     3316..3432,3508..3657,3738..3866,4514..4657,4746..4871,
+                     4974..5117,5612..5731,5860..6003,6335..6460,6542..6688,
+                     6926..7048,7391..7537,7776..7910,7994..8140,8222..8358,
+                     8641..8767,8852..8998,9084..9256,9355..9390,9474..9500,
+                     9596..9640,9711..9773,10214..10294,10385..10420,
+                     10561..10596,10774..10845,10955..11032,11269..11295,
+                     11377..11430,11550..11612,11715..11774,11902..11937,
+                     12159..12203,12282..12317,12677..12721,12817..12852,
+                     12972..13007,13387..13419,13571..13624,13698..13757,
+                     13847..13882,13990..14070,14173..14208,14404..14448,
+                     14678..14749,14986..15030,15273..15299,15516..15545,
+                     15662..15742,15815..15850,15926..15961,16053..16133,
+                     16376..16411,16815..16877,16965..17009,18303..18338,
+                     18411..18446,18559..18654,18773..18808,18895..18930,
+                     19034..19081,19428..19463,19582..19704,19791..19991,
+                     20088..20123,20204..20266,20465..20533,20609..20653,
+                     20780..20842,21024..21068,21440..21475,21605..21640,
+                     21773..21817,21982..22014,22094..22156,22274..22309,
+                     22388..22468,22591..22659,22792..22827,22909..22950,
+                     23159..23203,23285..23329,24052..24087,24170..24229,
+                     24362..24469,24620..24691,24830..24865,24996..25055,
+                     25152..25196,25415..25450,25570..25605,25682..25738,
+                     25884..25955,26475..26546,26796..26831,27160..27240,
+                     27439..27492,27567..27620,27694..27756,28140..28202,
+                     28307..28423,28593..28670,28767..28820,29015..29063,
+                     29662..29694,29834..29920,30056..30221,30350..30442)
+                     /gene="COL7A1"
+                     /gene_synonym="EBD1; EBDCT; EBR1; NDNC8"
+                     /product="collagen type VII alpha 1 chain, transcript
+                     variant X2"
+                     /note="Derived by automated computational analysis using
+                     gene prediction method: Gnomon. Supporting evidence
+                     includes similarity to: 6 mRNAs, 11 ESTs, 74 long SRA
+                     reads, 3 Proteins, and 99% coverage of the annotated
+                     genomic feature by RNAseq alignments, including 3 samples
+                     with support for all annotated introns"
+                     /transcript_id="XR_001740003.2"
+                     /db_xref="GeneID:1294"
+                     /db_xref="HGNC:HGNC:2214"
+                     /db_xref="MIM:120120"
+     mRNA            join(1..62,170..255,782..962,1634..1793,1881..1974,
+                     2067..2228,2392..2555,2631..2760,2863..2979,3082..3228,
+                     3316..3432,3508..3657,3738..3866,4514..4657,4746..4871,
+                     4974..5117,5612..5731,5860..6003,6335..6460,6542..6688,
+                     6926..7048,7391..7537,7776..7910,7994..8140,8222..8358,
+                     8641..8767,8852..8998,9084..9256,9355..9390,9474..9500,
+                     9596..9640,9711..9773,10214..10294,10385..10420,
+                     10561..10596,10774..10845,10955..11032,11269..11295,
+                     11377..11430,11550..11612,11715..11774,11902..11937,
+                     12159..12203,12282..12317,12677..12721,12817..12852,
+                     12972..13007,13387..13419,13571..13624,13698..13757,
+                     13847..13882,13990..14070,14173..14208,14404..14448,
+                     14678..14749,14986..15030,15273..15299,15516..15545,
+                     15662..15742,15815..15850,15926..15961,16053..16133,
+                     16376..16411,16815..16877,16965..17009,18303..18338,
+                     18411..18446,18559..18654,18773..18808,18895..18930,
+                     19034..19081,19428..19463,19582..19704,19791..19991,
+                     20088..20123,20204..20266,20465..20533,20609..20653,
+                     20780..20842,21024..21068,21440..21475,21605..21640,
+                     21773..21817,21982..22014,22094..22156,22274..22309,
+                     22388..22468,22591..22659,22792..22827,22909..22950,
+                     23159..23203,23285..23329,24052..24087,24170..24229,
+                     24362..24469,24620..24691,24830..24865,24996..25055,
+                     25152..25196,25415..25450,25570..25605,25682..25738,
+                     25884..25955,26475..26546,26796..26831,27098..27190)
+                     /gene="COL7A1"
+                     /gene_synonym="EBD1; EBDCT; EBR1; NDNC8"
+                     /product="collagen type VII alpha 1 chain, transcript
+                     variant X5"
+                     /note="Derived by automated computational analysis using
+                     gene prediction method: Gnomon. Supporting evidence
+                     includes similarity to: 6 mRNAs, 6 ESTs, 65 long SRA
+                     reads, 3 Proteins, and 99% coverage of the annotated
+                     genomic feature by RNAseq alignments, including 6 samples
+                     with support for all annotated introns"
+                     /transcript_id="XM_017005689.2"
+                     /db_xref="GeneID:1294"
+                     /db_xref="HGNC:HGNC:2214"
+                     /db_xref="MIM:120120"
+     misc_RNA        join(1..62,170..255,782..962,1634..1793,1881..1974,
+                     2067..2228,2392..2555,2631..2760,2863..2979,3082..3228,
+                     3316..3432,3508..3657,3738..3866,4514..4657,4746..4871,
+                     4974..5117,5612..5731,5860..6003,6335..6460,6542..6688,
+                     6926..7048,7391..7537,7776..7910,7994..8140,8222..8358,
+                     8641..8767,8852..8998,9084..9256,9355..9390,9474..9500,
+                     9596..9640,9711..9773,10214..10294,10385..10420,
+                     10561..10596,10774..10845,10955..11032,11269..11295,
+                     11377..11430,11550..11612,11715..11774,11902..11937,
+                     12159..12203,12282..12317,12677..12721,12817..12852,
+                     12972..13007,13387..13419,13571..13624,13698..13757,
+                     13847..13882,13990..14070,14173..14208,14404..14448,
+                     14678..14749,14986..15030,15273..15299,15516..15545,
+                     15662..15742,15815..15850,15926..15961,16053..16133,
+                     16376..16411,16815..16877,16965..17009,18303..18338,
+                     18411..18446,18559..18654,18773..18808,18895..18930,
+                     19034..19081,19428..19463,19582..19704,19791..19991,
+                     20088..20123,20204..20266,20465..20533,20609..20653,
+                     20780..20842,21024..21068,21440..21475,21605..21640,
+                     21773..21817,21982..22014,22094..22156,22274..22309,
+                     22388..22468,22591..22659,22792..22827,22909..22950,
+                     23159..23203,23285..23329,24052..24087,24170..24229,
+                     24362..24443,24620..24691,24830..24865,24996..25055,
+                     25152..25196,25415..25450,25570..25579)
+                     /gene="COL7A1"
+                     /gene_synonym="EBD1; EBDCT; EBR1; NDNC8"
+                     /product="collagen type VII alpha 1 chain, transcript
+                     variant X6"
+                     /note="Derived by automated computational analysis using
+                     gene prediction method: Gnomon. Supporting evidence
+                     includes similarity to: 6 mRNAs, 5 ESTs, 62 long SRA
+                     reads, 3 Proteins, and 99% coverage of the annotated
+                     genomic feature by RNAseq alignments, including 5 samples
+                     with support for all annotated introns"
+                     /transcript_id="XR_001740006.2"
+                     /db_xref="GeneID:1294"
+                     /db_xref="HGNC:HGNC:2214"
+                     /db_xref="MIM:120120"
+     mRNA            join(1..62,170..255,782..962,1634..1793,1881..1974,
+                     2067..2228,2392..2555,2631..2760,2863..2979,3082..3228,
+                     3316..3432,3508..3657,3738..3866,4514..4657,4746..4871,
+                     4974..5117,5612..5731,5860..6003,6335..6460,6542..6688,
+                     6926..7048,7391..7537,7776..7910,7994..8140,8222..8358,
+                     8641..8767,8852..8998,9084..9256,9355..9390,9474..9500,
+                     9596..9640,9711..9773,10214..10294,10385..10420,
+                     10561..10596,10774..10845,10955..11032,11269..11295,
+                     11377..11430,11550..11612,11715..11774,11902..11937,
+                     12159..12203,12282..12317,12677..12721,12817..12852,
+                     12972..13007,13387..13419,13571..13624,13698..13757,
+                     13847..13882,13990..14070,14173..14208,14404..14448,
+                     14678..14749,14986..15030,15273..15299,15516..15545,
+                     15662..15742,15815..15850,15926..15961,16053..16133,
+                     16376..16411,16815..16877,16965..17009,18303..18338,
+                     18411..18446,18559..18654,18773..18808,18895..18930,
+                     19034..19081,19428..19463,19582..19704,19791..19991,
+                     20088..20123,20204..20266,20465..20533,20609..20653,
+                     20780..20842,21024..21068,21440..21475,21605..21640,
+                     21773..21817,21982..22014,22094..22156,22274..22309,
+                     22388..22468,22591..22659,22792..22827,22909..22950,
+                     23159..23203,23285..23329,24052..24087,24170..24229,
+                     24362..24443,24620..24691,24830..24865,25152..25196,
+                     25415..25450)
+                     /gene="COL7A1"
+                     /gene_synonym="EBD1; EBDCT; EBR1; NDNC8"
+                     /product="collagen type VII alpha 1 chain, transcript
+                     variant X9"
+                     /note="Derived by automated computational analysis using
+                     gene prediction method: Gnomon. Supporting evidence
+                     includes similarity to: 6 mRNAs, 5 ESTs, 62 long SRA
+                     reads, 3 Proteins, and 99% coverage of the annotated
+                     genomic feature by RNAseq alignments, including 4 samples
+                     with support for all annotated introns"
+                     /transcript_id="XM_017005692.2"
+                     /db_xref="GeneID:1294"
+                     /db_xref="HGNC:HGNC:2214"
+                     /db_xref="MIM:120120"
+     mRNA            join(1..62,170..255,782..962,1634..1793,1881..1974,
+                     2067..2228,2392..2555,2631..2760,2863..2979,3082..3228,
+                     3316..3432,3508..3657,3738..3866,4514..4657,4746..4871,
+                     4974..5117,5612..5731,5860..6003,6335..6460,6542..6688,
+                     6926..7048,7391..7537,7776..7910,7994..8140,8222..8358,
+                     8641..8767,8852..8998,9084..9256,9355..9390,9474..9500,
+                     9596..9640,9711..9773,10214..10294,10385..10420,
+                     10561..10596,10774..10845,10955..11032,11269..11295,
+                     11377..11430,11550..11612,11715..11774,11902..11937,
+                     12159..12203,12282..12317,12677..12721,12817..12852,
+                     12972..13007,13387..13419,13571..13624,13698..13757,
+                     13847..13882,13990..14070,14173..14208,14404..14448,
+                     14678..14749,14986..15030,15273..15299,15516..15545,
+                     15662..15742,15815..15850,15926..15961,16053..16133,
+                     16376..16411,16815..16877,16965..17009,18303..18338,
+                     18411..18446,18559..18654,18773..18808,18895..18930,
+                     19034..19081,19428..19463,19582..19704,19791..19991,
+                     20088..20123,20204..20266,20465..20533,20609..20653,
+                     20780..20842,21024..21068,21440..21475,21605..21640,
+                     21773..21817,21982..22014,22094..22156,22274..22309,
+                     22388..22468,22591..22659,22792..22827,22909..22950,
+                     23159..23203,23285..23329,24052..24087,24170..24229,
+                     24362..24443,24620..24691,24830..24865,25078..25170)
+                     /gene="COL7A1"
+                     /gene_synonym="EBD1; EBDCT; EBR1; NDNC8"
+                     /product="collagen type VII alpha 1 chain, transcript
+                     variant X8"
+                     /note="Derived by automated computational analysis using
+                     gene prediction method: Gnomon. Supporting evidence
+                     includes similarity to: 6 mRNAs, 5 ESTs, 62 long SRA
+                     reads, 3 Proteins, and 99% coverage of the annotated
+                     genomic feature by RNAseq alignments, including 4 samples
+                     with support for all annotated introns"
+                     /transcript_id="XM_017005691.2"
+                     /db_xref="GeneID:1294"
+                     /db_xref="HGNC:HGNC:2214"
+                     /db_xref="MIM:120120"
+     mRNA            join(1..62,170..255,782..962,1634..1793,1881..1974,
+                     2067..2228,2392..2555,2631..2760,2863..2979,3082..3228,
+                     3316..3432,3508..3657,3738..3866,4514..4657,4746..4871,
+                     4974..5117,5612..5731,5860..6003,6335..6460,6542..6688,
+                     6926..7048,7391..7537,7776..7910,7994..8140,8222..8358,
+                     8641..8767,8852..8998,9084..9256,9355..9390,9474..9500,
+                     9596..9640,9711..9773,10214..10294,10385..10420,
+                     10561..10596,10774..10845,10955..11032,11269..11295,
+                     11377..11430,11550..11612,11715..11774,11902..11937,
+                     12159..12203,12282..12317,12677..12721,12817..12852,
+                     12972..13007,13387..13419,13571..13624,13698..13757,
+                     13847..13882,13990..14070,14173..14208,14404..14448,
+                     14678..14749,14986..15030,15273..15299,15516..15545,
+                     15662..15742,15815..15850,15926..15961,16053..16133,
+                     16376..16411,16815..16877,16965..17009,18303..18338,
+                     18411..18446,18559..18654,18773..18808,18895..18930,
+                     19034..19081,19428..19463,19582..19704,19791..19991,
+                     20088..20123,20204..20266,20465..20533,20609..20653,
+                     20780..20842,21024..21068,21440..21475,21605..21640,
+                     21773..21817,21982..22014,22094..22156,22274..22309,
+                     22388..22468,22591..22659,22792..22827,22909..22950,
+                     23159..23203,23285..23329,24052..24087,24170..24229,
+                     24362..24469,24620..24691,24830..24865,25078..25170)
+                     /gene="COL7A1"
+                     /gene_synonym="EBD1; EBDCT; EBR1; NDNC8"
+                     /product="collagen type VII alpha 1 chain, transcript
+                     variant X7"
+                     /note="Derived by automated computational analysis using
+                     gene prediction method: Gnomon. Supporting evidence
+                     includes similarity to: 6 mRNAs, 5 ESTs, 64 long SRA
+                     reads, 3 Proteins, and 99% coverage of the annotated
+                     genomic feature by RNAseq alignments, including 6 samples
+                     with support for all annotated introns"
+                     /transcript_id="XM_017005690.2"
+                     /db_xref="GeneID:1294"
+                     /db_xref="HGNC:HGNC:2214"
+                     /db_xref="MIM:120120"
+     misc_RNA        join(1..62,170..255,782..962,1634..1793,1881..1974,
+                     2067..2228,2392..2555,2631..2760,2863..2979,3082..3228,
+                     3316..3432,3508..3657,3738..3866,4514..4657,4746..4871,
+                     4974..5117,5612..5731,5860..6003,6335..6460,6542..6688,
+                     6926..7048,7391..7537,7776..7910,7994..8140,8222..8358,
+                     8641..8767,8852..8998,9084..9256,9355..9390,9474..9500,
+                     9596..9640,9711..9773,10214..10294,10385..10420,
+                     10561..10596,10774..10845,10955..11032,11269..11295,
+                     11377..11430,11550..11612,11715..11774,11902..11937,
+                     12159..12203,12282..12317,12677..12721,12817..12852,
+                     12972..13007,13387..13419,13571..13624,13698..13757,
+                     13847..13882,13990..14070,14173..14208,14404..14448,
+                     14678..14749,14986..15030,15273..15299,15516..15545,
+                     15662..15742,15815..15850,15926..15961,16053..16133,
+                     16376..16411,16815..16877,16965..17009,18303..18338,
+                     18411..18446,18559..18654,18773..18808,18895..18930,
+                     19034..19081,19428..19463,19582..19704,19791..19991,
+                     20088..20123,20204..20266,20465..20533,20609..20653,
+                     20780..20842,21024..21068,21440..21475,21605..21640,
+                     21773..21817,21982..22014,22094..22156,22274..22309,
+                     22388..22468,22591..22659,22792..22827,22909..22950,
+                     23159..23203,23285..23329,23685..23844,24052..24087,
+                     24170..24229,24362..24394)
+                     /gene="COL7A1"
+                     /gene_synonym="EBD1; EBDCT; EBR1; NDNC8"
+                     /product="collagen type VII alpha 1 chain, transcript
+                     variant X10"
+                     /note="Derived by automated computational analysis using
+                     gene prediction method: Gnomon. Supporting evidence
+                     includes similarity to: 6 mRNAs, 5 ESTs, 62 long SRA
+                     reads, 3 Proteins, and 99% coverage of the annotated
+                     genomic feature by RNAseq alignments, including 3 samples
+                     with support for all annotated introns"
+                     /transcript_id="XR_001740007.2"
+                     /db_xref="GeneID:1294"
+                     /db_xref="HGNC:HGNC:2214"
+                     /db_xref="MIM:120120"
+     misc_RNA        join(1..62,170..255,782..962,1634..1793,1881..1974,
+                     2067..2228,2392..2555,2631..2760,2863..2979,3082..3228,
+                     3316..3432,3508..3657,3738..3866,4514..4657,4746..4871,
+                     4974..5117,5612..5731,5860..6003,6335..6460,6542..6688,
+                     6926..7048,7391..7537,7776..7910,7994..8140,8222..8358,
+                     8641..8767,8852..8998,9084..9256,9355..9390,9474..9500,
+                     9596..9640,9711..9773,10214..10294,10385..10420,
+                     10561..10596,10774..10845,10955..11032,11269..11295,
+                     11377..11430,11550..11612,11715..11774,11902..11937,
+                     12159..12203,12282..12317,12677..12721,12817..12852,
+                     12972..13007,13387..13419,13571..13624,13698..13757,
+                     13847..13882,13990..14070,14173..14208,14404..14448,
+                     14678..14749,14986..15030,15273..15299,15516..15545,
+                     15662..15742,15815..15850,15926..15961,16053..16133,
+                     16376..16411,16815..16877,16965..17009,18303..18338,
+                     18411..18446,18559..18654,18773..18808,18895..18930,
+                     19034..19081,19428..19463,19582..19704,19791..19991,
+                     20088..20123,20204..20266,20465..20533,20609..20653,
+                     20780..20842,21024..21068,21440..21475,21605..21640,
+                     21773..21827,21982..22014,22094..22156,22274..22309,
+                     22388..22468,22591..22659,22792..22827,22909..22950)
+                     /gene="COL7A1"
+                     /gene_synonym="EBD1; EBDCT; EBR1; NDNC8"
+                     /product="collagen type VII alpha 1 chain, transcript
+                     variant X11"
+                     /note="Derived by automated computational analysis using
+                     gene prediction method: Gnomon. Supporting evidence
+                     includes similarity to: 6 mRNAs, 4 ESTs, 60 long SRA
+                     reads, 2 Proteins, and 99% coverage of the annotated
+                     genomic feature by RNAseq alignments, including 2 samples
+                     with support for all annotated introns"
+                     /transcript_id="XR_001740008.2"
+                     /db_xref="GeneID:1294"
+                     /db_xref="HGNC:HGNC:2214"
+                     /db_xref="MIM:120120"
+     misc_RNA        join(1..62,170..255,782..962,1634..1793,1881..1974,
+                     2067..2228,2392..2555,2631..2760,2863..2979,3082..3228,
+                     3316..3432,3508..3657,3738..3866,4514..4657,4746..4871,
+                     4974..5117,5612..5731,5860..6003,6335..6460,6542..6688,
+                     6926..7048,7391..7537,7776..7910,7994..8140,8222..8358,
+                     8641..8767,8852..8998,9084..9256,9355..9390,9474..9500,
+                     9596..9640,9711..9773,10214..10294,10385..10420,
+                     10561..10596,10774..10845,10955..11032,11269..11295,
+                     11377..11430,11550..11612,11715..11774,11902..11937,
+                     12159..12203,12282..12317,12677..12721,12817..12852,
+                     12972..13007,13387..13419,13571..13624,13698..13757,
+                     13847..13882,13990..14070,14173..14208,14404..14448,
+                     14678..14749,14986..15030,15273..15299,15516..15545,
+                     15662..15742,15815..15850,15926..15961,16053..16133,
+                     16376..16411,16815..16877,16965..17009,18303..18338,
+                     18411..18446,18559..18654,18773..18808,18895..18930,
+                     19034..19081,19428..19463,19582..19704,19791..19929,
+                     20088..20123,20204..20266,20465..20533,20609..20653)
+                     /gene="COL7A1"
+                     /gene_synonym="EBD1; EBDCT; EBR1; NDNC8"
+                     /product="collagen type VII alpha 1 chain, transcript
+                     variant X12"
+                     /note="Derived by automated computational analysis using
+                     gene prediction method: Gnomon. Supporting evidence
+                     includes similarity to: 5 mRNAs, 3 ESTs, 47 long SRA
+                     reads, 2 Proteins, and 99% coverage of the annotated
+                     genomic feature by RNAseq alignments, including 5 samples
+                     with support for all annotated introns"
+                     /transcript_id="XR_001740009.2"
+                     /db_xref="GeneID:1294"
+                     /db_xref="HGNC:HGNC:2214"
+                     /db_xref="MIM:120120"
+     CDS             join(171..255,782..962,1634..1793,1881..1974,2067..2228,
+                     2392..2555,2631..2760,2863..2979,3082..3228,3316..3432,
+                     3508..3657,3738..3866,4514..4657,4746..4871,4974..5117,
+                     5612..5731,5860..6003,6335..6460,6542..6688,6926..7048,
+                     7391..7537,7776..7910,7994..8140,8222..8358,8641..8767,
+                     8852..8998,9084..9256,9355..9390,9474..9500,9596..9640,
+                     9711..9773,10214..10294,10385..10420,10561..10596,
+                     10774..10845,10955..11032,11269..11295,11377..11430,
+                     11550..11612,11715..11774,11902..11937,12159..12203,
+                     12282..12317,12677..12721,12817..12852,12972..13007,
+                     13387..13419,13571..13624,13698..13757,13847..13882,
+                     13990..14070,14173..14208,14404..14448,14678..14749,
+                     14986..15030,15273..15299,15516..15545,15662..15742,
+                     15815..15850,15926..15961,16053..16133,16376..16411,
+                     16815..16877,16965..17009,18303..18338,18411..18446,
+                     18559..18654,18773..18808,18895..18930,19034..19081,
+                     19428..19463,19582..19704,19791..19991,20088..20123,
+                     20204..20266,20465..20533,20609..20653,20780..20842,
+                     21024..21068,21440..21475,21605..21640,21773..21817,
+                     21982..22014,22094..22156,22274..22309,22388..22468,
+                     22591..22659,22792..22827,22909..22950,23159..23203,
+                     23285..23329,24052..24087,24170..24229,24362..24469,
+                     24620..24691,24830..24865,25152..25196,25415..25450,
+                     25570..25605,25682..25738,25884..25955,26475..26546,
+                     26796..26831,27160..27240,27439..27492,27567..27620,
+                     27694..27756,28140..28202,28307..28423,28593..28670,
+                     28767..28820,29015..29063,29662..29694,29834..29920,
+                     30129..30221,30350..30547,30908..30924)
+                     /gene="COL7A1"
+                     /gene_synonym="EBD1; EBDCT; EBR1; NDNC8"
+                     /note="Derived by automated computational analysis using
+                     gene prediction method: Gnomon."
+                     /codon_start=1
+                     /product="collagen alpha-1(VII) chain isoform X1"
+                     /protein_id="XP_016861177.1"
+                     /db_xref="GeneID:1294"
+                     /db_xref="HGNC:HGNC:2214"
+                     /db_xref="MIM:120120"
+                     /translation="MTLRLLVAALCAGILAEAPRVRAQHRERVTCTRLYAADIVFLLD
+                     GSSSIGRSNFREVRSFLEGLVLPFSGAASAQGVRFATVQYSDDPRTEFGLDALGSGGD
+                     VIRAIRELSYKGGNTRTGAAILHVADHVFLPQLARPGVPKVCILITDGKSQDLVDTAA
+                     QRLKGQGVKLFAVGIKNADPEELKRVASQPTSDFFFFVNDFSILRTLLPLVSRRVCTT
+                     AGGVPVTRPPDDSTSAPRDLVLSEPSSQSLRVQWTAASGPVTGYKVQYTPLTGLGQPL
+                     PSERQEVNVPAGETSVRLRGLRPLTEYQVTVIALYANSIGEAVSGTARTTALEGPELT
+                     IQNTTAHSLLVAWRSVPGATGYRVTWRVLSGGPTQQQELGPGQGSVLLRDLEPGTDYE
+                     VTVSTLFGRSVGPATSLMARTDASVEQTLRPVILGPTSILLSWNLVPEARGYRLEWRR
+                     ETGLEPPQKVVLPSDVTRYQLDGLQPGTEYRLTLYTLLEGHEVATPATVVPTGPELPV
+                     SPVTDLQATELPGQRVRVSWSPVPGATQYRIIVRSTQGVERTLVLPGSQTAFDLDDVQ
+                     AGLSYTVRVSARVGPREGSASVLTVRREPETPLAVPGLRVVVSDATRVRVAWGPVPGA
+                     SGFRISWSTGSGPESSQTLPPDSTATDITGLQPGTTYQVAVSVLRGREEGPAAVIVAR
+                     TDPLGPVRTVHVTQASSSSVTITWTRVPGATGYRVSWHSAHGPEKSQLVSGEATVAEL
+                     DGLEPDTEYTVHVRAHVAGVDGPPASVVVRTAPEPVGRVSRLQILNASSDVLRITWVG
+                     VTGATAYRLAWGRSEGGPMRHQILPGNTDSAEIRGLEGGVSYSVRVTALVGDREGTPV
+                     SIVVTTPPEAPPALGTLHVVQRGEHSLRLRWEPVPRAQGFLLHWQPEGGQEQSRVLGP
+                     ELSSYHLDGLEPATQYRVRLSVLGPAGEGPSAEVTARTESPRVPSIELRVVDTSIDSV
+                     TLAWTPVSRASSYILSWRPLRGPGQEVPGSPQTLPGISSSQRVTGLEPGVSYIFSLTP
+                     VLDGVRGPEASVTQTPVCPRGLADVVFLPHATQDNAHRAEATRRVLERLVLALGPLGP
+                     QAVQVGLLSYSHRPSPLFPLNGSHDLGIILQRIRDMPYMDPSGNNLGTAVVTAHRYML
+                     APDAPGRRQHVPGVMVLLVDEPLRGDIFSPIREAQASGLNVVMLGMAGADPEQLRRLA
+                     PGMDSVQTFFAVDDGPSLDQAVSGLATALCQASFTTQPRPEPCPVYCPKGQKGEPGEM
+                     GLRGQVGPPGDPGLPGRTGAPGPQGPPGSATAKGERGFPGADGRPGSPGRAGNPGTPG
+                     APGLKGSPGLPGPRGDPGERGPRGPKGEPGAPGQVIGGEGPGLPGRKGDPGPSGPPGP
+                     RGPLGDPGPRGPPGLPGTAMKGDKGDRGERGPPGPGEGGIAPGEPGLPGLPGSPGPQG
+                     PVGPPGKKGEKGDSEDGAPGLPGQPGSPGEQGPRGPPGAIGPKGDRGFPGPLGEAGEK
+                     GERGPPGPAGSRGLPGVAGRPGAKGPEGPPGPTGRQGEKGEPGRPGDPAVVGPAVAGP
+                     KGEKGDVGPAGPRGATGVQGERGPPGLVLPGDPGPKGDPGDRGPIGLTGRAGPPGDSG
+                     PPGEKGDPGRPGPPGPVGPRGRDGEVGEKGDEGPPGDPGLPGKAGERGLRGAPGVRGP
+                     VGEKGDQGDPGEDGRNGSPGSSGPKGDRGEPGPPGPPGRLVDTGPGAREKGEPGDRGQ
+                     EGPRGPKGDPGLPGAPGERGIEGFRGPPGPQGDPGVRGPAGEKGDRGPPGLDGRSGLD
+                     GKPGAAGPSGPNGAAGKAGDPGRDGLPGLRGEQGLPGPSGPPGLPGKPGEDGKPGLNG
+                     KNGEPGDPGEDGRKGEKGDSGASGREGRDGPKGERGAPGILGPQGPPGLPGPVGPPGQ
+                     GFPGVPGGTGPKGDRGETGSKGEQGLPGERGLRGEPGSVPNVDRLLETAGIKASALRE
+                     IVETWDESSGSFLPVPERRRGPKGDSGEQGPPGKEGPIGFPGERGLKGDRGDPGPQGP
+                     PGLALGERGPPGPSGLAGEPGKPGIPGLPGRAGGVGEAGRPGERGERGEKGERGEQGR
+                     DGPPGLPGTPGPPGPPGPKVSVDEPGPGLSGEQGPPGLKGAKGEPGSNGDQGPKGDRG
+                     VPGIKGDRGEPGPRGQDGNPGLPGERGMAGPEGKPGLQGPRGPPGPVGGHGDPGPPGA
+                     PGLAGPAGPQGPSGLKGEPGETGPPGRGLTGPTGAVGLPGPPGPSGLVGPQGSPGLPG
+                     QVGETGKPGAPGRDGASGKDGDRGSPGVPGSPGLPGPVGPKGEPGPTGAPGQAVVGLP
+                     GAKGEKGAPGGLAGDLVGEPGAKGDRGLPGPRGEKGEAGRAGEPGDPGEDGQKGAPGP
+                     KGFKGDPGVGVPGSPGPPGPPGVKGDLGLPGLPGAPGVVGFPGQTGPRGEMGQPGPSG
+                     ERGLAGPPGREGIPGPLGPPGPPGSVGPPGASGLKGDKGEDGRPGQEGPRGLTGPPGS
+                     RGERGEKGDVGSAGLKGDKGDSAVILGPPGPRGAKGDMGERGPRGLDGDKGPRGDNGD
+                     PGDKGSKGEPGDKGSAGLPGLRGLLGPQGQPGAAGIPGDPGSPGKDGVPGIRGEKGDV
+                     GFMGPRGLKGERGVKGACGLDGEKGDKGEAGPPGRPGLAGHKGEMGEPGVPGQSGAPG
+                     KEGLIGPKGDRGFDGQPGPKGDQGEKGERGTPGIGGFPGPSGNDGSAGPPGPPGSVGP
+                     RGPEGLQGQKGERGPPGERVVGAPGVPGAPGERGEQGRPGPAGPRGEKGEAALTEDDI
+                     RGFVRQEMSQHCACQGQFIASGSRPLPSYAADTAGSQLHAVPVLRVSHAEEEERVPPE
+                     DDEYSEYSEYSVEEYQDPEAPWDSDDPCSLPLDEGSCTAYTLRWYHRAVTGSTEACHP
+                     FVYGGCGGNANRFGTREACERRCPPRVVQSQGTGTAQD"
+     CDS             join(171..255,782..962,1634..1793,1881..1974,2067..2228,
+                     2392..2555,2631..2760,2863..2979,3082..3228,3316..3432,
+                     3508..3657,3738..3866,4514..4657,4746..4871,4974..5117,
+                     5612..5731,5860..6003,6335..6460,6542..6688,6926..7048,
+                     7391..7537,7776..7910,7994..8140,8222..8358,8641..8767,
+                     8852..8998,9084..9256,9355..9390,9474..9500,9596..9640,
+                     9711..9773,10214..10294,10385..10420,10561..10596,
+                     10774..10845,10955..11032,11269..11295,11377..11430,
+                     11550..11612,11715..11774,11902..11937,12159..12203,
+                     12282..12317,12677..12721,12817..12852,12972..13007,
+                     13387..13419,13571..13624,13698..13757,13847..13882,
+                     13990..14070,14173..14208,14404..14448,14678..14749,
+                     14986..15030,15273..15299,15516..15545,15662..15742,
+                     15815..15850,15926..15961,16053..16133,16376..16411,
+                     16815..16877,16965..17009,18303..18338,18411..18446,
+                     18559..18654,18773..18808,18895..18930,19034..19081,
+                     19428..19463,19582..19704,19791..19991,20088..20123,
+                     20204..20266,20465..20533,20609..20653,20780..20842,
+                     21024..21068,21440..21475,21605..21640,21773..21817,
+                     21982..22014,22094..22156,22274..22309,22388..22468,
+                     22591..22659,22792..22827,22909..22950,23159..23203,
+                     23285..23329,24052..24087,24170..24229,24362..24469,
+                     24620..24691,24830..24865,24996..25055,25152..25196,
+                     25415..25450,25570..25605,25682..25738,25884..25955,
+                     26475..26546,26796..26831,27160..27240,27439..27492,
+                     27567..27620,27694..27756,28140..28202,28307..28423,
+                     28593..28670,28767..28820,29015..29063,29662..29694,
+                     29834..29920,30129..30221,30350..30547,30908..30924)
+                     /gene="COL7A1"
+                     /gene_synonym="EBD1; EBDCT; EBR1; NDNC8"
+                     /note="Derived by automated computational analysis using
+                     gene prediction method: BestRefSeq."
+                     /codon_start=1
+                     /product="collagen alpha-1(VII) chain precursor"
+                     /protein_id="NP_000085.1"
+                     /db_xref="CCDS:CCDS2773.1"
+                     /db_xref="Ensembl:ENSP00000506558.1"
+                     /db_xref="GeneID:1294"
+                     /db_xref="HGNC:HGNC:2214"
+                     /db_xref="MIM:120120"
+                     /translation="MTLRLLVAALCAGILAEAPRVRAQHRERVTCTRLYAADIVFLLD
+                     GSSSIGRSNFREVRSFLEGLVLPFSGAASAQGVRFATVQYSDDPRTEFGLDALGSGGD
+                     VIRAIRELSYKGGNTRTGAAILHVADHVFLPQLARPGVPKVCILITDGKSQDLVDTAA
+                     QRLKGQGVKLFAVGIKNADPEELKRVASQPTSDFFFFVNDFSILRTLLPLVSRRVCTT
+                     AGGVPVTRPPDDSTSAPRDLVLSEPSSQSLRVQWTAASGPVTGYKVQYTPLTGLGQPL
+                     PSERQEVNVPAGETSVRLRGLRPLTEYQVTVIALYANSIGEAVSGTARTTALEGPELT
+                     IQNTTAHSLLVAWRSVPGATGYRVTWRVLSGGPTQQQELGPGQGSVLLRDLEPGTDYE
+                     VTVSTLFGRSVGPATSLMARTDASVEQTLRPVILGPTSILLSWNLVPEARGYRLEWRR
+                     ETGLEPPQKVVLPSDVTRYQLDGLQPGTEYRLTLYTLLEGHEVATPATVVPTGPELPV
+                     SPVTDLQATELPGQRVRVSWSPVPGATQYRIIVRSTQGVERTLVLPGSQTAFDLDDVQ
+                     AGLSYTVRVSARVGPREGSASVLTVRREPETPLAVPGLRVVVSDATRVRVAWGPVPGA
+                     SGFRISWSTGSGPESSQTLPPDSTATDITGLQPGTTYQVAVSVLRGREEGPAAVIVAR
+                     TDPLGPVRTVHVTQASSSSVTITWTRVPGATGYRVSWHSAHGPEKSQLVSGEATVAEL
+                     DGLEPDTEYTVHVRAHVAGVDGPPASVVVRTAPEPVGRVSRLQILNASSDVLRITWVG
+                     VTGATAYRLAWGRSEGGPMRHQILPGNTDSAEIRGLEGGVSYSVRVTALVGDREGTPV
+                     SIVVTTPPEAPPALGTLHVVQRGEHSLRLRWEPVPRAQGFLLHWQPEGGQEQSRVLGP
+                     ELSSYHLDGLEPATQYRVRLSVLGPAGEGPSAEVTARTESPRVPSIELRVVDTSIDSV
+                     TLAWTPVSRASSYILSWRPLRGPGQEVPGSPQTLPGISSSQRVTGLEPGVSYIFSLTP
+                     VLDGVRGPEASVTQTPVCPRGLADVVFLPHATQDNAHRAEATRRVLERLVLALGPLGP
+                     QAVQVGLLSYSHRPSPLFPLNGSHDLGIILQRIRDMPYMDPSGNNLGTAVVTAHRYML
+                     APDAPGRRQHVPGVMVLLVDEPLRGDIFSPIREAQASGLNVVMLGMAGADPEQLRRLA
+                     PGMDSVQTFFAVDDGPSLDQAVSGLATALCQASFTTQPRPEPCPVYCPKGQKGEPGEM
+                     GLRGQVGPPGDPGLPGRTGAPGPQGPPGSATAKGERGFPGADGRPGSPGRAGNPGTPG
+                     APGLKGSPGLPGPRGDPGERGPRGPKGEPGAPGQVIGGEGPGLPGRKGDPGPSGPPGP
+                     RGPLGDPGPRGPPGLPGTAMKGDKGDRGERGPPGPGEGGIAPGEPGLPGLPGSPGPQG
+                     PVGPPGKKGEKGDSEDGAPGLPGQPGSPGEQGPRGPPGAIGPKGDRGFPGPLGEAGEK
+                     GERGPPGPAGSRGLPGVAGRPGAKGPEGPPGPTGRQGEKGEPGRPGDPAVVGPAVAGP
+                     KGEKGDVGPAGPRGATGVQGERGPPGLVLPGDPGPKGDPGDRGPIGLTGRAGPPGDSG
+                     PPGEKGDPGRPGPPGPVGPRGRDGEVGEKGDEGPPGDPGLPGKAGERGLRGAPGVRGP
+                     VGEKGDQGDPGEDGRNGSPGSSGPKGDRGEPGPPGPPGRLVDTGPGAREKGEPGDRGQ
+                     EGPRGPKGDPGLPGAPGERGIEGFRGPPGPQGDPGVRGPAGEKGDRGPPGLDGRSGLD
+                     GKPGAAGPSGPNGAAGKAGDPGRDGLPGLRGEQGLPGPSGPPGLPGKPGEDGKPGLNG
+                     KNGEPGDPGEDGRKGEKGDSGASGREGRDGPKGERGAPGILGPQGPPGLPGPVGPPGQ
+                     GFPGVPGGTGPKGDRGETGSKGEQGLPGERGLRGEPGSVPNVDRLLETAGIKASALRE
+                     IVETWDESSGSFLPVPERRRGPKGDSGEQGPPGKEGPIGFPGERGLKGDRGDPGPQGP
+                     PGLALGERGPPGPSGLAGEPGKPGIPGLPGRAGGVGEAGRPGERGERGEKGERGEQGR
+                     DGPPGLPGTPGPPGPPGPKVSVDEPGPGLSGEQGPPGLKGAKGEPGSNGDQGPKGDRG
+                     VPGIKGDRGEPGPRGQDGNPGLPGERGMAGPEGKPGLQGPRGPPGPVGGHGDPGPPGA
+                     PGLAGPAGPQGPSGLKGEPGETGPPGRGLTGPTGAVGLPGPPGPSGLVGPQGSPGLPG
+                     QVGETGKPGAPGRDGASGKDGDRGSPGVPGSPGLPGPVGPKGEPGPTGAPGQAVVGLP
+                     GAKGEKGAPGGLAGDLVGEPGAKGDRGLPGPRGEKGEAGRAGEPGDPGEDGQKGAPGP
+                     KGFKGDPGVGVPGSPGPPGPPGVKGDLGLPGLPGAPGVVGFPGQTGPRGEMGQPGPSG
+                     ERGLAGPPGREGIPGPLGPPGPPGSVGPPGASGLKGDKGDPGVGLPGPRGERGEPGIR
+                     GEDGRPGQEGPRGLTGPPGSRGERGEKGDVGSAGLKGDKGDSAVILGPPGPRGAKGDM
+                     GERGPRGLDGDKGPRGDNGDPGDKGSKGEPGDKGSAGLPGLRGLLGPQGQPGAAGIPG
+                     DPGSPGKDGVPGIRGEKGDVGFMGPRGLKGERGVKGACGLDGEKGDKGEAGPPGRPGL
+                     AGHKGEMGEPGVPGQSGAPGKEGLIGPKGDRGFDGQPGPKGDQGEKGERGTPGIGGFP
+                     GPSGNDGSAGPPGPPGSVGPRGPEGLQGQKGERGPPGERVVGAPGVPGAPGERGEQGR
+                     PGPAGPRGEKGEAALTEDDIRGFVRQEMSQHCACQGQFIASGSRPLPSYAADTAGSQL
+                     HAVPVLRVSHAEEEERVPPEDDEYSEYSEYSVEEYQDPEAPWDSDDPCSLPLDEGSCT
+                     AYTLRWYHRAVTGSTEACHPFVYGGCGGNANRFGTREACERRCPPRVVQSQGTGTAQD
+                     "
+     sig_peptide     171..218
+                     /gene="COL7A1"
+                     /gene_synonym="EBD1; EBDCT; EBR1; NDNC8"
+     mat_peptide     join(219..255,782..962,1634..1793,1881..1974,2067..2228,
+                     2392..2555,2631..2760,2863..2979,3082..3228,3316..3432,
+                     3508..3657,3738..3866,4514..4657,4746..4871,4974..5117,
+                     5612..5731,5860..6003,6335..6460,6542..6688,6926..7048,
+                     7391..7537,7776..7910,7994..8140,8222..8358,8641..8767,
+                     8852..8998,9084..9256,9355..9390,9474..9500,9596..9640,
+                     9711..9773,10214..10294,10385..10420,10561..10596,
+                     10774..10845,10955..11032,11269..11295,11377..11430,
+                     11550..11612,11715..11774,11902..11937,12159..12203,
+                     12282..12317,12677..12721,12817..12852,12972..13007,
+                     13387..13419,13571..13624,13698..13757,13847..13882,
+                     13990..14070,14173..14208,14404..14448,14678..14749,
+                     14986..15030,15273..15299,15516..15545,15662..15742,
+                     15815..15850,15926..15961,16053..16133,16376..16411,
+                     16815..16877,16965..17009,18303..18338,18411..18446,
+                     18559..18654,18773..18808,18895..18930,19034..19081,
+                     19428..19463,19582..19704,19791..19991,20088..20123,
+                     20204..20266,20465..20533,20609..20653,20780..20842,
+                     21024..21068,21440..21475,21605..21640,21773..21817,
+                     21982..22014,22094..22156,22274..22309,22388..22468,
+                     22591..22659,22792..22827,22909..22950,23159..23203,
+                     23285..23329,24052..24087,24170..24229,24362..24469,
+                     24620..24691,24830..24865,24996..25055,25152..25196,
+                     25415..25450,25570..25605,25682..25738,25884..25955,
+                     26475..26546,26796..26831,27160..27240,27439..27492,
+                     27567..27620,27694..27756,28140..28202,28307..28423,
+                     28593..28670,28767..28820,29015..29063,29662..29694,
+                     29834..29920,30129..30221,30350..30547,30908..30921)
+                     /gene="COL7A1"
+                     /gene_synonym="EBD1; EBDCT; EBR1; NDNC8"
+                     /product="collagen alpha-1(VII) chain"
+     misc_feature    join(219..255,782..962,1634..1793,1881..1974,2067..2228,
+                     2392..2555,2631..2760,2863..2979,3082..3228,3316..3432,
+                     3508..3657,3738..3866,4514..4657,4746..4871,4974..5117,
+                     5612..5731,5860..6003,6335..6460,6542..6688,6926..7048,
+                     7391..7537,7776..7910,7994..8140,8222..8358,8641..8767,
+                     8852..8998,9084..9256,9355..9390)
+                     /gene="COL7A1"
+                     /gene_synonym="EBD1; EBDCT; EBR1; NDNC8"
+                     /note="propagated from UniProtKB/Swiss-Prot (Q02388.2);
+                     Region: Nonhelical region (NC1)"
+     misc_feature    2895..2897
+                     /gene="COL7A1"
+                     /gene_synonym="EBD1; EBDCT; EBR1; NDNC8"
+                     /note="N-linked (GlcNAc...) asparagine.
+                     /evidence=ECO:0000255; propagated from
+                     UniProtKB/Swiss-Prot (Q02388.2); glycosylation site"
+     misc_feature    join(4859..4871,4974..5020)
+                     /gene="COL7A1"
+                     /gene_synonym="EBD1; EBDCT; EBR1; NDNC8"
+                     /note="propagated from UniProtKB/Swiss-Prot (Q02388.2);
+                     Region: Disordered. /evidence=ECO:0000256|SAM:MobiDB-lite"
+     misc_feature    6376..6378
+                     /gene="COL7A1"
+                     /gene_synonym="EBD1; EBDCT; EBR1; NDNC8"
+                     /note="N-linked (GlcNAc...) asparagine.
+                     /evidence=ECO:0000255; propagated from
+                     UniProtKB/Swiss-Prot (Q02388.2); glycosylation site"
+     misc_feature    8689..8691
+                     /gene="COL7A1"
+                     /gene_synonym="EBD1; EBDCT; EBR1; NDNC8"
+                     /note="N-linked (GlcNAc...) asparagine.
+                     /evidence=ECO:0000255; propagated from
+                     UniProtKB/Swiss-Prot (Q02388.2); glycosylation site"
+     misc_feature    8956..8964
+                     /gene="COL7A1"
+                     /gene_synonym="EBD1; EBDCT; EBR1; NDNC8"
+                     /note="propagated from UniProtKB/Swiss-Prot (Q02388.2);
+                     Region: Cell attachment site. /evidence=ECO:0000255"
+     misc_feature    join(9248..9256,9355..9390,9474..9500,9596..9640,
+                     9711..9773,10214..10294,10385..10420,10561..10596,
+                     10774..10845,10955..11032,11269..11295,11377..11430,
+                     11550..11612,11715..11774,11902..11937,12159..12203,
+                     12282..12317,12677..12721,12817..12852,12972..13007,
+                     13387..13419,13571..13624,13698..13757,13847..13882,
+                     13990..14070,14173..14208,14404..14448,14678..14749,
+                     14986..15030,15273..15299,15516..15545,15662..15742,
+                     15815..15850,15926..15961,16053..16133,16376..16411,
+                     16815..16877,16965..17009,18303..18338,18411..18446,
+                     18559..18654,18773..18808,18895..18930,19034..19081,
+                     19428..19430)
+                     /gene="COL7A1"
+                     /gene_synonym="EBD1; EBDCT; EBR1; NDNC8"
+                     /note="propagated from UniProtKB/Swiss-Prot (Q02388.2);
+                     Region: Disordered. /evidence=ECO:0000256|SAM:MobiDB-lite"
+     misc_feature    join(9474..9500,9596..9640,9711..9773,10214..10294,
+                     10385..10420,10561..10596,10774..10845,10955..11032,
+                     11269..11295,11377..11430,11550..11612,11715..11774,
+                     11902..11937,12159..12203,12282..12317,12677..12721,
+                     12817..12852,12972..13007,13387..13419,13571..13624,
+                     13698..13757,13847..13882,13990..14070,14173..14208,
+                     14404..14448,14678..14749,14986..15030,15273..15299,
+                     15516..15545,15662..15742,15815..15850,15926..15961,
+                     16053..16133,16376..16411,16815..16877,16965..17009,
+                     18303..18338,18411..18446,18559..18654,18773..18808,
+                     18895..18930,19034..19081,19428..19463,19582..19704,
+                     19791..19991,20088..20123,20204..20266,20465..20533,
+                     20609..20653,20780..20842,21024..21068,21440..21475,
+                     21605..21640,21773..21817,21982..22014,22094..22156,
+                     22274..22309,22388..22468,22591..22659,22792..22827,
+                     22909..22950,23159..23203,23285..23329,24052..24087,
+                     24170..24229,24362..24469,24620..24691,24830..24865,
+                     24996..25055,25152..25196,25415..25450,25570..25605,
+                     25682..25738,25884..25955,26475..26546,26796..26831,
+                     27160..27240,27439..27492,27567..27620,27694..27756,
+                     28140..28202,28307..28423,28593..28670,28767..28814)
+                     /gene="COL7A1"
+                     /gene_synonym="EBD1; EBDCT; EBR1; NDNC8"
+                     /note="propagated from UniProtKB/Swiss-Prot (Q02388.2);
+                     Region: Triple-helical region"
+     misc_feature    join(9474..9500,9596..9640,9711..9773,10214..10294,
+                     10385..10420,10561..10596,10774..10845,10955..11032,
+                     11269..11295,11377..11430,11550..11612,11715..11774,
+                     11902..11931)
+                     /gene="COL7A1"
+                     /gene_synonym="EBD1; EBDCT; EBR1; NDNC8"
+                     /note="propagated from UniProtKB/Swiss-Prot (Q02388.2);
+                     Region: Interrupted collagenous region"
+     misc_feature    10409..10417
+                     /gene="COL7A1"
+                     /gene_synonym="EBD1; EBDCT; EBR1; NDNC8"
+                     /note="propagated from UniProtKB/Swiss-Prot (Q02388.2);
+                     Region: Cell attachment site. /evidence=ECO:0000255"
+     misc_feature    join(19612..19704,19791..19991,20088..20123,20204..20266,
+                     20465..20533,20609..20653,20780..20842,21024..21068,
+                     21440..21475,21605..21640,21773..21817,21982..22014,
+                     22094..22156,22274..22309,22388..22468,22591..22659,
+                     22792..22827,22909..22950,23159..23203,23285..23329,
+                     24052..24087,24170..24229,24362..24469,24620..24691,
+                     24830..24865,24996..25055,25152..25196,25415..25450,
+                     25570..25605,25682..25738,25884..25955,26475..26546,
+                     26796..26831,27160..27240,27439..27492,27567..27620,
+                     27694..27756,28140..28202,28307..28423,28593..28670,
+                     28767..28808)
+                     /gene="COL7A1"
+                     /gene_synonym="EBD1; EBDCT; EBR1; NDNC8"
+                     /note="propagated from UniProtKB/Swiss-Prot (Q02388.2);
+                     Region: Disordered. /evidence=ECO:0000256|SAM:MobiDB-lite"
+     misc_feature    19833..19841
+                     /gene="COL7A1"
+                     /gene_synonym="EBD1; EBDCT; EBR1; NDNC8"
+                     /note="propagated from UniProtKB/Swiss-Prot (Q02388.2);
+                     Region: Cell attachment site. /evidence=ECO:0000255"
+     misc_feature    19917..19919
+                     /gene="COL7A1"
+                     /gene_synonym="EBD1; EBDCT; EBR1; NDNC8"
+                     /note="4-hydroxyproline.
+                     /evidence=ECO:0000269|PubMed:2537292; propagated from
+                     UniProtKB/Swiss-Prot (Q02388.2); hydroxylation site"
+     misc_feature    19926..19928
+                     /gene="COL7A1"
+                     /gene_synonym="EBD1; EBDCT; EBR1; NDNC8"
+                     /note="4-hydroxyproline.
+                     /evidence=ECO:0000269|PubMed:2537292; propagated from
+                     UniProtKB/Swiss-Prot (Q02388.2); hydroxylation site"
+     misc_feature    20237..20239
+                     /gene="COL7A1"
+                     /gene_synonym="EBD1; EBDCT; EBR1; NDNC8"
+                     /note="4-hydroxyproline.
+                     /evidence=ECO:0000269|PubMed:2537292; propagated from
+                     UniProtKB/Swiss-Prot (Q02388.2); hydroxylation site"
+     misc_feature    20246..20248
+                     /gene="COL7A1"
+                     /gene_synonym="EBD1; EBDCT; EBR1; NDNC8"
+                     /note="4-hydroxyproline.
+                     /evidence=ECO:0000269|PubMed:2537292; propagated from
+                     UniProtKB/Swiss-Prot (Q02388.2); hydroxylation site"
+     misc_feature    20255..20257
+                     /gene="COL7A1"
+                     /gene_synonym="EBD1; EBDCT; EBR1; NDNC8"
+                     /note="4-hydroxyproline.
+                     /evidence=ECO:0000269|PubMed:2537292; propagated from
+                     UniProtKB/Swiss-Prot (Q02388.2); hydroxylation site"
+     misc_feature    21066..21068
+                     /gene="COL7A1"
+                     /gene_synonym="EBD1; EBDCT; EBR1; NDNC8"
+                     /note="4-hydroxyproline.
+                     /evidence=ECO:0000269|PubMed:8051117; propagated from
+                     UniProtKB/Swiss-Prot (Q02388.2); hydroxylation site"
+     misc_feature    21464..21466
+                     /gene="COL7A1"
+                     /gene_synonym="EBD1; EBDCT; EBR1; NDNC8"
+                     /note="4-hydroxyproline.
+                     /evidence=ECO:0000269|PubMed:8051117; propagated from
+                     UniProtKB/Swiss-Prot (Q02388.2); hydroxylation site"
+     misc_feature    21620..21622
+                     /gene="COL7A1"
+                     /gene_synonym="EBD1; EBDCT; EBR1; NDNC8"
+                     /note="4-hydroxyproline.
+                     /evidence=ECO:0000269|PubMed:8051117; propagated from
+                     UniProtKB/Swiss-Prot (Q02388.2); hydroxylation site"
+     misc_feature    21629..21631
+                     /gene="COL7A1"
+                     /gene_synonym="EBD1; EBDCT; EBR1; NDNC8"
+                     /note="4-hydroxyproline.
+                     /evidence=ECO:0000269|PubMed:8051117; propagated from
+                     UniProtKB/Swiss-Prot (Q02388.2); hydroxylation site"
+     misc_feature    25926..25934
+                     /gene="COL7A1"
+                     /gene_synonym="EBD1; EBDCT; EBR1; NDNC8"
+                     /note="propagated from UniProtKB/Swiss-Prot (Q02388.2);
+                     Region: Cell attachment site. /evidence=ECO:0000255"
+     misc_feature    27238..27240
+                     /gene="COL7A1"
+                     /gene_synonym="EBD1; EBDCT; EBR1; NDNC8"
+                     /note="5-hydroxylysine, alternate.
+                     /evidence=ECO:0000269|PubMed:8051117; propagated from
+                     UniProtKB/Swiss-Prot (Q02388.2); hydroxylation site"
+     misc_feature    27238..27240
+                     /gene="COL7A1"
+                     /gene_synonym="EBD1; EBDCT; EBR1; NDNC8"
+                     /note="O-linked (Gal...) hydroxylysine, alternate;
+                     propagated from UniProtKB/Swiss-Prot (Q02388.2);
+                     glycosylation site"
+     misc_feature    27454..27456
+                     /gene="COL7A1"
+                     /gene_synonym="EBD1; EBDCT; EBR1; NDNC8"
+                     /note="5-hydroxylysine, alternate.
+                     /evidence=ECO:0000269|PubMed:8051117; propagated from
+                     UniProtKB/Swiss-Prot (Q02388.2); hydroxylation site"
+     misc_feature    27454..27456
+                     /gene="COL7A1"
+                     /gene_synonym="EBD1; EBDCT; EBR1; NDNC8"
+                     /note="O-linked (Gal...) hydroxylysine, alternate;
+                     propagated from UniProtKB/Swiss-Prot (Q02388.2);
+                     glycosylation site"
+     misc_feature    27700..27702
+                     /gene="COL7A1"
+                     /gene_synonym="EBD1; EBDCT; EBR1; NDNC8"
+                     /note="4-hydroxyproline.
+                     /evidence=ECO:0000269|PubMed:8051117; propagated from
+                     UniProtKB/Swiss-Prot (Q02388.2); hydroxylation site"
+     misc_feature    27709..27711
+                     /gene="COL7A1"
+                     /gene_synonym="EBD1; EBDCT; EBR1; NDNC8"
+                     /note="4-hydroxyproline.
+                     /evidence=ECO:0000269|PubMed:8051117; propagated from
+                     UniProtKB/Swiss-Prot (Q02388.2); hydroxylation site"
+     misc_feature    27727..27729
+                     /gene="COL7A1"
+                     /gene_synonym="EBD1; EBDCT; EBR1; NDNC8"
+                     /note="4-hydroxyproline.
+                     /evidence=ECO:0000269|PubMed:8051117; propagated from
+                     UniProtKB/Swiss-Prot (Q02388.2); hydroxylation site"
+     misc_feature    join(28815..28820,29015..29063,29662..29694,29834..29920,
+                     30129..30221,30350..30547,30908..30921)
+                     /gene="COL7A1"
+                     /gene_synonym="EBD1; EBDCT; EBR1; NDNC8"
+                     /note="propagated from UniProtKB/Swiss-Prot (Q02388.2);
+                     Region: Nonhelical region (NC2)"
+     misc_feature    join(29902..29920,30129..30217)
+                     /gene="COL7A1"
+                     /gene_synonym="EBD1; EBDCT; EBR1; NDNC8"
+                     /note="propagated from UniProtKB/Swiss-Prot (Q02388.2);
+                     Region: Disordered. /evidence=ECO:0000256|SAM:MobiDB-lite"
+     misc_feature    30385..30390
+                     /gene="COL7A1"
+                     /gene_synonym="EBD1; EBDCT; EBR1; NDNC8"
+                     /note="Reactive bond. /evidence=ECO:0000250; propagated
+                     from UniProtKB/Swiss-Prot (Q02388.2); other site"
+     CDS             join(171..255,782..962,1634..1793,1881..1974,2067..2228,
+                     2392..2555,2631..2760,2863..2979,3082..3228,3316..3432,
+                     3508..3657,3738..3866,4514..4657,4746..4871,4974..5117,
+                     5612..5731,5860..6003,6335..6460,6542..6688,6926..7048,
+                     7391..7537,7776..7910,7994..8140,8222..8358,8641..8767,
+                     8852..8998,9084..9256,9355..9390,9474..9500,9596..9640,
+                     9711..9773,10214..10294,10385..10420,10561..10596,
+                     10774..10845,10955..11032,11269..11295,11377..11430,
+                     11550..11612,11715..11774,11902..11937,12159..12203,
+                     12282..12317,12677..12721,12817..12852,12972..13007,
+                     13387..13419,13571..13624,13698..13757,13847..13882,
+                     13990..14070,14173..14208,14404..14448,14678..14749,
+                     14986..15030,15273..15299,15516..15545,15662..15742,
+                     15815..15850,15926..15961,16053..16133,16376..16411,
+                     16815..16877,16965..17009,18303..18338,18411..18446,
+                     18559..18654,18773..18808,18895..18930,19034..19081,
+                     19428..19463,19582..19704,19791..19991,20088..20123,
+                     20204..20266,20465..20533,20609..20653,20780..20842,
+                     21024..21068,21440..21475,21605..21640,21773..21817,
+                     21982..22014,22094..22156,22274..22309,22388..22468,
+                     22591..22659,22792..22827,22909..22950,23159..23203,
+                     23285..23329,24052..24087,24170..24229,24362..24469,
+                     24620..24691,24830..24865,24996..25055,25152..25196,
+                     25415..25450,25570..25605,25682..25738,25884..25955,
+                     26475..26546,26796..26831,27098..27133)
+                     /gene="COL7A1"
+                     /gene_synonym="EBD1; EBDCT; EBR1; NDNC8"
+                     /note="Derived by automated computational analysis using
+                     gene prediction method: Gnomon."
+                     /codon_start=1
+                     /product="collagen alpha-1(VII) chain isoform X2"
+                     /protein_id="XP_016861178.1"
+                     /db_xref="GeneID:1294"
+                     /db_xref="HGNC:HGNC:2214"
+                     /db_xref="MIM:120120"
+                     /translation="MTLRLLVAALCAGILAEAPRVRAQHRERVTCTRLYAADIVFLLD
+                     GSSSIGRSNFREVRSFLEGLVLPFSGAASAQGVRFATVQYSDDPRTEFGLDALGSGGD
+                     VIRAIRELSYKGGNTRTGAAILHVADHVFLPQLARPGVPKVCILITDGKSQDLVDTAA
+                     QRLKGQGVKLFAVGIKNADPEELKRVASQPTSDFFFFVNDFSILRTLLPLVSRRVCTT
+                     AGGVPVTRPPDDSTSAPRDLVLSEPSSQSLRVQWTAASGPVTGYKVQYTPLTGLGQPL
+                     PSERQEVNVPAGETSVRLRGLRPLTEYQVTVIALYANSIGEAVSGTARTTALEGPELT
+                     IQNTTAHSLLVAWRSVPGATGYRVTWRVLSGGPTQQQELGPGQGSVLLRDLEPGTDYE
+                     VTVSTLFGRSVGPATSLMARTDASVEQTLRPVILGPTSILLSWNLVPEARGYRLEWRR
+                     ETGLEPPQKVVLPSDVTRYQLDGLQPGTEYRLTLYTLLEGHEVATPATVVPTGPELPV
+                     SPVTDLQATELPGQRVRVSWSPVPGATQYRIIVRSTQGVERTLVLPGSQTAFDLDDVQ
+                     AGLSYTVRVSARVGPREGSASVLTVRREPETPLAVPGLRVVVSDATRVRVAWGPVPGA
+                     SGFRISWSTGSGPESSQTLPPDSTATDITGLQPGTTYQVAVSVLRGREEGPAAVIVAR
+                     TDPLGPVRTVHVTQASSSSVTITWTRVPGATGYRVSWHSAHGPEKSQLVSGEATVAEL
+                     DGLEPDTEYTVHVRAHVAGVDGPPASVVVRTAPEPVGRVSRLQILNASSDVLRITWVG
+                     VTGATAYRLAWGRSEGGPMRHQILPGNTDSAEIRGLEGGVSYSVRVTALVGDREGTPV
+                     SIVVTTPPEAPPALGTLHVVQRGEHSLRLRWEPVPRAQGFLLHWQPEGGQEQSRVLGP
+                     ELSSYHLDGLEPATQYRVRLSVLGPAGEGPSAEVTARTESPRVPSIELRVVDTSIDSV
+                     TLAWTPVSRASSYILSWRPLRGPGQEVPGSPQTLPGISSSQRVTGLEPGVSYIFSLTP
+                     VLDGVRGPEASVTQTPVCPRGLADVVFLPHATQDNAHRAEATRRVLERLVLALGPLGP
+                     QAVQVGLLSYSHRPSPLFPLNGSHDLGIILQRIRDMPYMDPSGNNLGTAVVTAHRYML
+                     APDAPGRRQHVPGVMVLLVDEPLRGDIFSPIREAQASGLNVVMLGMAGADPEQLRRLA
+                     PGMDSVQTFFAVDDGPSLDQAVSGLATALCQASFTTQPRPEPCPVYCPKGQKGEPGEM
+                     GLRGQVGPPGDPGLPGRTGAPGPQGPPGSATAKGERGFPGADGRPGSPGRAGNPGTPG
+                     APGLKGSPGLPGPRGDPGERGPRGPKGEPGAPGQVIGGEGPGLPGRKGDPGPSGPPGP
+                     RGPLGDPGPRGPPGLPGTAMKGDKGDRGERGPPGPGEGGIAPGEPGLPGLPGSPGPQG
+                     PVGPPGKKGEKGDSEDGAPGLPGQPGSPGEQGPRGPPGAIGPKGDRGFPGPLGEAGEK
+                     GERGPPGPAGSRGLPGVAGRPGAKGPEGPPGPTGRQGEKGEPGRPGDPAVVGPAVAGP
+                     KGEKGDVGPAGPRGATGVQGERGPPGLVLPGDPGPKGDPGDRGPIGLTGRAGPPGDSG
+                     PPGEKGDPGRPGPPGPVGPRGRDGEVGEKGDEGPPGDPGLPGKAGERGLRGAPGVRGP
+                     VGEKGDQGDPGEDGRNGSPGSSGPKGDRGEPGPPGPPGRLVDTGPGAREKGEPGDRGQ
+                     EGPRGPKGDPGLPGAPGERGIEGFRGPPGPQGDPGVRGPAGEKGDRGPPGLDGRSGLD
+                     GKPGAAGPSGPNGAAGKAGDPGRDGLPGLRGEQGLPGPSGPPGLPGKPGEDGKPGLNG
+                     KNGEPGDPGEDGRKGEKGDSGASGREGRDGPKGERGAPGILGPQGPPGLPGPVGPPGQ
+                     GFPGVPGGTGPKGDRGETGSKGEQGLPGERGLRGEPGSVPNVDRLLETAGIKASALRE
+                     IVETWDESSGSFLPVPERRRGPKGDSGEQGPPGKEGPIGFPGERGLKGDRGDPGPQGP
+                     PGLALGERGPPGPSGLAGEPGKPGIPGLPGRAGGVGEAGRPGERGERGEKGERGEQGR
+                     DGPPGLPGTPGPPGPPGPKVSVDEPGPGLSGEQGPPGLKGAKGEPGSNGDQGPKGDRG
+                     VPGIKGDRGEPGPRGQDGNPGLPGERGMAGPEGKPGLQGPRGPPGPVGGHGDPGPPGA
+                     PGLAGPAGPQGPSGLKGEPGETGPPGRGLTGPTGAVGLPGPPGPSGLVGPQGSPGLPG
+                     QVGETGKPGAPGRDGASGKDGDRGSPGVPGSPGLPGPVGPKGEPGPTGAPGQAVVGLP
+                     GAKGEKGAPGGLAGDLVGEPGAKGDRGLPGPRGEKGEAGRAGEPGDPGEDGQKGAPGP
+                     KGFKGDPGVGVPGSPGPPGPPGVKGDLGLPGLPGAPGVVGFPGQTGPRGEMGQPGPSG
+                     ERGLAGPPGREGIPGPLGPPGPPGSVGPPGASGLKGDKGDPGVGLPGPRGERGEPGIR
+                     GEDGRPGQEGPRGLTGPPGSRGERGEKGDVGSAGLKGDKGDSAVILGPPGPRGAKGDM
+                     GERGPRGLDGDKGPRGDNGDPGDKGSKGEPGDKGSAGLPGLRGLLGPQGQPGAAGIPG
+                     DPGDSLWSLTDLL"
+     CDS             join(171..255,782..962,1634..1793,1881..1974,2067..2228,
+                     2392..2555,2631..2760,2863..2979,3082..3228,3316..3432,
+                     3508..3657,3738..3866,4514..4657,4746..4871,4974..5117,
+                     5612..5731,5860..6003,6335..6460,6542..6688,6926..7048,
+                     7391..7537,7776..7910,7994..8140,8222..8358,8641..8767,
+                     8852..8998,9084..9256,9355..9390,9474..9500,9596..9640,
+                     9711..9773,10214..10294,10385..10420,10561..10596,
+                     10774..10845,10955..11032,11269..11295,11377..11430,
+                     11550..11612,11715..11774,11902..11937,12159..12203,
+                     12282..12317,12677..12721,12817..12852,12972..13007,
+                     13387..13419,13571..13624,13698..13757,13847..13882,
+                     13990..14070,14173..14208,14404..14448,14678..14749,
+                     14986..15030,15273..15299,15516..15545,15662..15742,
+                     15815..15850,15926..15961,16053..16133,16376..16411,
+                     16815..16877,16965..17009,18303..18338,18411..18446,
+                     18559..18654,18773..18808,18895..18930,19034..19081,
+                     19428..19463,19582..19704,19791..19991,20088..20123,
+                     20204..20266,20465..20533,20609..20653,20780..20842,
+                     21024..21068,21440..21475,21605..21640,21773..21817,
+                     21982..22014,22094..22156,22274..22309,22388..22468,
+                     22591..22659,22792..22827,22909..22950,23159..23203,
+                     23285..23329,24052..24087,24170..24229,24362..24443,
+                     24620..24691,24830..24865,25152..25156)
+                     /gene="COL7A1"
+                     /gene_synonym="EBD1; EBDCT; EBR1; NDNC8"
+                     /note="Derived by automated computational analysis using
+                     gene prediction method: Gnomon."
+                     /codon_start=1
+                     /product="collagen alpha-1(VII) chain isoform X5"
+                     /protein_id="XP_016861181.1"
+                     /db_xref="GeneID:1294"
+                     /db_xref="HGNC:HGNC:2214"
+                     /db_xref="MIM:120120"
+                     /translation="MTLRLLVAALCAGILAEAPRVRAQHRERVTCTRLYAADIVFLLD
+                     GSSSIGRSNFREVRSFLEGLVLPFSGAASAQGVRFATVQYSDDPRTEFGLDALGSGGD
+                     VIRAIRELSYKGGNTRTGAAILHVADHVFLPQLARPGVPKVCILITDGKSQDLVDTAA
+                     QRLKGQGVKLFAVGIKNADPEELKRVASQPTSDFFFFVNDFSILRTLLPLVSRRVCTT
+                     AGGVPVTRPPDDSTSAPRDLVLSEPSSQSLRVQWTAASGPVTGYKVQYTPLTGLGQPL
+                     PSERQEVNVPAGETSVRLRGLRPLTEYQVTVIALYANSIGEAVSGTARTTALEGPELT
+                     IQNTTAHSLLVAWRSVPGATGYRVTWRVLSGGPTQQQELGPGQGSVLLRDLEPGTDYE
+                     VTVSTLFGRSVGPATSLMARTDASVEQTLRPVILGPTSILLSWNLVPEARGYRLEWRR
+                     ETGLEPPQKVVLPSDVTRYQLDGLQPGTEYRLTLYTLLEGHEVATPATVVPTGPELPV
+                     SPVTDLQATELPGQRVRVSWSPVPGATQYRIIVRSTQGVERTLVLPGSQTAFDLDDVQ
+                     AGLSYTVRVSARVGPREGSASVLTVRREPETPLAVPGLRVVVSDATRVRVAWGPVPGA
+                     SGFRISWSTGSGPESSQTLPPDSTATDITGLQPGTTYQVAVSVLRGREEGPAAVIVAR
+                     TDPLGPVRTVHVTQASSSSVTITWTRVPGATGYRVSWHSAHGPEKSQLVSGEATVAEL
+                     DGLEPDTEYTVHVRAHVAGVDGPPASVVVRTAPEPVGRVSRLQILNASSDVLRITWVG
+                     VTGATAYRLAWGRSEGGPMRHQILPGNTDSAEIRGLEGGVSYSVRVTALVGDREGTPV
+                     SIVVTTPPEAPPALGTLHVVQRGEHSLRLRWEPVPRAQGFLLHWQPEGGQEQSRVLGP
+                     ELSSYHLDGLEPATQYRVRLSVLGPAGEGPSAEVTARTESPRVPSIELRVVDTSIDSV
+                     TLAWTPVSRASSYILSWRPLRGPGQEVPGSPQTLPGISSSQRVTGLEPGVSYIFSLTP
+                     VLDGVRGPEASVTQTPVCPRGLADVVFLPHATQDNAHRAEATRRVLERLVLALGPLGP
+                     QAVQVGLLSYSHRPSPLFPLNGSHDLGIILQRIRDMPYMDPSGNNLGTAVVTAHRYML
+                     APDAPGRRQHVPGVMVLLVDEPLRGDIFSPIREAQASGLNVVMLGMAGADPEQLRRLA
+                     PGMDSVQTFFAVDDGPSLDQAVSGLATALCQASFTTQPRPEPCPVYCPKGQKGEPGEM
+                     GLRGQVGPPGDPGLPGRTGAPGPQGPPGSATAKGERGFPGADGRPGSPGRAGNPGTPG
+                     APGLKGSPGLPGPRGDPGERGPRGPKGEPGAPGQVIGGEGPGLPGRKGDPGPSGPPGP
+                     RGPLGDPGPRGPPGLPGTAMKGDKGDRGERGPPGPGEGGIAPGEPGLPGLPGSPGPQG
+                     PVGPPGKKGEKGDSEDGAPGLPGQPGSPGEQGPRGPPGAIGPKGDRGFPGPLGEAGEK
+                     GERGPPGPAGSRGLPGVAGRPGAKGPEGPPGPTGRQGEKGEPGRPGDPAVVGPAVAGP
+                     KGEKGDVGPAGPRGATGVQGERGPPGLVLPGDPGPKGDPGDRGPIGLTGRAGPPGDSG
+                     PPGEKGDPGRPGPPGPVGPRGRDGEVGEKGDEGPPGDPGLPGKAGERGLRGAPGVRGP
+                     VGEKGDQGDPGEDGRNGSPGSSGPKGDRGEPGPPGPPGRLVDTGPGAREKGEPGDRGQ
+                     EGPRGPKGDPGLPGAPGERGIEGFRGPPGPQGDPGVRGPAGEKGDRGPPGLDGRSGLD
+                     GKPGAAGPSGPNGAAGKAGDPGRDGLPGLRGEQGLPGPSGPPGLPGKPGEDGKPGLNG
+                     KNGEPGDPGEDGRKGEKGDSGASGREGRDGPKGERGAPGILGPQGPPGLPGPVGPPGQ
+                     GFPGVPGGTGPKGDRGETGSKGEQGLPGERGLRGEPGSVPNVDRLLETAGIKASALRE
+                     IVETWDESSGSFLPVPERRRGPKGDSGEQGPPGKEGPIGFPGERGLKGDRGDPGPQGP
+                     PGLALGERGPPGPSGLAGEPGKPGIPGLPGRAGGVGEAGRPGERGERGEKGERGEQGR
+                     DGPPGLPGTPGPPGPPGPKVSVDEPGPGLSGEQGPPGLKGAKGEPGSNGDQGPKGDRG
+                     VPGIKGDRGEPGPRGQDGNPGLPGERGMAGPEGKPGLQGPRGPPGPVGGHGDPGPPGA
+                     PGLAGPAGPQGPSGLKGEPGETGPPGRGLTGPTGAVGLPGPPGPSGLVGPQGSPGLPG
+                     QVGETGKPGAPGRDGASGKDGDRGSPGVPGSPGLPGPVGPKGEPGPTGAPGQAVVGLP
+                     GAKGEKGAPGGLAGDLVGEPGAKGDRGLPGPRGEKGEAGRAGEPGDPGEDGQKGAPGP
+                     KGFKGDPGVGVPGSPGPPGPPGVKGDLGLPGLPGAPGVVGFPGQTGPRGEMGSGRPPR
+                     ERRNPRTPGATWTTGVSGTTWGLWTQRRQG"
+     CDS             join(171..255,782..962,1634..1793,1881..1974,2067..2228,
+                     2392..2555,2631..2760,2863..2979,3082..3228,3316..3432,
+                     3508..3657,3738..3866,4514..4657,4746..4871,4974..5117,
+                     5612..5731,5860..6003,6335..6460,6542..6688,6926..7048,
+                     7391..7537,7776..7910,7994..8140,8222..8358,8641..8767,
+                     8852..8998,9084..9256,9355..9390,9474..9500,9596..9640,
+                     9711..9773,10214..10294,10385..10420,10561..10596,
+                     10774..10845,10955..11032,11269..11295,11377..11430,
+                     11550..11612,11715..11774,11902..11937,12159..12203,
+                     12282..12317,12677..12721,12817..12852,12972..13007,
+                     13387..13419,13571..13624,13698..13757,13847..13882,
+                     13990..14070,14173..14208,14404..14448,14678..14749,
+                     14986..15030,15273..15299,15516..15545,15662..15742,
+                     15815..15850,15926..15961,16053..16133,16376..16411,
+                     16815..16877,16965..17009,18303..18338,18411..18446,
+                     18559..18654,18773..18808,18895..18930,19034..19081,
+                     19428..19463,19582..19704,19791..19991,20088..20123,
+                     20204..20266,20465..20533,20609..20653,20780..20842,
+                     21024..21068,21440..21475,21605..21640,21773..21817,
+                     21982..22014,22094..22156,22274..22309,22388..22468,
+                     22591..22659,22792..22827,22909..22950,23159..23203,
+                     23285..23329,24052..24087,24170..24229,24362..24443,
+                     24620..24691,24830..24865,25078..25124)
+                     /gene="COL7A1"
+                     /gene_synonym="EBD1; EBDCT; EBR1; NDNC8"
+                     /note="Derived by automated computational analysis using
+                     gene prediction method: Gnomon."
+                     /codon_start=1
+                     /product="collagen alpha-1(VII) chain isoform X4"
+                     /protein_id="XP_016861180.1"
+                     /db_xref="GeneID:1294"
+                     /db_xref="HGNC:HGNC:2214"
+                     /db_xref="MIM:120120"
+                     /translation="MTLRLLVAALCAGILAEAPRVRAQHRERVTCTRLYAADIVFLLD
+                     GSSSIGRSNFREVRSFLEGLVLPFSGAASAQGVRFATVQYSDDPRTEFGLDALGSGGD
+                     VIRAIRELSYKGGNTRTGAAILHVADHVFLPQLARPGVPKVCILITDGKSQDLVDTAA
+                     QRLKGQGVKLFAVGIKNADPEELKRVASQPTSDFFFFVNDFSILRTLLPLVSRRVCTT
+                     AGGVPVTRPPDDSTSAPRDLVLSEPSSQSLRVQWTAASGPVTGYKVQYTPLTGLGQPL
+                     PSERQEVNVPAGETSVRLRGLRPLTEYQVTVIALYANSIGEAVSGTARTTALEGPELT
+                     IQNTTAHSLLVAWRSVPGATGYRVTWRVLSGGPTQQQELGPGQGSVLLRDLEPGTDYE
+                     VTVSTLFGRSVGPATSLMARTDASVEQTLRPVILGPTSILLSWNLVPEARGYRLEWRR
+                     ETGLEPPQKVVLPSDVTRYQLDGLQPGTEYRLTLYTLLEGHEVATPATVVPTGPELPV
+                     SPVTDLQATELPGQRVRVSWSPVPGATQYRIIVRSTQGVERTLVLPGSQTAFDLDDVQ
+                     AGLSYTVRVSARVGPREGSASVLTVRREPETPLAVPGLRVVVSDATRVRVAWGPVPGA
+                     SGFRISWSTGSGPESSQTLPPDSTATDITGLQPGTTYQVAVSVLRGREEGPAAVIVAR
+                     TDPLGPVRTVHVTQASSSSVTITWTRVPGATGYRVSWHSAHGPEKSQLVSGEATVAEL
+                     DGLEPDTEYTVHVRAHVAGVDGPPASVVVRTAPEPVGRVSRLQILNASSDVLRITWVG
+                     VTGATAYRLAWGRSEGGPMRHQILPGNTDSAEIRGLEGGVSYSVRVTALVGDREGTPV
+                     SIVVTTPPEAPPALGTLHVVQRGEHSLRLRWEPVPRAQGFLLHWQPEGGQEQSRVLGP
+                     ELSSYHLDGLEPATQYRVRLSVLGPAGEGPSAEVTARTESPRVPSIELRVVDTSIDSV
+                     TLAWTPVSRASSYILSWRPLRGPGQEVPGSPQTLPGISSSQRVTGLEPGVSYIFSLTP
+                     VLDGVRGPEASVTQTPVCPRGLADVVFLPHATQDNAHRAEATRRVLERLVLALGPLGP
+                     QAVQVGLLSYSHRPSPLFPLNGSHDLGIILQRIRDMPYMDPSGNNLGTAVVTAHRYML
+                     APDAPGRRQHVPGVMVLLVDEPLRGDIFSPIREAQASGLNVVMLGMAGADPEQLRRLA
+                     PGMDSVQTFFAVDDGPSLDQAVSGLATALCQASFTTQPRPEPCPVYCPKGQKGEPGEM
+                     GLRGQVGPPGDPGLPGRTGAPGPQGPPGSATAKGERGFPGADGRPGSPGRAGNPGTPG
+                     APGLKGSPGLPGPRGDPGERGPRGPKGEPGAPGQVIGGEGPGLPGRKGDPGPSGPPGP
+                     RGPLGDPGPRGPPGLPGTAMKGDKGDRGERGPPGPGEGGIAPGEPGLPGLPGSPGPQG
+                     PVGPPGKKGEKGDSEDGAPGLPGQPGSPGEQGPRGPPGAIGPKGDRGFPGPLGEAGEK
+                     GERGPPGPAGSRGLPGVAGRPGAKGPEGPPGPTGRQGEKGEPGRPGDPAVVGPAVAGP
+                     KGEKGDVGPAGPRGATGVQGERGPPGLVLPGDPGPKGDPGDRGPIGLTGRAGPPGDSG
+                     PPGEKGDPGRPGPPGPVGPRGRDGEVGEKGDEGPPGDPGLPGKAGERGLRGAPGVRGP
+                     VGEKGDQGDPGEDGRNGSPGSSGPKGDRGEPGPPGPPGRLVDTGPGAREKGEPGDRGQ
+                     EGPRGPKGDPGLPGAPGERGIEGFRGPPGPQGDPGVRGPAGEKGDRGPPGLDGRSGLD
+                     GKPGAAGPSGPNGAAGKAGDPGRDGLPGLRGEQGLPGPSGPPGLPGKPGEDGKPGLNG
+                     KNGEPGDPGEDGRKGEKGDSGASGREGRDGPKGERGAPGILGPQGPPGLPGPVGPPGQ
+                     GFPGVPGGTGPKGDRGETGSKGEQGLPGERGLRGEPGSVPNVDRLLETAGIKASALRE
+                     IVETWDESSGSFLPVPERRRGPKGDSGEQGPPGKEGPIGFPGERGLKGDRGDPGPQGP
+                     PGLALGERGPPGPSGLAGEPGKPGIPGLPGRAGGVGEAGRPGERGERGEKGERGEQGR
+                     DGPPGLPGTPGPPGPPGPKVSVDEPGPGLSGEQGPPGLKGAKGEPGSNGDQGPKGDRG
+                     VPGIKGDRGEPGPRGQDGNPGLPGERGMAGPEGKPGLQGPRGPPGPVGGHGDPGPPGA
+                     PGLAGPAGPQGPSGLKGEPGETGPPGRGLTGPTGAVGLPGPPGPSGLVGPQGSPGLPG
+                     QVGETGKPGAPGRDGASGKDGDRGSPGVPGSPGLPGPVGPKGEPGPTGAPGQAVVGLP
+                     GAKGEKGAPGGLAGDLVGEPGAKGDRGLPGPRGEKGEAGRAGEPGDPGEDGQKGAPGP
+                     KGFKGDPGVGVPGSPGPPGPPGVKGDLGLPGLPGAPGVVGFPGQTGPRGEMGSGRPPR
+                     ERRNPRTPGATWTTGVSGTTWGLWTQRRQAELPSSQLLPLISNL"
+     CDS             join(171..255,782..962,1634..1793,1881..1974,2067..2228,
+                     2392..2555,2631..2760,2863..2979,3082..3228,3316..3432,
+                     3508..3657,3738..3866,4514..4657,4746..4871,4974..5117,
+                     5612..5731,5860..6003,6335..6460,6542..6688,6926..7048,
+                     7391..7537,7776..7910,7994..8140,8222..8358,8641..8767,
+                     8852..8998,9084..9256,9355..9390,9474..9500,9596..9640,
+                     9711..9773,10214..10294,10385..10420,10561..10596,
+                     10774..10845,10955..11032,11269..11295,11377..11430,
+                     11550..11612,11715..11774,11902..11937,12159..12203,
+                     12282..12317,12677..12721,12817..12852,12972..13007,
+                     13387..13419,13571..13624,13698..13757,13847..13882,
+                     13990..14070,14173..14208,14404..14448,14678..14749,
+                     14986..15030,15273..15299,15516..15545,15662..15742,
+                     15815..15850,15926..15961,16053..16133,16376..16411,
+                     16815..16877,16965..17009,18303..18338,18411..18446,
+                     18559..18654,18773..18808,18895..18930,19034..19081,
+                     19428..19463,19582..19704,19791..19991,20088..20123,
+                     20204..20266,20465..20533,20609..20653,20780..20842,
+                     21024..21068,21440..21475,21605..21640,21773..21817,
+                     21982..22014,22094..22156,22274..22309,22388..22468,
+                     22591..22659,22792..22827,22909..22950,23159..23203,
+                     23285..23329,24052..24087,24170..24229,24362..24469,
+                     24620..24691,24830..24865,25078..25110)
+                     /gene="COL7A1"
+                     /gene_synonym="EBD1; EBDCT; EBR1; NDNC8"
+                     /note="Derived by automated computational analysis using
+                     gene prediction method: Gnomon."
+                     /codon_start=1
+                     /product="collagen alpha-1(VII) chain isoform X3"
+                     /protein_id="XP_016861179.1"
+                     /db_xref="GeneID:1294"
+                     /db_xref="HGNC:HGNC:2214"
+                     /db_xref="MIM:120120"
+                     /translation="MTLRLLVAALCAGILAEAPRVRAQHRERVTCTRLYAADIVFLLD
+                     GSSSIGRSNFREVRSFLEGLVLPFSGAASAQGVRFATVQYSDDPRTEFGLDALGSGGD
+                     VIRAIRELSYKGGNTRTGAAILHVADHVFLPQLARPGVPKVCILITDGKSQDLVDTAA
+                     QRLKGQGVKLFAVGIKNADPEELKRVASQPTSDFFFFVNDFSILRTLLPLVSRRVCTT
+                     AGGVPVTRPPDDSTSAPRDLVLSEPSSQSLRVQWTAASGPVTGYKVQYTPLTGLGQPL
+                     PSERQEVNVPAGETSVRLRGLRPLTEYQVTVIALYANSIGEAVSGTARTTALEGPELT
+                     IQNTTAHSLLVAWRSVPGATGYRVTWRVLSGGPTQQQELGPGQGSVLLRDLEPGTDYE
+                     VTVSTLFGRSVGPATSLMARTDASVEQTLRPVILGPTSILLSWNLVPEARGYRLEWRR
+                     ETGLEPPQKVVLPSDVTRYQLDGLQPGTEYRLTLYTLLEGHEVATPATVVPTGPELPV
+                     SPVTDLQATELPGQRVRVSWSPVPGATQYRIIVRSTQGVERTLVLPGSQTAFDLDDVQ
+                     AGLSYTVRVSARVGPREGSASVLTVRREPETPLAVPGLRVVVSDATRVRVAWGPVPGA
+                     SGFRISWSTGSGPESSQTLPPDSTATDITGLQPGTTYQVAVSVLRGREEGPAAVIVAR
+                     TDPLGPVRTVHVTQASSSSVTITWTRVPGATGYRVSWHSAHGPEKSQLVSGEATVAEL
+                     DGLEPDTEYTVHVRAHVAGVDGPPASVVVRTAPEPVGRVSRLQILNASSDVLRITWVG
+                     VTGATAYRLAWGRSEGGPMRHQILPGNTDSAEIRGLEGGVSYSVRVTALVGDREGTPV
+                     SIVVTTPPEAPPALGTLHVVQRGEHSLRLRWEPVPRAQGFLLHWQPEGGQEQSRVLGP
+                     ELSSYHLDGLEPATQYRVRLSVLGPAGEGPSAEVTARTESPRVPSIELRVVDTSIDSV
+                     TLAWTPVSRASSYILSWRPLRGPGQEVPGSPQTLPGISSSQRVTGLEPGVSYIFSLTP
+                     VLDGVRGPEASVTQTPVCPRGLADVVFLPHATQDNAHRAEATRRVLERLVLALGPLGP
+                     QAVQVGLLSYSHRPSPLFPLNGSHDLGIILQRIRDMPYMDPSGNNLGTAVVTAHRYML
+                     APDAPGRRQHVPGVMVLLVDEPLRGDIFSPIREAQASGLNVVMLGMAGADPEQLRRLA
+                     PGMDSVQTFFAVDDGPSLDQAVSGLATALCQASFTTQPRPEPCPVYCPKGQKGEPGEM
+                     GLRGQVGPPGDPGLPGRTGAPGPQGPPGSATAKGERGFPGADGRPGSPGRAGNPGTPG
+                     APGLKGSPGLPGPRGDPGERGPRGPKGEPGAPGQVIGGEGPGLPGRKGDPGPSGPPGP
+                     RGPLGDPGPRGPPGLPGTAMKGDKGDRGERGPPGPGEGGIAPGEPGLPGLPGSPGPQG
+                     PVGPPGKKGEKGDSEDGAPGLPGQPGSPGEQGPRGPPGAIGPKGDRGFPGPLGEAGEK
+                     GERGPPGPAGSRGLPGVAGRPGAKGPEGPPGPTGRQGEKGEPGRPGDPAVVGPAVAGP
+                     KGEKGDVGPAGPRGATGVQGERGPPGLVLPGDPGPKGDPGDRGPIGLTGRAGPPGDSG
+                     PPGEKGDPGRPGPPGPVGPRGRDGEVGEKGDEGPPGDPGLPGKAGERGLRGAPGVRGP
+                     VGEKGDQGDPGEDGRNGSPGSSGPKGDRGEPGPPGPPGRLVDTGPGAREKGEPGDRGQ
+                     EGPRGPKGDPGLPGAPGERGIEGFRGPPGPQGDPGVRGPAGEKGDRGPPGLDGRSGLD
+                     GKPGAAGPSGPNGAAGKAGDPGRDGLPGLRGEQGLPGPSGPPGLPGKPGEDGKPGLNG
+                     KNGEPGDPGEDGRKGEKGDSGASGREGRDGPKGERGAPGILGPQGPPGLPGPVGPPGQ
+                     GFPGVPGGTGPKGDRGETGSKGEQGLPGERGLRGEPGSVPNVDRLLETAGIKASALRE
+                     IVETWDESSGSFLPVPERRRGPKGDSGEQGPPGKEGPIGFPGERGLKGDRGDPGPQGP
+                     PGLALGERGPPGPSGLAGEPGKPGIPGLPGRAGGVGEAGRPGERGERGEKGERGEQGR
+                     DGPPGLPGTPGPPGPPGPKVSVDEPGPGLSGEQGPPGLKGAKGEPGSNGDQGPKGDRG
+                     VPGIKGDRGEPGPRGQDGNPGLPGERGMAGPEGKPGLQGPRGPPGPVGGHGDPGPPGA
+                     PGLAGPAGPQGPSGLKGEPGETGPPGRGLTGPTGAVGLPGPPGPSGLVGPQGSPGLPG
+                     QVGETGKPGAPGRDGASGKDGDRGSPGVPGSPGLPGPVGPKGEPGPTGAPGQAVVGLP
+                     GAKGEKGAPGGLAGDLVGEPGAKGDRGLPGPRGEKGEAGRAGEPGDPGEDGQKGAPGP
+                     KGFKGDPGVGVPGSPGPPGPPGVKGDLGLPGLPGAPGVVGFPGQTGPRGEMGQPGPSG
+                     ERGLAGPPGREGIPGPLGPPGPPGSVGPPGASGLKGDKPNSLHPSSCL"
+     misc_feature    complement(5595..6296)
+                     /standard_name="H3K4me1 hESC enhancer
+                     GRCh37_chr3:48626467-48627168"
+                     /note="Region: biological region; Derived by automated
+                     computational analysis using gene prediction method:
+                     RefSeqFE."
+                     /db_xref="GeneID:127397384"
+     regulatory      5595..6296
+                     /regulatory_class="enhancer"
+                     /experiment="EXISTENCE:reporter gene assay evidence
+                     [ECO:0000049][PMID:30033119]"
+                     /note="H3K4me1 hESC enhancer chr3:48626467-48627168
+                     (GRCh37/hg19 assembly coordinates)"
+                     /function="activates a minimal SCP1, AML or CMV promoter
+                     by ChIP-STARR-seq in naive H9 embryonic stem cells
+                     {active_cell/tissue: H9 hESC(naive)}"
+                     /db_xref="GeneID:127397384"
+     misc_feature    complement(6297..7000)
+                     /standard_name="H3K4me1 hESC enhancer
+                     GRCh37_chr3:48625763-48626466"
+                     /note="Region: biological region; Derived by automated
+                     computational analysis using gene prediction method:
+                     RefSeqFE."
+                     /db_xref="GeneID:127397383"
+     regulatory      6297..7000
+                     /regulatory_class="enhancer"
+                     /experiment="EXISTENCE:reporter gene assay evidence
+                     [ECO:0000049][PMID:30033119]"
+                     /note="H3K4me1 hESC enhancer chr3:48625763-48626466
+                     (GRCh37/hg19 assembly coordinates)"
+                     /function="activates a minimal SCP1, AML or CMV promoter
+                     by ChIP-STARR-seq in naive H9 embryonic stem cells
+                     {active_cell/tissue: H9 hESC(naive)}"
+                     /db_xref="GeneID:127397383"
+     gene            16353..16428
+                     /gene="MIR711"
+                     /gene_synonym="hsa-mir-711"
+                     /note="microRNA 711; Derived by automated computational
+                     analysis using gene prediction method: BestRefSeq."
+                     /db_xref="GeneID:100313843"
+                     /db_xref="HGNC:HGNC:37316"
+                     /db_xref="miRBase:MI0012488"
+     precursor_RNA   16353..16428
+                     /gene="MIR711"
+                     /gene_synonym="hsa-mir-711"
+                     /product="microRNA 711"
+                     /note="Derived by automated computational analysis using
+                     gene prediction method: BestRefSeq."
+                     /transcript_id="NR_031756.1"
+                     /db_xref="GeneID:100313843"
+                     /db_xref="HGNC:HGNC:37316"
+                     /db_xref="miRBase:MI0012488"
+     ncRNA           16395..16416
+                     /ncRNA_class="miRNA"
+                     /gene="MIR711"
+                     /gene_synonym="hsa-mir-711"
+                     /product="hsa-miR-711"
+                     /note="Derived by automated computational analysis using
+                     gene prediction method: BestRefSeq."
+                     /db_xref="GeneID:100313843"
+                     /db_xref="miRBase:MIMAT0012734"
+                     /db_xref="HGNC:HGNC:37316"
+                     /db_xref="miRBase:MI0012488"
+     misc_feature    complement(25135..25684)
+                     /standard_name="H3K27ac-H3K4me1 hESC enhancer
+                     GRCh37_chr3:48607079-48607628"
+                     /note="Region: biological region; Derived by automated
+                     computational analysis using gene prediction method:
+                     RefSeqFE."
+                     /db_xref="GeneID:127397382"
+     regulatory      25135..25684
+                     /regulatory_class="enhancer"
+                     /experiment="EXISTENCE:reporter gene assay evidence
+                     [ECO:0000049][PMID:30033119]"
+                     /note="H3K27ac-H3K4me1 hESC enhancer
+                     chr3:48607079-48607628 (GRCh37/hg19 assembly coordinates)"
+                     /function="activates a minimal SCP1, AML or CMV promoter
+                     by ChIP-STARR-seq in primed H9 embryonic stem cells
+                     {active_cell/tissue: H9 hESC(primed)}"
+                     /db_xref="GeneID:127397382"
+     misc_feature    complement(26281..27228)
+                     /standard_name="H3K4me1 hESC enhancer
+                     GRCh37_chr3:48605535-48606482"
+                     /note="Region: biological region; Derived by automated
+                     computational analysis using gene prediction method:
+                     RefSeqFE."
+                     /db_xref="GeneID:127397381"
+     regulatory      26281..27228
+                     /regulatory_class="enhancer"
+                     /experiment="EXISTENCE:reporter gene assay evidence
+                     [ECO:0000049][PMID:30033119]"
+                     /note="H3K4me1 hESC enhancer chr3:48605535-48606482
+                     (GRCh37/hg19 assembly coordinates)"
+                     /function="activates a minimal SCP1, AML or CMV promoter
+                     by ChIP-STARR-seq in primed H9 embryonic stem cells
+                     {active_cell/tissue: H9 hESC(primed)}"
+                     /db_xref="GeneID:127397381"
+ORIGIN      
+        1 gacttttctc tgctctgccc gagagactgc agcggcggcg gcgggagcgg gcggacgcgc
+       61 aggcaagacc aggactcggg ctggaggggc gctgggctcg gacctgccaa ggccacgggg
+      121 gagcaaggga cagaggcggg ggtcctagct gacggctttt actgcctagg atgacgctgc
+      181 ggcttctggt ggccgcgctc tgcgccggga tcctggcaga ggcgccccga gtgcgagccc
+      241 agcacaggga gagaggtggg caccgcaagg gaggacccgg cccggggcac tgcaccgtgc
+      301 caccctccgc tccactcggc cttcatcccc aacacccccc gcccacaacc cagccaactc
+      361 cacgacgccc cgcggattcc tcctaattct gggactcccc gaaccctccg cgatcggtgc
+      421 tgggttccct aaaccgcctc ctatcctgtt cctacccaaa ttctggctcc ctggatgcgt
+      481 gcggggtccc ctgccttatg ccaatccacg ccggccccta gaggctgacc tcagtcccaa
+      541 gtccacaccc gtgctggcga ctctccctcc cccgcacacc cccaaccctc cgcgggagtc
+      601 tgctctggga cccaccgagc tcaactccct ccaaggccct caggctcagg ccgattcggc
+      661 cctggtttgc ataagatgag gcctactctc cccaccatcc caagtcccag tgaggccacc
+      721 gtgcgggtag gcgggtggtt ggcctcccag aagaggccct gatctctcct gcccgcccca
+      781 gtgacctgca cgcgccttta cgccgctgac attgtgttct tactggatgg ctcctcatcc
+      841 attggccgca gcaatttccg cgaggtccgc agctttctcg aagggctggt gctgcctttc
+      901 tctggagcag ccagtgcaca gggtgtgcgc tttgccacag tgcagtacag cgatgaccca
+      961 cggtgagtag gggccctggg ggctggggac cacgagatcc ccaccaagac tccttcccca
+     1021 gagagggagg agaccctgga aaccccaggc caggtctttg cagaaacaag ttttggggaa
+     1081 cctagagacc ccctagccag gacctccttt ggagacagag gtaaggattc cctaggtaga
+     1141 accttcgtgc cctgaggcac ctccaggcta ctgcaagaca ggaaggtgca agacagtgag
+     1201 gctgtgtttt ctgatctgga gatggggagc ccaggagggg gcccccacgc ctgttggatt
+     1261 ctccacgttc tagccctcta acccttgcag ccgttcacca gaggtgctcc atctggccag
+     1321 catccacttt cctacatctg gacccctcct cctgcaatta tttaattaag cagcatcttg
+     1381 ttccccacag actgtgagcc cctaagggct ccttcaggtc tgcccaggcc cacctgcaga
+     1441 tggtgcacaa aggagcccct ggggagtttg ttaacctggg ggttccagag gcaagtgggt
+     1501 gtggagaatg acagaacgaa gggacccctc aagagagcct gatacccgta accctcaccc
+     1561 tagaggcctc ctcaaggcca gggccagaag agatcctgag tcctagcctg ttgccacccc
+     1621 taccctccaa caggacagag ttcggcctgg atgcacttgg ctctgggggt gatgtgatcc
+     1681 gcgccatccg tgagcttagc tacaaggggg gcaacactcg cacaggggct gcaattctcc
+     1741 atgtggctga ccatgtcttc ctgccccagc tggcccgacc tggtgtcccc aaggtgatcc
+     1801 ctacccctac catgcctccc aagatgaccc caaatgaagt gtccagggga accgtgattt
+     1861 gacccctgca cctgtcccag gtctgcatcc tgatcacaga cgggaagtcc caggacctgg
+     1921 tggacacagc tgcccaaagg ctgaaggggc agggggtcaa gctatttgct gtgggtaagg
+     1981 accgagcagg agtgacaggt cagctggggg gtgggggcag tcagagagca tgtgggtgac
+     2041 tgagtcctga tgggtcgtca cttcagggat caagaatgct gaccctgagg agctgaagcg
+     2101 agttgcctca cagcccacca gtgacttctt cttcttcgtc aatgacttca gcatcttgag
+     2161 gacactactg cccctcgttt cccggagagt gtgcacgact gctggtggcg tgcctgtgac
+     2221 ccgacctcgt gagttcctgc ccacacggtg taccctgacc tagaccccgg accccaatcc
+     2281 ccacttggca gtgctgattc catcctatgt gctcctgacc ccgaccccaa ctctgcatca
+     2341 tacatgccca ccccaatcct cctgcctgat cccctgatcc cgcattccca gcggatgact
+     2401 cgacctctgc tccacgagac ctggtgctgt ctgagccaag cagccaatcc ttgagagtac
+     2461 agtggacagc ggccagtggc cctgtgactg gctacaaggt ccagtacact cctctgacgg
+     2521 ggctgggaca gccactgccg agtgagcggc aggaggtagg atgtcaggag tgataggtgg
+     2581 tggctgggga cttggctggg caagataaag tgacctcttg ccctgggcag gtgaacgtcc
+     2641 cagctggtga gaccagtgtg cggctgcggg gtctccggcc actgaccgag taccaagtga
+     2701 ctgtgattgc cctctacgcc aacagcatcg gggaggctgt gagcgggaca gctcggacca
+     2761 gtgagcaatt ctgccagcct ctgaccccat tcacctaacc cccgacccca gtaccccctc
+     2821 ccacttctga ctccatgaat ccctggtggg actctccccc agctgcccta gaagggccgg
+     2881 aactgaccat ccagaatacc acagcccaca gcctcctggt ggcctggcgg agtgtgccag
+     2941 gtgccactgg ctaccgtgtg acatggcggg tcctcagtgg tgagtgagag atgtgggctg
+     3001 aggggagtcc ccgcgcctca gacaaggctg tagagtcctg agtctgcaag gcccactggc
+     3061 cccttggtgt cccccatgca ggtgggccca cacagcagca ggagctgggc cctgggcagg
+     3121 gttcagtgtt gctgcgtgac ttggagcctg gcacggacta tgaggtgacc gtgagcaccc
+     3181 tatttggccg cagtgtgggg cccgccactt ccctgatggc tcgcactggt gagaaggctg
+     3241 ggcactttct tcaggctggg acgggcaggc agggcaaggc ccggaggcca ctgacatccc
+     3301 atgtgccctg ggcagacgct tctgttgagc agaccctgcg cccggtcatc ctgggcccca
+     3361 catccatcct cctttcctgg aacttggtgc ctgaggcccg tggctaccgg ttggaatggc
+     3421 ggcgtgagac tggtcagtgc gggggaaggg atggacaggc aagggtcagg gcatggcctc
+     3481 tgctggtctg accctgttat cttgcaggct tggagccacc gcagaaggtg gtactgccct
+     3541 ctgatgtgac ccgctaccag ttggatgggc tgcagccggg cactgagtac cgcctcacac
+     3601 tctacactct gctggagggc cacgaggtgg ccacccctgc aaccgtggtt cccactggtg
+     3661 agggctctgt gggctgggcc agtgagtggg ggaggtgtcg gagccccagg ctgcctctat
+     3721 gctgtgctct ccaacaggac cagagctgcc tgtgagccct gtaacagacc tgcaagccac
+     3781 cgagctgccc gggcagcggg tgcgagtgtc ctggagccca gtccctggtg ccacccagta
+     3841 ccgcatcatt gtgcgcagca cccagggtga ggtggacgca gccagcaccc ccaccacaca
+     3901 cactgaagtt ccagcctgag gggtctgagt gtacctccag ccctctcctt ccacacctgg
+     3961 gtccctatag tctcctccct gtctcgttat ccatctgctt cccaagatgg cactgagccc
+     4021 tgaactgtca acagggtgtg tctgccccta ccctacccca accaatctcc tccctgcccc
+     4081 acaccccatc cacggctttc acctctgcac agccacaagc tcaatcacct gtctttctgt
+     4141 taccctagtg gtgaccactg tacaccaacc tctcattgca tgtccccatc cagcactgac
+     4201 ctctgccatc ccacatcagt gtctgtcaat ggctcatcag ttctcactgc agtccactga
+     4261 ctcctgtcat cctacatgct aagatcccac agactcctgt cctccagtgt ccctgaccat
+     4321 cactggcccc tttcatccta tgtccttgtc ttgcactcac ttttttcagc catatcccag
+     4381 ctctctggtc cccaccaccc cacatcccca cccccatggc ccttctcact ctgcgtccct
+     4441 gtccatcact gccatcgtcc cacatccctg tctctttctg acccctgccc acctaccctg
+     4501 acttctctct taggggttga gcggaccctg gtgcttcctg ggagtcagac agcattcgac
+     4561 ttggatgacg ttcaggctgg gcttagctac actgtgcggg tgtctgctcg agtgggtccc
+     4621 cgtgagggca gtgccagtgt cctcactgtc cgccggggtg agtactgcag gaggcttgtg
+     4681 gaggacagct gcctgcctca ctctggtcct ggttctgact tctgacttct gtctgtaact
+     4741 cctagagccg gaaactccac ttgctgttcc agggctgcgg gttgtggtgt cagatgcaac
+     4801 gcgagtgagg gtggcctggg gacccgtccc tggagccagt ggatttcgga ttagctggag
+     4861 cacaggcagt ggtcagtgtg gggtgtgtgg ggggactgcc aaagggacca atgagggtat
+     4921 gggtgccaga ggggacaggc aggagccatg ccagcatttc cctctgacct caggtccgga
+     4981 gtccagccag acactgcccc cagactctac tgccacagac atcacagggc tgcagcctgg
+     5041 aaccacctac caggtggctg tgtcggtact gcgaggcaga gaggagggcc ctgctgcagt
+     5101 catcgtggct cgaacgggtc aggccctgcc cccgtccctt ggctctctgc ctccattgct
+     5161 ctttcagacc cccatgcctt cccttgcaga cccttgcttc tccccagaac tcctgcctcc
+     5221 cccttcagaa tcccactccc tcctccctca gagacgctgc ttcctcttca gtttcagctg
+     5281 tctcccctta agccctcccc gtattcagat tcctccgctt ctctcctaag actcccacag
+     5341 cctttgccct caaatatcca ccacttcaac cctcagaccc ccatcccttt tttgctggac
+     5401 ccaaatctcc tctgagattt acactttctc ctccatcaga cctgctcact gcttcctaaa
+     5461 acctccacct ccccactcct ccactggacc tattcaccat ctcctctatc aaattcccgt
+     5521 ctcctgttag actcccatca tcttccccta tcagatagcc ccactccttc ctgcctgttc
+     5581 cagcagactc cccattgcct ctccccacta gacccactgg gcccagtgag gacggtccat
+     5641 gtgactcagg ccagcagctc atctgtcacc attacctgga ccagggttcc tggcgccaca
+     5701 ggatacaggg tttcctggca ctcagcccac ggtggggact ggggtttggg agggggcagg
+     5761 tcagggtgga atgggggctg ggggtttatt gggggtccag gtggggctct ggggcacaga
+     5821 gtttgctagc cctggagctg cctccatccc tgttcccagg cccagagaaa tcccagttgg
+     5881 tttctgggga ggccacggtg gctgagctgg atggactgga gccagatact gagtatacgg
+     5941 tgcatgtgag ggcccatgtg gctggcgtgg atgggccccc tgcctctgtg gttgtgagga
+     6001 ctggtgagtg gaccctggcc agctactagc cacaccgcat tagctaccct gccctgctgt
+     6061 gtgttcctga ttgcccagct gcctccaccc ccctgctcag tgactgtcct gtccacactg
+     6121 acccacccca cactgattaa gtgtccaccc acggtgacct cctggtggcc ccacactgcc
+     6181 caccccaagg cactgacctc ctcctcctca gggctgccta aagtgacctg tccacactaa
+     6241 cctcacactg actttcagat cacccctgcg tcaaccattc ctgcactgcc tctctgttct
+     6301 ctaccaggac cccttacctt gcctctgtcc ccagcccctg agcctgtggg tcgtgtgtcg
+     6361 aggctgcaga tcctcaatgc ttccagcgac gttctacgga tcacctgggt aggggtcact
+     6421 ggagccacag cttacagact ggcctggggc cggagtgaag gtatggctcc ctgacgccac
+     6481 ccctgtcctt cctggctggg actgctcacc cctaaccatt gctgtatgcc cacctggcca
+     6541 ggcggcccca tgaggcacca gatactccca ggaaacacag actctgcaga gatccggggt
+     6601 ctcgaaggtg gagtcagcta ctcagtgcga gtgactgcac ttgtcgggga ccgcgagggc
+     6661 acacctgtct ccattgttgt cactacgcgt aggcagagca tgcgctggag agcttcggat
+     6721 gggtggtgtg gatggtttgg ggatccgggc ttgtgctctg gattggagaa aggaccagga
+     6781 ttggtagtga gcctttgggg gcagggtctg agaggaggga gaggggtctg agaggctggg
+     6841 cggggtgcgt gtgccagggt gggcctggga ttggtgcagg ggccatgggg gcagagcctc
+     6901 cctgattcct gagctttctc tccagcgcct gaggctccgc cagccctggg gacgcttcac
+     6961 gtggtgcagc gcggggagca ctcgctgagg ctgcgctggg agccggtgcc cagagcgcag
+     7021 ggcttccttc tgcactggca acctgagggt gagaggtgtc cccaggagga agttagggac
+     7081 cattgggggc agggctgtgg cagactccgc aaggtaggcg aggacagtga tggtgggcgg
+     7141 ggtctgtcac tgggggtctg cgggatccgt gacagtaggt aagatcaatc aatgaagtgg
+     7201 gtgggatcaa tgagttcatg gagggtcagt ctggcagggt ccgtaaagtg ggcagggtca
+     7261 gtgaggatga ggaagatcag tcaggagggt gaacccagtt aacagagcca gtgaagtggg
+     7321 caggcccttt aatgccccca ggtgtcacta tcccacatgc tcttggcccc caccctcacg
+     7381 cctgccccag gtggccagga acagtcccgg gtcctggggc ccgagctcag cagctatcac
+     7441 ctggacgggc tggagccagc gacacagtac cgcgtgaggc tgagtgtcct agggccagct
+     7501 ggagaagggc cctctgcaga ggtgactgcg cgcactggta agcctgcctc accttggcgt
+     7561 gctcctcccc tgctgatgac ccaccctgac ttcctgcacc ccgactctga gtgactcctc
+     7621 ctgtacccct acccctcacc ctctgaccct gggtgacccc agcatgacct cccatgatgc
+     7681 ttcaataaga caaaccggac ccaggatctc agatctctcc cttctgggtt ctcaggactc
+     7741 agcctctgat cctcgatctt tcattcctcc ttcagagtca cctcgtgttc caagcattga
+     7801 actacgtgtg gtggacacct cgatcgactc ggtgactttg gcctggactc cagtgtccag
+     7861 ggcatccagc tacatcctat cctggcggcc actcagaggc cctggccagg gtgaggggga
+     7921 ggccaggatt tgggtgggct ggcagttggg gctctgtgga gacagctttt taatcaagtt
+     7981 ctgtctcctg cagaagtgcc tgggtccccg cagacacttc cagggatctc aagctcccag
+     8041 cgggtgacag ggctagagcc tggcgtctct tacatcttct ccctgacgcc tgtcctggat
+     8101 ggtgtgcggg gtcctgaggc atctgtcaca cagacgccag gtatagtggg cgtagtggga
+     8161 agggcagaaa ggtgtgtctg ggtgggctgc ccgcttcagt aacttgttcc ccttcctaca
+     8221 gtgtgccccc gtggcctggc ggatgtggtg ttcctaccac atgccactca agacaatgct
+     8281 caccgtgcgg aggctacgag gagggtcctg gagcgtctgg tgttggcact tgggcctctt
+     8341 gggccacagg cagttcaggt ttggccctgg ggcagccaga ttctacctct ccctgaggcc
+     8401 ccccacccag gctccatacc agttaccatc tcctgaccac ccaataggtt caggcattct
+     8461 cccagctctc tcacaggctc cagacctcac ctactgcctg gctccctatc ctgccatcac
+     8521 tgctgactcc ctaatagata gggtttggtc acacacaccc tgatgtgttt ctccaggctc
+     8581 tgtgcacccc catccctgct ctgtcatcct cctcaggctc tgtgtttcct tccaccccag
+     8641 gttggcctgc tgtcttacag tcatcggccc tccccactgt tcccactgaa tggctcccat
+     8701 gaccttggca ttatcttgca aaggatccgt gacatgccct acatggaccc aagtgggaac
+     8761 aacctgggtg aggactgcag caggcatgga ctcctggggc tatccactgg gagcttggtg
+     8821 ccccagggtt ctgacatgtc cttccttcca ggcacagccg tggtcacagc tcacagatac
+     8881 atgttggcac cagatgctcc tgggcgccgc cagcacgtac caggggtgat ggttctgcta
+     8941 gtggatgaac ccttgagagg tgacatattc agccccatcc gtgaggccca ggcttctggt
+     9001 aaggagtagg ctgatgggga aggggtctgg gaataggggt ggccctgaaa aggctatcat
+     9061 gcagccactg gaccccacct tagggcttaa tgtggtgatg ttgggaatgg ctggagcgga
+     9121 cccagagcag ctgcgtcgct tggcgccggg tatggactct gtccagacct tcttcgccgt
+     9181 ggatgatggg ccaagcctgg accaggcagt cagtggtctg gccacagccc tgtgtcaggc
+     9241 atccttcact actcaggttt ggaagaggcc tctgggggac tgggtggtag aatataaggg
+     9301 gtctgggggt tcttggtaga aatgttcaac ctcaaagaga ccctatgtcc gcagccccgg
+     9361 ccagagccct gcccagtgta ttgtccaaag gtaagagtcc ctcatcgaga ggtgaacaga
+     9421 ggctgcacct ggggctagcc actctgaccc acatctgaca tgtctttccc cagggccaga
+     9481 agggggaacc tggagagatg gtgagtgccc ctgcgggcgg ggaatagaga atgggttgag
+     9541 tgtcagtggg gcaggagagg ttggcagcac aggtctcact gattaccctt cctagggcct
+     9601 gagaggacaa gttgggcctc ctggcgaccc tggcctcccg gtgagtgtcc cccacatctg
+     9661 tccctgcacc ctgactggct tatccccacc taactgctat cttctttcag ggcaggaccg
+     9721 gtgctcccgg cccccagggg ccccctggaa gtgccactgc caagggcgag agggtgagtg
+     9781 tggagaccat cgaggtttct ctgaggcact cctcaaagct gtctcggggt ttttacaaga
+     9841 gagaaggaag aagcagagtt agaatcatcg ggaattccta gaagcccagc tggaggttat
+     9901 aaaccaccac agagactttg ggggacactc tgaaatagaa gggccagtgg ggcctctagc
+     9961 cccgctgcag agcctgagca gcagctccaa gtcccagagg cagggaagcc ctctgccttg
+    10021 tcgctgccct tgtgcctgga attgggctct gtgaagctct gaggggccat ttctctgcct
+    10081 cactgttcca cccccaataa cacttggggg tcagtggggt aggcgacccc ttgttgatgg
+    10141 ggtgaggccc ctccagcaaa ccaggggcct tgggggaggg tcccttcctg tcctgacctc
+    10201 ttcacctcct cagggcttcc ctggagcaga tgggcgtcca ggcagccctg gccgcgccgg
+    10261 gaatcctggg acccctggag cccctggcct aaaggtgagc aagccttgtc ctgcaggtca
+    10321 gggtgggcgc tgcctgagtg ggtggggtgg ctccgactgt tctgcctctg gcctccattt
+    10381 gcagggctct ccagggttgc ctggccctcg tggggacccg gtaaggtgcc ttcccttctt
+    10441 tgctctctaa gtgtcttccc agggttcttc cacagggtgg gagcctgggg tggtggtgca
+    10501 gtgcccacgt tgacattcgc ctgagcccaa gcaccaccct ctgctctgtt tcgtcctcag
+    10561 ggagagcgag gacctcgagg cccaaagggg gagccggtag gtgaaggggg aagggaggcg
+    10621 gccgggatgt cccagggagg agcaggactg ccccacacca gaccctgtgc agggcctaag
+    10681 gcgcgaatag gaatagctgg acatgtctag gggcttcttc cagctcaagg cccccatagc
+    10741 ctgaatcctg cccactgctc tctgtcctta cagggggctc ccggacaagt catcggaggt
+    10801 gaaggacctg ggcttcctgg gcggaaaggg gaccctggac catcggtaag tgcagggtat
+    10861 gtggaggcaa gtgatgtgta gtggggggac caacacgagg ggggcgagag tgaggtctgt
+    10921 ggggttgcac cttatacttt gtctcctcca tcagggcccc cctggacctc gtggaccact
+    10981 gggggaccca ggaccccgtg gccccccagg gcttcctgga acagccatga aggtgacagc
+    11041 ctcatgagtg ccatgtgatg cagagacctg gtgaccccat ttgaacccac ataacccctg
+    11101 ccagttactc tggcccttgt gaccctttga ttacccccat cctcaccatg acgcctcagt
+    11161 tctcccaaaa tccttgaaat ccaattggac cccatgaccc tcatcactcc tggtatcttt
+    11221 gggagtgagg tgtggcccag ggtcatgggg tcgtcatctg ttttctaggg tgacaaaggc
+    11281 gatcgtgggg agcgggtaag tgagggacag gttgtgctag gggtggcttg gagtctgatt
+    11341 cccctgttca ttccctgacc tgctgttctc tcccagggtc cccctggacc aggtgaaggt
+    11401 ggcattgctc ctggggagcc tgggctgccg gtgaggggcc ttgaggctct gctgggggcc
+    11461 ctgctcaggg gtgtgggtct ctcctggggc agtggttggg tgctgggctt catagttctt
+    11521 ggctcatatt tttactcact tcttcctagg gtcttcccgg aagccctgga ccccaaggcc
+    11581 ccgttggccc ccctggaaag aaaggagaaa aagtaggaag gctgacttga tgatgtccca
+    11641 gttctggggt gggaggctgc gtgctggggg cagggcctcc cttcggtctt cccacccgtg
+    11701 tgtttctcct tcagggtgac tctgaggatg gagctccagg cctcccagga caacctgggt
+    11761 ctccgggtga gcaggtgagt ggaggggcca gggattctga atatggtggg cacagctcca
+    11821 gcccctacct caatcatcaa ccactgctcc atcctcatgc ccaaacccaa atctctgaac
+    11881 ccccaaattc atcccttcca gggcccacgg ggacctcctg gagctattgg ccccaaagtg
+    11941 agtaccagtt gggggattca ggtgtgaggg gtgctactct gggctcccca tggtgttagg
+    12001 ggaggctgga agataaggag ataagagttc cctccaggtc agaggtcgtg gttttggagg
+    12061 gggtggttgg agtttgggac cccttgtctg gggtttgacg ttcaagcccc gccaccaacc
+    12121 ctctctctct ctgtctttct ctcaccctct ctcttcaggg tgaccggggc tttccagggc
+    12181 ccctgggtga ggctggagag aaggtaagtg caacctgggg ggtgccaagg gccctggagg
+    12241 atctgggccc aactcagctc tgacctcttc ttttccatca gggcgaacgt ggacccccag
+    12301 gcccagcggg atcccgggta aacccactgg ctgcaatgct cataccagct gacctggctg
+    12361 tgccctttct ggttctgact tcttgccctt gacccctgct acccctgctc ctcacccctc
+    12421 ctcaatgacc acttatccct gctgatacag gctctaaccc tcagccccag ggacctggct
+    12481 ttgaacctct gaccctgctg aactgacctt gattttcact gacctggtct ctgttctcct
+    12541 gccaagtctt acccctgcca acctaaatcc caatcttccc tgacccctct ccagccccca
+    12601 ccccagcctc tagccctgtc tgtccatatc ccccgtcccc acccacctgc acagctcttc
+    12661 ccttcctctc ctccaggggc tgccaggggt tgctggacgt cctggagcca agggtcctga
+    12721 agtgagtctg tgactgtggt gggaccagga gtgggacttt tgtgtgtccc tcccctttcc
+    12781 cttcccctcc tgggctcaca ctttctctac attcaggggc caccaggacc cactggccgc
+    12841 caaggagaga aggtgggtcc tcggctgggg gtggcactgt ctggtactag ggatgtggca
+    12901 gatgggacac tgggattttg ggctcctagg tgactccctg acctgtccct gctcctatcc
+    12961 tctctccaca gggggagcct ggtcgccctg gggaccctgc agtggtggtg agtgacggga
+    13021 ggatggcgct ctgagcacag cacagccctt gagcagtgac cctcctatag aacactatct
+    13081 gggctgtgat tccacagtgc tgggcccgtg agcaggctgg gagctctgcg gctctccttc
+    13141 tgctagaacc tgcccccaga ctcttggcta tgatcctgtg accccaagac cgccatgcag
+    13201 gtcatgagct ctttgtgtca gtccattttg tataacccct tccctgctgt cagcggtgac
+    13261 tctgtgactt ctgggcgggg actgagctgt atgacttcca attccatgtg acctccattc
+    13321 caatgaagac tttgatcata caaccccaag gcagggccaa gctgtatctg tcctgtttgt
+    13381 tttcagggac ctgctgttgc tggacccaaa ggagaaaagg taagcctggt atggggcaag
+    13441 gggaggtttc tacagggttg aggtctaggt catagggcct atctatggga cttggggggt
+    13501 cacaggactt gctgggtcag ggggttaact ggagcctggg actagcactg atggtctttg
+    13561 tcacctccag ggagatgtgg ggcccgctgg gcccagagga gctaccggag tccaagggga
+    13621 acgggtaagt gaagcgaagt gtttaggggg cagttggtga aggttgtctt cctgacttct
+    13681 tatccttcca tccacagggc ccacccggct tggttcttcc tggagaccct ggccccaagg
+    13741 gagaccctgg agaccgggtg aatcaatgtg ggaatgggga gtgtgacaga gggagatgag
+    13801 gtggtgggac cctgactaag tcctgccccc cttctgtccc cttcagggtc ccattggcct
+    13861 tactggcaga gcaggacccc cagtgagtac ccgttaccct gggcaacctc aaggcttctg
+    13921 gggtcccctc cccttgagaa ctgcttgctt cgagcgtcct gcatcacctc cctcttgcct
+    13981 cctccacagg gtgactcagg gcctcctgga gagaagggag accctgggcg gcctggcccc
+    14041 ccaggacctg ttggcccccg aggacgagat gtaagaggct ggagtcgggg gagtcatggc
+    14101 gggtaaggga gtagggctgt tgccagcatc atgggggttc ttggaaccag ggctgactct
+    14161 catgtttcac agggtgaagt tggagagaaa ggtgacgagg gtcctccggt gagactcctt
+    14221 cccactgtgg tttctgatcc tttacccttg aactaggatc ccagtaggct ggtgctccac
+    14281 cagttcatcc atccactccc tgcctcctgt ccagctgctg ctcagaccct tctctgtccc
+    14341 ctctccctga gtgagttaga tcctgactgc cctgtgcagt atgacttttc tctctatcac
+    14401 cagggtgacc cgggtttgcc tggaaaagca ggcgagcgtg gccttcgggt gagtcttggc
+    14461 agagagaagt aacaggggtg atgggaggtg ggcatgaagg tgataggaaa ggctgagggg
+    14521 ggtaaggggt gatgggagtc cctgcaggga ggcatggggt gatgggaacc tctgatgtgg
+    14581 attttggagt aatggggaac ctggggcagt gtagcgggtc ataggggcac ctgcaaaata
+    14641 ttgggagggt ctgtctcagg ccagctgctc ttcttagggg gcacctggag ttcgggggcc
+    14701 tgtgggtgaa aagggagacc agggagatcc tggagaggat ggacgaaatg tgagtcccag
+    14761 cctatgactc ctcaccccaa ccttaaccct ccaaccagcc aattcccaat acctgatcct
+    14821 accccccaac cctgtaatgc taaaccctcc caatcttcac ttcctttgac ccctgcacac
+    14881 acgcatctga aggctaccaa cattcccatg agtcctcatg gtgcttccaa agctctccca
+    14941 aactgctgcc taccttgagt ggccctgacc cctgcctttc tgcagggcag ccctggatca
+    15001 tctggaccca agggtgaccg tggggagccg gtgagtaggg ctggtgtcct gggctcagaa
+    15061 gggatggagg gtcccctggc gctgctgcca gtgtgccttc acacaagggg tctggaggtc
+    15121 caggtgggaa gcatggatgg ccacccatgc ctgctggggg ctggcattgg ggtgcttcgg
+    15181 ggaacttggg ggcagagttg agcctggggc aaaccagagc catggcctgg gacctgaggg
+    15241 ctcctattga ctataatcat ttcctttccc agggtccccc aggacccccg ggacggctgg
+    15301 taagggctgc gctgggtctg gtcctctgtc attgttctca cttgcccctt tggctccaca
+    15361 tcatgtcccc tcattccttc cactaactcc cacttccccc actgtccctc tgaaacctcc
+    15421 gcggatccct ggagcccctc acagaccctg tatcccctcg ccaactcctc ttccccttgt
+    15481 tgagccattc ttctcactgg tcattccccc cacaggtaga cacaggacct ggagccagag
+    15541 agaaggtatt agggtctgtg ggtggagggt aagaaagacc ccagtgcccc tcccagcagg
+    15601 ttctaccttg ggcatggctt ggcttcaagg ctgttcctca gcaagcttat ctctgccaca
+    15661 gggagagcct ggggaccgcg gacaagaggg tcctcgaggg cccaagggtg atcctggcct
+    15721 ccctggagcc cctggggaaa gggtgagtgt gattggtcct cgggggtgca ggcatgggag
+    15781 ggcctgctct gatttcttcc tcccctatcc tcagggcatt gaagggtttc ggggaccccc
+    15841 aggcccacag gtgagtgatg cactttgccc cgtctgccaa gtccccatct taccctcacc
+    15901 tcttatctga ccctgttccc tccaggggga cccaggtgtc cgaggcccag caggagaaaa
+    15961 ggtgagaggg tgtgggggtt tctcaggaca tgagcctggg ttatcagatc cacctcagcc
+    16021 ttggtggcct cttaccactc tattttccac agggtgaccg gggtccccct gggctggatg
+    16081 gccggagcgg actggatggg aaaccaggag ccgctgggcc ctctgggccg aatgtgagtc
+    16141 ttggtagtcc tgcctggttg tccccttccc ctaccccttc acatgaggac cctagacccc
+    16201 agcctcattg gttggtcttg gccttgacga gctctggggc gagacctgtt gtctgtgtct
+    16261 tctcccagag ccctgcctgg gtggggcatg ttcttgccat gcaggcctta ggctcacagg
+    16321 gactagagcc cctgacccca tgaccatgat gaactgactt tgagtctctc ctcagggtgc
+    16381 tgcaggcaaa gctggggacc cagggagaga cgtaagtgag gggagatgct gggacagagg
+    16441 gggctcgggg ctgcgtaagc tccaaccaga tcatcatagt cacagcatcc gagagagttg
+    16501 gtggggggtc ggttcagcct tgcctttggg agggtctcag tccctggcac acaggtttta
+    16561 gtagaatccc cctttctgac cttctttgcc ttgggggtct tcataggccc tccaagtcct
+    16621 gggggttctt cccttgggag tctcagcagg ggcccccatc catggggtct gtgcctgagg
+    16681 gatctcaatg ggacctctca gtcctggggg tctctaccct ggagggagat ctttttgggg
+    16741 tcctcttagt ccatggggtg tgccccaagg gatatctcag aggccctata aatcttaaca
+    16801 aagacttttt ccaggggctt ccaggcctcc gtggagaaca gggcctccct ggcccctctg
+    16861 gtccccctgg attaccggtg agaccagact ttcatgttac ccccttttcc cccttactac
+    16921 cctcacccga tccccgacat ccaaccagtg atctgttccc acagggaaag ccaggcgagg
+    16981 atggcaaacc tggcctgaat ggaaaaaacg tgagtgtgtc cagggcagct gcggcgaaac
+    17041 ctgccaagaa acgccagcac acctacacag ccaagatctg tagcaacaca tgaggcacac
+    17101 gtgtagacac atgcatcctg gcccagacat acagatgcat ccagaaacat agtttttttt
+    17161 tttttgagat ggagtttcgc tcttgttgcc caggttggag tgcagtggca caatctcagc
+    17221 tcactgcaac cttcgactct cgggttcaag tgattctcct gcctcaacct cccgagtaac
+    17281 tgggattaca ggcatgcgcc accatgcctg gctaattttg tatttttagt agagatgggg
+    17341 tttctccatg ttagtcaggc tgatcacaaa ctgacctcag gtgatccgcc cgcctcggcc
+    17401 tcctaaagtg ctgggattac aggcgtgagc cattgcgcca ggcctggaaa catagttcta
+    17461 tatgcacaca caggcagcct cacagacaca tagggagtta ggtgaatggg ccaatttatg
+    17521 ccaggatggg ctgacacatg cccagataac ccacagccat aggcacaggt gaagagccac
+    17581 agacaggtcg acaggcacaa acacactggt gtgtagccac atttggggca cttagagaca
+    17641 tgttgatacc cagacacttc cacccagact catgtgctaa gacatggacc caagaccgca
+    17701 tgtggacctg tgttgagaca tggtgagaca cacatggatg gctctgacct gtgacatgtg
+    17761 ctaggacatg ctggcccatg actttatatg gtcacccaca cgcttatggt catacacatt
+    17821 gagctacaca caagagttgc agacagatgc caagacacat ggctctcaag gcatgtataa
+    17881 gcccatgctc tttggagaca tgtataagcc catgcccata tgcagacatg ggccaagatg
+    17941 tgcaaacaga ccaggacaca cagacccatg ggtacatgta ctaagacaca catggatatg
+    18001 cacacaccca ggacatgtgg acgatcacca acccagagat gcataaatgt ggagctacct
+    18061 ctagagagcc agagtcaaag gacatgtgtg cagttgcctg ttggggtgag caggcctatg
+    18121 caggcacacc cttagacatg tagcagctca ctcagacggc cacaggccat gctccaagac
+    18181 acacacaacc atggagctac aggcacagaa atacagtcac agtcatctga aatctagcaa
+    18241 ggtagtgtct tgcagccaga caccagtgaa tgtttgggct gatgtgagtc ctctgcccac
+    18301 agggagaacc tggggaccct ggagaagacg ggaggaaggt aaagtccccc acctggggtc
+    18361 tctctggtct ctgcttggag ccatgcctga agcatccttg tcttccttag ggagagaaag
+    18421 gagattcagg cgcctctggg agagaagtga gtattggagt tttctgcaac ctctgacccc
+    18481 tgaccctgac cctgggggaa tatgactcca ctcttttctg aggtctcagg gtgctgatgc
+    18541 tggctgcatc cttcacaggg tcgtgatggc cccaagggtg agcgtggagc tcctggtatc
+    18601 cttggacccc aggggcctcc aggcctccca gggccagtgg gccctcctgg ccaggtgagt
+    18661 gtcctgggtc attctgggac ttcagagcat tagaagccat gatgtttcaa tgggcaaccc
+    18721 tcctgggaag ccatgggcct ttgtgacccc tttgtgttct gccgtatctc agggttttcc
+    18781 tggtgtccca ggaggcacgg gccccaaggt gagtgcggat gttgggtagg gggcgtggtg
+    18841 agggggctga ccaggctggg ggccatttcc ccacctggtc attcttgttt tcagggtgac
+    18901 cgtggggaga ctggatccaa aggggagcag gtgaggcccc caccttttcc acatgcccag
+    18961 gtagccacag cacccacatg tgcacatgca cacccatagg ctggttccta gcagtttgtc
+    19021 ttcatctctc cagggcctcc ctggagagcg tggcctgcga ggagagcctg gaagtgtgcc
+    19081 ggtgagccag gcttgggatg tccccttgac tctgttttgc atgcccattg gggccacctt
+    19141 gccatcccct tccccttgcc atgaggctcc ataggttctg tgctgtgtgt tcagtgccct
+    19201 gccccattgg ggttcttgta gcccacactc aagggaactt gggcagtggg gacacaccag
+    19261 aaaggggctc ccaggagtct ccagccatgc ctcaaccaag tgctaaaggg tgctctgggc
+    19321 aagaggccta gggaaaaggg tgtgaaggtg ctttcctgag gccgtgcggg gcagaaggca
+    19381 ggagcttctc tgtcatgggc agcccttcac ccagactttg tccccagaat gtggatcggt
+    19441 tgctggaaac tgctggcatc aaggtgggtt gtttaggggc tgggggtagg gacaagtggg
+    19501 ggcccttggg gctagtggtg cccacaggca taggggctgc ggcgacgcac cccgctcctc
+    19561 tgacctcttg ctgtccctca ggcatctgcc ctgcgggaga tcgtggagac ctgggatgag
+    19621 agctctggta gcttcctgcc tgtgcccgaa cggcgtcgag gccccaaggg ggactcaggc
+    19681 gaacagggcc ccccaggcaa ggaggtgagc agaagtggct cagtgggttg tgccccgtgg
+    19741 agtggggtgt agctgtacag ccaccagcat tctctcttcc actcctgcag ggccccatcg
+    19801 gctttcctgg agaacgcggg ctgaagggcg accgtggaga ccctggccct caggggccac
+    19861 ctggtctggc ccttggggag aggggccccc ccgggccttc cggccttgcc ggggagcctg
+    19921 gaaagcctgg tattcccggg ctcccaggca gggctggggg tgtgggagag gcaggaaggc
+    19981 caggagagag ggtgaggctg ggggctggcc aggagagtga gggaagaggg gttgggaggg
+    20041 gtgggacccc ccatgggctt ggccctcacc cgctatttgc atttcaggga gaacggggag
+    20101 agaaaggaga acgtggagaa caggtgggct gcgatgggct tcgtggggca ggctgtctgg
+    20161 aggctgtgct ggggctgcca ccccattttc ttgtttcctg cagggcagag atggccctcc
+    20221 tggactccct ggaacccctg ggccccccgg accccctggc cccaaggtga tcaccccatc
+    20281 cctgccttag tcctgtgact agtgaccagg aagccaccct tagcttggtc cccagaaata
+    20341 tggtagtgtg tgccataacc ctggaatttc tgaccctata accctctgtg atcctgagat
+    20401 ctgtgatgac tcccccatgc ctctatgaca gagacatctc tcccctgtga ccttgtgttt
+    20461 gtaggtgtct gtggatgagc caggtcctgg actctctgga gaacagggac cccctggact
+    20521 caagggtgct aaggtcagtg tgtggaatca gctcggggcc accctctgcc atggcactag
+    20581 ggactgactt gacatctcat ccccacaggg ggagccgggc agcaatggtg accaaggtcc
+    20641 caaaggagac agggtgaggc ctctctccac ccttccatag agtccccctc ctttctgggg
+    20701 gcacactaga ggtggtgtgc atatgcacct gggcacgtgg cagggactgg gggctcaggg
+    20761 cacgacactc tgccttcagg gtgtgccagg catcaaagga gaccggggag agcctggacc
+    20821 gaggggtcag gacggcaacc cggtaagtcc ttgcccaaca gccacacatg tgcaagaagg
+    20881 tggctctcac atgtattgtc ctgtgtgcag ggctggggtc tgtactgcct gggactgtct
+    20941 gggtcctgac tctgtctagg gggatggtgg gtggagggga agttggaact gggaaactaa
+    21001 ggccttaaac ctattctctg cagggtctac caggagagcg tggtatggct gggcctgaag
+    21061 ggaagccggt gagtggtggc tgaagcacct ggccccaggc tccggaccct ccgctaggtg
+    21121 ctgctgctgc tgtgtgtgtg catgtctgtg tgtgtgtgtt tgtgtgtacc tgtgtctgtg
+    21181 tgcctctctg tgtgtgcctg cttgtgtgtg cctgtgtctg tgtgtgcctg tgtgtgcctg
+    21241 tgtctgtgtg tggttgtatg tggatgtgtg tgtgcaggcc cgtgtgtgct atctatgaga
+    21301 ggcagtccat gggtaggtat tatctgtgac tggaaagggt gaggtatgga aattgacccc
+    21361 caaggaaaaa gcccccagag gttgggaaca ggcccaagtg aggcccagat tgaggctcat
+    21421 cagtgccctc tctatgtagg gtctgcaggg tccaagaggc ccccctggcc cagtggtgag
+    21481 tacccaagaa ccttcacctg tcttgccccc atcctgtgcc ctgccccagt gaccagtact
+    21541 gcctcagttt ccttggtggg gtgcggctaa ctccccctca tcagactctt tttcgccaca
+    21601 acagggtggt catggagacc ctggaccacc tggtgccccg gtgagtgacc agggaacact
+    21661 gcctggtgag ggtctggaag ggctgggata ggcattggcc acagctgatg agccaggcct
+    21721 tctctgtgtt aatccctgag ccctgttccc tgcccttgac ccttttctct agggtcttgc
+    21781 tggccctgca ggaccccaag gaccttctgg cctgaaggtg agtctaggtg tgtggatagg
+    21841 aggaggaggc tccttcaagc tgtgtccatg cctggggtag tgtgcgccaa cctcctgggc
+    21901 tgtcatctcc tgcaatgagg atgagctcca ggagccctgg ccacgtgggc tctgctcatg
+    21961 cagtctctgg gttgtttgca gggggagcct ggagagacag gacctccagg acgggtgagt
+    22021 ggcctagctc acaggttagg gtcataggga gatgggtggg gttggcactg ccctgaactt
+    22081 tctcttcctc cagggcctga ctggacctac tggagctgtg ggacttcctg gaccccccgg
+    22141 cccttcaggc cttgtggtga gtgagtccct gtggcccctg tagggacacc gtgttttcac
+    22201 tccttggggc ccatgttctc tcatgtcgtc ctgtgtccat tgtcaccctg acatccgact
+    22261 tgttctccgt cagggtccac aggggtctcc aggtttgcct ggacaagtgg tgagttctgg
+    22321 gggtcaaggg ttgggctcca ggggtcaagg gtcgacaggc agccctgaca gagctcttcc
+    22381 ctctcagggg gagacaggga agccgggagc cccaggtcga gatggtgcca gtggaaaaga
+    22441 tggagacaga gggagccctg gtgtgccagt atgtgttctg ggggcagctc gctagggtgt
+    22501 ggtgcccagc tgtgggcctg aaatatgagg agtggggcag caggggtggt ggtggagagg
+    22561 cactgagttc ctcacgctgc tctgccatag gggtcaccag gtctgcctgg ccctgtcgga
+    22621 cctaaaggag aacctggccc cacgggggcc cctggacagg tgatctttga ccctgacttc
+    22681 caccccctgc agcaactcct ctgcctcacc cacaagcctg tttccaaatg ccatgggggt
+    22741 ggcagggtgg gggcggggga ggaggaggaa actcactagc attccccaca ggctgtggtc
+    22801 gggctccctg gagcaaaggg agagaaggtg agtgtgtgtg gggctgccag tgaggggggg
+    22861 tcaactggtg ggggccaagg aatcccactg acctctcccc cttaccaggg agcccctgga
+    22921 ggccttgctg gagacctggt gggtgagccg gtaagtaggg aacttctgac agcagatgtt
+    22981 ctgggggtcc tgtctctcca gtggcctaac ttctgacctt cgacccatag tttacccacc
+    23041 ctcatgaccc tcagctttca tagtagaccg catatttaag ctctggcccc atgcctccct
+    23101 ccggagtctc atctttctgt gactgatgcc tgtgttgcct cctgacctct gtcaacaggg
+    23161 agccaaaggt gaccgaggac tgccagggcc gcgaggcgag aaggtgaggt gggttggccc
+    23221 tggggcctga ctactgagca gagaaggctc agtccagaca cccctcacct gccattctgt
+    23281 gcagggtgaa gctggccgtg caggggagcc cggagaccct ggggaagatg tgagtccggg
+    23341 gcctaggcaa gggcgagcct ggcctgagga gtgtgatggc gggcataagg ggccactctt
+    23401 gggccggggc acatgtctga gcccctgagt cgggctgcat gtcccaacat ccaggagcct
+    23461 gctctctgga tcacagggag ccacacactg tcggcttcca cactctgagc tctgggggcc
+    23521 ctgtcttggc ttctgtgtgc ccatccttgg tctgtttctc accacatctg ggcacacgtg
+    23581 tgctctggtc tgatctccca gatcccagga cacacctgag ttcttgtgaa cctctccttg
+    23641 gtcctgtgtt tacaatcctc ctttcccctg cccctggctg ccagcgttca gcctgtggcc
+    23701 atgcctgctc tacccgggag tggacgtgtt ggggttcccc tctgagcgcc cgtgtgtccg
+    23761 cactcacgtc tgtggagcca gatgtctgca ctcgcgtgtg ggctccctgt gcctgtgcca
+    23821 tgcctgaact cccacctgtc tatggtagta tctgagcgtc cctctgtctg tgctgtcctg
+    23881 agataggcca tggtcatgtc tgagctcctg tgagccaatt cttggtcgca tgtctgagtt
+    23941 cccatgtgtt catggtcaca tcagaactcc cctgggaata ttttcagccc gtgtctgaac
+    24001 tctgtgctca tgttcctacc ctctcaaatg ctgtttgctg ggttttctta gggtcagaaa
+    24061 ggggctccag gacccaaagg tttcaaggta tgtgtaccca gaagggtccc tgctggggtc
+    24121 ctggtcgtga gactccctga gcttgatccg atgcctcttt tcctcaaagg gtgacccagg
+    24181 agtcggggtc ccgggctccc ctgggcctcc tggccctcca ggtgtgaagg taagtcaatg
+    24241 ccccatcacc agttgtaggg gcagcaggcc gggcccccac aggaggaaga gggagttctg
+    24301 atgagagtcc tgggaggggt cctgcattga ccattccctc cctttgctgt ttttatttca
+    24361 gggagatctg ggcctccctg gcctgcccgg tgctcctggt gttgttgggt tcccgggtca
+    24421 gacaggccct cgaggagaga tgggtcagcc aggccctagt ggagagcggg tgaggggctg
+    24481 ggaacagcat gtaggggcat ggtgaatcca tggtgggtga ggagggggcc ctgccttggg
+    24541 ggttcccagt cttgaggggg cagagggtag gagggttccc aagtcactct ctgcctctct
+    24601 tgccccattt ttctggtagg gtctggcagg ccccccaggg agagaaggaa tcccaggacc
+    24661 cctggggcca cctggaccac cggggtcagt ggtgagtaga ggtgccctaa agccccacgt
+    24721 atttgatttc ctgtcctcgt gaggacttag gatggggcgg gccacactgt ggggtgttgg
+    24781 gggaggcgct ttgagagcca caggaccctc acctcactct gacctacagg gaccacctgg
+    24841 ggcctctgga ctcaaaggag acaaggtagg tgggacaagt gctgctgact ctctcttgtg
+    24901 ccctggtcac ccccttcagc ctccactgac ctcccatgac cctgcgtccc ccactgattc
+    24961 ccctcactga tccccggtgt cctgttggtc tccagggaga ccctggagta gggctgcctg
+    25021 ggccccgagg cgagcgtggg gagccaggca tccgggtacg tatgtcttac tccacagccg
+    25081 aactcccttc atcccagctc ttgcctctga tttccaacct ctgagtcaat gaacctaatg
+    25141 tcaccatcca gggtgaagat ggccgccccg gccaggaggg accccgagga ctcacggtgg
+    25201 gtcccgctgg ggaaagtgac agtgctgtga cttcagtccc ctgcctgtgc cctttgtacc
+    25261 ccaggactct ctgccatcct ccctagccct ctggccctcc tcgtctaccc ctgtcccctt
+    25321 tgtctggtcc ccactgtttc cctcctcccc ctgatcctcc tccgtcctcc actgccctgg
+    25381 ttcctgtagc tcacggtcac cttctctcac acaggggccc cctggcagca ggggagagcg
+    25441 tggggagaag gtaggaacgt ggggaaggtc ctggcatgag tgggggggtg agtggatctt
+    25501 gtatgatatt agaattcagg tgcggggcct ccccagtttg ggcgggactc acactctttt
+    25561 gcccaatagg gtgatgttgg gagtgcagga ctaaagggtg acaaggtgag tgtgggcatg
+    25621 gggagggcag ggcaggggcc agggtgctcc cgactcctct gattcctgcc tgccccctca
+    25681 gggagactca gctgtgatcc tggggcctcc aggcccacgg ggtgccaagg gggacatggt
+    25741 gagtgggccc acgtgtggac tgggtctccc ctgggtgcga gagggacccc gtggggctgg
+    25801 cccagggcat ctgagagctc aaactcccag agggtgaggg accttcagcc ccttaccgtg
+    25861 acttcttacc caaaccaacc cagggtgaac gagggcctcg gggcttggat ggtgacaaag
+    25921 gacctcgggg agacaatggg gaccctggtg acaaggtaca gggaagaggg tggtgtactc
+    25981 tctgtggggt cctgtggctg tggtggttcc acagcatctg tgagggcagg aggggaggac
+    26041 aggaggaggc tttctggggt ttagggggaa ggggttctgt ggctgactat ggagtggccg
+    26101 agaggagggg ctctagggag ggctcaaggc cttggtgtga ggttaggaga gctctgtgga
+    26161 ctggccctat gaaggggccc tatagggaca ggaaaggggc tccttgggtg tccccatctg
+    26221 aaggtgcttc agatgggatg aggaacccag tgataagagg gcggggcaag ggtctggagt
+    26281 ccttggggtg agaaatgagc cagtctgtgg actacagccc ccagttccac ccgctatggc
+    26341 acaggctggg aggacgtgct gctagggccg ttcgggagtg acttgagctc tgccccagct
+    26401 ggcgggctcg ttgtattcta agcccccagc ctgatctggt cctgactgaa tccctctcct
+    26461 ggtcactccc acagggcagc aagggagagc ctggtgacaa gggctcagcc gggttgccag
+    26521 gactgcgtgg actcctggga ccccaggcaa gttctgcccc aggcccaggc ccaggcccag
+    26581 gtccagagcc agcatcacac acacacatat cctgggggtc ctcttaagtg ctgggggttc
+    26641 tggctccctt gctgccggcc ccatgtgtgt tcacccggga tctgtgtgtg gcctgggccc
+    26701 tggccgctga gcatctgagt ggccacacat gcagcggatg ggccagtgtt ggggacagtc
+    26761 ccactgaagg gctcccccat ctgtgtttct cacagggtca acctggtgca gcagggatcc
+    26821 ctggtgaccc ggtaagatgc ccctgctccc acaggggccc cctgtcccca gagggccccc
+    26881 gtcaccatgg tggtcccacc agtgtggtag cttttgacct tatagtgacc cagtgctctc
+    26941 atggtgtcct catgtcaccc agggtccccc acctccacag tagccgccta tgatggtgtc
+    27001 ccctgcctat ggtgaccctt gtccccatgg caagccccag tggctctggc ctccagaggt
+    27061 gactcccacc ccatggtgtt ccctacccac tatccagggc gattctcttt ggtccctcac
+    27121 tgacctcctc tgacctcaca tggaccctct ccctgctagg gatccccagg aaaggatgga
+    27181 gtgcctggta tccgaggaga aaaaggagat gttggcttca tgggtccccg gggcctcaag
+    27241 gtaggaaaga aacaagattg gtttttttct ggtcaggaag gcctaatgtt gaagggcgag
+    27301 ggacctgggg tcagatatta gggcactggg tcagaggttg gagtagctga ggcctgtttg
+    27361 gagagttagt ttcagggtga agggggtcac agagtgaggt gtctgggaat cacttcttca
+    27421 tctgcttttc tccctcaggg tgaacgggga gtgaagggag cctgtggcct tgatggagag
+    27481 aagggagaca aggtacagag gggatggggg ctggggggct acgtggcctg gggcctaagg
+    27541 ctcaccccac tgcctgatgc ctgcagggag aagctggtcc cccaggccgc cccgggctgg
+    27601 caggacacaa aggagagatg gtgagtgtgg gcacgctcag aatgaggggg ccacgggtgg
+    27661 acgggggcca agttcatgtc tttttttctc cagggggagc ctggtgtgcc gggccagtcg
+    27721 ggggcccctg gcaaggaggg cctgatcggt cccaaggtac agggtctgtg gacagtggac
+    27781 atgacaggga gtcaggatgg ggcagggaag ctcatggtcg ggtcatgggg gtgtagggac
+    27841 aaggaaggct gtagagggtt gggactttgg gggctgaagt ggggctggtc tcgaggtgtc
+    27901 aaggtgggtt ggggtcacag tggagttagg atgaaagcat gggaggtgga gggggcatgt
+    27961 gcatcagggc agggggctat agtggagttg gagtcatggg gatcacatct ggttggctca
+    28021 caggtgcttg ggttacagaa ggtttgggca ttaggccagg gagctcatgg gagttcaggg
+    28081 aggttccaga gctgagggag gtcagggcag aaggtctctc atgcttcttc tgttcccagg
+    28141 gtgaccgagg ctttgacggg cagccaggcc ccaagggtga ccagggcgag aaaggggagc
+    28201 gggtgagttg aagccatggt catggtgaat tgaggggagc gtgcactttg ggagagggtc
+    28261 catctctggg gcctctgatt actgactctg tcctatatct ccccagggaa ccccaggaat
+    28321 tgggggcttc ccaggcccca gtggaaatga tggctctgct ggtcccccag ggccacctgg
+    28381 cagtgttggt cccagaggcc ccgaaggact tcagggccag aaggtaaggg gccccagctc
+    28441 tgactcctga tccctgaacc ttccctaccc ttccaacctc ataaccatct tccagcctgc
+    28501 ctgccccaac ctctgaagct gtggccccca acctgcctga ctctgatccc cactgcctct
+    28561 gaccctgctc acttggtccc tgtgtctgac agggtgagcg aggtcccccc ggagagagag
+    28621 tggtgggggc tcctggggtc cctggagctc ctggcgagag aggggagcag gtgagtaggg
+    28681 attccaaggc ttgggtcaga gatcggggtg acttctgttg tccctgaggt cagaggtcac
+    28741 agcctggtcc catctgttgc acataggggc ggccagggcc tgccggtcct cgaggcgaga
+    28801 agggagaagc tgcactgacg gtgagtgtgg gcctggatgg gcctgggagg gcctgggtgg
+    28861 gcctgggtgg gctggggccc tacctccctc acccagcacc ctgacccctg ggccctggct
+    28921 ccatgcagtc tcaccatagt ccctgtatta tgtgccctat gtccttcctg tgggccatgg
+    28981 gttctttatg gtccctgtgg tcttctgctc ccaggaggat gacatccggg gctttgtgcg
+    29041 ccaagagatg agtcagcact gtggtgagtg gtgcccagcc cgcagtctcc cactccaccc
+    29101 cagcacccta ggcaagggca ggcaggcccc tagaacttac agggcaagca gtcaagaaga
+    29161 tggggggatg gatggataca cagaaggaca catgtgctgc aggactgaca catgacatgt
+    29221 gtccccagtg gagggagaca cacaggcaga tgaggattgc catgcagtgc tctcagatgt
+    29281 ccagcttggc tgtgtgggga gtgggatgat ggtgggagca gagctggtcc ccttgggcct
+    29341 gacctggacc cggtgggagg ggcatcagag tgaagctgtc tcttcccgtc tctgtctgca
+    29401 ccacctgcct gtttctgtgt ctggcctgct tctgtctctt gccttttgtt ggcctgttcc
+    29461 caacttccct ctcctctgcc ttcttctctt tttccatctc tctatctacc tcccaccctc
+    29521 tctcttcctc tctctcctgt taccctctcc tgctatctct ttgtgtatct ctacccctct
+    29581 gcctgtgtgt ctctgtctgt ctctccatct tcccatcctt ctctctgtca ttgtctctct
+    29641 atccctctct gccccctcta gcctgccagg gccagttcat cgcatctgga tcacgtgagt
+    29701 agttttctac tcccagaact ttcttcaccc caggccctgc cctgcctatc aactggggtc
+    29761 ctctcagggg ggttggctgg gatggctgcc catggtgact tcagggccct gaggcccctg
+    29821 ctcttggctc caggacccct ccctagttat gctgcagaca ctgccggctc ccagctccat
+    29881 gctgtgcctg tgctccgcgt ctctcatgca gaggaggaag gtgaggacag ctgaacccgt
+    29941 ggggcagcta tgggtggggc cgagacacgc acatgggtgt ccatgaatgc agggcacacg
+    30001 ccaagcacgt agggtctgca tgcagggcac acgcatgggc actgtgtgca cacagtggaa
+    30061 atcagtgctg cccaccttgc cccggggcca gcagccactg ctcccagcac accctgccct
+    30121 acctgcagag cgggtacccc ctgaggatga tgagtactct gaatactccg agtattctgt
+    30181 ggaggagtac caggaccctg aagctccttg ggatagtgat ggtgagaatg gggggctgcc
+    30241 agcggggtct ggggaggggc aggcagggct gagccctgct gacctccccc tgacctttca
+    30301 accctctctg attcccacaa accctgctga cttgacccca ttggcccaga cccctgttcc
+    30361 ctgccactgg atgagggctc ctgcactgcc tacaccctgc gctggtacca tcgggctgtg
+    30421 acaggcagca cagaggcctg tcaccctttt gtctatggtg gctgtggagg gaatgccaac
+    30481 cgttttggga cccgtgaggc ctgcgagcgc cgctgcccac cccgggtggt ccagagccag
+    30541 gggacaggta tgggctgagc ccccaccgtg gggaactggg cactgagcct gcctggatcg
+    30601 ggttctgggg gaggagtcct tgggccaggg ttccaggtca gggtcctgga ggagacgctc
+    30661 cctcgcagta ggggacctgg ggcagacgcc cagaccaaag agctgaatat agagccccag
+    30721 ccgtggagcc cccagtaggg tccccttcca tgttccctcc tttaaagacc taagtatgga
+    30781 cccctctgag gtcagagccc ccacttcctg ttgtagcctc cgctccctcc ccttggcggt
+    30841 gcctctgcct gagcgtctcc ggggaaggtc agatggctga cgaccgtttc caacctgtcc
+    30901 tcaccaggta ctgcccagga ctgaggccca gataatgagc tgagattcag catcccctgg
+    30961 aggagtcggg gtctcagcag aaccccactg tccctcccct tggtgctaga ggcttgtgtg
+    31021 cacgtgagcg tgcgtgtgca cgtccgttat ttcagtgact tggtcccgtg ggtctagcct
+    31081 tcccccctgt ggacaaaccc ccattgtggc tcctgccacc ctggcagatg actcactgtg
+    31141 ggggggtggc tgtgggcagt gagcggatgt gactggcgtc tgacccgccc cttgacccaa
+    31201 gcctgtgatg acatggtgct gattctgggg ggcattaaag ctgctgtttt aaaaggc
+//
+

@@ -3,6 +3,7 @@
 ## 環境設定
 
 ### M1 Macの場合
+rosettaのインストールおよびx86_64アーキテクチャで実行
 
 ### Mambaのインストール
 下記のリポジトリから、mambaのインストーラを取得<br>
@@ -37,6 +38,7 @@ mamba install -c anaconda requests -y
 mamba install -c conda-forge biopython -y
 mamba install -c conda-forge xgboost -y
 mamba install -c plotly plotly -y
+mamba install -c bioconda meme -y
 mamba install -c bioconda entrez-direct -y
 mamba install -c bioconda logomaker -y
 mamba install -c bioconda blast -y

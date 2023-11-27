@@ -2,6 +2,8 @@
 
 ## 環境設定
 
+### M1 Macの場合
+
 ### Mambaのインストール
 下記のリポジトリから、mambaのインストーラを取得<br>
 https://github.com/conda-forge/miniforge#mambaforge

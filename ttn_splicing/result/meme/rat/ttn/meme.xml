@@ -565,7 +565,7 @@
 </background_frequencies>
 </model>
 <motifs>
-<motif id="motif_1" name="1" width="16" sites="57" ic="21.4" re="19.4" llr="768" e_value="8.2e-048" bayes_threshold="12.7015" elapsed_time="302.627936">
+<motif id="motif_1" name="1" width="16" sites="57" ic="21.4" re="19.4" llr="768" e_value="8.2e-048" bayes_threshold="12.7015" elapsed_time="304.240387">
 <scores>
 <alphabet_matrix>
 <alphabet_array>
@@ -2026,7 +2026,7 @@
 </contributing_site>
 </contributing_sites>
 </motif>
-<motif id="motif_2" name="2" width="20" sites="333" ic="10.5" re="9.2" llr="2118" e_value="7.6e-045" bayes_threshold="9.1999" elapsed_time="602.779066">
+<motif id="motif_2" name="2" width="20" sites="333" ic="10.5" re="9.2" llr="2118" e_value="7.6e-045" bayes_threshold="9.1999" elapsed_time="605.974265">
 <scores>
 <alphabet_matrix>
 <alphabet_array>
@@ -10939,7 +10939,7 @@
 </contributing_site>
 </contributing_sites>
 </motif>
-<motif id="motif_3" name="3" width="20" sites="30" ic="25.1" re="23.5" llr="489" e_value="1.2e-024" bayes_threshold="13.0538" elapsed_time="896.147638">
+<motif id="motif_3" name="3" width="20" sites="30" ic="25.1" re="23.5" llr="489" e_value="1.2e-024" bayes_threshold="13.0538" elapsed_time="897.848591">
 <scores>
 <alphabet_matrix>
 <alphabet_array>
@@ -11974,7 +11974,7 @@ A[CT]A[CT]ACA[CT]A[CT]A[CT]A[CT]A[TC][AG][TC]A[CT]
 </contributing_site>
 </contributing_sites>
 </motif>
-<motif id="motif_4" name="4" width="20" sites="13" ic="28.2" re="28.8" llr="260" e_value="1.7e-009" bayes_threshold="14.7505" elapsed_time="1188.412087">
+<motif id="motif_4" name="4" width="20" sites="13" ic="28.2" re="28.8" llr="260" e_value="1.7e-009" bayes_threshold="14.7505" elapsed_time="1189.174890">
 <scores>
 <alphabet_matrix>
 <alphabet_array>

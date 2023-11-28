@@ -1,0 +1,111 @@
+LOCUS       NC_006473                997 bp    DNA     linear   CON 08-OCT-2014
+DEFINITION  Pan troglodytes isolate Yerkes chimp pedigree #C0471 (Clint)
+            chromosome 6, Pan_troglodytes-2.1.4.
+ACCESSION   NC_006473 REGION: complement(27651156..27652152)
+VERSION     NC_006473.3
+DBLINK      BioProject: PRJNA10627
+            BioSample: SAMN02981217
+            Assembly: GCF_000001515.6
+KEYWORDS    RefSeq.
+SOURCE      Pan troglodytes (chimpanzee)
+  ORGANISM  Pan troglodytes
+            Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi;
+            Mammalia; Eutheria; Euarchontoglires; Primates; Haplorrhini;
+            Catarrhini; Hominidae; Pan.
+REFERENCE   1  (bases 1 to 997)
+  CONSRTM   Chimpanzee Sequencing and Analysis Consortium
+  TITLE     Initial sequence of the chimpanzee genome and comparison with the
+            human genome
+  JOURNAL   Nature 437 (7055), 69-87 (2005)
+   PUBMED   16136131
+REFERENCE   2  (bases 1 to 997)
+  AUTHORS   McConkey,E.H.
+  TITLE     Orthologous numbering of great ape and human chromosomes is
+            essential for comparative genomics
+  JOURNAL   Cytogenet. Genome Res. 105 (1), 157-158 (2004)
+   PUBMED   15218271
+COMMENT     REFSEQ INFORMATION: The reference sequence is identical to
+            CM000320.2.
+            
+            [WARNING] On Jun 2, 2016 this sequence was replaced by NC_006473.4.
+            
+            On May 13, 2011 this sequence version replaced NC_006473.2.
+            Assembly Name: Pan_troglodytes-2.1.4
+            The genomic sequence for this RefSeq record is from the
+            whole-genome assembly released by the Washington University Genome
+            Sequencing Center as Pan_troglodytes-2.1.4 in November 2010. More
+            details on the assembly are available under the original
+            whole-genome shotgun project accession AACZ00000000.3. This record
+            uses the chimpanzee chromosome naming system as proposed by
+            McConkey (McConkey EH. Cytogenet Genome Res. 2004;105(1):157-8.
+            PMID: 15218271).
+            
+            ##Genome-Assembly-Data-START##
+            Assembly Provider     :: Chimpanzee Sequencing and Analysis
+                                     Consortium
+            Assembly Method       :: PCAP
+            Assembly Name         :: Pan_troglodytes-2.1.4
+            Genome Coverage       :: 6x
+            Sequencing Technology :: Sanger
+            ##Genome-Assembly-Data-END##
+            
+            ##Genome-Annotation-Data-START##
+            Annotation Provider         :: NCBI
+            Annotation Status           :: Full annotation
+            Annotation Version          :: Pan troglodytes Annotation Release
+                                           103
+            Annotation Pipeline         :: NCBI eukaryotic genome annotation
+                                           pipeline
+            Annotation Software Version :: 6.1
+            Annotation Method           :: Best-placed RefSeq; Gnomon
+            Features Annotated          :: Gene; mRNA; CDS; ncRNA
+            ##Genome-Annotation-Data-END##
+FEATURES             Location/Qualifiers
+     source          1..997
+                     /organism="Pan troglodytes"
+                     /mol_type="genomic DNA"
+                     /isolate="Yerkes chimp pedigree #C0471 (Clint)"
+                     /db_xref="taxon:9598"
+                     /chromosome="6"
+                     /sex="male"
+     gene            <1..>997
+                     /gene="LOC736280"
+                     /note="Derived by automated computational analysis using
+                     gene prediction method: Gnomon."
+                     /db_xref="GeneID:736280"
+     gene            complement(<1..484)
+                     /gene="ZNF391"
+                     /note="Derived by automated computational analysis using
+                     gene prediction method: Gnomon."
+                     /db_xref="GeneID:472231"
+     mRNA            complement(<154..484)
+                     /gene="ZNF391"
+                     /product="zinc finger protein 391"
+                     /note="Derived by automated computational analysis using
+                     gene prediction method: Gnomon. Supporting evidence
+                     includes similarity to: 4 mRNAs, 34 ESTs, 8 Proteins, and
+                     96% coverage of the annotated genomic feature by RNAseq
+                     alignments, including 20 samples with support for all
+                     annotated introns"
+                     /transcript_id="XM_527605.4"
+                     /db_xref="GeneID:472231"
+ORIGIN      
+        1 agcgctgggg gctttatgac ctcacgccac gcggcgtccc aaccgtggag gtgcctcctg
+       61 acccgacctg cagccaaacc acccgcgacc ctttcgcccg tttccttcga agaaaccgtg
+      121 tttccgcttt ccagaacctc caagagcacc caccttggtc ccggggccct gtaagcctca
+      181 ctcaccggcc gcctccggcc gagtaccccc gacacacccc gggcgggtcc cgcacttgga
+      241 gaggaacctg agtgcgctgg gcttggggaa gtcggaagga ttaaagagaa acccatgcgt
+      301 cgaaccgctg ctccaacgcc catcaggttt cctaagatca caggcactct tccactcaga
+      361 ctgctgctga tcatgctctg ctcggtatgc gggaccagtc attgtctggg cagtcgcctg
+      421 gacctaagtc tcctgacgcg gacgaccagt tgcaaaacag agaccacact gagactgagc
+      481 aacgttatca gcagcggtcg cagctctgcg cttgcgcctg agagccagct acagcagggc
+      541 tgtgctggga ttcactttcg tggaaggttt tgcaaagccc ctcccctggt atgtgagagg
+      601 ttttgcaaag cccctcccct ggtatgtgag aggctgagag gttggcgcta gaggcaagag
+      661 gaagggggtc tgcgagaggt gccgaagacc accttaatac actgcaaagt atagcctaga
+      721 ccggtggttc acagagtttt aaatagcgta cacaaataaa tcaccaagtg agcttgttaa
+      781 aatacagctt cacaagattt acactccgag attgactcgt tggcctggaa cattgcattt
+      841 tcaaggggca ccccagatga ttctgatgca agtggtctct ccagcctgtc tggagaaact
+      901 ggctccgttg cacaatctta gttgcttaaa tactgtcaaa tgcaagacat gtctcaaatt
+      961 tcaccaaaag aaaaagatga ataaaatcag gacacta
+//
+

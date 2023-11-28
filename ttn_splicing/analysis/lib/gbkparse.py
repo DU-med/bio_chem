@@ -69,7 +69,8 @@ class Seq_count:
                 info = i
         # 染色体番号の取得
         ls = info.split()
-        chrom = int(ls[ls.index('Chromosome')+1])
+        # chrom = int(ls[ls.index('Chromosome')+1])
+        chrom = ls[ls.index('Chromosome')+1]
         # プラス鎖、マイナス鎖に分けて、遺伝子の開始および終止位置の取得
         if "complement" in info:
             strand = 2

@@ -1,0 +1,2545 @@
+********************************************************************************
+MEME - Motif discovery tool
+********************************************************************************
+MEME version 4.11.2 (Release date: Mon Oct 24 12:27:06 2016 -0700)
+
+For further information on how to interpret these results or to get
+a copy of the MEME software please access http://meme-suite.org .
+
+This file may be used as input to the MAST algorithm for searching
+sequence databases for matches to groups of motifs.  MAST is available
+for interactive use and downloading at http://meme-suite.org .
+********************************************************************************
+
+
+********************************************************************************
+REFERENCE
+********************************************************************************
+If you use this program in your research, please cite:
+
+Timothy L. Bailey and Charles Elkan,
+"Fitting a mixture model by expectation maximization to discover
+motifs in biopolymers", Proceedings of the Second International
+Conference on Intelligent Systems for Molecular Biology, pp. 28-36,
+AAAI Press, Menlo Park, California, 1994.
+********************************************************************************
+
+
+********************************************************************************
+TRAINING SET
+********************************************************************************
+DATAFILE= ../data/fasta/ttn_intron_chimp.fasta
+ALPHABET= ACGT
+Sequence name            Weight Length  Sequence name            Weight Length  
+-------------            ------ ------  -------------            ------ ------  
+intron_1                 1.0000   2553  intron_2                 1.0000   2215  
+intron_3                 1.0000   1453  intron_4                 1.0000    484  
+intron_5                 1.0000     93  intron_6                 1.0000   4230  
+intron_7                 1.0000    370  intron_8                 1.0000    854  
+intron_9                 1.0000   1199  intron_10                1.0000   1214  
+intron_11                1.0000    592  intron_12                1.0000    481  
+intron_13                1.0000   3212  intron_14                1.0000    105  
+intron_15                1.0000   1268  intron_16                1.0000    284  
+intron_17                1.0000    655  intron_18                1.0000    203  
+intron_19                1.0000    111  intron_20                1.0000    928  
+intron_21                1.0000    915  intron_22                1.0000    537  
+intron_23                1.0000    110  intron_24                1.0000    900  
+intron_25                1.0000    119  intron_26                1.0000    102  
+intron_27                1.0000     99  intron_28                1.0000    153  
+intron_29                1.0000    447  intron_30                1.0000     96  
+intron_31                1.0000    112  intron_32                1.0000     92  
+intron_33                1.0000   1637  intron_34                1.0000    535  
+intron_35                1.0000     91  intron_36                1.0000    120  
+intron_37                1.0000    752  intron_38                1.0000    517  
+intron_39                1.0000     89  intron_40                1.0000   1146  
+intron_41                1.0000   1569  intron_42                1.0000    224  
+intron_43                1.0000   7130  intron_44                1.0000   6053  
+intron_45                1.0000  11196  intron_46                1.0000    780  
+intron_47                1.0000   2034  intron_48                1.0000    522  
+intron_49                1.0000    100  intron_50                1.0000    430  
+intron_51                1.0000     96  intron_52                1.0000    117  
+intron_53                1.0000    115  intron_54                1.0000     92  
+intron_55                1.0000     94  intron_56                1.0000    109  
+intron_57                1.0000    101  intron_58                1.0000    127  
+intron_59                1.0000    133  intron_60                1.0000    146  
+intron_61                1.0000     97  intron_62                1.0000    118  
+intron_63                1.0000    112  intron_64                1.0000    102  
+intron_65                1.0000    246  intron_66                1.0000    213  
+intron_67                1.0000   1043  intron_68                1.0000    118  
+intron_69                1.0000    826  intron_70                1.0000    116  
+intron_71                1.0000    159  intron_72                1.0000     93  
+intron_73                1.0000    108  intron_74                1.0000    112  
+intron_75                1.0000    124  intron_76                1.0000    642  
+intron_77                1.0000    258  intron_78                1.0000    120  
+intron_79                1.0000    150  intron_80                1.0000    102  
+intron_81                1.0000    190  intron_82                1.0000     94  
+intron_83                1.0000    100  intron_84                1.0000    132  
+intron_85                1.0000    140  intron_86                1.0000   1318  
+intron_87                1.0000    228  intron_88                1.0000    412  
+intron_89                1.0000    116  intron_90                1.0000    528  
+intron_91                1.0000    109  intron_92                1.0000    103  
+intron_93                1.0000     92  intron_94                1.0000    593  
+intron_95                1.0000    139  intron_96                1.0000    778  
+intron_97                1.0000   1758  intron_98                1.0000    571  
+intron_99                1.0000    122  intron_100               1.0000   1096  
+intron_101               1.0000    207  intron_102               1.0000     99  
+intron_103               1.0000    102  intron_104               1.0000   1483  
+intron_105               1.0000    208  intron_106               1.0000    101  
+intron_107               1.0000    452  intron_108               1.0000    324  
+intron_109               1.0000   1844  intron_110               1.0000   1677  
+intron_111               1.0000    841  intron_112               1.0000    454  
+intron_113               1.0000    431  intron_114               1.0000    152  
+intron_115               1.0000    590  intron_116               1.0000    234  
+intron_117               1.0000   1031  intron_118               1.0000    397  
+intron_119               1.0000   2149  intron_120               1.0000    218  
+intron_121               1.0000    137  intron_122               1.0000    153  
+intron_123               1.0000    277  intron_124               1.0000    452  
+intron_125               1.0000   2199  intron_126               1.0000    187  
+intron_127               1.0000    263  intron_128               1.0000    157  
+intron_129               1.0000    252  intron_130               1.0000    265  
+intron_131               1.0000    702  intron_132               1.0000    307  
+intron_133               1.0000    958  intron_134               1.0000    210  
+intron_135               1.0000    204  intron_136               1.0000    747  
+intron_137               1.0000    198  intron_138               1.0000    211  
+intron_139               1.0000    184  intron_140               1.0000    508  
+intron_141               1.0000    249  intron_142               1.0000    205  
+intron_143               1.0000    207  intron_144               1.0000    333  
+intron_145               1.0000   1204  intron_146               1.0000    166  
+intron_147               1.0000    554  intron_148               1.0000    628  
+intron_149               1.0000    603  intron_150               1.0000    929  
+intron_151               1.0000    153  intron_152               1.0000    139  
+intron_153               1.0000    802  intron_154               1.0000    796  
+intron_155               1.0000    541  intron_156               1.0000    144  
+intron_157               1.0000   1651  intron_158               1.0000    112  
+intron_159               1.0000    122  intron_160               1.0000    334  
+intron_161               1.0000   1369  intron_162               1.0000    450  
+intron_163               1.0000    114  intron_164               1.0000    115  
+intron_165               1.0000    361  intron_166               1.0000    112  
+intron_167               1.0000    108  intron_168               1.0000    110  
+intron_169               1.0000     83  intron_170               1.0000    210  
+intron_171               1.0000    153  intron_172               1.0000    112  
+intron_173               1.0000    114  intron_174               1.0000    115  
+intron_175               1.0000    113  intron_176               1.0000    105  
+intron_177               1.0000   2507  intron_178               1.0000     83  
+intron_179               1.0000    210  intron_180               1.0000    152  
+intron_181               1.0000    112  intron_182               1.0000    114  
+intron_183               1.0000    115  intron_184               1.0000    113  
+intron_185               1.0000    105  intron_186               1.0000   2504  
+intron_187               1.0000     83  intron_188               1.0000    210  
+intron_189               1.0000    153  intron_190               1.0000    112  
+intron_191               1.0000    114  intron_192               1.0000    115  
+intron_193               1.0000    113  intron_194               1.0000    105  
+intron_195               1.0000    112  intron_196               1.0000    109  
+intron_197               1.0000    112  intron_198               1.0000    111  
+intron_199               1.0000    110  intron_200               1.0000     84  
+intron_201               1.0000    127  intron_202               1.0000    134  
+intron_203               1.0000    129  intron_204               1.0000    132  
+intron_205               1.0000    406  intron_206               1.0000    479  
+intron_207               1.0000    269  intron_208               1.0000    187  
+intron_209               1.0000    222  intron_210               1.0000   1767  
+intron_211               1.0000    236  intron_212               1.0000    496  
+intron_213               1.0000    428  intron_214               1.0000   1309  
+intron_215               1.0000   2233  intron_216               1.0000    918  
+intron_217               1.0000    613  intron_218               1.0000    431  
+intron_219               1.0000    259  intron_220               1.0000   2283  
+intron_221               1.0000    553  intron_222               1.0000    156  
+intron_223               1.0000    247  intron_224               1.0000    137  
+intron_225               1.0000    315  intron_226               1.0000     93  
+intron_227               1.0000    282  intron_228               1.0000    140  
+intron_229               1.0000     86  intron_230               1.0000    142  
+intron_231               1.0000    125  intron_232               1.0000    112  
+intron_233               1.0000    847  intron_234               1.0000     90  
+intron_235               1.0000    435  intron_236               1.0000    797  
+intron_237               1.0000   3908  intron_238               1.0000    541  
+intron_239               1.0000   1696  intron_240               1.0000    663  
+intron_241               1.0000     98  intron_242               1.0000    106  
+intron_243               1.0000    108  intron_244               1.0000     89  
+intron_245               1.0000    103  intron_246               1.0000    100  
+intron_247               1.0000    767  intron_248               1.0000     92  
+intron_249               1.0000    107  intron_250               1.0000    271  
+intron_251               1.0000     90  intron_252               1.0000    106  
+intron_253               1.0000     98  intron_254               1.0000    689  
+intron_255               1.0000    156  intron_256               1.0000    338  
+intron_257               1.0000     93  intron_258               1.0000    119  
+intron_259               1.0000    116  intron_260               1.0000    474  
+intron_261               1.0000     88  intron_262               1.0000    194  
+intron_263               1.0000    114  intron_264               1.0000    102  
+intron_265               1.0000     80  intron_266               1.0000    100  
+intron_267               1.0000    603  intron_268               1.0000    104  
+intron_269               1.0000    113  intron_270               1.0000    299  
+intron_271               1.0000    129  intron_272               1.0000     96  
+intron_273               1.0000     99  intron_274               1.0000     86  
+intron_275               1.0000   1309  intron_276               1.0000    118  
+intron_277               1.0000     88  intron_278               1.0000    401  
+intron_279               1.0000   1288  intron_280               1.0000    131  
+intron_281               1.0000     87  intron_282               1.0000     94  
+intron_283               1.0000     93  intron_284               1.0000     93  
+intron_285               1.0000    870  intron_286               1.0000    108  
+intron_287               1.0000     84  intron_288               1.0000     93  
+intron_289               1.0000    447  intron_290               1.0000     88  
+intron_291               1.0000   1679  intron_292               1.0000    856  
+intron_293               1.0000    101  intron_294               1.0000     93  
+intron_295               1.0000     92  intron_296               1.0000     89  
+intron_297               1.0000    114  intron_298               1.0000    101  
+intron_299               1.0000     85  intron_300               1.0000     94  
+intron_301               1.0000    318  intron_302               1.0000     98  
+intron_303               1.0000     98  intron_304               1.0000    310  
+intron_305               1.0000   1158  intron_306               1.0000    103  
+intron_307               1.0000     92  intron_308               1.0000    378  
+intron_309               1.0000    379  intron_310               1.0000    347  
+intron_311               1.0000     88  intron_312               1.0000    101  
+intron_313               1.0000    889  intron_314               1.0000     92  
+intron_315               1.0000     90  intron_316               1.0000    167  
+intron_317               1.0000     89  intron_318               1.0000    425  
+intron_319               1.0000     89  intron_320               1.0000     89  
+intron_321               1.0000     91  intron_322               1.0000    112  
+intron_323               1.0000    679  intron_324               1.0000    105  
+intron_325               1.0000     92  intron_326               1.0000    108  
+intron_327               1.0000   1693  intron_328               1.0000    112  
+intron_329               1.0000    236  intron_330               1.0000    106  
+intron_331               1.0000    105  intron_332               1.0000    369  
+intron_333               1.0000    693  intron_334               1.0000    116  
+intron_335               1.0000     96  intron_336               1.0000    101  
+intron_337               1.0000     97  intron_338               1.0000     97  
+intron_339               1.0000     95  intron_340               1.0000    126  
+intron_341               1.0000    885  intron_342               1.0000     85  
+intron_343               1.0000    171  intron_344               1.0000    121  
+intron_345               1.0000     98  intron_346               1.0000    680  
+intron_347               1.0000    929  intron_348               1.0000    101  
+intron_349               1.0000    130  intron_350               1.0000    106  
+intron_351               1.0000    622  intron_352               1.0000     98  
+intron_353               1.0000    362  intron_354               1.0000    131  
+intron_355               1.0000    124  intron_356               1.0000    742  
+intron_357               1.0000    100  intron_358               1.0000    525  
+intron_359               1.0000    138  
+********************************************************************************
+
+********************************************************************************
+COMMAND LINE SUMMARY
+********************************************************************************
+This information can also be useful in the event you wish to report a
+problem with the MEME software.
+
+command: meme ../data/fasta/ttn_intron_chimp.fasta -dna -o ../result/meme/chimp/ttn -maxsize 200000 -nmotifs 4 -minw 8 -maxw 20 -mod zoops 
+
+model:  mod=         zoops    nmotifs=         4    evt=           inf
+object function=  E-value of product of p-values
+width:  minw=            8    maxw=           20
+width:  wg=             11    ws=              1    endgaps=       yes
+nsites: minsites=        2    maxsites=      359    wnsites=       0.8
+theta:  spmap=         uni    spfuzz=        0.5
+global: substring=     yes    branching=      no    wbranch=        no
+em:     prior=   dirichlet    b=            0.01    maxiter=        50
+        distance=    1e-05
+data:   n=          174781    N=             359    shuffle=        -1
+strands: +
+sample: seed=            0    ctfrac=         -1    maxwords=       -1
+Letter frequencies in dataset:
+A 0.318 C 0.174 G 0.164 T 0.343 
+Background letter frequencies (from dataset with add-one prior applied):
+A 0.318 C 0.174 G 0.164 T 0.343 
+********************************************************************************
+
+
+********************************************************************************
+MOTIF  1 MEME	width =  20  sites =  67  llr = 1125  E-value = 1.5e-152
+********************************************************************************
+--------------------------------------------------------------------------------
+	Motif 1 Description
+--------------------------------------------------------------------------------
+Simplified        A  76429119a:a:::::4aa:
+pos.-specific     C  1121:8::::::a::13:::
+probability       G  :1::1:::::::::::1::a
+matrix            T  2336:19::a:a:aa92:::
+
+         bits    2.6                     
+                 2.3                    *
+                 2.1             *      *
+                 1.8             *      *
+Relative         1.6         ** ****  ***
+Entropy          1.3     ** ********  ***
+(24.2 bits)      1.0     ************ ***
+                 0.8     ************ ***
+                 0.5 *  ************* ***
+                 0.3 ** *****************
+                 0.0 --------------------
+
+Multilevel           AAATACTAATATCTTTAAAG
+consensus            TTTA            C   
+sequence                                 
+                                         
+--------------------------------------------------------------------------------
+
+--------------------------------------------------------------------------------
+	Motif 1 sites sorted by position p-value
+--------------------------------------------------------------------------------
+Sequence name             Start   P-value                    Site      
+-------------             ----- ---------            --------------------
+intron_190                   93  1.60e-11 TAAATTATAA AAATACTAATATCTTTCAAG           
+intron_181                   93  1.60e-11 TAAATTATAA AAATACTAATATCTTTCAAG           
+intron_172                   93  1.60e-11 TAAATTATAA AAATACTAATATCTTTCAAG           
+intron_165                  342  1.60e-11 CTGAGTGTAA AAATACTAATATCTTTCAAG           
+intron_193                   94  5.42e-11 CTAAGTGAAA AACTACTAATATCTTTCAAG           
+intron_192                   96  5.42e-11 TAAAGTCTAA AACTACTAATATCTTTCAAG           
+intron_191                   95  5.42e-11 CTAAGTATAA AACTACTAATATCTTTCAAG           
+intron_187                   64  5.42e-11 CTAATAATGA AAATACTAATATCTTTAAAG           
+intron_183                   96  5.42e-11 TTAAGTCTAA AACTACTAATATCTTTCAAG           
+intron_182                   95  5.42e-11 CTAAGTATAA AACTACTAATATCTTTCAAG           
+intron_178                   64  5.42e-11 CTAATAATGA AAATACTAATATCTTTAAAG           
+intron_175                   94  5.42e-11 CTAAGTGAAA AACTACTAATATCTTTCAAG           
+intron_174                   96  5.42e-11 TTAAGTCTAA AACTACTAATATCTTTCAAG           
+intron_173                   95  5.42e-11 CTAAGTATAA AACTACTAATATCTTTCAAG           
+intron_169                   64  5.42e-11 CTAATAATGA AAATACTAATATCTTTAAAG           
+intron_160                  315  5.42e-11 CAATTAAAAA AAATACTAATATCTTTAAAG           
+intron_157                 1632  5.42e-11 CTAATTATTT AAATACTAATATCTTTAAAG           
+intron_156                  125  1.86e-10 GTAACAATTA ATATACTAATATCTTTAAAG           
+intron_161                   64  3.74e-10 ACACATGTAA AAATACTAATATCTTTTAAG CCACAGTGGC
+intron_153                  783  4.55e-10 TTCTAAACCA AAATACTAATATCTTTGAAG           
+intron_184                   94  6.74e-10 CTAAGTGAAA AACTACTAATATCTTCCAAG           
+intron_159                  103  1.37e-09 TTAAATGTAA ACCTACTAATATCTTTAAAG           
+intron_162                  431  1.81e-09 CTTAAATGTG AATTGCTAATATCTTTCAAG           
+intron_154                  127  3.10e-09 CATGTCTAAA ACAAACTAATATCTTTAAAG CAGCTGAGGG
+intron_199                   91  3.34e-09 CTAAATGTAA TTTCACTAATATCTTTCAAG           
+intron_186                 2485  3.34e-09 CTAAATGTAA TTTCACTAATATCTTTCAAG           
+intron_177                 2488  3.34e-09 CTAAATGTAA TTTCACTAATATCTTTCAAG           
+intron_168                   91  3.34e-09 CTAAATGTAA TTTCACTAATATCTTTCAAG           
+intron_166                   93  3.34e-09 CTAAATGTAA TTTCACTAATATCTTTCAAG           
+intron_189                  134  3.87e-09 TCTAACTAAA AGATACTAATATCTTCAAAG           
+intron_171                  134  3.87e-09 TCTAACTTAA AGATACTAATATCTTCAAAG           
+intron_208                  168  4.68e-09 TATTATTAAA TGCTACTAATATCTTTAAAG           
+intron_206                  460  5.20e-09 TTGAAATAAA ATTAACTAATATCTTCAAAG           
+intron_194                   86  6.22e-09 CTACATGTAA CTTTACTAATATCTTTTAAG           
+intron_185                   86  6.22e-09 CTACATGTAA CTTTACTAATATCTTTTAAG           
+intron_176                   86  6.22e-09 CTACATGTAA CTTTACTAATATCTTTTAAG           
+intron_188                  191  8.26e-09 TCTAAACACA AATTACAAATATCTTTGAAG           
+intron_179                  191  8.26e-09 TCTAAACACA AATTACAAATATCTTTGAAG           
+intron_170                  191  8.26e-09 TCTAAACACA AATTACAAATATCTTTGAAG           
+intron_209                  203  9.26e-09 ATTTTTAAAA CAAAACTAATATCTTCAAAG           
+intron_198                   92  1.04e-08 CTAAATGTAA TTTCACTAATATCTTTTAAG           
+intron_197                   93  1.04e-08 CTAAATGTAA TTTCACTAATATCTTTTAAG           
+intron_196                   90  1.04e-08 CTAAATGTAA TTTCACTAATATCTTTTAAG           
+intron_195                   93  1.04e-08 CTAAATGTAA TTTCACTAATATCTTTTAAG           
+intron_135                  185  1.67e-08 AATGCTCTTT AATAATTAATATCTTTAAAG           
+intron_164                   96  2.18e-08 CTAAATGTAA AATTATTAATATCTTCAAAG           
+intron_150                  910  2.18e-08 AGCTAACTAA AACACCTAATATCTTTAAAG           
+intron_142                  186  2.88e-08 TATTCCTAAA TATAAATAATATCTTTAAAG           
+intron_167                   89  3.15e-08 CTGCAAGTAA TTTTGCTAATATCTTTTAAG           
+intron_218                  327  3.43e-08 ATATGTATAT AAATTCTAATATCTTCCAAG ATACGTGGGC
+intron_158                   93  4.07e-08 ATAAATATAA CTATACTCATATCTTTTAAG           
+intron_180                  133  4.77e-08 TCTAACTAAA AGATACTAATGTCTTCAAAG           
+intron_138                  192  4.77e-08 TTTCCAACAT TCTTAATAATATCTTTAAAG           
+intron_204                  113  5.55e-08 TCTAATGTTA AAATACTAATATATTTGAAG           
+intron_205                  387  7.02e-08 CTTAAGAAAA ATGAATTAATATCTTTAAAG           
+intron_137                  179  1.02e-07 ATGTCCAACT TAAAGATAATATCTTTAAAG           
+intron_155                  522  1.08e-07 AAAAAATAAG ATAAATAAATATCTTTAAAG           
+intron_139                  165  1.34e-07 AGTACTTAAC AATAAACAATATCTTTAAAG           
+intron_210                 1748  1.64e-07 TTAATAGTAA ACAAAATCATATCTTTAAAG           
+intron_200                   64  2.29e-07 CTAACAATGA AAATACTAGTATCTTTTAAA G         
+intron_146                  147  2.44e-07 AACTTATAAA ATAAAATAATATTTTTAAAG           
+intron_203                  109  5.79e-07 GAGCTTAAAC AACTACTAATATCTTTTATA G         
+intron_147                  216  6.12e-07 TTTCTAAAAA ATAAAAATATATCTTTAAAG AGCCAAAAAT
+intron_143                  188  6.12e-07 GTTTGTACCC TTGAATAAATATCTTTAAAG           
+intron_148                  609  8.10e-07 ATAATTTACA AAATAATAATCTTTTTAAAG           
+intron_201                  108  9.04e-07 TGGCATTAAA ATGAGCTCATGTCTTTAAAG           
+intron_118                  378  1.24e-06 CACATTATTT CAACAATTGTATCTTTAAAG           
+--------------------------------------------------------------------------------
+
+--------------------------------------------------------------------------------
+	Motif 1 block diagrams
+--------------------------------------------------------------------------------
+SEQUENCE NAME            POSITION P-VALUE  MOTIF DIAGRAM
+-------------            ----------------  -------------
+intron_190                        1.6e-11  92_[+1]
+intron_181                        1.6e-11  92_[+1]
+intron_172                        1.6e-11  92_[+1]
+intron_165                        1.6e-11  341_[+1]
+intron_193                        5.4e-11  93_[+1]
+intron_192                        5.4e-11  95_[+1]
+intron_191                        5.4e-11  94_[+1]
+intron_187                        5.4e-11  63_[+1]
+intron_183                        5.4e-11  95_[+1]
+intron_182                        5.4e-11  94_[+1]
+intron_178                        5.4e-11  63_[+1]
+intron_175                        5.4e-11  93_[+1]
+intron_174                        5.4e-11  95_[+1]
+intron_173                        5.4e-11  94_[+1]
+intron_169                        5.4e-11  63_[+1]
+intron_160                        5.4e-11  314_[+1]
+intron_157                        5.4e-11  1631_[+1]
+intron_156                        1.9e-10  124_[+1]
+intron_161                        3.7e-10  63_[+1]_1286
+intron_153                        4.6e-10  782_[+1]
+intron_184                        6.7e-10  93_[+1]
+intron_159                        1.4e-09  102_[+1]
+intron_162                        1.8e-09  430_[+1]
+intron_154                        3.1e-09  126_[+1]_650
+intron_199                        3.3e-09  90_[+1]
+intron_186                        3.3e-09  2484_[+1]
+intron_177                        3.3e-09  2487_[+1]
+intron_168                        3.3e-09  90_[+1]
+intron_166                        3.3e-09  92_[+1]
+intron_189                        3.9e-09  133_[+1]
+intron_171                        3.9e-09  133_[+1]
+intron_208                        4.7e-09  167_[+1]
+intron_206                        5.2e-09  459_[+1]
+intron_194                        6.2e-09  85_[+1]
+intron_185                        6.2e-09  85_[+1]
+intron_176                        6.2e-09  85_[+1]
+intron_188                        8.3e-09  190_[+1]
+intron_179                        8.3e-09  190_[+1]
+intron_170                        8.3e-09  190_[+1]
+intron_209                        9.3e-09  202_[+1]
+intron_198                          1e-08  91_[+1]
+intron_197                          1e-08  92_[+1]
+intron_196                          1e-08  89_[+1]
+intron_195                          1e-08  92_[+1]
+intron_135                        1.7e-08  184_[+1]
+intron_164                        2.2e-08  95_[+1]
+intron_150                        2.2e-08  909_[+1]
+intron_142                        2.9e-08  185_[+1]
+intron_167                        3.2e-08  88_[+1]
+intron_218                        3.4e-08  326_[+1]_85
+intron_158                        4.1e-08  92_[+1]
+intron_180                        4.8e-08  132_[+1]
+intron_138                        4.8e-08  191_[+1]
+intron_204                        5.6e-08  112_[+1]
+intron_205                          7e-08  386_[+1]
+intron_137                          1e-07  178_[+1]
+intron_155                        1.1e-07  521_[+1]
+intron_139                        1.3e-07  164_[+1]
+intron_210                        1.6e-07  1747_[+1]
+intron_200                        2.3e-07  63_[+1]_1
+intron_146                        2.4e-07  146_[+1]
+intron_203                        5.8e-07  108_[+1]_1
+intron_147                        6.1e-07  215_[+1]_319
+intron_143                        6.1e-07  187_[+1]
+intron_148                        8.1e-07  608_[+1]
+intron_201                          9e-07  107_[+1]
+intron_118                        1.2e-06  377_[+1]
+--------------------------------------------------------------------------------
+
+--------------------------------------------------------------------------------
+	Motif 1 in BLOCKS format
+--------------------------------------------------------------------------------
+BL   MOTIF 1 width=20 seqs=67
+intron_190               (   93) AAATACTAATATCTTTCAAG  1 
+intron_181               (   93) AAATACTAATATCTTTCAAG  1 
+intron_172               (   93) AAATACTAATATCTTTCAAG  1 
+intron_165               (  342) AAATACTAATATCTTTCAAG  1 
+intron_193               (   94) AACTACTAATATCTTTCAAG  1 
+intron_192               (   96) AACTACTAATATCTTTCAAG  1 
+intron_191               (   95) AACTACTAATATCTTTCAAG  1 
+intron_187               (   64) AAATACTAATATCTTTAAAG  1 
+intron_183               (   96) AACTACTAATATCTTTCAAG  1 
+intron_182               (   95) AACTACTAATATCTTTCAAG  1 
+intron_178               (   64) AAATACTAATATCTTTAAAG  1 
+intron_175               (   94) AACTACTAATATCTTTCAAG  1 
+intron_174               (   96) AACTACTAATATCTTTCAAG  1 
+intron_173               (   95) AACTACTAATATCTTTCAAG  1 
+intron_169               (   64) AAATACTAATATCTTTAAAG  1 
+intron_160               (  315) AAATACTAATATCTTTAAAG  1 
+intron_157               ( 1632) AAATACTAATATCTTTAAAG  1 
+intron_156               (  125) ATATACTAATATCTTTAAAG  1 
+intron_161               (   64) AAATACTAATATCTTTTAAG  1 
+intron_153               (  783) AAATACTAATATCTTTGAAG  1 
+intron_184               (   94) AACTACTAATATCTTCCAAG  1 
+intron_159               (  103) ACCTACTAATATCTTTAAAG  1 
+intron_162               (  431) AATTGCTAATATCTTTCAAG  1 
+intron_154               (  127) ACAAACTAATATCTTTAAAG  1 
+intron_199               (   91) TTTCACTAATATCTTTCAAG  1 
+intron_186               ( 2485) TTTCACTAATATCTTTCAAG  1 
+intron_177               ( 2488) TTTCACTAATATCTTTCAAG  1 
+intron_168               (   91) TTTCACTAATATCTTTCAAG  1 
+intron_166               (   93) TTTCACTAATATCTTTCAAG  1 
+intron_189               (  134) AGATACTAATATCTTCAAAG  1 
+intron_171               (  134) AGATACTAATATCTTCAAAG  1 
+intron_208               (  168) TGCTACTAATATCTTTAAAG  1 
+intron_206               (  460) ATTAACTAATATCTTCAAAG  1 
+intron_194               (   86) CTTTACTAATATCTTTTAAG  1 
+intron_185               (   86) CTTTACTAATATCTTTTAAG  1 
+intron_176               (   86) CTTTACTAATATCTTTTAAG  1 
+intron_188               (  191) AATTACAAATATCTTTGAAG  1 
+intron_179               (  191) AATTACAAATATCTTTGAAG  1 
+intron_170               (  191) AATTACAAATATCTTTGAAG  1 
+intron_209               (  203) CAAAACTAATATCTTCAAAG  1 
+intron_198               (   92) TTTCACTAATATCTTTTAAG  1 
+intron_197               (   93) TTTCACTAATATCTTTTAAG  1 
+intron_196               (   90) TTTCACTAATATCTTTTAAG  1 
+intron_195               (   93) TTTCACTAATATCTTTTAAG  1 
+intron_135               (  185) AATAATTAATATCTTTAAAG  1 
+intron_164               (   96) AATTATTAATATCTTCAAAG  1 
+intron_150               (  910) AACACCTAATATCTTTAAAG  1 
+intron_142               (  186) TATAAATAATATCTTTAAAG  1 
+intron_167               (   89) TTTTGCTAATATCTTTTAAG  1 
+intron_218               (  327) AAATTCTAATATCTTCCAAG  1 
+intron_158               (   93) CTATACTCATATCTTTTAAG  1 
+intron_180               (  133) AGATACTAATGTCTTCAAAG  1 
+intron_138               (  192) TCTTAATAATATCTTTAAAG  1 
+intron_204               (  113) AAATACTAATATATTTGAAG  1 
+intron_205               (  387) ATGAATTAATATCTTTAAAG  1 
+intron_137               (  179) TAAAGATAATATCTTTAAAG  1 
+intron_155               (  522) ATAAATAAATATCTTTAAAG  1 
+intron_139               (  165) AATAAACAATATCTTTAAAG  1 
+intron_210               ( 1748) ACAAAATCATATCTTTAAAG  1 
+intron_200               (   64) AAATACTAGTATCTTTTAAA  1 
+intron_146               (  147) ATAAAATAATATTTTTAAAG  1 
+intron_203               (  109) AACTACTAATATCTTTTATA  1 
+intron_147               (  216) ATAAAAATATATCTTTAAAG  1 
+intron_143               (  188) TTGAATAAATATCTTTAAAG  1 
+intron_148               (  609) AAATAATAATCTTTTTAAAG  1 
+intron_201               (  108) ATGAGCTCATGTCTTTAAAG  1 
+intron_118               (  378) CAACAATTGTATCTTTAAAG  1 
+//
+
+--------------------------------------------------------------------------------
+
+--------------------------------------------------------------------------------
+	Motif 1 position-specific scoring matrix
+--------------------------------------------------------------------------------
+log-odds matrix: alength= 4 w= 20 n= 167960 bayes= 12.646 E= 1.5e-152 
+   111    -96  -1271    -62 
+    80   -155   -146     -6 
+    39     15   -187      0 
+   -51    -22  -1271     87 
+   152   -354   -146   -452 
+  -124    218  -1271   -220 
+  -183   -354  -1271    138 
+   154   -196  -1271   -352 
+   161  -1271   -246  -1271 
+ -1271  -1271  -1271    154 
+   159   -354   -246  -1271 
+ -1271  -1271  -1271    154 
+  -441    245  -1271   -352 
+ -1271  -1271  -1271    154 
+ -1271  -1271  -1271    154 
+ -1271    -55  -1271    136 
+    49     78   -114    -94 
+   165  -1271  -1271  -1271 
+   163  -1271  -1271   -452 
+  -341  -1271    256  -1271 
+--------------------------------------------------------------------------------
+
+--------------------------------------------------------------------------------
+	Motif 1 position-specific probability matrix
+--------------------------------------------------------------------------------
+letter-probability matrix: alength= 4 w= 20 nsites= 67 E= 1.5e-152 
+ 0.686567  0.089552  0.000000  0.223881 
+ 0.552239  0.059701  0.059701  0.328358 
+ 0.417910  0.194030  0.044776  0.343284 
+ 0.223881  0.149254  0.000000  0.626866 
+ 0.910448  0.014925  0.059701  0.014925 
+ 0.134328  0.791045  0.000000  0.074627 
+ 0.089552  0.014925  0.000000  0.895522 
+ 0.925373  0.044776  0.000000  0.029851 
+ 0.970149  0.000000  0.029851  0.000000 
+ 0.000000  0.000000  0.000000  1.000000 
+ 0.955224  0.014925  0.029851  0.000000 
+ 0.000000  0.000000  0.000000  1.000000 
+ 0.014925  0.955224  0.000000  0.029851 
+ 0.000000  0.000000  0.000000  1.000000 
+ 0.000000  0.000000  0.000000  1.000000 
+ 0.000000  0.119403  0.000000  0.880597 
+ 0.447761  0.298507  0.074627  0.179104 
+ 1.000000  0.000000  0.000000  0.000000 
+ 0.985075  0.000000  0.000000  0.014925 
+ 0.029851  0.000000  0.970149  0.000000 
+--------------------------------------------------------------------------------
+
+--------------------------------------------------------------------------------
+	Motif 1 regular expression
+--------------------------------------------------------------------------------
+[AT][AT][AT][TA]ACTAATATCTTT[AC]AAG
+--------------------------------------------------------------------------------
+
+
+
+
+Time 338.23 secs.
+
+********************************************************************************
+
+
+********************************************************************************
+MOTIF  2 MEME	width =  20  sites = 359  llr = 2235  E-value = 1.5e-043
+********************************************************************************
+--------------------------------------------------------------------------------
+	Motif 2 Description
+--------------------------------------------------------------------------------
+Simplified        A  2222122111:211::1:71
+pos.-specific     C  122322134132324227::
+probability       G  11211111::1:11::1::8
+matrix            T  65456565576657585331
+
+         bits    2.6                     
+                 2.3                     
+                 2.1                     
+                 1.8                     
+Relative         1.6                     
+Entropy          1.3                  * *
+(9.0 bits)       1.0                  * *
+                 0.8               ** ***
+                 0.5         ***   ** ***
+                 0.3 *  ** **************
+                 0.0 --------------------
+
+Multilevel           TTTTTTTTTTTTTTTTTCAG
+consensus             CCCCAACC CAC C CTT 
+sequence                                 
+                                         
+--------------------------------------------------------------------------------
+
+--------------------------------------------------------------------------------
+	Motif 2 sites sorted by position p-value
+--------------------------------------------------------------------------------
+Sequence name             Start   P-value                    Site      
+-------------             ----- ---------            --------------------
+intron_45                  1066  1.59e-08 ATAGTAAAGG TTTTTTTTTTTTTTTTCCAG AATTATTCTC
+intron_262                  175  2.31e-08 ATGAATTTGT TTTCCTTCCTTCTTTTTCAG           
+intron_184                   11  8.86e-08 GTATTTTTCA CCCCTGTCCTTTCTCTGCAG AAGAAATATC
+intron_276                   99  1.61e-07 TTACTTTTTT TCTTTCTCTTCTCTTTGCAG           
+intron_193                   11  1.61e-07 GTATTTTTTA CCCCTGTCCTTTTTCTGCAG AAGAAATATC
+intron_175                   11  1.61e-07 GTAATTTTCA CCCCTGTCCTTTTTCTGCAG AAGAAATATC
+intron_268                   85  2.81e-07 GATACTAACA TTTTTTTTCTTGTTCTTCAG           
+intron_2                     34  3.67e-07 TGTTTTTTTT TTCCTTTGCCTCCTCTCCAG TAAGTTAACG
+intron_237                 1203  6.12e-07 TAATAAGATC TTCTTGGTCTCCTTTTCCAG TGACCAGAAA
+intron_110                  177  7.81e-07 ACTCCTTTTT TCCCCCTTTTCTCTTTCCTG TCCTCCTGAG
+intron_24                   446  9.91e-07 GAGTCTTGTT TTGCTTTGTTTTGTTTCCAG ATTCATTTCT
+intron_307                   73  1.25e-06 AACTGACATC TTCCTTGTCTTCATCTCCAG           
+intron_28                    74  1.25e-06 TTACTTTTAT TTTCTTTCCCCATTCCTCAG GTTGAGAATT
+intron_17                   636  1.57e-06 ATCATTATTT ATTTTTTCTCCTCTTTTCAG           
+intron_59                   114  1.96e-06 TTCTTTTGCT TCTTTTTTCTTTCACCTCAG           
+intron_37                   733  1.96e-06 CTTGGGTGTT TTTTCTTTTCTCCTTTGCAG           
+intron_347                  450  2.43e-06 TGAATAAAAT TTTCTTTTTTCTTTCTTTTG TTTTTTTGTT
+intron_1                   2534  2.43e-06 CACCCTAATT TATTTTCTCTTCTTTTTCAG           
+intron_274                   67  3.00e-06 CATTGATTTT TGGCTTTGTTTTGTTTTCAG           
+intron_8                    581  3.00e-06 CAGATTATTG TAACTTTTTTTTCTTTTCTG AGACAGAGTC
+intron_177                 2040  3.69e-06 TAACTGAATA CTCTTTATTTCTTTCTCCTG CCTGATTGCC
+intron_77                   235  3.69e-06 GTGTTCTCAT TGTTTATCTTCTTTTTTCTG GTAG      
+intron_75                   105  3.69e-06 ATACACATTG CCTTTCTTCTCATCCTCCAG           
+intron_46                   383  3.69e-06 CCATGATTAG TTGTCTGTTTCTTTTTTCTG TTTATTTTTT
+intron_324                   86  4.52e-06 TCACTTTCAC TTTCTATACTCATTTTTCAG           
+intron_291                  997  4.52e-06 AAACCATCTC TCTCTCCTTTTCCCCTGCAG AGGAAACTGG
+intron_186                 2037  4.52e-06 TAACTGAATA CCCTTTATTTCTTTCTCCTG CCTGATTGCC
+intron_106                   82  4.52e-06 CAAAAATATC ATTTTTTTTTTATTTTGCAG           
+intron_357                   75  5.50e-06 AACTTCAACA TTTCTTTTCTTTTTCCTTTG TCTTAG    
+intron_348                   82  5.50e-06 GCTAAATTGA AACCCTACCTTTTTTTCCAG           
+intron_294                   74  5.50e-06 ATTTTGTGCC ATGATTTTTTTTTTCTGCAG           
+intron_157                  621  5.50e-06 ATATTCTTCC TTTTTTTTTTTTTTTTTTTG AGATGGAATC
+intron_90                   499  5.50e-06 TTTTTGGTTT TTTTTTTTTTTTTTTTTTTG TATCATTCAG
+intron_13                   465  5.50e-06 TGTATGAAAC TTTATCTTTTTTCCCTCCTG TAAATATCAG
+intron_322                   93  6.68e-06 TATACTTTTG TGTCTTTGTTTCTTTCTCAG           
+intron_309                  360  6.68e-06 CATTAAGTCC TTTATCTTATTTCTTTCCAG           
+intron_300                   75  6.68e-06 AAATCTAATT TTTTCATGTTTACTTTTCAG           
+intron_32                    73  6.68e-06 AACCAAGAGA TTATTTTATTTTTTCCCCAG           
+intron_354                  106  8.07e-06 TAAATTATAC TCTTTTTTTTTGTTTTTCTG ATACAG    
+intron_88                   108  8.07e-06 TATTCCACTT TCCCTTTGCTTCCTCTCCAA GTCCTTTTCT
+intron_318                    7  9.72e-06     GTATTT TGTTTGTTCTTATCCTACAG CTTTTACATC
+intron_85                   121  9.72e-06 AATCACCATG TTGGTCTTCATTCTTTTCAG           
+intron_53                    96  9.72e-06 TTGAAATTCT TTCTTATACCCCTTCTTCAG           
+intron_279                 1262  1.17e-05 TCTGATGAAG CTTTTTTTTTTTTTCTTTTG TTATTAG   
+intron_112                  435  1.17e-05 TCCCTTCTTA TTCCTGTGTTTTTATTTCAG           
+intron_352                    2  1.66e-05          G TATTTTATTTTTATTTTCAG TGCTTTTTAT
+intron_320                   70  1.66e-05 TCTGATTAAA ATGTATTTTTTTCTTTGCAG           
+intron_292                  210  1.66e-05 TTTCTTTTTG TTTTTTTTTTTTTCTTTTTG GTTTTGACAC
+intron_129                   47  1.66e-05 ATGGCTTGTC TTTCTTTCTCTCTGCTGCTG TTCTTTGGGT
+intron_109                 1825  1.97e-05 CTTACACCAG AGTTTTTTTTTTTTTTCTAG           
+intron_86                  1086  1.97e-05 AAGAGTAATG TCTTTTTCTCCTTCTTTTAG TAATAATACT
+intron_47                  1637  1.97e-05 TTCTTATCAC TTAATATCCCTACTCTTCAG AAGAGTCAAA
+intron_214                 1079  2.34e-05 AGTAACAAAA ATTGTCTTCTTTTTCTGCTG GTCTTTAATT
+intron_68                    94  2.34e-05 TTTTCAAAAA TTTCCATCCATCTTTTCCTG TTCAG     
+intron_329                  212  2.76e-05 TTCTTGTACC TTGTTTTCCTTTCCTTTCTA AATAG     
+intron_321                   72  2.76e-05 GGATTTCTAA TAAATTTGCTTCCTTTTCAG           
+intron_296                   34  2.76e-05 AGTTTTCATG TTATCTAACTTTGTTTTCAG CTATATGCTA
+intron_192                   11  2.76e-05 GTACACTTTA GCCCTGACTTCATTCTGCAG AAGAGATATC
+intron_183                   11  2.76e-05 GTACACTTTA GCCCTGACTTCATTCTGCAG AAGAGATATC
+intron_174                   11  2.76e-05 GTACACTTTA GCCCTGACTTCATTCTGCAG AAGAGATATC
+intron_66                   194  2.76e-05 CTCATACTCT CCTCTTTCCTGACTCTTTAG           
+intron_3                   1434  2.76e-05 ACTCTTGACT TTGTTCTCTTGTCCCCGCAG           
+intron_232                   89  3.25e-05 CAATTAATAA GTTCTTTCTTTTTTTTCTTG ATAG      
+intron_190                    2  3.25e-05          G TATTTATTCCCTCTCCTCTG CTAAGAAAAA
+intron_181                    2  3.25e-05          G TATTTATTCCCTCTCCTCTG CTAAGGAAAA
+intron_172                    2  3.25e-05          G TATTTATTCCCTCTCCTCTG CTAAGGAAAA
+intron_43                  4597  3.25e-05 AGTGGAGATT TTTCTCATTTCCTGTCCCAG AAGGCAACTA
+intron_289                  428  3.81e-05 AATTATAAAA TGTCTATGATTTCTCCCCAG           
+intron_195                    8  3.81e-05    GTATTTG TCACTGACCTTAGGCTTCAG ATGATCTAAT
+intron_89                    97  3.81e-05 AATATGGATA TCTTTTACATTTCATTCCAG           
+intron_7                    305  3.81e-05 TTTTCCAGTA TGCTTTTTTATTTTCTACTG GGCATGTCAT
+intron_343                  152  5.20e-05 GAAATATGAA TCTTTCATTCTGTTTTTCAG           
+intron_337                   78  5.20e-05 ATTTTAACCT TATTTTTGCATCCCTTCCAG           
+intron_255                   37  5.20e-05 CCTAATCTTG TTGCCTGTTTTTGCTTTTAG ACCTAGAGTT
+intron_231                   24  5.20e-05 GTCAGCCACG TTTTTGTATTTTCTCTGCAA GACTTCCTGA
+intron_215                 1787  5.20e-05 CCGGAACTCT TGGCCACCTTCTTCCCTCAG TGGAGAAGAC
+intron_197                    8  5.20e-05    GTATTTG TCACTGGCTTTAGGCTTCAG AAGATCAAAC
+intron_196                    8  5.20e-05    GTATTTG TCACTGGCTTTAGGCTTCAG AAGACTGAAC
+intron_108                  112  5.20e-05 GAACAAACCT TTCTATGTCATATTCTTCAG TGAGCAATTA
+intron_81                    76  5.20e-05 TTCCCTGGAG TTTCTTTATTTTGTCTTCAT GTTTAGTCTT
+intron_166                    8  6.05e-05    GTATTTG TCACTGACTTTAGGCTTCAG AAGACCTAAT
+intron_119                  869  6.05e-05 GAATACTGTT CCCTTGGCCTGACTTTGCAG TGTTTCCATT
+intron_94                   574  6.05e-05 GTATTTGTTA CTTTTATTCTGTTCCTACAG           
+intron_355                   19  7.02e-05 TTCTTAAATG TCTCTTTCTTTTATCTTCTA AAATATTTTA
+intron_199                    8  7.02e-05    GTATTTG TCACTGATTTTAGGCTTCAG ATGATCAAAC
+intron_168                    8  7.02e-05    GTATTTG TCACTGATTTTAGGCTTCAG ATGATGTATC
+intron_4                    465  7.02e-05 TCCCAAACAT TCATCTTTCCCTTCCCACAG           
+intron_333                  674  8.13e-05 TAATACATAG TATTTCTCTTTCTTTTATAG           
+intron_327                 1674  8.13e-05 TTAAATATTT CTCATCTGTTTTTCTTGCAG           
+intron_250                  252  8.13e-05 GGTATGCTCC AACTCCTTCTTTTATTCCAG           
+intron_246                   81  8.13e-05 ATTTGTATTT ATTTCACATTTTCTTTCCAG           
+intron_242                   87  8.13e-05 TTCTAATATC TTGTAACTTTTTCTTCCCAG           
+intron_154                   96  8.13e-05 GATGTCTTTC TTCCGTATTTCTTGTTTCTG ACATGTCTAA
+intron_145                 1151  8.13e-05 CTTCTTGGTT TCTCTTTTTTTGTCCTTCAA AATAAATCCT
+intron_48                   489  8.13e-05 TTTCAGATAT CTTCTCCTTTTTCTTTTTTG TAAACTTCAT
+intron_249                   75  9.40e-05 GTTACCCCAA ACTCATATTTTCTTCTTCTG TGGTGAAATC
+intron_140                  291  9.40e-05 CCAGGCATTG TGTCTTGTCTTTATCACCAG TCCACGTTTT
+intron_99                   103  9.40e-05 TTTTATTCAC TTGTTTTCATTATTCCTTAG           
+intron_42                   205  9.40e-05 CATGACAAAT CTTGTGGTTTCTTTCTTTAG           
+intron_20                   762  9.40e-05 TCATGTTCTT GCATTTTTCTCAATTTTCAG CAATCTTATA
+intron_6                   3905  9.40e-05 GAATTTGACA TGTCTTTCCTTTGGCTGCAT ATTAAAGAAG
+intron_310                  328  1.08e-04 CATATTCACT CTTCTTCCTTATTCCTTCAG           
+intron_305                 1139  1.08e-04 AAAATTAATA TCTTTTCATTTTACTTTCAG           
+intron_167                    8  1.08e-04    GTAGTTG CCACTGACCTTAGGCTTCAG ATCTCATTCT
+intron_144                   59  1.08e-04 CTGCTTTCCC ATCCTTTTGTTCATCTCCAG TTTTATCTAT
+intron_135                  111  1.08e-04 GATGTTCTTG TCCTGATTCTTACATTTCAG TTTTTTATGT
+intron_97                   631  1.08e-04 AAGGATATCT TTATCTGTTTCTCTTCACTG TAATGGCTTC
+intron_54                    73  1.08e-04 CATTTCTTAA TAACTTCCTTCCTTCCACAG           
+intron_16                    91  1.08e-04 TAGCCAGTGG AGTCTTGCCTTTCTCCTTTG CCATACTAAG
+intron_358                   52  1.25e-04 TTTAGATAGT TTTTTTGCCTCTCTTTCAAG CACAGAAAAC
+intron_335                   77  1.25e-04 TTGATTTGGG GTTTTGTTTTTGTTTTACAG           
+intron_273                   80  1.25e-04 GGCTAATGTG TGACTGTTCTCTTTCAACAG           
+intron_240                  152  1.25e-04 TATTCTTGAC TTTAATTGCTCTCTTTTTAG TATTATTAAT
+intron_161                  595  1.25e-04 ATATCTGAAT ATTTTGATATTTTTTCTCAG TCTGGAATCT
+intron_41                   311  1.25e-04 TGTTAAGCTA TTTTAGTTCTCTGCCCTCTG CCTGAACTGC
+intron_278                  248  1.43e-04 TATTTTAAAA AAGCTTTCTCCTTTTCTCTG TCTTCCCATG
+intron_267                  341  1.43e-04 GGATAGTAAC ATTTTCTGCATTCCCCCCAG CCCTGCAAAT
+intron_212                   14  1.43e-04 TATATATATA TACATTTTTTTAATCTCCTG AAGATTCCTG
+intron_191                   10  1.43e-04  GTACATGTC AGCTCAACCTTATCCTGCAG AAGAAATCTC
+intron_182                   10  1.43e-04  GTACATGTC AGCTCAACCTTATCCTGCAG AGGAAATCTC
+intron_173                   10  1.43e-04  GTACATGTC AGCTCAACCTTATCCTGCAG AGGAAATCTC
+intron_138                  157  1.43e-04 AGGTGCTTTT CACATTTTATTTCTTTCCTG CAAAATTTCC
+intron_137                   28  1.43e-04 TTTTAATGTT TTGTTCGTCTTTTGCTGTTG AATTCCTCTT
+intron_111                  258  1.43e-04 GAAGGGCCAT TCCTTATTTTTTTATTGTAG TTAACACAAA
+intron_96                   277  1.43e-04 TTCAAGTGAT TCTTGTGCCTCAGCCTCCTG AGTAGCTGGG
+intron_9                   1180  1.43e-04 TAAAGTTTTT TCTTAAATCATTCTTTGCAG           
+intron_323                  400  1.64e-04 GTTCATCTTG TTCCTCTTTTTTATCCCCAT GGTAAATTTG
+intron_315                   71  1.64e-04 CTTACACTTA TCATTTCTCCTTTGCTTTAG           
+intron_277                   69  1.64e-04 TCTCAATATT CTCTGTTGATTCCTTTCCAG           
+intron_265                   61  1.64e-04 GTGGATATGA ATATTTCACTCTTTTCTCAG           
+intron_254                  526  1.64e-04 TCAAATATTA TCATGTATCCTACTTTGCAG TTTTCCCTAA
+intron_252                   87  1.64e-04 TGCAAACTCA TTAACTTTTCTTCTTTGTAG           
+intron_238                  120  1.64e-04 AATAATCAAA AGTCTGATTTTACTTTTTAG CATAACAAAA
+intron_221                  235  1.64e-04 ATCCCATAAG TTCTTAGCTTCATTTTTCAT ATGCATGGTA
+intron_125                 1924  1.64e-04 TTTTGTCCCG TACTTGTCCTGTTGTTGCTG TGGATATAAG
+intron_57                    82  1.64e-04 AACCCACATC TATCCCTTTGTTTTCTACAG           
+intron_33                   314  1.64e-04 ACTTGTCTTA TTCCCCGTTTCCTCTTTCAA TATCAGTGTA
+intron_316                   20  1.87e-04 TATCCACACA TCTTCATTTTTCCTTTATTG TCATCGAAAG
+intron_308                  359  1.87e-04 AAATGGTGAG TGTACCTCTTTTTGTTTTAG           
+intron_270                  271  1.87e-04 ACACAAATTT TTGATTACTGTTCTCTTCTG AAATATTAG 
+intron_230                  107  1.87e-04 ATATAAATGA TGTTCTTTCTTTCCTTCTAA CCCTCACTCC
+intron_216                  811  1.87e-04 CTAGGTAGCA TGCTTTTTTTCATTTTCCTT GCTTTGTACA
+intron_67                   442  1.87e-04 GACAATGATA TTTTTTCCTTCTCTCTCAAG GATCACTTCC
+intron_22                   422  1.87e-04 GCCAAAAAGG CTTCTAGATTCTTCTCCCAG CTAAAAACTT
+intron_351                  603  2.13e-04 TCACTTAATA TTATCTTTCATATTGTTCAG           
+intron_306                   80  2.13e-04 TGTTCTTACA TTTCTTTCCTCTTGGTTCAT GTAG      
+intron_239                  671  2.13e-04 CTTATTTGTT TCATTCATTCCTTTGTCCAG TGATGACATT
+intron_210                 1693  2.13e-04 TTGCCCCTGC ATTCTTTGCCTGCTCTTTAG ACAATCTTGC
+intron_202                   38  2.13e-04 CCTCGGCCAC TCTTTCCCCTTCCTGCCCTG ATAATTCTGG
+intron_134                  134  2.13e-04 GTATTTGTCT TTCTTAACTTTTTGTTCTTG CTAGCCTTGA
+intron_116                  134  2.13e-04 TTTTCATTTC ATGTTTGTCTCTGTTTTCAT TTTTATTTTA
+intron_60                    11  2.13e-04 GTCTGGTCTC TACATCTCCTCACTTTCTTG CTTGTCTAGA
+intron_44                  1690  2.13e-04 CCACCTTTGC TTGGCTTCTTTACTCTTCTA AGCAATATTG
+intron_30                    77  2.13e-04 TAACATTCTT TTTCTCCCCATATTTCACAG           
+intron_21                   814  2.13e-04 ATTTGGCTTT TGGTTATCAACTTTCCCCAG TGTAGAGTTT
+intron_353                  117  2.42e-04 AAAGTACAAG TGCCTTTTCTTTCACTTTAA TTGAATGTTT
+intron_282                   75  2.42e-04 CAATGTATGA CTACTATTTTCTTTGTACAG           
+intron_281                   16  2.42e-04 AAAATAACCA TTCTCCTCGTTTTTCCACTG AATCACTATA
+intron_258                   79  2.42e-04 TAAAAAATGG TGAACAATTTTTTTTTTCTG CATCTGTAAT
+intron_227                  132  2.42e-04 CCAAAACAAC CCCCCTTAATTTTTTTTTAG TGGAGCTCTA
+intron_220                 1231  2.42e-04 GACAGAGAAA TTTTTTAATTTAATTTTCTG AATCTAATAA
+intron_147                  499  2.42e-04 AACCTGGTCT TTATTCTTCTTTGGTTCTTG CATTTTAAGT
+intron_136                  395  2.42e-04 GCTAACCAGT TTCCAGTCATTTTCCCCCTG ATTCATACTA
+intron_133                  274  2.42e-04 ATAGCAAATG TCCCTAAGTTTCTTTTTCAA AAAGGTTACA
+intron_122                   24  2.42e-04 ATCTTCCAAA GAACTGTCTTTATGTTCCAG TGATTTTGTT
+intron_285                  184  2.75e-04 CACATTCCCT TACCTGTTACCTTTTCCCTG TTCAAAGGAG
+intron_229                   26  2.75e-04 ATGTAAAATT TACCCTATCTGAATCTGCAG TTTATTAGTT
+intron_217                  134  2.75e-04 TAGTCTCTGT TTTCCATTGTCTGCTTTCTG TTTAAATATT
+intron_209                  105  2.75e-04 AGAACAAAAA TTTCCTTATTTTGCTTTCAT TAATTTTAAT
+intron_151                   17  2.75e-04 CTTCTCTTTT AAACCTGACTTCCTCTTCTG TCTTTTTTCG
+intron_123                   69  2.75e-04 AGTGTGTTAA ATTCTTGCTTTTTCCATCTG GTCTCTGCTT
+intron_93                    73  2.75e-04 TGACTGATTG ATTATCTCTCTTGGCTGCAG           
+intron_87                   203  2.75e-04 AGAATACATC CGTATTTTCCTTTTTTCCAA TTTTAG    
+intron_58                     2  2.75e-04          G TTGGTATTGTTCTTCTACAG AGAGGATTGG
+intron_40                  1110  2.75e-04 CAAGTTTTTG TTTTTGTTTTTTTTTTTTTA TGTTGTTCCA
+intron_26                    83  2.75e-04 TCCCTCTAAA TCATGACCTTTCTCTTTCAG           
+intron_15                  1245  2.75e-04 AATGACTTTA TTTTCTGACTCTGTTTCCAT GTAG      
+intron_313                  416  3.12e-04 TCTTATTTCT TCTATTTGCTTATCCTCCAT GATAATTTCC
+intron_213                   30  3.12e-04 TAAATCTTCT TTATCATATTCTTTCTCTTG AAATGTATAT
+intron_206                   60  3.12e-04 AATTTAAGCT TTGTTCTTCTTCCTTCCTAA CTCATTATTT
+intron_84                   113  3.12e-04 AAATAAGGAT TATCTGTAACTTCTTTACAG           
+intron_83                    25  3.12e-04 ACCTCTTTTT ATTGCTCTCTTTCTTTTCAA ACATCCTCTT
+intron_72                    16  3.12e-04 CTCAAGTGGA TTCACTTTTTCTGTTTTCTA TATACCGACA
+intron_71                    31  3.12e-04 GTAAGGAATT TCTTACAAATTCCTCTTCAG GTGCACATCT
+intron_29                   428  3.12e-04 ATTGATTTAT CTTTCTGTTATACACTTCAG           
+intron_356                  638  3.53e-04 CATGAAGAAG TTGACTTTTTTTCTTTTTAT GTTTTTCACA
+intron_342                   29  3.53e-04 TTTAGGTGAA TTATTTTCTTCTCACACCTG TCCATGAATT
+intron_286                   27  3.53e-04 TTGGTTAAAA TTACTTGTTTTTCTGTTCAT AAATAACATT
+intron_211                   47  3.53e-04 ATTGTCTTCA TCCTCTTGCTTTGATTGTAG ATGAATCTTA
+intron_194                    9  3.53e-04   GTACTTGT CATTTGACCTTAAGCTTCAG AAGATCCAAT
+intron_185                    9  3.53e-04   GTACTTGT CATTTGACCTTAAGCTTCAG AAGATCCAAT
+intron_176                    9  3.53e-04   GTACTTGT CATTTGACCTTAAGCTTCAG AAGATCCAAT
+intron_141                  165  3.53e-04 ATACTTTTAT TACCTTATCTTAATCTTTTG AAACTATGCT
+intron_101                  188  3.53e-04 TGTAATGCTT ATCATTTTTGTTCTTCTCAG           
+intron_11                   567  3.53e-04 TAATGACTAT TTTCTTACTTTCTTTTGTAT GATCAG    
+intron_5                     74  3.53e-04 CAACGTGGGC TTTGTTTTAATCTTTTACAG           
+intron_304                   17  3.98e-04 ATTATGCTTT CTTCCTCCTTTTAACCCCAG TCTCCTATTT
+intron_245                   12  3.98e-04 TAAGCAAGAT CTTTTTATTCTCTATTTCTG TAGCTATATA
+intron_189                  102  3.98e-04 AAATGTGGAG TCGATATTCCCCCTTTATAG CTTCTAACTA
+intron_180                  101  3.98e-04 AAATGTGGAG TCGATATTCCCCCTTTATAG CTTCTAACTA
+intron_171                  102  3.98e-04 AAATGTGGAG TCGATATTCCCCCTTTATAG CTTCTAACTT
+intron_126                   36  3.98e-04 ATCCCTATGT TAGCTTGTCTCCTTCTTTAT GTTTCCTTAT
+intron_297                   95  4.49e-04 AATCTGAGTG TTCTGTTCTCTTTATTCTAG           
+intron_295                    4  4.49e-04        GTA TGCATTATGTTTCTTTTTAG TGATTCAATG
+intron_287                   34  4.49e-04 TACAAAGCCA TTTTTACTTTTTTTTTTTAA TTTCTTATAA
+intron_275                  805  4.49e-04 GAAAGCTTAA CTCTTAGTTTGGTCCTTCAG GAAAGAAAAC
+intron_263                   95  4.49e-04 TTTCCTAATC ATTGATTATTTTGTTTTCAG           
+intron_256                  315  4.49e-04 TCACAGTAAG ACATCCTATTCTGTTTTCTG ACAG      
+intron_235                  416  4.49e-04 TATGAAAGTT TTTCTGTTTTGTTGGTACAG           
+intron_219                  240  4.49e-04 TACACTAATG CAATGGACTTCTCTCTACAG           
+intron_218                  250  4.49e-04 CCAAGAACAT TGCCTTACTATATTTTCCAA ATATTTTGTT
+intron_152                   81  4.49e-04 TATTTTGAAT GTACATCTTTGTTTCTTCAG TGTTTAAAAA
+intron_150                  278  4.49e-04 AGCAGTGGAT CCCTCTTCCCCACATTTTAG ATTTTGTTCC
+intron_117                  198  4.49e-04 AATTACTGGA GGCTCCGTTCCCTGCTTCAG AGAGTTTGCA
+intron_115                    2  4.49e-04          G TATACATCTTTGTGTTTCAG CTACAAGTTC
+intron_104                  884  4.49e-04 CTGTTATACA TATAAGACCCTCCCCTCCAG CCTCTTCTAG
+intron_52                    85  4.49e-04 CTCTTCTATA TTGACCTTTTCTCCCTTCTT GTGCCACACA
+intron_50                   405  4.49e-04 ATTGATATGT TTTATATGCTCTCTTTCCTT AACTAG    
+intron_331                   86  5.05e-04 TCACTGTATG TATCCATTTTATGTCTACAG           
+intron_290                   69  5.05e-04 ATCACATTTG TAATTTTCAATTGCTTCCAG           
+intron_284                   74  5.05e-04 GCTTAATACT TCCTTTAATTATTTTTACAG           
+intron_269                   60  5.05e-04 AAATAATGTT TTGTCAGTTATTTTCATCAG AATTGAAAAC
+intron_155                  231  5.05e-04 ATAATATTGA TCCCTCAATTTCTCTTTCAA AAATAATTCA
+intron_100                  838  5.05e-04 AGAAATACTT CTATTATCCTTTCCTTTCTT AAAATTTTCA
+intron_70                     4  5.05e-04        GTT AGTTCTGCTGTTTTCTTCTG GTTGCTTACG
+intron_61                    78  5.05e-04 TAAGCTACTG TCTTCCTTTTGAATCTTTAG           
+intron_55                    75  5.05e-04 TTAATGCAAA TCATTCCTTTTTTACTGTAG           
+intron_34                   251  5.05e-04 AATCTCCATT CGTCTTTCACCCTTCTCCAA TCAGTCTATT
+intron_345                   77  5.67e-04 AATTAATTTC CTGTATTTCTTCTCTTTCAT AG        
+intron_311                   21  5.67e-04 TTCCCGGTGG TTTTTCATTTTATTTTTTAA ATATTATCTT
+intron_288                   25  5.67e-04 CATTCCTTTT TTTTAAATCTTATTTTCCAA AAGTGCCTTG
+intron_272                   77  5.67e-04 GTTTGATTTG TCTATCTTCATTCATTCTAG           
+intron_266                   66  5.67e-04 TTTTGACATA CTCTGTTTTTTGCTCTTTTG AATGATATCT
+intron_128                    9  5.67e-04   GTATATTG GATTTTATTTTATTCTTCAA GACTGTCTTT
+intron_69                   147  5.67e-04 CATAGTTGAT CTTTCAAACACTCTTTTCTG TTTCTGTGAT
+intron_339                   76  6.36e-04 CATCATGGCT TGTCATTACACCTGTTTCAG           
+intron_260                   43  6.36e-04 CAGCAGTATA TTCAAATGTTTACTCTTTAG TATTCCTTGG
+intron_236                  731  6.36e-04 TTCATATCTA AGTCTCTATTTATTCTTTTG GGATTACAAA
+intron_198                    8  6.36e-04    GTATTTG TCATTGAGTTTAAGCTTCAG AAGATCTATC
+intron_160                   39  6.36e-04 AGAAGAAAAT ATACTGTCTTCAGTCTGCAA AATGTTTAAT
+intron_107                  433  6.36e-04 TCTCTATGCT TATTACATGTCCCTTTCCAG           
+intron_23                    91  6.36e-04 TTATTCATAC ATGCATGGTATTCTTTGCAG           
+intron_325                   73  7.11e-04 ACTAATCTAT AGGATTTCTCTCTTTTGTAG           
+intron_317                   70  7.11e-04 TATAAATCTT GCATTATCTATTTTTTCTAG           
+intron_301                  299  7.11e-04 TAGTTAACTA TATGTATATTTTACTTTCAG           
+intron_253                   79  7.11e-04 ACAGTGACTT GTGAGTGCATTTTTTTTCAG           
+intron_124                   51  7.11e-04 GTTTCCTCAA AGTCTCTTCTTCTTCCACAT GTGATTGTTT
+intron_102                   79  7.11e-04 ACAAATGTGT TTTAATTCTTTATTCTCCTA G         
+intron_10                   789  7.11e-04 GCTGCTGACT GAATTTCCCTCTCCTTACTG TGAGTGAGAC
+intron_359                   81  7.95e-04 CAGTAGAAAG CAAATCTTTATATTTTTCAG TGATTCTAAG
+intron_346                  134  7.95e-04 TTCTAAGGTT TCTAAACCTCCTTTTCTCAG GTTTCTAAAC
+intron_247                  624  7.95e-04 GAACTCTAAG CCACTTAGTTTTCTCTGCTA TAAAGTTACT
+intron_241                   79  7.95e-04 ATGTGGTTTT TGTTTTTTCAATGCTTGCAG           
+intron_233                  828  7.95e-04 AAAAGTTTTT AACTTATACTTTACTTGCAG           
+intron_163                   59  7.95e-04 GAGAATATTT TTGCTATTCCTAGTTATCTG CATAACACTA
+intron_131                  561  7.95e-04 TCCAAGTCTA TTGATTTTCTTGCTTTTTAA ATGAAAGTTT
+intron_121                   25  7.95e-04 CTCCATGAAA TAACCTTGTCTTTCCTTCAA GCTTCTTTAA
+intron_82                    75  7.95e-04 GAATTTTACC CACATGTTTTCTCCTTATAG           
+intron_49                    81  7.95e-04 TACTTACACA ATGCTTTCATGCTTTTGTAG           
+intron_35                    72  7.95e-04 ATCACTGAAT TGCTCCAATTTTCCTCTTAG           
+intron_319                   70  8.87e-04 TGTTTGACTG GTTTTGCTTTTATGTTTTAG           
+intron_312                   82  8.87e-04 TGAAAATTTC CTATCATTATTTATTCTCAG           
+intron_187                    2  8.87e-04          G TAGACACCCTCTTGTTGCTG TGTTTGATAT
+intron_178                    2  8.87e-04          G TAGACACCCTCTTGTTGCTG TGTTTGATAT
+intron_169                    2  8.87e-04          G TAGACACCCTCTTGTTGCTG TGTTTGATAT
+intron_63                    93  8.87e-04 AACTCATCCA CATTTTCATTTTTACTACAG           
+intron_350                   48  9.88e-04 AAGCCATGTT TGGTCCTTTTATTTCACCAG TAAAGCTGAC
+intron_271                  110  9.88e-04 ATTTACTTCA AATGTTATTTTTTTTATCAG           
+intron_79                    44  9.88e-04 ATTTACTTGA TCCATGATCATTTTCCTCAA ATATTCCTCT
+intron_74                    29  9.88e-04 TTAAAAAAAT TCTTTTTTCCTCAACTCTTG TATCTTTATG
+intron_38                   498  9.88e-04 ATGTTAATTT TTCTACATGCTATTTTCCAG           
+intron_303                   16  1.10e-03 TTACTAAAAT GCTTCTCCCTCCCACTTCAA AAATGAATTT
+intron_200                   31  1.10e-03 GTGTTTGATA TTGTTTGTTTGTCTTTACTT TGTCTAACAA
+intron_149                   43  1.10e-03 ATTCCTGGTG TTCCAAATCTTTCTCAGTAG CTAAATCTAA
+intron_130                  122  1.10e-03 TTGTTGTTGA TGTTGTTGTTGTTGTTACAG TTGTTGTTTT
+intron_95                    11  1.10e-03 GTTTGTGGAT TCTTAAACTTTCATTTCTAG AATTAAAGTA
+intron_73                    61  1.10e-03 CATAGTTTCT TTGGTATTCATTAATTCCAG TTGCTGACTG
+intron_243                   29  1.22e-03 TTAGGGTTTT TTGTTTGTTTGTTTGTTTTG TATTTGTATT
+intron_118                   41  1.22e-03 TTAGCATCCA TCTTGTATCTTTTTCTATAA GATCTGTGTA
+intron_105                  189  1.22e-03 AAACAAAAGT TGGATGATTTTTCACCCTAG           
+intron_332                   68  1.35e-03 TATATCAAGG AATGCTTTTCTTCTCTGCAT CACCTTCTTA
+intron_228                   96  1.35e-03 TTAATAAACT TTAATTTTCACATTCTTCTA ATTTTATGCT
+intron_159                   61  1.35e-03 CAAACATTGC ATGCTTTTTATAATTTACTG TTTTTACAAC
+intron_146                   35  1.35e-03 GACCATGCCA TTTCCTTCCTTCACCTATAA AAGTCAAAAT
+intron_142                  125  1.35e-03 TATGTCAGAT ATTTTGTGATTCTTTTTCAT ATCTATTGCT
+intron_132                   42  1.35e-03 CATGAAACTA TCTGGCTCTTTGCCTTCTAG TTCCCAATCT
+intron_64                    20  1.35e-03 TTCACCCCAG TCAGCTTCCCTTATTTATAG TATGTCCTTT
+intron_39                    10  1.35e-03  GTCAGTTGT TTTGTCTTGCTACATTCCAG TAATTCCCAG
+intron_338                   74  1.50e-03 GATATTCATT CATATCTGTTTTGCCTACTG ACAG      
+intron_330                   22  1.50e-03 TACCTGCAGC ATCTTCACCTGTGTCTTCTA TATTCACCTG
+intron_326                   89  1.50e-03 GCTGCTAATC TGCTTCTCTTATTACCACAG           
+intron_208                   46  1.50e-03 TGTCTACAAT TTTACACTCTTTTCTTATTG TGTGTTGTGT
+intron_203                   48  1.50e-03 TTCTTTAAAG TGTCATATTCTACTGTTCTG CTTCATGATT
+intron_156                   96  1.50e-03 TTGTATTTTG TATCTTATATTTGTTATCTG TAACAATTAA
+intron_148                  164  1.50e-03 CAAATTAATA TTATTTGAATCTCTTTGCAT GTTCAGCCTG
+intron_18                   184  1.50e-03 TCTCAGTGAG AAACTTTTGTCTTCTTTTAG           
+intron_12                   208  1.50e-03 ATTCATTTTA TTCACCATTATTCTTTGCAT GAAGATTAGC
+intron_261                   69  1.65e-03 AACCTAAACA ATGATTTCATTGGCTTGCAG           
+intron_226                   34  1.65e-03 GAGGGGGCTC AACTTTATTTCACATCCCTG TGCATTCTGA
+intron_92                     3  1.65e-03         GT TTGTCAGACTGCTCTTCTAG ATTTATACGA
+intron_27                    70  1.65e-03 TACCACTATA TTGATTATTCCCTCCCCCAA CTTTTTATAG
+intron_244                   67  1.83e-03 TTAAAATCAA CATATTTTTCTCCTTTACAA CAG       
+intron_225                  198  1.83e-03 GACAGGGAAT TCTCTGCTTACTTTTATTAG TAGTAATTTT
+intron_223                  224  1.83e-03 CTTAATCATT TTTTCTGATCTTATTTTCAT ATAG      
+intron_162                   65  1.83e-03 AAACTATGGT TTCTTCCTAATACTCTTCAT AAATTCTAAA
+intron_78                    80  1.83e-03 GTGGCCATGA TTCTCACATTTTTTCCTCTA ACCACAAATT
+intron_76                   148  1.83e-03 ACATTAATCA AAGTTGTGTTTTCTCTTTAT ATTGTTCTTT
+intron_344                  100  2.01e-03 TTAAGAATAA ATGCCTGATTTCTTTCCCAT AG        
+intron_341                  866  2.01e-03 TATCTGCATC TCACTTTTTAAATTCCACAG           
+intron_298                   82  2.01e-03 CTTATAAAAC TGTTATTTAACACTTTTTAG           
+intron_113                  287  2.01e-03 AAAAAAAAAC GAACTCATCTCTCTCTTTAA AAAATGATAC
+intron_120                   22  2.21e-03 TTCGACATAA AGCCCTATCTTTTATCTTTG ATACAAAATA
+intron_165                  315  2.43e-03 GTATCTATCT AGTCATCTCTGTATTTTCTG AGTGTAAAAA
+intron_153                  366  2.43e-03 GGCAAAATAA TCACCGCTTTAACATTTCAG TCAACTGTTC
+intron_349                   33  2.67e-03 AATTATAAAC ATTATTTCAGCACTTTTCTG TTTTTAAATG
+intron_340                  101  2.67e-03 TTGTGCAATT CTCATCATCCTTATTTTCAT AAACAG    
+intron_302                   41  2.67e-03 CACACTTAAT TTCTTATGATTTCCCCACAT TCTGAAAAAT
+intron_280                   18  2.67e-03 TACTTACTCA GTTTATGTATTCTTCTTTTG ATCTTATTAT
+intron_257                    1  2.67e-03          . GTATCTATTTTTTATTTTTG TCTTATCAAA
+intron_19                    92  2.67e-03 AAGCTAATAT GAGGGGAATTCTCTTTCCAG           
+intron_14                    17  2.67e-03 CTATACCTGC TGATTTTTCACCTTGTTCAT GGTAAAGCAA
+intron_328                   89  3.20e-03 GTACTAACAT CGTGTTTTGTCCTTTCACTG ATAG      
+intron_36                    56  3.20e-03 ATGTATCTAT TTGTTTGGTTTCATCTACTT TTTAAACAAA
+intron_222                   94  3.50e-03 AACCTCTTAT TTCCAAGTTTTATTTCATTG AAAATATTGT
+intron_205                  107  3.50e-03 AACTACAAAA CTGTCATTCTGGATTTTTAG GGTCTAAATG
+intron_188                  166  3.50e-03 AAAGGCATCC ATCGTTTTCACCTTTTCTAA ACACAAATTA
+intron_179                  166  3.50e-03 AAAGGCATCC ATCGTTTTCACCTTTTCTAA ACACAAATTA
+intron_170                  166  3.50e-03 AAAGGCATCC ATCGTTTTCACCTTTTCTAA ACACAAATTA
+intron_158                   61  3.50e-03 TTTAAAAAGC TCAATATTTTTCTTCACCAT TTATAAATAT
+intron_65                    92  3.50e-03 GCTAAAATCT CTATGATTCTGGTTCTTTAG ACACATATTC
+intron_56                    40  3.50e-03 TTTTCTGAAG AGTCAATTCTTTTTTTTAAG CCACTTTTGC
+intron_31                    93  3.50e-03 CATTCATCTT GTGTGTGTATGATTTTGCAG           
+intron_293                   10  3.82e-03  GTATGTGTC TACTACAATTTATACTTCTG AAACTTGCAC
+intron_143                  127  3.82e-03 CACAGAATAT TTGCCTTTCATAAGCTTCTT CATTGTTGTG
+intron_259                   97  4.17e-03 TAACATTTTA CACCATTATCCTGTCTATAG           
+intron_224                  108  4.17e-03 TGTCTAAAGC ATTATGTTACTTCATCCCTG ACCAATACAG
+intron_207                  195  4.17e-03 AATATGTGTG GTTTTTAATTCATTCATTAG CATTAAATTT
+intron_164                   44  4.17e-03 ATGTCTTTTC TTGTATAAATGTGTTTCCTG ATTGTGTTGA
+intron_91                    90  4.17e-03 ACCTTTTCTG ATATGTGCTTTTGTGTTTAG           
+intron_264                   83  4.54e-03 TGCTAATGAA ATGCTTTGTTGTTTCAATAG           
+intron_98                   219  4.54e-03 TACCACCCTA TTTCTTGAACTTCTTTTCAC CATATCCATT
+intron_336                   35  4.94e-03 CAAAGTCTCT ATTATTAAATGTTTCCCCTG AATTTTATAA
+intron_139                   49  4.94e-03 ATCTGCCTAG AAATAGTTAACTTTCTTCTG AGTTCAAAAC
+intron_62                    81  5.37e-03 GGAGTTACAA TATGTTTCTTCTTTTCACAC TGTCTTATTT
+intron_299                   61  5.82e-03 TATTACTTTT TCATCATAACTTCTTCTTTG AAAAG     
+intron_314                   61  6.31e-03 TTTTTTACAC ATTCATTTCTTATTTACCTA CTATTTATCC
+intron_334                   97  7.38e-03 GAAACTAACT CTAGAAACTTTTTCTTATAG           
+intron_283                   74  7.38e-03 GTTGCTTATA TTGTGATTTACATCCAACAG           
+intron_25                   100  7.38e-03 ATCTACTTTC TTTTAAACATATTTTCACAG           
+intron_103                   28  7.97e-03 TATGAAATAC TTGTGAGCTTTAAATTACTG TTGAGCACAT
+intron_201                   65  9.26e-03 GTAAAAACAT TTTTTTGCAAACTATCTCAG TTTTAGTCAA
+intron_127                  165  9.26e-03 AACGTTTGTA TATATGTGCAATCTTTTCAA AAAGTGAGTG
+intron_234                   70  1.07e-02 AATGACCCAT GCTGGCCCTTCACTTTTCTA G         
+intron_204                    8  1.07e-02    GTATATG CGGCTGTCCACTGTTTGATG GGGGCGGATG
+intron_114                   87  1.23e-02 TATAATCAAA TACTTTTAAATTTTGTGCAA AGCAATATTC
+intron_80                    81  1.41e-02 CTTTAAACGC AAAACTACCCTTCCCCACAT AG        
+intron_251                   51  1.51e-02 CATGGACATA ACTGTATGTGTTTTTTACAA ATATTAATTC
+intron_51                    77  1.62e-02 TAGGGTGCTA ACTATTTCATACCATTGTAG           
+intron_248                   73  1.96e-02 TAAAAAAATT CCTTTATATGTGAATTTCAG           
+--------------------------------------------------------------------------------
+
+--------------------------------------------------------------------------------
+	Motif 2 block diagrams
+--------------------------------------------------------------------------------
+SEQUENCE NAME            POSITION P-VALUE  MOTIF DIAGRAM
+-------------            ----------------  -------------
+intron_45                         1.6e-08  1065_[+2]_10111
+intron_262                        2.3e-08  174_[+2]
+intron_184                        8.9e-08  10_[+2]_83
+intron_276                        1.6e-07  98_[+2]
+intron_193                        1.6e-07  10_[+2]_83
+intron_175                        1.6e-07  10_[+2]_83
+intron_268                        2.8e-07  84_[+2]
+intron_2                          3.7e-07  33_[+2]_2162
+intron_237                        6.1e-07  1202_[+2]_2686
+intron_110                        7.8e-07  176_[+2]_1481
+intron_24                         9.9e-07  445_[+2]_435
+intron_307                        1.3e-06  72_[+2]
+intron_28                         1.3e-06  73_[+2]_60
+intron_17                         1.6e-06  635_[+2]
+intron_59                           2e-06  113_[+2]
+intron_37                           2e-06  732_[+2]
+intron_347                        2.4e-06  449_[+2]_460
+intron_1                          2.4e-06  2533_[+2]
+intron_274                          3e-06  66_[+2]
+intron_8                            3e-06  580_[+2]_254
+intron_177                        3.7e-06  2039_[+2]_448
+intron_77                         3.7e-06  234_[+2]_4
+intron_75                         3.7e-06  104_[+2]
+intron_46                         3.7e-06  382_[+2]_378
+intron_324                        4.5e-06  85_[+2]
+intron_291                        4.5e-06  996_[+2]_663
+intron_186                        4.5e-06  2036_[+2]_448
+intron_106                        4.5e-06  81_[+2]
+intron_357                        5.5e-06  74_[+2]_6
+intron_348                        5.5e-06  81_[+2]
+intron_294                        5.5e-06  73_[+2]
+intron_157                        5.5e-06  620_[+2]_1011
+intron_90                         5.5e-06  498_[+2]_10
+intron_13                         5.5e-06  464_[+2]_2728
+intron_322                        6.7e-06  92_[+2]
+intron_309                        6.7e-06  359_[+2]
+intron_300                        6.7e-06  74_[+2]
+intron_32                         6.7e-06  72_[+2]
+intron_354                        8.1e-06  105_[+2]_6
+intron_88                         8.1e-06  107_[+2]_285
+intron_318                        9.7e-06  6_[+2]_399
+intron_85                         9.7e-06  120_[+2]
+intron_53                         9.7e-06  95_[+2]
+intron_279                        1.2e-05  1261_[+2]_7
+intron_112                        1.2e-05  434_[+2]
+intron_352                        1.7e-05  1_[+2]_77
+intron_320                        1.7e-05  69_[+2]
+intron_292                        1.7e-05  209_[+2]_627
+intron_129                        1.7e-05  46_[+2]_186
+intron_109                          2e-05  1824_[+2]
+intron_86                           2e-05  1085_[+2]_213
+intron_47                           2e-05  1636_[+2]_378
+intron_214                        2.3e-05  1078_[+2]_211
+intron_68                         2.3e-05  93_[+2]_5
+intron_329                        2.8e-05  211_[+2]_5
+intron_321                        2.8e-05  71_[+2]
+intron_296                        2.8e-05  33_[+2]_36
+intron_192                        2.8e-05  10_[+2]_85
+intron_183                        2.8e-05  10_[+2]_85
+intron_174                        2.8e-05  10_[+2]_85
+intron_66                         2.8e-05  193_[+2]
+intron_3                          2.8e-05  1433_[+2]
+intron_232                        3.2e-05  88_[+2]_4
+intron_190                        3.2e-05  1_[+2]_91
+intron_181                        3.2e-05  1_[+2]_91
+intron_172                        3.2e-05  1_[+2]_91
+intron_43                         3.2e-05  4596_[+2]_2514
+intron_289                        3.8e-05  427_[+2]
+intron_195                        3.8e-05  7_[+2]_85
+intron_89                         3.8e-05  96_[+2]
+intron_7                          3.8e-05  304_[+2]_46
+intron_343                        5.2e-05  151_[+2]
+intron_337                        5.2e-05  77_[+2]
+intron_255                        5.2e-05  36_[+2]_100
+intron_231                        5.2e-05  23_[+2]_82
+intron_215                        5.2e-05  1786_[+2]_427
+intron_197                        5.2e-05  7_[+2]_85
+intron_196                        5.2e-05  7_[+2]_82
+intron_108                        5.2e-05  111_[+2]_193
+intron_81                         5.2e-05  75_[+2]_95
+intron_166                        6.1e-05  7_[+2]_85
+intron_119                        6.1e-05  868_[+2]_1261
+intron_94                         6.1e-05  573_[+2]
+intron_355                          7e-05  18_[+2]_86
+intron_199                          7e-05  7_[+2]_83
+intron_168                          7e-05  7_[+2]_83
+intron_4                            7e-05  464_[+2]
+intron_333                        8.1e-05  673_[+2]
+intron_327                        8.1e-05  1673_[+2]
+intron_250                        8.1e-05  251_[+2]
+intron_246                        8.1e-05  80_[+2]
+intron_242                        8.1e-05  86_[+2]
+intron_154                        8.1e-05  95_[+2]_681
+intron_145                        8.1e-05  1150_[+2]_34
+intron_48                         8.1e-05  488_[+2]_14
+intron_249                        9.4e-05  74_[+2]_13
+intron_140                        9.4e-05  290_[+2]_198
+intron_99                         9.4e-05  102_[+2]
+intron_42                         9.4e-05  204_[+2]
+intron_20                         9.4e-05  761_[+2]_147
+intron_6                          9.4e-05  3904_[+2]_306
+intron_310                        0.00011  327_[+2]
+intron_305                        0.00011  1138_[+2]
+intron_167                        0.00011  7_[+2]_81
+intron_144                        0.00011  58_[+2]_255
+intron_135                        0.00011  110_[+2]_74
+intron_97                         0.00011  630_[+2]_1108
+intron_54                         0.00011  72_[+2]
+intron_16                         0.00011  90_[+2]_174
+intron_358                        0.00012  51_[+2]_454
+intron_335                        0.00012  76_[+2]
+intron_273                        0.00012  79_[+2]
+intron_240                        0.00012  151_[+2]_492
+intron_161                        0.00012  594_[+2]_755
+intron_41                         0.00012  310_[+2]_1239
+intron_278                        0.00014  247_[+2]_134
+intron_267                        0.00014  340_[+2]_243
+intron_212                        0.00014  13_[+2]_463
+intron_191                        0.00014  9_[+2]_85
+intron_182                        0.00014  9_[+2]_85
+intron_173                        0.00014  9_[+2]_85
+intron_138                        0.00014  156_[+2]_35
+intron_137                        0.00014  27_[+2]_151
+intron_111                        0.00014  257_[+2]_564
+intron_96                         0.00014  276_[+2]_482
+intron_9                          0.00014  1179_[+2]
+intron_323                        0.00016  399_[+2]_260
+intron_315                        0.00016  70_[+2]
+intron_277                        0.00016  68_[+2]
+intron_265                        0.00016  60_[+2]
+intron_254                        0.00016  525_[+2]_144
+intron_252                        0.00016  86_[+2]
+intron_238                        0.00016  119_[+2]_402
+intron_221                        0.00016  234_[+2]_299
+intron_125                        0.00016  1923_[+2]_256
+intron_57                         0.00016  81_[+2]
+intron_33                         0.00016  313_[+2]_1304
+intron_316                        0.00019  19_[+2]_128
+intron_308                        0.00019  358_[+2]
+intron_270                        0.00019  270_[+2]_9
+intron_230                        0.00019  106_[+2]_16
+intron_216                        0.00019  810_[+2]_88
+intron_67                         0.00019  441_[+2]_582
+intron_22                         0.00019  421_[+2]_96
+intron_351                        0.00021  602_[+2]
+intron_306                        0.00021  79_[+2]_4
+intron_239                        0.00021  670_[+2]_1006
+intron_210                        0.00021  1692_[+2]_55
+intron_202                        0.00021  37_[+2]_77
+intron_134                        0.00021  133_[+2]_57
+intron_116                        0.00021  133_[+2]_81
+intron_60                         0.00021  10_[+2]_116
+intron_44                         0.00021  1689_[+2]_4344
+intron_30                         0.00021  76_[+2]
+intron_21                         0.00021  813_[+2]_82
+intron_353                        0.00024  116_[+2]_226
+intron_282                        0.00024  74_[+2]
+intron_281                        0.00024  15_[+2]_52
+intron_258                        0.00024  78_[+2]_21
+intron_227                        0.00024  131_[+2]_131
+intron_220                        0.00024  1230_[+2]_1033
+intron_147                        0.00024  498_[+2]_36
+intron_136                        0.00024  394_[+2]_333
+intron_133                        0.00024  273_[+2]_665
+intron_122                        0.00024  23_[+2]_110
+intron_285                        0.00028  183_[+2]_667
+intron_229                        0.00028  25_[+2]_41
+intron_217                        0.00028  133_[+2]_460
+intron_209                        0.00028  104_[+2]_98
+intron_151                        0.00028  16_[+2]_117
+intron_123                        0.00028  68_[+2]_189
+intron_93                         0.00028  72_[+2]
+intron_87                         0.00028  202_[+2]_6
+intron_58                         0.00028  1_[+2]_106
+intron_40                         0.00028  1109_[+2]_17
+intron_26                         0.00028  82_[+2]
+intron_15                         0.00028  1244_[+2]_4
+intron_313                        0.00031  415_[+2]_454
+intron_213                        0.00031  29_[+2]_379
+intron_206                        0.00031  59_[+2]_400
+intron_84                         0.00031  112_[+2]
+intron_83                         0.00031  24_[+2]_56
+intron_72                         0.00031  15_[+2]_58
+intron_71                         0.00031  30_[+2]_109
+intron_29                         0.00031  427_[+2]
+intron_356                        0.00035  637_[+2]_85
+intron_342                        0.00035  28_[+2]_37
+intron_286                        0.00035  26_[+2]_62
+intron_211                        0.00035  46_[+2]_170
+intron_194                        0.00035  8_[+2]_77
+intron_185                        0.00035  8_[+2]_77
+intron_176                        0.00035  8_[+2]_77
+intron_141                        0.00035  164_[+2]_65
+intron_101                        0.00035  187_[+2]
+intron_11                         0.00035  566_[+2]_6
+intron_5                          0.00035  73_[+2]
+intron_304                         0.0004  16_[+2]_274
+intron_245                         0.0004  11_[+2]_72
+intron_189                         0.0004  101_[+2]_32
+intron_180                         0.0004  100_[+2]_32
+intron_171                         0.0004  101_[+2]_32
+intron_126                         0.0004  35_[+2]_132
+intron_297                        0.00045  94_[+2]
+intron_295                        0.00045  3_[+2]_69
+intron_287                        0.00045  33_[+2]_31
+intron_275                        0.00045  804_[+2]_485
+intron_263                        0.00045  94_[+2]
+intron_256                        0.00045  314_[+2]_4
+intron_235                        0.00045  415_[+2]
+intron_219                        0.00045  239_[+2]
+intron_218                        0.00045  249_[+2]_162
+intron_152                        0.00045  80_[+2]_39
+intron_150                        0.00045  277_[+2]_632
+intron_117                        0.00045  197_[+2]_814
+intron_115                        0.00045  1_[+2]_569
+intron_104                        0.00045  883_[+2]_580
+intron_52                         0.00045  84_[+2]_13
+intron_50                         0.00045  404_[+2]_6
+intron_331                         0.0005  85_[+2]
+intron_290                         0.0005  68_[+2]
+intron_284                         0.0005  73_[+2]
+intron_269                         0.0005  59_[+2]_34
+intron_155                         0.0005  230_[+2]_291
+intron_100                         0.0005  837_[+2]_239
+intron_70                          0.0005  3_[+2]_93
+intron_61                          0.0005  77_[+2]
+intron_55                          0.0005  74_[+2]
+intron_34                          0.0005  250_[+2]_265
+intron_345                        0.00057  76_[+2]_2
+intron_311                        0.00057  20_[+2]_48
+intron_288                        0.00057  24_[+2]_49
+intron_272                        0.00057  76_[+2]
+intron_266                        0.00057  65_[+2]_15
+intron_128                        0.00057  8_[+2]_129
+intron_69                         0.00057  146_[+2]_660
+intron_339                        0.00064  75_[+2]
+intron_260                        0.00064  42_[+2]_412
+intron_236                        0.00064  730_[+2]_47
+intron_198                        0.00064  7_[+2]_84
+intron_160                        0.00064  38_[+2]_276
+intron_107                        0.00064  432_[+2]
+intron_23                         0.00064  90_[+2]
+intron_325                        0.00071  72_[+2]
+intron_317                        0.00071  69_[+2]
+intron_301                        0.00071  298_[+2]
+intron_253                        0.00071  78_[+2]
+intron_124                        0.00071  50_[+2]_382
+intron_102                        0.00071  78_[+2]_1
+intron_10                         0.00071  788_[+2]_406
+intron_359                        0.00079  80_[+2]_38
+intron_346                        0.00079  133_[+2]_527
+intron_247                        0.00079  623_[+2]_124
+intron_241                        0.00079  78_[+2]
+intron_233                        0.00079  827_[+2]
+intron_163                        0.00079  58_[+2]_36
+intron_131                        0.00079  560_[+2]_122
+intron_121                        0.00079  24_[+2]_93
+intron_82                         0.00079  74_[+2]
+intron_49                         0.00079  80_[+2]
+intron_35                         0.00079  71_[+2]
+intron_319                        0.00089  69_[+2]
+intron_312                        0.00089  81_[+2]
+intron_187                        0.00089  1_[+2]_62
+intron_178                        0.00089  1_[+2]_62
+intron_169                        0.00089  1_[+2]_62
+intron_63                         0.00089  92_[+2]
+intron_350                        0.00099  47_[+2]_39
+intron_271                        0.00099  109_[+2]
+intron_79                         0.00099  43_[+2]_87
+intron_74                         0.00099  28_[+2]_64
+intron_38                         0.00099  497_[+2]
+intron_303                         0.0011  15_[+2]_63
+intron_200                         0.0011  30_[+2]_34
+intron_149                         0.0011  42_[+2]_541
+intron_130                         0.0011  121_[+2]_124
+intron_95                          0.0011  10_[+2]_109
+intron_73                          0.0011  60_[+2]_28
+intron_243                         0.0012  28_[+2]_60
+intron_118                         0.0012  40_[+2]_337
+intron_105                         0.0012  188_[+2]
+intron_332                         0.0014  67_[+2]_282
+intron_228                         0.0014  95_[+2]_25
+intron_159                         0.0014  60_[+2]_42
+intron_146                         0.0014  34_[+2]_112
+intron_142                         0.0014  124_[+2]_61
+intron_132                         0.0014  41_[+2]_246
+intron_64                          0.0014  19_[+2]_63
+intron_39                          0.0014  9_[+2]_60
+intron_338                         0.0015  73_[+2]_4
+intron_330                         0.0015  21_[+2]_65
+intron_326                         0.0015  88_[+2]
+intron_208                         0.0015  45_[+2]_122
+intron_203                         0.0015  47_[+2]_62
+intron_156                         0.0015  95_[+2]_29
+intron_148                         0.0015  163_[+2]_445
+intron_18                          0.0015  183_[+2]
+intron_12                          0.0015  207_[+2]_254
+intron_261                         0.0017  68_[+2]
+intron_226                         0.0017  33_[+2]_40
+intron_92                          0.0017  2_[+2]_81
+intron_27                          0.0017  69_[+2]_10
+intron_244                         0.0018  66_[+2]_3
+intron_225                         0.0018  197_[+2]_98
+intron_223                         0.0018  223_[+2]_4
+intron_162                         0.0018  64_[+2]_366
+intron_78                          0.0018  79_[+2]_21
+intron_76                          0.0018  147_[+2]_475
+intron_344                          0.002  99_[+2]_2
+intron_341                          0.002  865_[+2]
+intron_298                          0.002  81_[+2]
+intron_113                          0.002  286_[+2]_125
+intron_120                         0.0022  21_[+2]_177
+intron_165                         0.0024  314_[+2]_27
+intron_153                         0.0024  365_[+2]_417
+intron_349                         0.0027  32_[+2]_78
+intron_340                         0.0027  100_[+2]_6
+intron_302                         0.0027  40_[+2]_38
+intron_280                         0.0027  17_[+2]_94
+intron_257                         0.0027  [+2]_73
+intron_19                          0.0027  91_[+2]
+intron_14                          0.0027  16_[+2]_69
+intron_328                         0.0032  88_[+2]_4
+intron_36                          0.0032  55_[+2]_45
+intron_222                         0.0035  93_[+2]_43
+intron_205                         0.0035  106_[+2]_280
+intron_188                         0.0035  165_[+2]_25
+intron_179                         0.0035  165_[+2]_25
+intron_170                         0.0035  165_[+2]_25
+intron_158                         0.0035  60_[+2]_32
+intron_65                          0.0035  91_[+2]_135
+intron_56                          0.0035  39_[+2]_50
+intron_31                          0.0035  92_[+2]
+intron_293                         0.0038  9_[+2]_72
+intron_143                         0.0038  126_[+2]_61
+intron_259                         0.0042  96_[+2]
+intron_224                         0.0042  107_[+2]_10
+intron_207                         0.0042  194_[+2]_55
+intron_164                         0.0042  43_[+2]_52
+intron_91                          0.0042  89_[+2]
+intron_264                         0.0045  82_[+2]
+intron_98                          0.0045  218_[+2]_333
+intron_336                         0.0049  34_[+2]_47
+intron_139                         0.0049  48_[+2]_116
+intron_62                          0.0054  80_[+2]_18
+intron_299                         0.0058  60_[+2]_5
+intron_314                         0.0063  60_[+2]_12
+intron_334                         0.0074  96_[+2]
+intron_283                         0.0074  73_[+2]
+intron_25                          0.0074  99_[+2]
+intron_103                          0.008  27_[+2]_55
+intron_201                         0.0093  64_[+2]_43
+intron_127                         0.0093  164_[+2]_79
+intron_234                          0.011  69_[+2]_1
+intron_204                          0.011  7_[+2]_105
+intron_114                          0.012  86_[+2]_46
+intron_80                           0.014  80_[+2]_2
+intron_251                          0.015  50_[+2]_20
+intron_51                           0.016  76_[+2]
+intron_248                           0.02  72_[+2]
+--------------------------------------------------------------------------------
+
+--------------------------------------------------------------------------------
+	Motif 2 in BLOCKS format
+--------------------------------------------------------------------------------
+BL   MOTIF 2 width=20 seqs=359
+intron_45                ( 1066) TTTTTTTTTTTTTTTTCCAG  1 
+intron_262               (  175) TTTCCTTCCTTCTTTTTCAG  1 
+intron_184               (   11) CCCCTGTCCTTTCTCTGCAG  1 
+intron_276               (   99) TCTTTCTCTTCTCTTTGCAG  1 
+intron_193               (   11) CCCCTGTCCTTTTTCTGCAG  1 
+intron_175               (   11) CCCCTGTCCTTTTTCTGCAG  1 
+intron_268               (   85) TTTTTTTTCTTGTTCTTCAG  1 
+intron_2                 (   34) TTCCTTTGCCTCCTCTCCAG  1 
+intron_237               ( 1203) TTCTTGGTCTCCTTTTCCAG  1 
+intron_110               (  177) TCCCCCTTTTCTCTTTCCTG  1 
+intron_24                (  446) TTGCTTTGTTTTGTTTCCAG  1 
+intron_307               (   73) TTCCTTGTCTTCATCTCCAG  1 
+intron_28                (   74) TTTCTTTCCCCATTCCTCAG  1 
+intron_17                (  636) ATTTTTTCTCCTCTTTTCAG  1 
+intron_59                (  114) TCTTTTTTCTTTCACCTCAG  1 
+intron_37                (  733) TTTTCTTTTCTCCTTTGCAG  1 
+intron_347               (  450) TTTCTTTTTTCTTTCTTTTG  1 
+intron_1                 ( 2534) TATTTTCTCTTCTTTTTCAG  1 
+intron_274               (   67) TGGCTTTGTTTTGTTTTCAG  1 
+intron_8                 (  581) TAACTTTTTTTTCTTTTCTG  1 
+intron_177               ( 2040) CTCTTTATTTCTTTCTCCTG  1 
+intron_77                (  235) TGTTTATCTTCTTTTTTCTG  1 
+intron_75                (  105) CCTTTCTTCTCATCCTCCAG  1 
+intron_46                (  383) TTGTCTGTTTCTTTTTTCTG  1 
+intron_324               (   86) TTTCTATACTCATTTTTCAG  1 
+intron_291               (  997) TCTCTCCTTTTCCCCTGCAG  1 
+intron_186               ( 2037) CCCTTTATTTCTTTCTCCTG  1 
+intron_106               (   82) ATTTTTTTTTTATTTTGCAG  1 
+intron_357               (   75) TTTCTTTTCTTTTTCCTTTG  1 
+intron_348               (   82) AACCCTACCTTTTTTTCCAG  1 
+intron_294               (   74) ATGATTTTTTTTTTCTGCAG  1 
+intron_157               (  621) TTTTTTTTTTTTTTTTTTTG  1 
+intron_90                (  499) TTTTTTTTTTTTTTTTTTTG  1 
+intron_13                (  465) TTTATCTTTTTTCCCTCCTG  1 
+intron_322               (   93) TGTCTTTGTTTCTTTCTCAG  1 
+intron_309               (  360) TTTATCTTATTTCTTTCCAG  1 
+intron_300               (   75) TTTTCATGTTTACTTTTCAG  1 
+intron_32                (   73) TTATTTTATTTTTTCCCCAG  1 
+intron_354               (  106) TCTTTTTTTTTGTTTTTCTG  1 
+intron_88                (  108) TCCCTTTGCTTCCTCTCCAA  1 
+intron_318               (    7) TGTTTGTTCTTATCCTACAG  1 
+intron_85                (  121) TTGGTCTTCATTCTTTTCAG  1 
+intron_53                (   96) TTCTTATACCCCTTCTTCAG  1 
+intron_279               ( 1262) CTTTTTTTTTTTTTCTTTTG  1 
+intron_112               (  435) TTCCTGTGTTTTTATTTCAG  1 
+intron_352               (    2) TATTTTATTTTTATTTTCAG  1 
+intron_320               (   70) ATGTATTTTTTTCTTTGCAG  1 
+intron_292               (  210) TTTTTTTTTTTTTCTTTTTG  1 
+intron_129               (   47) TTTCTTTCTCTCTGCTGCTG  1 
+intron_109               ( 1825) AGTTTTTTTTTTTTTTCTAG  1 
+intron_86                ( 1086) TCTTTTTCTCCTTCTTTTAG  1 
+intron_47                ( 1637) TTAATATCCCTACTCTTCAG  1 
+intron_214               ( 1079) ATTGTCTTCTTTTTCTGCTG  1 
+intron_68                (   94) TTTCCATCCATCTTTTCCTG  1 
+intron_329               (  212) TTGTTTTCCTTTCCTTTCTA  1 
+intron_321               (   72) TAAATTTGCTTCCTTTTCAG  1 
+intron_296               (   34) TTATCTAACTTTGTTTTCAG  1 
+intron_192               (   11) GCCCTGACTTCATTCTGCAG  1 
+intron_183               (   11) GCCCTGACTTCATTCTGCAG  1 
+intron_174               (   11) GCCCTGACTTCATTCTGCAG  1 
+intron_66                (  194) CCTCTTTCCTGACTCTTTAG  1 
+intron_3                 ( 1434) TTGTTCTCTTGTCCCCGCAG  1 
+intron_232               (   89) GTTCTTTCTTTTTTTTCTTG  1 
+intron_190               (    2) TATTTATTCCCTCTCCTCTG  1 
+intron_181               (    2) TATTTATTCCCTCTCCTCTG  1 
+intron_172               (    2) TATTTATTCCCTCTCCTCTG  1 
+intron_43                ( 4597) TTTCTCATTTCCTGTCCCAG  1 
+intron_289               (  428) TGTCTATGATTTCTCCCCAG  1 
+intron_195               (    8) TCACTGACCTTAGGCTTCAG  1 
+intron_89                (   97) TCTTTTACATTTCATTCCAG  1 
+intron_7                 (  305) TGCTTTTTTATTTTCTACTG  1 
+intron_343               (  152) TCTTTCATTCTGTTTTTCAG  1 
+intron_337               (   78) TATTTTTGCATCCCTTCCAG  1 
+intron_255               (   37) TTGCCTGTTTTTGCTTTTAG  1 
+intron_231               (   24) TTTTTGTATTTTCTCTGCAA  1 
+intron_215               ( 1787) TGGCCACCTTCTTCCCTCAG  1 
+intron_197               (    8) TCACTGGCTTTAGGCTTCAG  1 
+intron_196               (    8) TCACTGGCTTTAGGCTTCAG  1 
+intron_108               (  112) TTCTATGTCATATTCTTCAG  1 
+intron_81                (   76) TTTCTTTATTTTGTCTTCAT  1 
+intron_166               (    8) TCACTGACTTTAGGCTTCAG  1 
+intron_119               (  869) CCCTTGGCCTGACTTTGCAG  1 
+intron_94                (  574) CTTTTATTCTGTTCCTACAG  1 
+intron_355               (   19) TCTCTTTCTTTTATCTTCTA  1 
+intron_199               (    8) TCACTGATTTTAGGCTTCAG  1 
+intron_168               (    8) TCACTGATTTTAGGCTTCAG  1 
+intron_4                 (  465) TCATCTTTCCCTTCCCACAG  1 
+intron_333               (  674) TATTTCTCTTTCTTTTATAG  1 
+intron_327               ( 1674) CTCATCTGTTTTTCTTGCAG  1 
+intron_250               (  252) AACTCCTTCTTTTATTCCAG  1 
+intron_246               (   81) ATTTCACATTTTCTTTCCAG  1 
+intron_242               (   87) TTGTAACTTTTTCTTCCCAG  1 
+intron_154               (   96) TTCCGTATTTCTTGTTTCTG  1 
+intron_145               ( 1151) TCTCTTTTTTTGTCCTTCAA  1 
+intron_48                (  489) CTTCTCCTTTTTCTTTTTTG  1 
+intron_249               (   75) ACTCATATTTTCTTCTTCTG  1 
+intron_140               (  291) TGTCTTGTCTTTATCACCAG  1 
+intron_99                (  103) TTGTTTTCATTATTCCTTAG  1 
+intron_42                (  205) CTTGTGGTTTCTTTCTTTAG  1 
+intron_20                (  762) GCATTTTTCTCAATTTTCAG  1 
+intron_6                 ( 3905) TGTCTTTCCTTTGGCTGCAT  1 
+intron_310               (  328) CTTCTTCCTTATTCCTTCAG  1 
+intron_305               ( 1139) TCTTTTCATTTTACTTTCAG  1 
+intron_167               (    8) CCACTGACCTTAGGCTTCAG  1 
+intron_144               (   59) ATCCTTTTGTTCATCTCCAG  1 
+intron_135               (  111) TCCTGATTCTTACATTTCAG  1 
+intron_97                (  631) TTATCTGTTTCTCTTCACTG  1 
+intron_54                (   73) TAACTTCCTTCCTTCCACAG  1 
+intron_16                (   91) AGTCTTGCCTTTCTCCTTTG  1 
+intron_358               (   52) TTTTTTGCCTCTCTTTCAAG  1 
+intron_335               (   77) GTTTTGTTTTTGTTTTACAG  1 
+intron_273               (   80) TGACTGTTCTCTTTCAACAG  1 
+intron_240               (  152) TTTAATTGCTCTCTTTTTAG  1 
+intron_161               (  595) ATTTTGATATTTTTTCTCAG  1 
+intron_41                (  311) TTTTAGTTCTCTGCCCTCTG  1 
+intron_278               (  248) AAGCTTTCTCCTTTTCTCTG  1 
+intron_267               (  341) ATTTTCTGCATTCCCCCCAG  1 
+intron_212               (   14) TACATTTTTTTAATCTCCTG  1 
+intron_191               (   10) AGCTCAACCTTATCCTGCAG  1 
+intron_182               (   10) AGCTCAACCTTATCCTGCAG  1 
+intron_173               (   10) AGCTCAACCTTATCCTGCAG  1 
+intron_138               (  157) CACATTTTATTTCTTTCCTG  1 
+intron_137               (   28) TTGTTCGTCTTTTGCTGTTG  1 
+intron_111               (  258) TCCTTATTTTTTTATTGTAG  1 
+intron_96                (  277) TCTTGTGCCTCAGCCTCCTG  1 
+intron_9                 ( 1180) TCTTAAATCATTCTTTGCAG  1 
+intron_323               (  400) TTCCTCTTTTTTATCCCCAT  1 
+intron_315               (   71) TCATTTCTCCTTTGCTTTAG  1 
+intron_277               (   69) CTCTGTTGATTCCTTTCCAG  1 
+intron_265               (   61) ATATTTCACTCTTTTCTCAG  1 
+intron_254               (  526) TCATGTATCCTACTTTGCAG  1 
+intron_252               (   87) TTAACTTTTCTTCTTTGTAG  1 
+intron_238               (  120) AGTCTGATTTTACTTTTTAG  1 
+intron_221               (  235) TTCTTAGCTTCATTTTTCAT  1 
+intron_125               ( 1924) TACTTGTCCTGTTGTTGCTG  1 
+intron_57                (   82) TATCCCTTTGTTTTCTACAG  1 
+intron_33                (  314) TTCCCCGTTTCCTCTTTCAA  1 
+intron_316               (   20) TCTTCATTTTTCCTTTATTG  1 
+intron_308               (  359) TGTACCTCTTTTTGTTTTAG  1 
+intron_270               (  271) TTGATTACTGTTCTCTTCTG  1 
+intron_230               (  107) TGTTCTTTCTTTCCTTCTAA  1 
+intron_216               (  811) TGCTTTTTTTCATTTTCCTT  1 
+intron_67                (  442) TTTTTTCCTTCTCTCTCAAG  1 
+intron_22                (  422) CTTCTAGATTCTTCTCCCAG  1 
+intron_351               (  603) TTATCTTTCATATTGTTCAG  1 
+intron_306               (   80) TTTCTTTCCTCTTGGTTCAT  1 
+intron_239               (  671) TCATTCATTCCTTTGTCCAG  1 
+intron_210               ( 1693) ATTCTTTGCCTGCTCTTTAG  1 
+intron_202               (   38) TCTTTCCCCTTCCTGCCCTG  1 
+intron_134               (  134) TTCTTAACTTTTTGTTCTTG  1 
+intron_116               (  134) ATGTTTGTCTCTGTTTTCAT  1 
+intron_60                (   11) TACATCTCCTCACTTTCTTG  1 
+intron_44                ( 1690) TTGGCTTCTTTACTCTTCTA  1 
+intron_30                (   77) TTTCTCCCCATATTTCACAG  1 
+intron_21                (  814) TGGTTATCAACTTTCCCCAG  1 
+intron_353               (  117) TGCCTTTTCTTTCACTTTAA  1 
+intron_282               (   75) CTACTATTTTCTTTGTACAG  1 
+intron_281               (   16) TTCTCCTCGTTTTTCCACTG  1 
+intron_258               (   79) TGAACAATTTTTTTTTTCTG  1 
+intron_227               (  132) CCCCCTTAATTTTTTTTTAG  1 
+intron_220               ( 1231) TTTTTTAATTTAATTTTCTG  1 
+intron_147               (  499) TTATTCTTCTTTGGTTCTTG  1 
+intron_136               (  395) TTCCAGTCATTTTCCCCCTG  1 
+intron_133               (  274) TCCCTAAGTTTCTTTTTCAA  1 
+intron_122               (   24) GAACTGTCTTTATGTTCCAG  1 
+intron_285               (  184) TACCTGTTACCTTTTCCCTG  1 
+intron_229               (   26) TACCCTATCTGAATCTGCAG  1 
+intron_217               (  134) TTTCCATTGTCTGCTTTCTG  1 
+intron_209               (  105) TTTCCTTATTTTGCTTTCAT  1 
+intron_151               (   17) AAACCTGACTTCCTCTTCTG  1 
+intron_123               (   69) ATTCTTGCTTTTTCCATCTG  1 
+intron_93                (   73) ATTATCTCTCTTGGCTGCAG  1 
+intron_87                (  203) CGTATTTTCCTTTTTTCCAA  1 
+intron_58                (    2) TTGGTATTGTTCTTCTACAG  1 
+intron_40                ( 1110) TTTTTGTTTTTTTTTTTTTA  1 
+intron_26                (   83) TCATGACCTTTCTCTTTCAG  1 
+intron_15                ( 1245) TTTTCTGACTCTGTTTCCAT  1 
+intron_313               (  416) TCTATTTGCTTATCCTCCAT  1 
+intron_213               (   30) TTATCATATTCTTTCTCTTG  1 
+intron_206               (   60) TTGTTCTTCTTCCTTCCTAA  1 
+intron_84                (  113) TATCTGTAACTTCTTTACAG  1 
+intron_83                (   25) ATTGCTCTCTTTCTTTTCAA  1 
+intron_72                (   16) TTCACTTTTTCTGTTTTCTA  1 
+intron_71                (   31) TCTTACAAATTCCTCTTCAG  1 
+intron_29                (  428) CTTTCTGTTATACACTTCAG  1 
+intron_356               (  638) TTGACTTTTTTTCTTTTTAT  1 
+intron_342               (   29) TTATTTTCTTCTCACACCTG  1 
+intron_286               (   27) TTACTTGTTTTTCTGTTCAT  1 
+intron_211               (   47) TCCTCTTGCTTTGATTGTAG  1 
+intron_194               (    9) CATTTGACCTTAAGCTTCAG  1 
+intron_185               (    9) CATTTGACCTTAAGCTTCAG  1 
+intron_176               (    9) CATTTGACCTTAAGCTTCAG  1 
+intron_141               (  165) TACCTTATCTTAATCTTTTG  1 
+intron_101               (  188) ATCATTTTTGTTCTTCTCAG  1 
+intron_11                (  567) TTTCTTACTTTCTTTTGTAT  1 
+intron_5                 (   74) TTTGTTTTAATCTTTTACAG  1 
+intron_304               (   17) CTTCCTCCTTTTAACCCCAG  1 
+intron_245               (   12) CTTTTTATTCTCTATTTCTG  1 
+intron_189               (  102) TCGATATTCCCCCTTTATAG  1 
+intron_180               (  101) TCGATATTCCCCCTTTATAG  1 
+intron_171               (  102) TCGATATTCCCCCTTTATAG  1 
+intron_126               (   36) TAGCTTGTCTCCTTCTTTAT  1 
+intron_297               (   95) TTCTGTTCTCTTTATTCTAG  1 
+intron_295               (    4) TGCATTATGTTTCTTTTTAG  1 
+intron_287               (   34) TTTTTACTTTTTTTTTTTAA  1 
+intron_275               (  805) CTCTTAGTTTGGTCCTTCAG  1 
+intron_263               (   95) ATTGATTATTTTGTTTTCAG  1 
+intron_256               (  315) ACATCCTATTCTGTTTTCTG  1 
+intron_235               (  416) TTTCTGTTTTGTTGGTACAG  1 
+intron_219               (  240) CAATGGACTTCTCTCTACAG  1 
+intron_218               (  250) TGCCTTACTATATTTTCCAA  1 
+intron_152               (   81) GTACATCTTTGTTTCTTCAG  1 
+intron_150               (  278) CCCTCTTCCCCACATTTTAG  1 
+intron_117               (  198) GGCTCCGTTCCCTGCTTCAG  1 
+intron_115               (    2) TATACATCTTTGTGTTTCAG  1 
+intron_104               (  884) TATAAGACCCTCCCCTCCAG  1 
+intron_52                (   85) TTGACCTTTTCTCCCTTCTT  1 
+intron_50                (  405) TTTATATGCTCTCTTTCCTT  1 
+intron_331               (   86) TATCCATTTTATGTCTACAG  1 
+intron_290               (   69) TAATTTTCAATTGCTTCCAG  1 
+intron_284               (   74) TCCTTTAATTATTTTTACAG  1 
+intron_269               (   60) TTGTCAGTTATTTTCATCAG  1 
+intron_155               (  231) TCCCTCAATTTCTCTTTCAA  1 
+intron_100               (  838) CTATTATCCTTTCCTTTCTT  1 
+intron_70                (    4) AGTTCTGCTGTTTTCTTCTG  1 
+intron_61                (   78) TCTTCCTTTTGAATCTTTAG  1 
+intron_55                (   75) TCATTCCTTTTTTACTGTAG  1 
+intron_34                (  251) CGTCTTTCACCCTTCTCCAA  1 
+intron_345               (   77) CTGTATTTCTTCTCTTTCAT  1 
+intron_311               (   21) TTTTTCATTTTATTTTTTAA  1 
+intron_288               (   25) TTTTAAATCTTATTTTCCAA  1 
+intron_272               (   77) TCTATCTTCATTCATTCTAG  1 
+intron_266               (   66) CTCTGTTTTTTGCTCTTTTG  1 
+intron_128               (    9) GATTTTATTTTATTCTTCAA  1 
+intron_69                (  147) CTTTCAAACACTCTTTTCTG  1 
+intron_339               (   76) TGTCATTACACCTGTTTCAG  1 
+intron_260               (   43) TTCAAATGTTTACTCTTTAG  1 
+intron_236               (  731) AGTCTCTATTTATTCTTTTG  1 
+intron_198               (    8) TCATTGAGTTTAAGCTTCAG  1 
+intron_160               (   39) ATACTGTCTTCAGTCTGCAA  1 
+intron_107               (  433) TATTACATGTCCCTTTCCAG  1 
+intron_23                (   91) ATGCATGGTATTCTTTGCAG  1 
+intron_325               (   73) AGGATTTCTCTCTTTTGTAG  1 
+intron_317               (   70) GCATTATCTATTTTTTCTAG  1 
+intron_301               (  299) TATGTATATTTTACTTTCAG  1 
+intron_253               (   79) GTGAGTGCATTTTTTTTCAG  1 
+intron_124               (   51) AGTCTCTTCTTCTTCCACAT  1 
+intron_102               (   79) TTTAATTCTTTATTCTCCTA  1 
+intron_10                (  789) GAATTTCCCTCTCCTTACTG  1 
+intron_359               (   81) CAAATCTTTATATTTTTCAG  1 
+intron_346               (  134) TCTAAACCTCCTTTTCTCAG  1 
+intron_247               (  624) CCACTTAGTTTTCTCTGCTA  1 
+intron_241               (   79) TGTTTTTTCAATGCTTGCAG  1 
+intron_233               (  828) AACTTATACTTTACTTGCAG  1 
+intron_163               (   59) TTGCTATTCCTAGTTATCTG  1 
+intron_131               (  561) TTGATTTTCTTGCTTTTTAA  1 
+intron_121               (   25) TAACCTTGTCTTTCCTTCAA  1 
+intron_82                (   75) CACATGTTTTCTCCTTATAG  1 
+intron_49                (   81) ATGCTTTCATGCTTTTGTAG  1 
+intron_35                (   72) TGCTCCAATTTTCCTCTTAG  1 
+intron_319               (   70) GTTTTGCTTTTATGTTTTAG  1 
+intron_312               (   82) CTATCATTATTTATTCTCAG  1 
+intron_187               (    2) TAGACACCCTCTTGTTGCTG  1 
+intron_178               (    2) TAGACACCCTCTTGTTGCTG  1 
+intron_169               (    2) TAGACACCCTCTTGTTGCTG  1 
+intron_63                (   93) CATTTTCATTTTTACTACAG  1 
+intron_350               (   48) TGGTCCTTTTATTTCACCAG  1 
+intron_271               (  110) AATGTTATTTTTTTTATCAG  1 
+intron_79                (   44) TCCATGATCATTTTCCTCAA  1 
+intron_74                (   29) TCTTTTTTCCTCAACTCTTG  1 
+intron_38                (  498) TTCTACATGCTATTTTCCAG  1 
+intron_303               (   16) GCTTCTCCCTCCCACTTCAA  1 
+intron_200               (   31) TTGTTTGTTTGTCTTTACTT  1 
+intron_149               (   43) TTCCAAATCTTTCTCAGTAG  1 
+intron_130               (  122) TGTTGTTGTTGTTGTTACAG  1 
+intron_95                (   11) TCTTAAACTTTCATTTCTAG  1 
+intron_73                (   61) TTGGTATTCATTAATTCCAG  1 
+intron_243               (   29) TTGTTTGTTTGTTTGTTTTG  1 
+intron_118               (   41) TCTTGTATCTTTTTCTATAA  1 
+intron_105               (  189) TGGATGATTTTTCACCCTAG  1 
+intron_332               (   68) AATGCTTTTCTTCTCTGCAT  1 
+intron_228               (   96) TTAATTTTCACATTCTTCTA  1 
+intron_159               (   61) ATGCTTTTTATAATTTACTG  1 
+intron_146               (   35) TTTCCTTCCTTCACCTATAA  1 
+intron_142               (  125) ATTTTGTGATTCTTTTTCAT  1 
+intron_132               (   42) TCTGGCTCTTTGCCTTCTAG  1 
+intron_64                (   20) TCAGCTTCCCTTATTTATAG  1 
+intron_39                (   10) TTTGTCTTGCTACATTCCAG  1 
+intron_338               (   74) CATATCTGTTTTGCCTACTG  1 
+intron_330               (   22) ATCTTCACCTGTGTCTTCTA  1 
+intron_326               (   89) TGCTTCTCTTATTACCACAG  1 
+intron_208               (   46) TTTACACTCTTTTCTTATTG  1 
+intron_203               (   48) TGTCATATTCTACTGTTCTG  1 
+intron_156               (   96) TATCTTATATTTGTTATCTG  1 
+intron_148               (  164) TTATTTGAATCTCTTTGCAT  1 
+intron_18                (  184) AAACTTTTGTCTTCTTTTAG  1 
+intron_12                (  208) TTCACCATTATTCTTTGCAT  1 
+intron_261               (   69) ATGATTTCATTGGCTTGCAG  1 
+intron_226               (   34) AACTTTATTTCACATCCCTG  1 
+intron_92                (    3) TTGTCAGACTGCTCTTCTAG  1 
+intron_27                (   70) TTGATTATTCCCTCCCCCAA  1 
+intron_244               (   67) CATATTTTTCTCCTTTACAA  1 
+intron_225               (  198) TCTCTGCTTACTTTTATTAG  1 
+intron_223               (  224) TTTTCTGATCTTATTTTCAT  1 
+intron_162               (   65) TTCTTCCTAATACTCTTCAT  1 
+intron_78                (   80) TTCTCACATTTTTTCCTCTA  1 
+intron_76                (  148) AAGTTGTGTTTTCTCTTTAT  1 
+intron_344               (  100) ATGCCTGATTTCTTTCCCAT  1 
+intron_341               (  866) TCACTTTTTAAATTCCACAG  1 
+intron_298               (   82) TGTTATTTAACACTTTTTAG  1 
+intron_113               (  287) GAACTCATCTCTCTCTTTAA  1 
+intron_120               (   22) AGCCCTATCTTTTATCTTTG  1 
+intron_165               (  315) AGTCATCTCTGTATTTTCTG  1 
+intron_153               (  366) TCACCGCTTTAACATTTCAG  1 
+intron_349               (   33) ATTATTTCAGCACTTTTCTG  1 
+intron_340               (  101) CTCATCATCCTTATTTTCAT  1 
+intron_302               (   41) TTCTTATGATTTCCCCACAT  1 
+intron_280               (   18) GTTTATGTATTCTTCTTTTG  1 
+intron_257               (    1) GTATCTATTTTTTATTTTTG  1 
+intron_19                (   92) GAGGGGAATTCTCTTTCCAG  1 
+intron_14                (   17) TGATTTTTCACCTTGTTCAT  1 
+intron_328               (   89) CGTGTTTTGTCCTTTCACTG  1 
+intron_36                (   56) TTGTTTGGTTTCATCTACTT  1 
+intron_222               (   94) TTCCAAGTTTTATTTCATTG  1 
+intron_205               (  107) CTGTCATTCTGGATTTTTAG  1 
+intron_188               (  166) ATCGTTTTCACCTTTTCTAA  1 
+intron_179               (  166) ATCGTTTTCACCTTTTCTAA  1 
+intron_170               (  166) ATCGTTTTCACCTTTTCTAA  1 
+intron_158               (   61) TCAATATTTTTCTTCACCAT  1 
+intron_65                (   92) CTATGATTCTGGTTCTTTAG  1 
+intron_56                (   40) AGTCAATTCTTTTTTTTAAG  1 
+intron_31                (   93) GTGTGTGTATGATTTTGCAG  1 
+intron_293               (   10) TACTACAATTTATACTTCTG  1 
+intron_143               (  127) TTGCCTTTCATAAGCTTCTT  1 
+intron_259               (   97) CACCATTATCCTGTCTATAG  1 
+intron_224               (  108) ATTATGTTACTTCATCCCTG  1 
+intron_207               (  195) GTTTTTAATTCATTCATTAG  1 
+intron_164               (   44) TTGTATAAATGTGTTTCCTG  1 
+intron_91                (   90) ATATGTGCTTTTGTGTTTAG  1 
+intron_264               (   83) ATGCTTTGTTGTTTCAATAG  1 
+intron_98                (  219) TTTCTTGAACTTCTTTTCAC  1 
+intron_336               (   35) ATTATTAAATGTTTCCCCTG  1 
+intron_139               (   49) AAATAGTTAACTTTCTTCTG  1 
+intron_62                (   81) TATGTTTCTTCTTTTCACAC  1 
+intron_299               (   61) TCATCATAACTTCTTCTTTG  1 
+intron_314               (   61) ATTCATTTCTTATTTACCTA  1 
+intron_334               (   97) CTAGAAACTTTTTCTTATAG  1 
+intron_283               (   74) TTGTGATTTACATCCAACAG  1 
+intron_25                (  100) TTTTAAACATATTTTCACAG  1 
+intron_103               (   28) TTGTGAGCTTTAAATTACTG  1 
+intron_201               (   65) TTTTTTGCAAACTATCTCAG  1 
+intron_127               (  165) TATATGTGCAATCTTTTCAA  1 
+intron_234               (   70) GCTGGCCCTTCACTTTTCTA  1 
+intron_204               (    8) CGGCTGTCCACTGTTTGATG  1 
+intron_114               (   87) TACTTTTAAATTTTGTGCAA  1 
+intron_80                (   81) AAAACTACCCTTCCCCACAT  1 
+intron_251               (   51) ACTGTATGTGTTTTTTACAA  1 
+intron_51                (   77) ACTATTTCATACCATTGTAG  1 
+intron_248               (   73) CCTTTATATGTGAATTTCAG  1 
+//
+
+--------------------------------------------------------------------------------
+
+--------------------------------------------------------------------------------
+	Motif 2 position-specific scoring matrix
+--------------------------------------------------------------------------------
+log-odds matrix: alength= 4 w= 20 n= 167960 bayes= 8.86683 E= 1.5e-043 
+   -86    -32   -142     86 
+   -88     30    -36     50 
+   -88     37     -2     36 
+  -100     85   -130     42 
+  -167     24   -156     89 
+   -65    -16    -21     54 
+   -55    -84    -39     71 
+  -138     75    -84     52 
+  -155    104   -256     55 
+  -144    -30   -307    107 
+  -325     62   -136     89 
+   -53      5   -197     70 
+  -171     81    -63     51 
+  -179    -11    -79     93 
+ -1513    126   -230     68 
+  -284    -14  -1513    121 
+  -113     44    -18     46 
+  -483    207  -1513    -42 
+   116  -1513  -1513    -24 
+  -134   -497    223   -182 
+--------------------------------------------------------------------------------
+
+--------------------------------------------------------------------------------
+	Motif 2 position-specific probability matrix
+--------------------------------------------------------------------------------
+letter-probability matrix: alength= 4 w= 20 nsites= 359 E= 1.5e-043 
+ 0.175487  0.139276  0.061281  0.623955 
+ 0.172702  0.214485  0.128134  0.484680 
+ 0.172702  0.225627  0.161560  0.440111 
+ 0.158774  0.314763  0.066852  0.459610 
+ 0.100279  0.206128  0.055710  0.637883 
+ 0.203343  0.155989  0.142061  0.498607 
+ 0.217270  0.097493  0.125348  0.559889 
+ 0.122563  0.292479  0.091922  0.493036 
+ 0.108635  0.359331  0.027855  0.504178 
+ 0.116992  0.142061  0.019499  0.721448 
+ 0.033426  0.267409  0.064067  0.635097 
+ 0.220056  0.181058  0.041783  0.557103 
+ 0.097493  0.306407  0.105850  0.490251 
+ 0.091922  0.161560  0.094708  0.651811 
+ 0.000000  0.417827  0.033426  0.548747 
+ 0.044568  0.158774  0.000000  0.796657 
+ 0.144847  0.236769  0.144847  0.473538 
+ 0.011142  0.732591  0.000000  0.256267 
+ 0.710306  0.000000  0.000000  0.289694 
+ 0.125348  0.005571  0.771588  0.097493 
+--------------------------------------------------------------------------------
+
+--------------------------------------------------------------------------------
+	Motif 2 regular expression
+--------------------------------------------------------------------------------
+T[TC][TC][TC][TC][TA][TA][TC][TC]T[TC][TA][TC]T[TC]T[TC][CT][AT]G
+--------------------------------------------------------------------------------
+
+
+
+
+Time 672.23 secs.
+
+********************************************************************************
+
+
+********************************************************************************
+MOTIF  3 MEME	width =  20  sites =  16  llr = 318  E-value = 5.1e-017
+********************************************************************************
+--------------------------------------------------------------------------------
+	Motif 3 Description
+--------------------------------------------------------------------------------
+Simplified        A  ::::::132::::289aa:9
+pos.-specific     C  9:a::82:4:a2:1:1::2:
+probability       G  :::::1:7::::382::::1
+matrix            T  1a:aa18:4a:88:::::8:
+
+         bits    2.6   *       *         
+                 2.3   *       *         
+                 2.1   *       *         
+                 1.8 * *       *         
+Relative         1.6 *****    **     **  
+Entropy          1.3 ****** * **  * *** *
+(28.7 bits)      1.0 ****** * ***********
+                 0.8 ******** ***********
+                 0.5 ********************
+                 0.3 ********************
+                 0.0 --------------------
+
+Multilevel           CTCTTCTGCTCTTGAAAATA
+consensus                   AT   G       
+sequence                                 
+                                         
+--------------------------------------------------------------------------------
+
+--------------------------------------------------------------------------------
+	Motif 3 sites sorted by position p-value
+--------------------------------------------------------------------------------
+Sequence name             Start   P-value                    Site      
+-------------             ----- ---------            --------------------
+intron_199                   37  3.95e-12 GATGATCAAA CTCTTCTGCTCTGGAAAATA TTTTTCTAGT
+intron_198                   37  3.53e-11 GAAGATCTAT CTCTTCTACTCTTGAAAATA TTTTTCCTAA
+intron_186                   37  7.39e-11 GATGATCTAT CTCTTGTGCTCTGGAAAATA TTTTTCTTTT
+intron_177                   37  7.39e-11 GATGATCTAT CTCTTGTGCTCTGGAAAATA TTTTTCTTTT
+intron_197                   37  1.06e-10 GAAGATCAAA CTCTTCTATTCTTGAAAATA TTTTGTTCCA
+intron_168                   37  1.95e-10 GATGATGTAT CTCTTCTGCTCTGCAAAATA TTTTTCTAGT
+intron_196                   37  3.01e-10 GAAGACTGAA CTCTTCAGTTCTTGAAAATA TTGTTCTAGT
+intron_193                   40  9.29e-10 GAAGAAATAT CTCTTCTGATCTTAGAAATA TTTTACTCCA
+intron_184                   40  9.29e-10 GAAGAAATAT CTCTTCTGATCTTAGAAATA TTTTACTCCA
+intron_175                   40  9.29e-10 GAAGAAATAT CTCTTCTGATCTTAGAAATA TTTTACTCCA
+intron_191                   39  9.94e-10 GAAGAAATCT CTCTTCCATTCCTGAAAACA ATTTTAGTCC
+intron_182                   39  9.94e-10 GAGGAAATCT CTCTTCCATTCCTGAAAACA ATTTTTGTCC
+intron_173                   39  9.94e-10 GAGGAAATCT CTCTTCCATTCCTGAAAACA ATTTTAGTCC
+intron_166                   37  1.37e-09 GAAGACCTAA TTCTTCTGCTCTTGACAATA TTTTGTTCTA
+intron_167                   34  1.82e-09 TCAGATCTCA TTCTTTTGCTCTTGAAAATA TTTTTTCCAG
+intron_165                  280  2.27e-09 AAAAAAATAG CTCTTTTGTTCTTGAAAATG TCTTTGTATC
+--------------------------------------------------------------------------------
+
+--------------------------------------------------------------------------------
+	Motif 3 block diagrams
+--------------------------------------------------------------------------------
+SEQUENCE NAME            POSITION P-VALUE  MOTIF DIAGRAM
+-------------            ----------------  -------------
+intron_199                          4e-12  36_[+3]_54
+intron_198                        3.5e-11  36_[+3]_55
+intron_186                        7.4e-11  36_[+3]_2448
+intron_177                        7.4e-11  36_[+3]_2451
+intron_197                        1.1e-10  36_[+3]_56
+intron_168                          2e-10  36_[+3]_54
+intron_196                          3e-10  36_[+3]_53
+intron_193                        9.3e-10  39_[+3]_54
+intron_184                        9.3e-10  39_[+3]_54
+intron_175                        9.3e-10  39_[+3]_54
+intron_191                        9.9e-10  38_[+3]_56
+intron_182                        9.9e-10  38_[+3]_56
+intron_173                        9.9e-10  38_[+3]_56
+intron_166                        1.4e-09  36_[+3]_56
+intron_167                        1.8e-09  33_[+3]_55
+intron_165                        2.3e-09  279_[+3]_62
+--------------------------------------------------------------------------------
+
+--------------------------------------------------------------------------------
+	Motif 3 in BLOCKS format
+--------------------------------------------------------------------------------
+BL   MOTIF 3 width=20 seqs=16
+intron_199               (   37) CTCTTCTGCTCTGGAAAATA  1 
+intron_198               (   37) CTCTTCTACTCTTGAAAATA  1 
+intron_186               (   37) CTCTTGTGCTCTGGAAAATA  1 
+intron_177               (   37) CTCTTGTGCTCTGGAAAATA  1 
+intron_197               (   37) CTCTTCTATTCTTGAAAATA  1 
+intron_168               (   37) CTCTTCTGCTCTGCAAAATA  1 
+intron_196               (   37) CTCTTCAGTTCTTGAAAATA  1 
+intron_193               (   40) CTCTTCTGATCTTAGAAATA  1 
+intron_184               (   40) CTCTTCTGATCTTAGAAATA  1 
+intron_175               (   40) CTCTTCTGATCTTAGAAATA  1 
+intron_191               (   39) CTCTTCCATTCCTGAAAACA  1 
+intron_182               (   39) CTCTTCCATTCCTGAAAACA  1 
+intron_173               (   39) CTCTTCCATTCCTGAAAACA  1 
+intron_166               (   37) TTCTTCTGCTCTTGACAATA  1 
+intron_167               (   34) TTCTTTTGCTCTTGAAAATA  1 
+intron_165               (  280) CTCTTTTGTTCTTGAAAATG  1 
+//
+
+--------------------------------------------------------------------------------
+
+--------------------------------------------------------------------------------
+	Motif 3 position-specific scoring matrix
+--------------------------------------------------------------------------------
+log-odds matrix: alength= 4 w= 20 n= 167960 bayes= 12.5095 E= 5.1e-017 
+ -1064    233  -1064   -146 
+ -1064  -1064  -1064    154 
+ -1064    252  -1064  -1064 
+ -1064  -1064  -1064    154 
+ -1064  -1064  -1064    154 
+ -1064    210    -39   -146 
+  -234     10  -1064    113 
+    -3  -1064    206  -1064 
+   -76    133  -1064     13 
+ -1064  -1064  -1064    154 
+ -1064    252  -1064  -1064 
+ -1064     10  -1064    124 
+ -1064  -1064     61    113 
+   -76   -148    219  -1064 
+   135  -1064     19  -1064 
+   156   -148  -1064  -1064 
+   165  -1064  -1064  -1064 
+   165  -1064  -1064  -1064 
+ -1064     10  -1064    124 
+   156  -1064   -139  -1064 
+--------------------------------------------------------------------------------
+
+--------------------------------------------------------------------------------
+	Motif 3 position-specific probability matrix
+--------------------------------------------------------------------------------
+letter-probability matrix: alength= 4 w= 20 nsites= 16 E= 5.1e-017 
+ 0.000000  0.875000  0.000000  0.125000 
+ 0.000000  0.000000  0.000000  1.000000 
+ 0.000000  1.000000  0.000000  0.000000 
+ 0.000000  0.000000  0.000000  1.000000 
+ 0.000000  0.000000  0.000000  1.000000 
+ 0.000000  0.750000  0.125000  0.125000 
+ 0.062500  0.187500  0.000000  0.750000 
+ 0.312500  0.000000  0.687500  0.000000 
+ 0.187500  0.437500  0.000000  0.375000 
+ 0.000000  0.000000  0.000000  1.000000 
+ 0.000000  1.000000  0.000000  0.000000 
+ 0.000000  0.187500  0.000000  0.812500 
+ 0.000000  0.000000  0.250000  0.750000 
+ 0.187500  0.062500  0.750000  0.000000 
+ 0.812500  0.000000  0.187500  0.000000 
+ 0.937500  0.062500  0.000000  0.000000 
+ 1.000000  0.000000  0.000000  0.000000 
+ 1.000000  0.000000  0.000000  0.000000 
+ 0.000000  0.187500  0.000000  0.812500 
+ 0.937500  0.000000  0.062500  0.000000 
+--------------------------------------------------------------------------------
+
+--------------------------------------------------------------------------------
+	Motif 3 regular expression
+--------------------------------------------------------------------------------
+CTCTTCT[GA][CT]TCT[TG]GAAAATA
+--------------------------------------------------------------------------------
+
+
+
+
+Time 998.59 secs.
+
+********************************************************************************
+
+
+********************************************************************************
+MOTIF  4 MEME	width =  20  sites =  19  llr = 361  E-value = 7.0e-020
+********************************************************************************
+--------------------------------------------------------------------------------
+	Motif 4 Description
+--------------------------------------------------------------------------------
+Simplified        A  ::3::::a1:2::::1:917
+pos.-specific     C  ::::2a5::1:3:a:2a:::
+probability       G  ::232:::6:77:::::1::
+matrix            T  aa576:5:392:a:a8::93
+
+         bits    2.6      *       *  *   
+                 2.3      *       *  *   
+                 2.1      *       *  *   
+                 1.8      *       *  *   
+Relative         1.6 **   * *   **** *   
+Entropy          1.3 **   * * * **** *** 
+(27.4 bits)      1.0 ** * ********** *** 
+                 0.8 ** * ***************
+                 0.5 ** *****************
+                 0.3 ********************
+                 0.0 --------------------
+
+Multilevel           TTTTTCTAGTGGTCTTCATA
+consensus              AGC C T  C       T
+sequence               G                 
+                                         
+--------------------------------------------------------------------------------
+
+--------------------------------------------------------------------------------
+	Motif 4 sites sorted by position p-value
+--------------------------------------------------------------------------------
+Sequence name             Start   P-value                    Site      
+-------------             ----- ---------            --------------------
+intron_197                   59  5.73e-12 TGAAAATATT TTGTTCCAGTGGTCTTCATA ACCCCTAAAT
+intron_199                   57  1.44e-11 CTGGAAAATA TTTTTCTAGTGGTCTTCATA ACGCCTAAAT
+intron_177                 2454  1.44e-11 CTGGAAAATA TTTTTCTAGTGGTCTTCATA ATGCCTAAAT
+intron_168                   57  1.44e-11 CTGCAAAATA TTTTTCTAGTGGTCTTCATA ATGCCTAAAT
+intron_167                   55  1.16e-10 TTGAAAATAT TTTTTCCAGTGGTCTTCGTA ACTTCTGCAA
+intron_186                 2451  2.28e-10 CTGGAAAATA TTTTTCTAGTGGTCTTCGTA ATGCCTAAAT
+intron_195                   59  5.76e-10 TGAAGACATT TTGTTCCAGTGGTCTACATA ACCCCTAAAT
+intron_166                   59  7.70e-10 TGACAATATT TTGTTCTAGCGGTCTTCATA ACACCTAAAT
+intron_182                   62  9.95e-10 GAAAACAATT TTTGTCCATTGCTCTTCATT AACCTAAGTA
+intron_196                   57  1.31e-09 CTTGAAAATA TTGTTCTAGTGGTCTTCAAA CTTCTAAATG
+intron_191                   62  1.97e-09 GAAAACAATT TTAGTCCATTGCTCTTCATT AACCTAAGTA
+intron_173                   62  1.97e-09 GAAAACAATT TTAGTCCATTGCTCTTCATT AACCTAAGTA
+intron_198                   58  2.43e-09 TTGAAAATAT TTTTCCTAATGGTCTTCATA ACTTCTAAAT
+intron_194                   53  2.70e-09 CTGCTGTATA TTTTGCTAGTAGTCTCCATA GCTCTACATG
+intron_185                   53  2.70e-09 CTGCTGTATA TTTTGCTAGTAGTCTCCATA GCTCTACATG
+intron_176                   53  2.70e-09 CTGCTGTATA TTTTGCTAGTAGTCTCCATA GCTCTACATG
+intron_192                   63  1.31e-08 GTAAACAATT TTAGCCCATTTCTCTTCATT AACTAAAGTC
+intron_183                   63  1.31e-08 GTAAACAATT TTAGCCCATTTCTCTTCATT AACTTAAGTC
+intron_174                   63  1.31e-08 GTAAACAATT TTAGCCCATTTCTCTTCATT AACTTAAGTC
+--------------------------------------------------------------------------------
+
+--------------------------------------------------------------------------------
+	Motif 4 block diagrams
+--------------------------------------------------------------------------------
+SEQUENCE NAME            POSITION P-VALUE  MOTIF DIAGRAM
+-------------            ----------------  -------------
+intron_197                        5.7e-12  58_[+4]_34
+intron_199                        1.4e-11  56_[+4]_34
+intron_177                        1.4e-11  2453_[+4]_34
+intron_168                        1.4e-11  56_[+4]_34
+intron_167                        1.2e-10  54_[+4]_34
+intron_186                        2.3e-10  2450_[+4]_34
+intron_195                        5.8e-10  58_[+4]_34
+intron_166                        7.7e-10  58_[+4]_34
+intron_182                        9.9e-10  61_[+4]_33
+intron_196                        1.3e-09  56_[+4]_33
+intron_191                          2e-09  61_[+4]_33
+intron_173                          2e-09  61_[+4]_33
+intron_198                        2.4e-09  57_[+4]_34
+intron_194                        2.7e-09  52_[+4]_33
+intron_185                        2.7e-09  52_[+4]_33
+intron_176                        2.7e-09  52_[+4]_33
+intron_192                        1.3e-08  62_[+4]_33
+intron_183                        1.3e-08  62_[+4]_33
+intron_174                        1.3e-08  62_[+4]_33
+--------------------------------------------------------------------------------
+
+--------------------------------------------------------------------------------
+	Motif 4 in BLOCKS format
+--------------------------------------------------------------------------------
+BL   MOTIF 4 width=20 seqs=19
+intron_197               (   59) TTGTTCCAGTGGTCTTCATA  1 
+intron_199               (   57) TTTTTCTAGTGGTCTTCATA  1 
+intron_177               ( 2454) TTTTTCTAGTGGTCTTCATA  1 
+intron_168               (   57) TTTTTCTAGTGGTCTTCATA  1 
+intron_167               (   55) TTTTTCCAGTGGTCTTCGTA  1 
+intron_186               ( 2451) TTTTTCTAGTGGTCTTCGTA  1 
+intron_195               (   59) TTGTTCCAGTGGTCTACATA  1 
+intron_166               (   59) TTGTTCTAGCGGTCTTCATA  1 
+intron_182               (   62) TTTGTCCATTGCTCTTCATT  1 
+intron_196               (   57) TTGTTCTAGTGGTCTTCAAA  1 
+intron_191               (   62) TTAGTCCATTGCTCTTCATT  1 
+intron_173               (   62) TTAGTCCATTGCTCTTCATT  1 
+intron_198               (   58) TTTTCCTAATGGTCTTCATA  1 
+intron_194               (   53) TTTTGCTAGTAGTCTCCATA  1 
+intron_185               (   53) TTTTGCTAGTAGTCTCCATA  1 
+intron_176               (   53) TTTTGCTAGTAGTCTCCATA  1 
+intron_192               (   63) TTAGCCCATTTCTCTTCATT  1 
+intron_183               (   63) TTAGCCCATTTCTCTTCATT  1 
+intron_174               (   63) TTAGCCCATTTCTCTTCATT  1 
+//
+
+--------------------------------------------------------------------------------
+
+--------------------------------------------------------------------------------
+	Motif 4 position-specific scoring matrix
+--------------------------------------------------------------------------------
+log-odds matrix: alength= 4 w= 20 n= 167960 bayes= 13.3045 E= 7.0e-020 
+ -1089  -1089  -1089    154 
+ -1089  -1089  -1089    154 
+   -27  -1089     36     62 
+ -1089  -1089     94     99 
+ -1089     27     -6     88 
+ -1089    252  -1089  -1089 
+ -1089    144  -1089     62 
+   165  -1089  -1089  -1089 
+  -259  -1089    194    -12 
+ -1089   -173  -1089    146 
+  -101  -1089    206   -112 
+ -1089     86    206  -1089 
+ -1089  -1089  -1089    154 
+ -1089    252  -1089  -1089 
+ -1089  -1089  -1089    154 
+  -259    -14  -1089    120 
+ -1089    252  -1089  -1089 
+   149  -1089    -64  -1089 
+  -259  -1089  -1089    146 
+   110  -1089  -1089    -12 
+--------------------------------------------------------------------------------
+
+--------------------------------------------------------------------------------
+	Motif 4 position-specific probability matrix
+--------------------------------------------------------------------------------
+letter-probability matrix: alength= 4 w= 20 nsites= 19 E= 7.0e-020 
+ 0.000000  0.000000  0.000000  1.000000 
+ 0.000000  0.000000  0.000000  1.000000 
+ 0.263158  0.000000  0.210526  0.526316 
+ 0.000000  0.000000  0.315789  0.684211 
+ 0.000000  0.210526  0.157895  0.631579 
+ 0.000000  1.000000  0.000000  0.000000 
+ 0.000000  0.473684  0.000000  0.526316 
+ 1.000000  0.000000  0.000000  0.000000 
+ 0.052632  0.000000  0.631579  0.315789 
+ 0.000000  0.052632  0.000000  0.947368 
+ 0.157895  0.000000  0.684211  0.157895 
+ 0.000000  0.315789  0.684211  0.000000 
+ 0.000000  0.000000  0.000000  1.000000 
+ 0.000000  1.000000  0.000000  0.000000 
+ 0.000000  0.000000  0.000000  1.000000 
+ 0.052632  0.157895  0.000000  0.789474 
+ 0.000000  1.000000  0.000000  0.000000 
+ 0.894737  0.000000  0.105263  0.000000 
+ 0.052632  0.000000  0.000000  0.947368 
+ 0.684211  0.000000  0.000000  0.315789 
+--------------------------------------------------------------------------------
+
+--------------------------------------------------------------------------------
+	Motif 4 regular expression
+--------------------------------------------------------------------------------
+TT[TAG][TG][TC]C[TC]A[GT]TG[GC]TCTTCAT[AT]
+--------------------------------------------------------------------------------
+
+
+
+
+Time 1323.14 secs.
+
+********************************************************************************
+
+
+********************************************************************************
+SUMMARY OF MOTIFS
+********************************************************************************
+
+--------------------------------------------------------------------------------
+	Combined block diagrams: non-overlapping sites with p-value < 0.0001
+--------------------------------------------------------------------------------
+SEQUENCE NAME            COMBINED P-VALUE  MOTIF DIAGRAM
+-------------            ----------------  -------------
+intron_1                         4.21e-02  1843_[+2(8.13e-05)]_670_\
+    [+2(2.43e-06)]
+intron_2                         8.32e-03  33_[+2(3.67e-07)]_42_[+3(9.29e-05)]_\
+    829_[+2(6.05e-05)]_1231_[+2(9.40e-05)]
+intron_3                         9.92e-03  391_[+4(3.85e-05)]_183_\
+    [+1(6.07e-05)]_819_[+2(2.76e-05)]
+intron_4                         2.29e-02  464_[+2(7.02e-05)]
+intron_5                         3.62e-02  93
+intron_6                         5.03e-01  65_[+2(8.13e-05)]_2748_\
+    [+3(6.59e-05)]_1051_[+2(9.40e-05)]_278_[+2(9.40e-05)]_8
+intron_7                         1.85e-03  231_[+3(9.20e-06)]_53_\
+    [+2(3.81e-05)]_46
+intron_8                         3.76e-02  580_[+2(3.00e-06)]_254
+intron_9                         1.15e-01  838_[+3(3.47e-05)]_341
+intron_10                        3.58e-01  1214
+intron_11                        2.23e-01  592
+intron_12                        6.22e-01  481
+intron_13                        2.56e-02  464_[+2(5.50e-06)]_487_\
+    [+4(9.30e-05)]_460_[+2(1.97e-05)]_167_[+4(4.92e-05)]_808_[+4(8.52e-05)]_\
+    726
+intron_14                        4.23e-01  105
+intron_15                        2.27e-01  796_[+4(6.15e-05)]_452
+intron_16                        1.68e-02  284
+intron_17                        2.76e-02  635_[+2(1.57e-06)]
+intron_18                        2.70e-01  203
+intron_19                        6.49e-01  111
+intron_20                        8.67e-02  761_[+2(9.40e-05)]_147
+intron_21                        3.45e-01  915
+intron_22                        7.52e-02  537
+intron_23                        1.40e-01  110
+intron_24                        2.71e-03  209_[+4(6.33e-05)]_216_\
+    [+2(9.91e-07)]_6_[+2(5.20e-05)]_389_[+2(5.50e-06)]
+intron_25                        1.45e-01  119
+intron_26                        1.33e-01  102
+intron_27                        2.51e-01  99
+intron_28                        8.72e-03  73_[+2(1.25e-06)]_60
+intron_29                        2.63e-01  447
+intron_30                        2.46e-02  96
+intron_31                        4.25e-01  112
+intron_32                        1.83e-03  72_[+2(6.68e-06)]
+intron_33                        1.31e-01  528_[+1(1.21e-05)]_420_\
+    [+1(3.56e-05)]_649
+intron_34                        2.67e-01  535
+intron_35                        4.12e-02  91
+intron_36                        3.58e-01  120
+intron_37                        3.27e-02  732_[+2(1.96e-06)]
+intron_38                        8.98e-01  517
+intron_39                        2.11e-01  89
+intron_40                        2.68e-01  1146
+intron_41                        1.19e-01  1540_[+4(1.60e-05)]_9
+intron_42                        2.60e-02  204_[+2(9.40e-05)]
+intron_43                        1.30e-01  597_[+1(5.32e-05)]_907_\
+    [+1(7.60e-05)]_252_[+1(3.24e-06)]_2780_[+2(3.25e-05)]_2100_[+2(3.25e-05)]_\
+    394
+intron_44                        4.93e-01  726_[+1(9.79e-05)]_4044_\
+    [+1(2.60e-05)]_354_[+3(8.18e-05)]_869
+intron_45                        7.08e-03  545_[+2(3.81e-05)]_500_\
+    [+2(1.59e-08)]_52_[+3(4.56e-05)]_1806_[+3(4.96e-05)]_2618_[+2(9.40e-05)]_\
+    2497_[+1(4.51e-05)]_3058
+intron_46                        1.45e-02  382_[+2(3.69e-06)]_197_\
+    [+2(4.46e-05)]_[+2(2.76e-05)]_121_[+2(7.02e-05)]
+intron_47                        3.87e-02  1004_[+2(6.05e-05)]_612_\
+    [+2(1.97e-05)]_225_[+3(4.31e-05)]_133
+intron_48                        3.02e-03  158_[+4(1.47e-05)]_310_\
+    [+2(8.13e-05)]_14
+intron_49                        1.86e-01  100
+intron_50                        2.09e-01  430
+intron_51                        7.71e-01  96
+intron_52                        9.21e-02  117
+intron_53                        1.69e-03  95_[+2(9.72e-06)]
+intron_54                        2.55e-02  92
+intron_55                        3.09e-02  94
+intron_56                        1.22e-01  109
+intron_57                        2.24e-01  101
+intron_58                        2.60e-02  127
+intron_59                        7.71e-03  113_[+2(1.96e-06)]
+intron_60                        5.69e-02  146
+intron_61                        3.44e-01  97
+intron_62                        2.94e-01  118
+intron_63                        8.07e-02  112
+intron_64                        2.58e-01  102
+intron_65                        2.34e-01  246
+intron_66                        4.56e-02  123_[+2(7.02e-05)]_50_\
+    [+2(2.76e-05)]
+intron_67                        2.88e-01  1043
+intron_68                        1.64e-03  93_[+2(2.34e-05)]_5
+intron_69                        1.72e-01  101_[+1(5.87e-05)]_705
+intron_70                        5.49e-04  66_[+3(1.58e-05)]_30
+intron_71                        3.12e-02  159
+intron_72                        2.79e-02  93
+intron_73                        2.07e-02  108
+intron_74                        5.28e-02  112
+intron_75                        6.43e-04  16_[+3(7.98e-05)]_68_[+2(3.69e-06)]
+intron_76                        1.01e-01  642
+intron_77                        2.88e-02  197_[+2(5.20e-05)]_17_\
+    [+2(3.69e-06)]_4
+intron_78                        5.74e-02  120
+intron_79                        3.89e-01  150
+intron_80                        4.46e-01  102
+intron_81                        1.94e-02  75_[+2(5.20e-05)]_95
+intron_82                        7.98e-03  94
+intron_83                        9.52e-03  100
+intron_84                        2.00e-01  132
+intron_85                        5.31e-03  120_[+2(9.72e-06)]
+intron_86                        1.41e-01  1085_[+2(1.97e-05)]_213
+intron_87                        1.78e-01  228
+intron_88                        6.00e-02  107_[+2(8.07e-06)]_265_\
+    [+2(2.34e-05)]
+intron_89                        9.16e-04  96_[+2(3.81e-05)]
+intron_90                        4.33e-02  474_[+2(4.46e-05)]_4_[+2(5.50e-06)]_\
+    10
+intron_91                        4.70e-01  109
+intron_92                        2.40e-01  103
+intron_93                        1.28e-02  92
+intron_94                        2.61e-03  356_[+4(3.26e-05)]_64_\
+    [+2(8.13e-05)]_113_[+2(6.05e-05)]
+intron_95                        9.33e-02  139
+intron_96                        3.25e-02  174_[+3(1.87e-05)]_584
+intron_97                        8.74e-02  629_[+4(6.15e-05)]_907_\
+    [+1(8.91e-05)]_182
+intron_98                        7.16e-01  571
+intron_99                        2.61e-02  102_[+2(9.40e-05)]
+intron_100                       1.77e-01  710_[+1(4.51e-05)]_366
+intron_101                       4.52e-01  207
+intron_102                       1.29e-01  99
+intron_103                       2.80e-01  102
+intron_104                       5.03e-01  1483
+intron_105                       4.44e-01  208
+intron_106                       2.47e-03  81_[+2(4.52e-06)]
+intron_107                       2.24e-01  452
+intron_108                       2.47e-01  111_[+2(5.20e-05)]_193
+intron_109                       1.23e-02  42_[+3(4.12e-06)]_1762_\
+    [+2(1.97e-05)]
+intron_110                       1.45e-02  176_[+2(7.81e-07)]_1481
+intron_111                       1.95e-01  841
+intron_112                       1.17e-03  31_[+2(9.40e-05)]_241_\
+    [+3(2.98e-05)]_122_[+2(1.17e-05)]
+intron_113                       4.95e-01  431
+intron_114                       2.82e-02  132_[+1(6.17e-06)]
+intron_115                       2.93e-01  590
+intron_116                       6.93e-02  234
+intron_117                       6.80e-01  1031
+intron_118                       6.04e-03  377_[+1(1.24e-06)]
+intron_119                       8.82e-03  868_[+2(6.05e-05)]_273_\
+    [+1(4.66e-05)]_18_[+3(3.71e-06)]_930
+intron_120                       2.34e-01  218
+intron_121                       5.17e-02  137
+intron_122                       2.37e-03  91_[+4(6.53e-05)]_42
+intron_123                       3.23e-01  277
+intron_124                       3.42e-01  452
+intron_125                       5.83e-02  1818_[+4(3.46e-05)]_38_\
+    [+3(3.86e-05)]_109_[+4(9.86e-05)]_174
+intron_126                       1.35e-01  187
+intron_127                       5.29e-03  90_[+4(5.55e-06)]_153
+intron_128                       6.92e-04  59_[+3(7.17e-05)]_78
+intron_129                       9.85e-04  46_[+2(1.66e-05)]_166_\
+    [+1(2.51e-05)]
+intron_130                       1.11e-02  9_[+3(7.95e-06)]_236
+intron_131                       2.08e-01  702
+intron_132                       3.51e-01  307
+intron_133                       2.77e-01  958
+intron_134                       4.32e-03  210
+intron_135                       2.08e-06  184_[+1(1.67e-08)]
+intron_136                       1.45e-01  148_[+1(5.15e-05)]_579
+intron_137                       1.51e-05  178_[+1(1.02e-07)]
+intron_138                       5.86e-06  191_[+1(4.77e-08)]
+intron_139                       2.86e-04  164_[+1(1.34e-07)]
+intron_140                       1.50e-02  290_[+2(9.40e-05)]_178_\
+    [+1(7.85e-05)]
+intron_141                       5.62e-02  249
+intron_142                       8.63e-05  185_[+1(2.88e-08)]
+intron_143                       2.84e-03  187_[+1(6.12e-07)]
+intron_144                       1.34e-01  333
+intron_145                       1.80e-03  1154_[+3(9.47e-06)]_10_\
+    [+1(2.18e-05)]
+intron_146                       1.79e-04  146_[+1(2.44e-07)]
+intron_147                       2.32e-03  215_[+1(6.12e-07)]_299_\
+    [+1(4.22e-05)]
+intron_148                       6.28e-03  608_[+1(8.10e-07)]
+intron_149                       1.04e-01  485_[+1(2.42e-05)]_78_\
+    [+1(8.91e-05)]
+intron_150                       1.41e-03  909_[+1(2.18e-08)]
+intron_151                       4.60e-04  133_[+1(6.71e-06)]
+intron_152                       1.51e-03  92_[+3(7.55e-05)]_27
+intron_153                       3.14e-05  782_[+1(4.55e-10)]
+intron_154                       1.28e-05  95_[+2(8.13e-05)]_11_[+1(3.10e-09)]_\
+    303_[+1(6.71e-06)]_276_[+1(2.51e-05)]_11_[+1(1.59e-06)]
+intron_155                       2.03e-03  521_[+1(1.08e-07)]
+intron_156                       2.13e-06  124_[+1(1.86e-10)]
+intron_157                       1.21e-08  65_[+3(8.18e-05)]_292_\
+    [+3(1.26e-05)]_223_[+2(5.50e-06)]_293_[+3(2.83e-05)]_678_[+1(5.42e-11)]
+intron_158                       3.11e-05  92_[+1(4.07e-08)]
+intron_159                       7.22e-06  102_[+1(1.37e-09)]
+intron_160                       1.53e-06  98_[+1(2.03e-05)]_196_\
+    [+1(5.42e-11)]
+intron_161                       5.09e-06  63_[+1(3.74e-10)]_732_\
+    [+3(4.70e-05)]_183_[+1(2.97e-07)]_311_[+1(3.10e-09)]
+intron_162                       3.06e-09  40_[+3(1.61e-05)]_5_[+4(5.98e-07)]_\
+    14_[+1(3.10e-09)]_311_[+1(1.81e-09)]
+intron_163                       1.33e-04  35_[+3(2.08e-05)]_7_[+4(3.39e-05)]_\
+    32
+intron_164                       3.58e-05  95_[+1(2.18e-08)]
+intron_165                       8.07e-12  134_[+1(1.46e-05)]_125_\
+    [+3(2.27e-09)]_42_[+1(1.60e-11)]
+intron_166                       4.06e-19  7_[+2(6.05e-05)]_9_[+3(1.37e-09)]_2_\
+    [+4(7.70e-10)]_14_[+1(3.34e-09)]
+intron_167                       1.08e-18  33_[+3(1.82e-09)]_1_[+4(1.16e-10)]_\
+    14_[+1(3.15e-08)]
+intron_168                       1.57e-21  7_[+2(7.02e-05)]_9_[+3(1.95e-10)]_\
+    [+4(1.44e-11)]_14_[+1(3.34e-09)]
+intron_169                       1.66e-09  63_[+1(5.42e-11)]
+intron_170                       1.43e-05  190_[+1(8.26e-09)]
+intron_171                       2.38e-05  133_[+1(3.87e-09)]
+intron_172                       6.78e-11  1_[+2(3.25e-05)]_71_[+1(1.60e-11)]
+intron_173                       3.61e-20  38_[+3(9.94e-10)]_3_[+4(1.97e-09)]_\
+    13_[+1(5.42e-11)]
+intron_174                       2.89e-15  10_[+2(2.76e-05)]_32_[+4(1.31e-08)]_\
+    13_[+1(5.42e-11)]
+intron_175                       9.15e-19  10_[+2(1.61e-07)]_9_[+3(9.29e-10)]_\
+    2_[+4(5.98e-05)]_12_[+1(5.42e-11)]
+intron_176                       1.90e-11  52_[+4(2.70e-09)]_13_[+1(6.22e-09)]
+intron_177                       1.05e-17  7_[+2(7.02e-05)]_9_[+3(7.39e-11)]_\
+    652_[+2(3.25e-05)]_106_[+2(3.81e-05)]_556_[+4(2.88e-06)]_609_\
+    [+2(3.69e-06)]_394_[+4(1.44e-11)]_14_[+1(3.34e-09)]
+intron_178                       1.66e-09  63_[+1(5.42e-11)]
+intron_179                       1.43e-05  190_[+1(8.26e-09)]
+intron_180                       9.30e-05  132_[+1(4.77e-08)]
+intron_181                       6.78e-11  1_[+2(3.25e-05)]_71_[+1(1.60e-11)]
+intron_182                       1.89e-20  38_[+3(9.94e-10)]_3_[+4(9.95e-10)]_\
+    13_[+1(5.42e-11)]
+intron_183                       2.89e-15  10_[+2(2.76e-05)]_32_[+4(1.31e-08)]_\
+    13_[+1(5.42e-11)]
+intron_184                       5.62e-18  10_[+2(8.86e-08)]_9_[+3(9.29e-10)]_\
+    2_[+4(5.98e-05)]_12_[+1(6.74e-10)]
+intron_185                       1.90e-11  52_[+4(2.70e-09)]_13_[+1(6.22e-09)]
+intron_186                       1.68e-16  7_[+2(7.02e-05)]_9_[+3(7.39e-11)]_\
+    652_[+2(3.25e-05)]_682_[+4(4.55e-05)]_606_[+2(4.52e-06)]_394_\
+    [+4(2.28e-10)]_14_[+1(3.34e-09)]
+intron_187                       1.66e-09  63_[+1(5.42e-11)]
+intron_188                       4.49e-05  190_[+1(8.26e-09)]
+intron_189                       1.22e-05  133_[+1(3.87e-09)]
+intron_190                       7.26e-11  1_[+2(3.25e-05)]_71_[+1(1.60e-11)]
+intron_191                       3.61e-20  38_[+3(9.94e-10)]_3_[+4(1.97e-09)]_\
+    13_[+1(5.42e-11)]
+intron_192                       2.89e-15  10_[+2(2.76e-05)]_32_[+4(1.31e-08)]_\
+    13_[+1(5.42e-11)]
+intron_193                       9.15e-19  10_[+2(1.61e-07)]_9_[+3(9.29e-10)]_\
+    2_[+4(5.98e-05)]_12_[+1(5.42e-11)]
+intron_194                       1.90e-11  52_[+4(2.70e-09)]_13_[+1(6.22e-09)]
+intron_195                       9.77e-15  7_[+2(3.81e-05)]_9_[+3(4.43e-05)]_2_\
+    [+4(5.76e-10)]_14_[+1(1.04e-08)]
+intron_196                       3.59e-19  7_[+2(5.20e-05)]_9_[+3(3.01e-10)]_\
+    [+4(1.31e-09)]_13_[+1(1.04e-08)]
+intron_197                       8.79e-22  7_[+2(5.20e-05)]_9_[+3(1.06e-10)]_2_\
+    [+4(5.73e-12)]_14_[+1(1.04e-08)]
+intron_198                       9.54e-19  36_[+3(3.53e-11)]_1_[+4(2.43e-09)]_\
+    14_[+1(1.04e-08)]
+intron_199                       3.85e-23  7_[+2(7.02e-05)]_9_[+3(3.95e-12)]_\
+    [+4(1.44e-11)]_14_[+1(3.34e-09)]
+intron_200                       1.82e-05  63_[+1(2.29e-07)]_1
+intron_201                       6.16e-04  16_[+1(5.15e-05)]_71_[+1(9.04e-07)]
+intron_202                       4.64e-02  134
+intron_203                       2.02e-04  108_[+1(5.79e-07)]_1
+intron_204                       1.04e-03  112_[+1(5.55e-08)]
+intron_205                       3.65e-05  72_[+4(7.33e-05)]_294_\
+    [+1(7.02e-08)]
+intron_206                       3.63e-06  162_[+4(9.57e-05)]_277_\
+    [+1(5.20e-09)]
+intron_207                       4.91e-01  269
+intron_208                       2.59e-05  167_[+1(4.68e-09)]
+intron_209                       1.76e-05  202_[+1(9.26e-09)]
+intron_210                       3.40e-03  233_[+3(7.36e-05)]_1494_\
+    [+1(1.64e-07)]
+intron_211                       3.18e-03  11_[+3(7.76e-05)]_205
+intron_212                       7.58e-02  496
+intron_213                       1.01e-01  428
+intron_214                       1.95e-02  540_[+2(3.25e-05)]_518_\
+    [+2(2.34e-05)]_211
+intron_215                       1.71e-01  245_[+3(7.55e-05)]_1521_\
+    [+2(5.20e-05)]_427
+intron_216                       1.23e-01  400_[+1(9.19e-05)]_498
+intron_217                       3.22e-01  613
+intron_218                       3.57e-04  326_[+1(3.43e-08)]_85
+intron_219                       1.03e-01  259
+intron_220                       3.09e-01  2089_[+4(5.65e-05)]_174
+intron_221                       1.05e-01  553
+intron_222                       1.55e-01  156
+intron_223                       3.14e-01  247
+intron_224                       3.49e-01  137
+intron_225                       4.52e-01  315
+intron_226                       2.20e-01  93
+intron_227                       1.61e-01  282
+intron_228                       9.87e-02  140
+intron_229                       5.71e-02  86
+intron_230                       1.48e-01  142
+intron_231                       3.42e-02  23_[+2(5.20e-05)]_62_[+2(4.46e-05)]
+intron_232                       2.19e-02  88_[+2(3.25e-05)]_4
+intron_233                       4.28e-01  847
+intron_234                       7.51e-01  90
+intron_235                       2.34e-01  435
+intron_236                       9.18e-01  797
+intron_237                       1.72e-02  160_[+2(9.40e-05)]_584_\
+    [+2(7.02e-05)]_1_[+1(4.36e-05)]_397_[+2(6.12e-07)]_2686
+intron_238                       3.90e-02  154_[+1(6.68e-05)]_367
+intron_239                       2.40e-01  1353_[+1(3.81e-05)]_323
+intron_240                       9.55e-02  663
+intron_241                       2.64e-01  98
+intron_242                       8.80e-04  86_[+2(8.13e-05)]
+intron_243                       3.99e-01  108
+intron_244                       9.30e-03  89
+intron_245                       1.47e-01  103
+intron_246                       2.30e-02  80_[+2(8.13e-05)]
+intron_247                       3.79e-01  767
+intron_248                       8.46e-01  92
+intron_249                       1.18e-02  74_[+2(9.40e-05)]_13
+intron_250                       2.23e-01  251_[+2(8.13e-05)]
+intron_251                       2.09e-01  90
+intron_252                       2.13e-01  106
+intron_253                       3.31e-01  98
+intron_254                       3.00e-01  689
+intron_255                       1.77e-02  36_[+2(5.20e-05)]_100
+intron_256                       5.77e-01  338
+intron_257                       2.67e-02  93
+intron_258                       1.19e-01  119
+intron_259                       8.82e-01  116
+intron_260                       6.20e-02  423_[+3(8.40e-05)]_31
+intron_261                       2.15e-01  88
+intron_262                       5.10e-06  8_[+3(3.29e-05)]_146_[+2(2.31e-08)]
+intron_263                       6.96e-02  114
+intron_264                       5.86e-01  102
+intron_265                       9.81e-02  80
+intron_266                       8.47e-02  100
+intron_267                       3.05e-01  603
+intron_268                       8.12e-04  84_[+2(2.81e-07)]
+intron_269                       7.11e-03  113
+intron_270                       7.87e-03  299
+intron_271                       1.24e-01  129
+intron_272                       2.80e-03  96
+intron_273                       5.70e-02  99
+intron_274                       4.74e-03  66_[+2(3.00e-06)]
+intron_275                       6.65e-01  1309
+intron_276                       4.44e-06  13_[+1(5.68e-05)]_65_[+2(1.61e-07)]
+intron_277                       6.05e-02  88
+intron_278                       3.53e-01  401
+intron_279                       9.55e-02  1124_[+2(8.13e-05)]_117_\
+    [+2(1.17e-05)]_7
+intron_280                       1.25e-01  131
+intron_281                       2.61e-01  87
+intron_282                       2.26e-01  94
+intron_283                       2.71e-01  93
+intron_284                       1.20e-01  93
+intron_285                       8.20e-01  870
+intron_286                       2.10e-02  108
+intron_287                       6.60e-02  84
+intron_288                       6.14e-02  93
+intron_289                       4.66e-02  242_[+1(8.91e-05)]_165_\
+    [+2(3.81e-05)]
+intron_290                       1.16e-02  88
+intron_291                       1.20e-02  443_[+4(3.85e-05)]_533_\
+    [+2(4.52e-06)]_643_[+2(8.13e-05)]
+intron_292                       1.19e-01  209_[+2(1.66e-05)]_627
+intron_293                       3.17e-01  101
+intron_294                       4.05e-04  73_[+2(5.50e-06)]
+intron_295                       1.12e-01  92
+intron_296                       3.12e-02  33_[+2(2.76e-05)]_16_[+2(7.02e-05)]
+intron_297                       4.29e-02  114
+intron_298                       1.92e-02  101
+intron_299                       5.77e-01  85
+intron_300                       4.96e-04  74_[+2(6.68e-06)]
+intron_301                       1.61e-01  318
+intron_302                       8.53e-02  98
+intron_303                       2.43e-01  98
+intron_304                       3.43e-01  310
+intron_305                       2.02e-01  1158
+intron_306                       1.62e-01  103
+intron_307                       8.33e-04  72_[+2(1.25e-06)]
+intron_308                       2.13e-01  378
+intron_309                       1.19e-02  359_[+2(6.68e-06)]
+intron_310                       1.26e-01  347
+intron_311                       2.26e-03  88
+intron_312                       9.72e-02  101
+intron_313                       6.60e-01  889
+intron_314                       9.18e-02  92
+intron_315                       7.05e-02  90
+intron_316                       2.70e-02  167
+intron_317                       4.51e-01  89
+intron_318                       4.00e-02  6_[+2(9.72e-06)]_399
+intron_319                       3.87e-01  89
+intron_320                       2.25e-03  43_[+2(8.13e-05)]_6_[+2(1.66e-05)]
+intron_321                       6.03e-02  71_[+2(2.76e-05)]
+intron_322                       2.86e-03  92_[+2(6.68e-06)]
+intron_323                       4.93e-01  679
+intron_324                       8.78e-03  85_[+2(4.52e-06)]
+intron_325                       7.48e-02  92
+intron_326                       8.55e-02  108
+intron_327                       9.84e-02  924_[+3(2.21e-05)]_729_\
+    [+2(8.13e-05)]
+intron_328                       7.19e-01  112
+intron_329                       9.46e-02  211_[+2(2.76e-05)]_5
+intron_330                       7.27e-02  106
+intron_331                       4.79e-03  105
+intron_332                       3.89e-01  369
+intron_333                       2.60e-01  673_[+2(8.13e-05)]
+intron_334                       5.82e-01  116
+intron_335                       1.25e-01  96
+intron_336                       1.25e-01  101
+intron_337                       4.15e-02  77_[+2(5.20e-05)]
+intron_338                       4.45e-02  97
+intron_339                       1.76e-01  95
+intron_340                       7.61e-02  89_[+4(8.52e-05)]_17
+intron_341                       6.48e-01  885
+intron_342                       9.71e-02  85
+intron_343                       1.35e-01  151_[+2(5.20e-05)]
+intron_344                       7.49e-01  121
+intron_345                       1.45e-01  98
+intron_346                       1.62e-01  680
+intron_347                       6.03e-02  449_[+2(2.43e-06)]_16_\
+    [+2(8.07e-06)]_87_[+2(2.76e-05)]_317
+intron_348                       4.34e-03  81_[+2(5.50e-06)]
+intron_349                       5.58e-02  130
+intron_350                       1.72e-01  106
+intron_351                       7.42e-02  594_[+1(8.36e-05)]_8
+intron_352                       1.26e-03  1_[+2(1.66e-05)]_77
+intron_353                       1.35e-01  362
+intron_354                       2.58e-03  105_[+2(8.07e-06)]_6
+intron_355                       1.96e-03  18_[+2(7.02e-05)]_86
+intron_356                       5.94e-01  742
+intron_357                       1.15e-03  74_[+2(5.50e-06)]_6
+intron_358                       2.06e-01  525
+intron_359                       1.33e-01  138
+--------------------------------------------------------------------------------
+
+********************************************************************************
+
+
+********************************************************************************
+Stopped because requested number of motifs (4) found.
+********************************************************************************
+
+CPU: unknown
+
+********************************************************************************
